@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3a998ecda448693b",
+            "id": "9544ccd1c3e5eed1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rkhs regression.md",
+                "file": "reproducing kernel hilbert space (rkhs).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,19 +21,20 @@
             }
           },
           {
-            "id": "1b5db856ffcd62b4",
+            "id": "20dc81dd8d66cafb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mercer kernel.md",
+                "file": "nonparametric classification.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -99,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rkhs regression.md",
+                "file": "nonparametric classification.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rkhs regression.md",
+                "file": "nonparametric classification.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rkhs regression.md"
+                "file": "nonparametric classification.md"
               }
             }
           }
@@ -160,22 +161,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3a998ecda448693b",
+  "active": "20dc81dd8d66cafb",
   "lastOpenFiles": [
-    "representer theorem.md",
-    "Mercer kernel.md",
-    "reproducing kernel hilbert space (rkhs).md",
     "rkhs regression.md",
+    "kernel trick.md",
+    "reproducing kernel hilbert space (rkhs).md",
     "Hilbert space.md",
-    "partitions and trees.md",
     "splines.md",
-    "preamble.sty~",
-    "Hölder space.md",
-    "kernel regression.md",
-    "kernel density estimation.md",
-    "nonparametric regression.md",
-    "local polynomial regression.md",
+    "wavelets.md",
     "weighted least squares.md",
+    "Hölder space.md",
+    "kernel density estimation.md",
+    "kernel regression.md",
+    "nonparametric classification.md",
+    "partitions and trees.md",
+    "nonparametric density estimation.md",
+    "nonparametric regression.md",
+    "linear smoothers.md",
+    "Mercer kernel.md",
+    "representer theorem.md",
+    "preamble.sty~",
+    "local polynomial regression.md",
     "knn.md"
   ]
 }
