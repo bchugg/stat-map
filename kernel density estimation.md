@@ -1,0 +1,1 @@
+A specific approach to [[nonparametric density estimation]]. 
