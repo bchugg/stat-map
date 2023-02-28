@@ -8,51 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2f2c690efc5c0a5d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "splines.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c98ede881ad885cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "splines.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ed07d98f7748c27b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "hilbert space.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3a998ecda448693b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "reproducing kernel hilbert space (rkhs).md",
+                "file": "rkhs regression.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,20 +21,19 @@
             }
           },
           {
-            "id": "822e926dcf3b42d2",
+            "id": "1b5db856ffcd62b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "partitions and trees.md",
+                "file": "Mercer kernel.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -139,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "reproducing kernel hilbert space (rkhs).md",
+                "file": "rkhs regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "reproducing kernel hilbert space (rkhs).md",
+                "file": "rkhs regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "reproducing kernel hilbert space (rkhs).md"
+                "file": "rkhs regression.md"
               }
             }
           }
@@ -202,11 +162,15 @@
   },
   "active": "3a998ecda448693b",
   "lastOpenFiles": [
-    "hilbert space.md",
+    "representer theorem.md",
+    "Mercer kernel.md",
     "reproducing kernel hilbert space (rkhs).md",
-    "Hölder space.md",
-    "splines.md",
+    "rkhs regression.md",
+    "Hilbert space.md",
     "partitions and trees.md",
+    "splines.md",
+    "preamble.sty~",
+    "Hölder space.md",
     "kernel regression.md",
     "kernel density estimation.md",
     "nonparametric regression.md",
