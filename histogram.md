@@ -1,0 +1,1 @@
+A histogram is a method for [[nonparametric density estimation]]. 

@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "nonparametric classification.md",
+                "file": "nonparametric density estimation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "nonparametric classification.md",
+                "file": "nonparametric density estimation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "nonparametric classification.md",
+                "file": "nonparametric density estimation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "nonparametric classification.md"
+                "file": "nonparametric density estimation.md"
               }
             }
           }
@@ -163,6 +163,13 @@
   },
   "active": "20dc81dd8d66cafb",
   "lastOpenFiles": [
+    "nonparametric regression.md",
+    "parametric versus nonparametric statistics.md",
+    "histogram.md",
+    "nonparametric density estimation.md",
+    "partitions and trees.md",
+    "knn.md",
+    "nonparametric classification.md",
     "rkhs regression.md",
     "kernel trick.md",
     "reproducing kernel hilbert space (rkhs).md",
@@ -173,15 +180,10 @@
     "Hölder space.md",
     "kernel density estimation.md",
     "kernel regression.md",
-    "nonparametric classification.md",
-    "partitions and trees.md",
-    "nonparametric density estimation.md",
-    "nonparametric regression.md",
     "linear smoothers.md",
     "Mercer kernel.md",
     "representer theorem.md",
     "preamble.sty~",
-    "local polynomial regression.md",
-    "knn.md"
+    "local polynomial regression.md"
   ]
 }

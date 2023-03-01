@@ -10,4 +10,5 @@ where $\wh{p}(x) = \int \wh{p}(x,y)dy$.
 
 
 Common methods: 
+- [[histogram]]
 - [[kernel density estimation]]
