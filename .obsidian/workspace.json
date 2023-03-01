@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9544ccd1c3e5eed1",
+            "id": "1b5db856ffcd62b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "reproducing kernel hilbert space (rkhs).md",
+                "file": "Gaussian process regression.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,38 @@
             }
           },
           {
-            "id": "20dc81dd8d66cafb",
+            "id": "ece0cf4d5bdb1207",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "nonparametric classification.md",
+                "file": "Bayesian nonparametrics.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c0594d6f8a3568b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dirichlet distribution.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "850c6a06a4ef73fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gaussian process regression.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -100,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "nonparametric classification.md",
+                "file": "Gaussian process regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "nonparametric classification.md",
+                "file": "Gaussian process regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "nonparametric classification.md"
+                "file": "Gaussian process regression.md"
               }
             }
           }
@@ -161,27 +187,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "20dc81dd8d66cafb",
+  "active": "850c6a06a4ef73fb",
   "lastOpenFiles": [
+    "cdf estimation.md",
+    "Dirichlet process.md",
+    "Dirichlet distribution.md",
+    "Bayesian nonparametrics.md",
+    "frequentist statistics.md",
+    "Bayesian statistics.md",
+    "Bayesian parametrics.md",
+    "Gaussian process regression.md",
+    "knn.md",
+    "parametric versus nonparametric statistics.md",
+    "Mercer kernel.md",
     "rkhs regression.md",
+    "wavelets.md",
+    "linear smoothers.md",
     "kernel trick.md",
+    "representer theorem.md",
     "reproducing kernel hilbert space (rkhs).md",
     "Hilbert space.md",
-    "splines.md",
-    "wavelets.md",
-    "weighted least squares.md",
-    "Hölder space.md",
-    "kernel density estimation.md",
-    "kernel regression.md",
-    "nonparametric classification.md",
     "partitions and trees.md",
-    "nonparametric density estimation.md",
-    "nonparametric regression.md",
-    "linear smoothers.md",
-    "Mercer kernel.md",
-    "representer theorem.md",
+    "splines.md",
     "preamble.sty~",
+    "Hölder space.md",
+    "kernel regression.md",
+    "kernel density estimation.md",
+    "nonparametric regression.md",
     "local polynomial regression.md",
-    "knn.md"
+    "weighted least squares.md"
   ]
 }
