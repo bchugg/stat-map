@@ -8,19 +8,33 @@
         "type": "tabs",
         "children": [
           {
-            "id": "781ae4c36d3b4012",
+            "id": "20dc81dd8d66cafb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kernel density estimation.md",
+                "file": "nonparametric density estimation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "32c97fbe011bfa78",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "deep density estimation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kernel density estimation.md",
+                "file": "deep density estimation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kernel density estimation.md",
+                "file": "deep density estimation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kernel density estimation.md"
+                "file": "deep density estimation.md"
               }
             }
           }
@@ -147,34 +161,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "781ae4c36d3b4012",
+  "active": "32c97fbe011bfa78",
   "lastOpenFiles": [
+    "RKHS regression.md",
+    "RKHS.md",
+    "deep density estimation.md",
+    "MLE.md",
     "nonparametric density estimation.md",
-    "kernel density estimation.md",
-    "histograms.md",
-    "Wasserstein Distance.md",
+    "parametric density estimation.md",
     "total variation distance.md",
-    "KL divergence.md",
     "optimal transport.md",
-    "Gaussian process regression.md",
-    "Bayesian nonparametrics.md",
-    "Dirichlet distribution.md",
-    "kernel trick.md",
-    "reproducing kernel hilbert space (rkhs).md",
-    "representer theorem.md",
-    "partitions and trees.md",
-    "parametric versus nonparametric statistics.md",
-    "nonparametric regression.md",
-    "nonparametric classification.md",
-    "Mercer kernel.md",
-    "local polynomial regression.md",
-    "linear smoothers.md",
-    "knn.md",
-    "kernel regression.md",
-    "Hölder space.md",
-    "Hilbert space.md",
+    "histograms.md",
     "frequentist statistics.md",
+    "cdf estimation.md",
+    "Wasserstein Distance.md",
+    "KL divergence.md",
+    "Gaussian process regression.md",
     "Dirichlet process.md",
+    "Dirichlet distribution.md",
+    "Bayesian statistics.md",
+    "Bayesian parametrics.md",
+    "Bayesian nonparametrics.md",
+    "nonparametric regression.md",
+    "parametric versus nonparametric statistics.md",
+    "histogram.md",
+    "partitions and trees.md",
+    "knn.md",
+    "nonparametric classification.md",
+    "kernel trick.md",
     "preamble.sty~"
   ]
 }
