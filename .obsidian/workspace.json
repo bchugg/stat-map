@@ -19,8 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5b126b147b63825d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.16"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -147,34 +158,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "781ae4c36d3b4012",
+  "active": "5b126b147b63825d",
   "lastOpenFiles": [
-    "nonparametric density estimation.md",
-    "kernel density estimation.md",
-    "histograms.md",
-    "Wasserstein Distance.md",
-    "total variation distance.md",
-    "KL divergence.md",
-    "optimal transport.md",
-    "Gaussian process regression.md",
-    "Bayesian nonparametrics.md",
-    "Dirichlet distribution.md",
-    "kernel trick.md",
-    "reproducing kernel hilbert space (rkhs).md",
-    "representer theorem.md",
-    "partitions and trees.md",
-    "parametric versus nonparametric statistics.md",
-    "nonparametric regression.md",
-    "nonparametric classification.md",
-    "Mercer kernel.md",
-    "local polynomial regression.md",
-    "linear smoothers.md",
-    "knn.md",
     "kernel regression.md",
-    "Hölder space.md",
-    "Hilbert space.md",
-    "frequentist statistics.md",
-    "Dirichlet process.md",
+    "kernel trick.md",
+    "KL divergence.md",
+    "knn.md",
+    "linear smoothers.md",
+    "local polynomial regression.md",
+    "Mercer kernel.md",
+    "multiarmed bandit.md",
+    "nonparametric classification.md",
+    "nonparametric density estimation.md",
+    "nonparametric regression.md",
+    "optimal transport.md",
+    "parametric versus nonparametric statistics.md",
+    "partitions and trees.md",
+    "representer theorem.md",
+    "reproducing kernel hilbert space (rkhs).md",
+    "rkhs regression.md",
+    "splines.md",
+    "total variation distance.md",
+    "wavelets.md",
+    "Bayesian nonparametrics.md",
+    "Bayesian statistics.md",
+    "Bayesian parametrics.md",
+    "kernel density estimation.md",
+    "Gaussian process regression.md",
+    "contextual bandit.md",
     "preamble.sty~"
   ]
 }
