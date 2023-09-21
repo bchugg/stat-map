@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "904f07a30a0e7c16",
+    "id": "8f0de04faea343ed",
     "type": "split",
     "children": [
       {
-        "id": "07cc615a0a8a1c87",
+        "id": "176ea750a831f9d6",
         "type": "tabs",
         "children": [
           {
-            "id": "781ae4c36d3b4012",
+            "id": "83f6558ad7c20469",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kernel density estimation.md",
+                "file": "RKHS.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,31 +21,47 @@
             }
           },
           {
-            "id": "5b126b147b63825d",
+            "id": "f912c2a4223e2e40",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.1.16"
+                "file": "Nash equilibrium.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "52f5250e81ee1eb3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linear Regression.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "edf5a0a5aaaccd62",
+    "id": "b411c4a99141a5fa",
     "type": "split",
     "children": [
       {
-        "id": "72d69d6db9eade2c",
+        "id": "bfee8b519aaa9069",
         "type": "tabs",
         "children": [
           {
-            "id": "c6d747bc04c2c9c0",
+            "id": "934bf3a74ff5dbc6",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -55,7 +71,7 @@
             }
           },
           {
-            "id": "7f9b83ca183fa596",
+            "id": "f83eaa309d648325",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -70,10 +86,18 @@
             }
           },
           {
-            "id": "8b9a827e29c95188",
+            "id": "57e96e6d055fbbf0",
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "bdb03d0544564ff3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -84,20 +108,20 @@
     "width": 300
   },
   "right": {
-    "id": "64972a3f317dc46e",
+    "id": "47ecceffa1e85c2b",
     "type": "split",
     "children": [
       {
-        "id": "2694eeb501c957b1",
+        "id": "4242e2505949d5e5",
         "type": "tabs",
         "children": [
           {
-            "id": "5424e4a06ce38eec",
+            "id": "75b759c183f2577e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kernel density estimation.md",
+                "file": "Linear Regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,19 +133,19 @@
             }
           },
           {
-            "id": "26e69bd30d09636b",
+            "id": "ddcad54f636f7b73",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kernel density estimation.md",
+                "file": "Linear Regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "2c72c8d76235e6ef",
+            "id": "19fe4997469dd5c6",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -132,12 +156,12 @@
             }
           },
           {
-            "id": "51d552e2fc51b899",
+            "id": "505abae9fadd04ed",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "kernel density estimation.md"
+                "file": "Linear Regression.md"
               }
             }
           }
@@ -158,34 +182,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5b126b147b63825d",
+  "active": "52f5250e81ee1eb3",
   "lastOpenFiles": [
-    "kernel regression.md",
-    "kernel trick.md",
-    "KL divergence.md",
-    "knn.md",
-    "linear smoothers.md",
-    "local polynomial regression.md",
+    "frequentist statistics.md",
+    "Linear Regression.md",
+    "Nash equilibrium.md",
+    "preamble.sty~",
+    "RKHS.md",
     "Mercer kernel.md",
-    "multiarmed bandit.md",
-    "nonparametric classification.md",
-    "nonparametric density estimation.md",
-    "nonparametric regression.md",
-    "optimal transport.md",
-    "parametric versus nonparametric statistics.md",
-    "partitions and trees.md",
-    "representer theorem.md",
-    "reproducing kernel hilbert space (rkhs).md",
-    "rkhs regression.md",
-    "splines.md",
-    "total variation distance.md",
-    "wavelets.md",
-    "Bayesian nonparametrics.md",
-    "Bayesian statistics.md",
-    "Bayesian parametrics.md",
-    "kernel density estimation.md",
-    "Gaussian process regression.md",
-    "contextual bandit.md",
-    "preamble.sty~"
+    "rkhs regression.md"
   ]
 }
