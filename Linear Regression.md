@@ -5,3 +5,6 @@ Given $X_1,\dots,X_n$, introduce the _design matrix_ $\bb{X}$ which rows corresp
 
 A common loss is to minimize the "residual sum-of-squares (RSS)", which is the $\ell_2$ distance between our predictions ($\wh{y} = \wh{\beta}^t X$ ) and the true values $y$, i.e., $$\min_{\beta} = \norm{Y - \bb{X}\beta}_2^2.$$
 The resulting $\wh{\beta}$ is the least squares estimate. 
+
+Once you've ft a model, you should run [[linear regression diagnostics]]. 
+
