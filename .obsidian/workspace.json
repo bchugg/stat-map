@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "83f6558ad7c20469",
+            "id": "f0b43864438f577f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RKHS.md",
+                "file": "duality between hypothesis tests and CIs.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "f912c2a4223e2e40",
+            "id": "0f500ab50b35bc0f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nash equilibrium.md",
+                "file": "test martingales.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,20 +34,19 @@
             }
           },
           {
-            "id": "52f5250e81ee1eb3",
+            "id": "bb379c22bd0158d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linear regression diagnostics.md",
+                "file": "e-processes.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linear regression diagnostics.md",
+                "file": "duality between hypothesis tests and CIs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linear regression diagnostics.md",
+                "file": "duality between hypothesis tests and CIs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linear regression diagnostics.md"
+                "file": "duality between hypothesis tests and CIs.md"
               }
             }
           }
@@ -182,14 +181,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "52f5250e81ee1eb3",
+  "active": "f0b43864438f577f",
   "lastOpenFiles": [
-    "Linear Regression.md",
-    "linear regression diagnostics.md",
-    "frequentist statistics.md",
-    "Nash equilibrium.md",
-    "preamble.sty~",
+    "confidence intervals.md",
+    "duality between hypothesis tests and CIs.md",
+    "game-theoretic LLN.md",
+    "Intro.md",
+    "game-theoretic hypothesis testing.md",
+    "e-processes.md",
+    "test martingales.md",
+    "safe, anytime-valid inference (SAVI).md",
+    "confidence sequences.md",
+    "game-theoretic convergence of opinions.md",
+    "game-theoretic probability.md",
+    "game-theoretic statistics.md",
     "RKHS.md",
+    "Nash equilibrium.md",
+    "linear regression diagnostics.md",
+    "Linear Regression.md",
+    "frequentist statistics.md",
+    "preamble.sty~",
     "Mercer kernel.md",
     "rkhs regression.md"
   ]
