@@ -8,9 +8,11 @@ For concrete examples, see
 - [[game-theoretic hypothesis testing]]
 - [[game-theoretic convergence of opinions]]
 
+You can recover many other results of classical/modern probability theory using the game-theoretic framework. Examples not included in these notes include stochastic calculus, zero-one laws, pricing formulas in finance, and others. See the [probability and finance project](http://www.probabilityandfinance.com/articles/index.html) for more examples. 
+
 Some key differences between GTP and measure-theoretic probability (MTP): 
 - The definition of a probability measure comes first in MTP, and then expectations are defined as integrals with respects to measures. In GTP, the definition of expectations comes first, and then probabilities are defined afterwards. 
 - GTP statements are usually made with no reference to distributions, randomness, measures, etc. They are therefore typically much easier to understand than MTP statements. 
-- GTP is inherently sequential 
+- GTP is inherently sequential. 
 
 [[game-theoretic statistics]] is the application of game-theoretic probability to statistical procedures, such as hypothesis testing. 

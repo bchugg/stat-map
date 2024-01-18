@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "game-theoretic hypothesis testing.md",
+                "file": "game-theoretic statistics.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "game-theoretic hypothesis testing.md",
+                "file": "game-theoretic statistics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "game-theoretic hypothesis testing.md",
+                "file": "game-theoretic statistics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "game-theoretic hypothesis testing.md"
+                "file": "game-theoretic statistics.md"
               }
             }
           }
@@ -197,8 +197,9 @@
   },
   "active": "d5df87f1a00bfeba",
   "lastOpenFiles": [
-    "test-martingale.md",
+    "game-theoretic probability.md",
     "game-theoretic hypothesis testing.md",
+    "test-martingale.md",
     "Ville's inequality.md",
     "Online Newton Step.md",
     "two-sample testing.md",
@@ -221,7 +222,6 @@
     "test martingales.md",
     "safe, anytime-valid inference (SAVI).md",
     "game-theoretic statistics.md",
-    "game-theoretic probability.md",
     "game-theoretic LLN.md",
     "preamble.sty~"
   ]
