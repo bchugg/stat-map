@@ -7,4 +7,3 @@ They are common tools in [[safe, anytime-valid inference (SAVI)]].
 # References 
 
 - [Time-uniform, nonparametric, nonasymptotic confidence sequences](https://arxiv.org/abs/1810.08240) 
-- 
