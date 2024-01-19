@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "83f6558ad7c20469",
+            "id": "0f500ab50b35bc0f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "game-theoretic hypothesis testing.md",
+                "file": "two-sample testing.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,32 +21,20 @@
             }
           },
           {
-            "id": "d5df87f1a00bfeba",
+            "id": "bb379c22bd0158d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "game-theoretic statistics.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a4ba48db4c598df8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "misc.md",
+                "file": "test-martingale.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -120,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "game-theoretic hypothesis testing.md",
+                "file": "test-martingale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "game-theoretic hypothesis testing.md",
+                "file": "test-martingale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "game-theoretic hypothesis testing.md"
+                "file": "test-martingale.md"
               }
             }
           }
@@ -181,34 +169,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "83f6558ad7c20469",
+  "active": "bb379c22bd0158d8",
   "lastOpenFiles": [
-    "e-processes.md",
-    "game-theoretic hypothesis testing.md",
-    "Nash equilibrium.md",
-    "linear regression diagnostics.md",
-    "game-theoretic statistics.md",
     "misc.md",
-    "game-theoretic probability.md",
-    "test-martingale.md",
-    "Ville's inequality.md",
-    "Online Newton Step.md",
+    "e-processes.md",
     "two-sample testing.md",
-    "RKHS.md",
+    "safe, anytime-valid inference (SAVI).md",
+    "total variation distance.md",
+    "test-martingale.md",
+    "test martingales.md",
     "game-theoretic convergence of opinions.md",
     "frequentist statistics.md",
     "duality between hypothesis tests and CIs.md",
-    "Dirichlet process.md",
-    "Dirichlet distribution.md",
-    "deep density estimation.md",
-    "contextual bandit.md",
     "confidence sequences for quantiles.md",
-    "confidence sequences.md",
+    "Ville's inequality.md",
+    "Online Newton Step.md",
     "confidence intervals.md",
-    "cdf estimation.md",
-    "Bayesian statistics.md",
-    "Bayesian parametrics.md",
-    "Bayesian nonparametrics.md",
-    "preamble.sty~"
+    "game-theoretic LLN.md",
+    "Intro.md",
+    "game-theoretic hypothesis testing.md",
+    "confidence sequences.md",
+    "game-theoretic probability.md",
+    "game-theoretic statistics.md",
+    "RKHS.md",
+    "Nash equilibrium.md",
+    "linear regression diagnostics.md",
+    "Linear Regression.md",
+    "preamble.sty~",
+    "Mercer kernel.md",
+    "rkhs regression.md"
   ]
 }
