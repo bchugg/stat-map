@@ -58,9 +58,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a4ba48db4c598df8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "misc.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -134,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "game-theoretic statistics.md",
+                "file": "misc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "game-theoretic statistics.md",
+                "file": "misc.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "game-theoretic statistics.md"
+                "file": "misc.md"
               }
             }
           }
@@ -195,8 +208,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d5df87f1a00bfeba",
+  "active": "a4ba48db4c598df8",
   "lastOpenFiles": [
+    "game-theoretic statistics.md",
+    "misc.md",
     "game-theoretic probability.md",
     "game-theoretic hypothesis testing.md",
     "test-martingale.md",
@@ -221,8 +236,6 @@
     "Bayesian nonparametrics.md",
     "test martingales.md",
     "safe, anytime-valid inference (SAVI).md",
-    "game-theoretic statistics.md",
-    "game-theoretic LLN.md",
     "preamble.sty~"
   ]
 }
