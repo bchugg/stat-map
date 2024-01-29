@@ -46,7 +46,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -120,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "game-theoretic hypothesis testing.md",
+                "file": "misc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "game-theoretic hypothesis testing.md",
+                "file": "misc.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "game-theoretic hypothesis testing.md"
+                "file": "misc.md"
               }
             }
           }
@@ -181,14 +182,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "83f6558ad7c20469",
+  "active": "a4ba48db4c598df8",
   "lastOpenFiles": [
-    "e-processes.md",
     "game-theoretic hypothesis testing.md",
+    "misc.md",
+    "e-processes.md",
     "Nash equilibrium.md",
     "linear regression diagnostics.md",
     "game-theoretic statistics.md",
-    "misc.md",
     "game-theoretic probability.md",
     "test-martingale.md",
     "Ville's inequality.md",
