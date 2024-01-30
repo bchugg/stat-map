@@ -84,4 +84,5 @@ THis value is intuitive, because the gambles are somehow setup such that the pay
 
 Can show that for general $X$, $\E^g[X] = (X(1) + X(2))/2$. 
 
-Possible hw problem: Come up with a gamble set such that the upper expectation is not half. Or maybe prove that if the 
+
+
