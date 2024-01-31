@@ -11,7 +11,8 @@ Why is this called upper expectation? Under some conditions on $\cZ$ , $$\overli
 
 The lower expected value is 
 $$\underline{\E}^g[X] = \sup\{\beta\in\Re: \exists Z\in\cZ \quad Z + X\geq \beta\}.$$
-This is the highest price at which you are willing to buy $X$. If I buy at $\beta$, then I'm guaranteed to make money since I earn $X(\omega) + Z(\omega)$. This can be shown to be $-\overline{\E}^g[-X]$.  
+This is the highest price at which you are willing to buy $X$. If I buy at $\beta$, then I'm guaranteed to make money since I earn $X(\omega) + Z(\omega)$. This can be shown to be $-\overline{\E}^g[-X]$, or 
+$$\un{|E}^g[X] = \sup_Z \inf_\omega X(\omega) + Z(\omega).$$
 
 We can use the expectations to define [[game-theoretic probabilities]].
 

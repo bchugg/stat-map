@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "6871e4d960bb421d",
+    "id": "8f0de04faea343ed",
     "type": "split",
     "children": [
       {
-        "id": "127760fe88875984",
+        "id": "176ea750a831f9d6",
         "type": "tabs",
         "children": [
           {
-            "id": "801b0c9ce8737d7f",
+            "id": "83f6558ad7c20469",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GTPSL.md",
+                "file": "game-theoretic hypothesis testing.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,20 +21,7 @@
             }
           },
           {
-            "id": "6cec56ad8b1eeba6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "game-theoretic probability.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "706ff33c4d47af66",
+            "id": "d5df87f1a00bfeba",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -47,21 +34,21 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "d5394e946e729fba",
+    "id": "b411c4a99141a5fa",
     "type": "split",
     "children": [
       {
-        "id": "51ee82f1a5be14f2",
+        "id": "bfee8b519aaa9069",
         "type": "tabs",
         "children": [
           {
-            "id": "d3b4680b45468126",
+            "id": "934bf3a74ff5dbc6",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -71,7 +58,7 @@
             }
           },
           {
-            "id": "5473b905058fc535",
+            "id": "f83eaa309d648325",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -86,7 +73,15 @@
             }
           },
           {
-            "id": "bc843b4e3691eed1",
+            "id": "57e96e6d055fbbf0",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "bdb03d0544564ff3",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -100,15 +95,15 @@
     "width": 300
   },
   "right": {
-    "id": "30c40371efc82712",
+    "id": "47ecceffa1e85c2b",
     "type": "split",
     "children": [
       {
-        "id": "0d81ac2101d7b7f8",
+        "id": "4242e2505949d5e5",
         "type": "tabs",
         "children": [
           {
-            "id": "27630cb4a34646da",
+            "id": "75b759c183f2577e",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -125,7 +120,7 @@
             }
           },
           {
-            "id": "b33bfac419358390",
+            "id": "ddcad54f636f7b73",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -137,7 +132,7 @@
             }
           },
           {
-            "id": "6dcc022c1798ee1c",
+            "id": "19fe4997469dd5c6",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -148,7 +143,7 @@
             }
           },
           {
-            "id": "f7c7eaf19afcaaeb",
+            "id": "505abae9fadd04ed",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -174,14 +169,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "706ff33c4d47af66",
+  "active": "d5df87f1a00bfeba",
   "lastOpenFiles": [
     "game-theoretic expectations.md",
-    "game-theoretic probability.md",
-    "game-theoretic probabilities.md",
-    "game-theoretic LLN.md",
-    "GTPSL.md",
+    "game-theoretic statistics.md",
+    "misc.md",
     "zero sum game.md",
-    "Untitled.md"
+    "game-theoretic probabilities.md",
+    "Untitled.md",
+    "GTPSL.md",
+    "game-theoretic hypothesis testing.md",
+    "e-processes.md",
+    "Nash equilibrium.md",
+    "linear regression diagnostics.md",
+    "game-theoretic probability.md",
+    "test-martingale.md",
+    "Ville's inequality.md",
+    "Online Newton Step.md",
+    "two-sample testing.md",
+    "RKHS.md",
+    "game-theoretic convergence of opinions.md",
+    "frequentist statistics.md",
+    "duality between hypothesis tests and CIs.md",
+    "Dirichlet process.md",
+    "Dirichlet distribution.md",
+    "deep density estimation.md",
+    "contextual bandit.md",
+    "confidence sequences for quantiles.md",
+    "confidence sequences.md",
+    "preamble.sty~"
   ]
 }
