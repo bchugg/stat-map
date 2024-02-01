@@ -12,8 +12,24 @@ Why is this called upper expectation? Under some conditions on $\cZ$ , $$\overli
 The lower expected value is 
 $$\underline{\E}^g[X] = \sup\{\beta\in\Re: \exists Z\in\cZ \quad Z + X\geq \beta\}.$$
 This is the highest price at which you are willing to buy $X$. If I buy at $\beta$, then I'm guaranteed to make money since I earn $X(\omega) + Z(\omega)$. This can be shown to be $-\overline{\E}^g[-X]$, or 
-$$\un{|E}^g[X] = \sup_Z \inf_\omega X(\omega) + Z(\omega).$$
+$$\un{\E}^g[X] = \sup_Z \inf_\omega X(\omega) + Z(\omega).$$
 
 We can use the expectations to define [[game-theoretic probabilities]].
+
+# Properties 
+
+Game-theoretic expectations obey many of the properties you want/would expect. In particular, 
+- $\ov{\E}[X + c] = \ov{\E}[X] + c$ for any constant $c$, 
+- $X\leq Y$ implies that $\ov{\E}[X] \leq \ov{\E}[Y]$
+- If $(\Omega,\cZ)$ is arbitrage-free (see [[game-theoretic probability#Gamble spaces, prices, and probabilities]]]) then $\ov{\E}[0]\leq 0$. 
+- If it is AF and contains the zero bet (i.e., $0(\omega)=0$ for all $\omega$) then $\ov{\E}[0]=0$. 
+- If it is positive-linear, then $\ov{\E}[X+Y] \leq \ov{\E}[X] + \ov{\E}[Y]$, $\ov{\E}[cX] = c\ov{\E}[X]$ for all $c\geq 0$ and $\un{\E}[X]\leq \ov{\E}[X]$.  
+
+We've omitted the superscript $g$ above for brevity. These properties [[game-theoretic concentration inequalities]]. 
+
+
+
+
+
 
 
