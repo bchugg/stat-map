@@ -34,6 +34,110 @@
             }
           },
           {
+            "id": "0361ff43e42b14d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "p-values.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "08717ad144fdb4c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "evidence against the null.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b74254857c7b0a1a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bayes factors.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4a57a2e2a53cb4df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "p-hacking.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ce61fdc91191e7c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "stopping times.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "32ca35f2b3763fc4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "evidence against the null.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "064e9551f0dd3d61",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "e-values.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "17151ae58404dc29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bayes factors.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5045171cfac5e692",
             "type": "leaf",
             "state": {
@@ -73,7 +177,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -147,7 +251,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GTPSL.md",
+                "file": "Bayes factors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +268,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GTPSL.md",
+                "file": "Bayes factors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +291,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GTPSL.md"
+                "file": "Bayes factors.md"
               }
             }
           }
@@ -208,8 +312,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d5df87f1a00bfeba",
+  "active": "b74254857c7b0a1a",
   "lastOpenFiles": [
+    "evidence against the null.md",
+    "p-values.md",
+    "GTPSL.md",
+    "p-hacking.md",
+    "stopping times.md",
+    "e-values.md",
+    "Bayes factors.md",
     "game-theoretic probability.md",
     "game-theoretic concentration inequalities.md",
     "Concentration Inequalities.md",
@@ -222,7 +333,6 @@
     "misc.md",
     "zero sum game.md",
     "Untitled.md",
-    "GTPSL.md",
     "e-processes.md",
     "Nash equilibrium.md",
     "linear regression diagnostics.md",
@@ -230,12 +340,6 @@
     "Online Newton Step.md",
     "two-sample testing.md",
     "RKHS.md",
-    "game-theoretic convergence of opinions.md",
-    "frequentist statistics.md",
-    "duality between hypothesis tests and CIs.md",
-    "Dirichlet process.md",
-    "Dirichlet distribution.md",
-    "deep density estimation.md",
     "preamble.sty~"
   ]
 }
