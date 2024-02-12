@@ -34,19 +34,6 @@
             }
           },
           {
-            "id": "0361ff43e42b14d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "p-values.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "08717ad144fdb4c5",
             "type": "leaf",
             "state": {
@@ -79,6 +66,19 @@
               "type": "markdown",
               "state": {
                 "file": "p-hacking.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0361ff43e42b14d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "p-values.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -177,7 +177,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -251,7 +251,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bayes factors.md",
+                "file": "evidence against the null.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -268,7 +268,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bayes factors.md",
+                "file": "evidence against the null.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -291,7 +291,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bayes factors.md"
+                "file": "evidence against the null.md"
               }
             }
           }
@@ -312,15 +312,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b74254857c7b0a1a",
+  "active": "08717ad144fdb4c5",
   "lastOpenFiles": [
+    "Bayes factors.md",
     "evidence against the null.md",
     "p-values.md",
     "GTPSL.md",
     "p-hacking.md",
     "stopping times.md",
     "e-values.md",
-    "Bayes factors.md",
     "game-theoretic probability.md",
     "game-theoretic concentration inequalities.md",
     "Concentration Inequalities.md",
