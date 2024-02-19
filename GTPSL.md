@@ -35,7 +35,19 @@ How to deal with non-measurable $X$? Then define $\ov{\E}^P X = \inf_{X'}\E^P X'
 Thm: PL, measurable space such that $\Delta_0(\cZ)$ non empty. Let $X$ be measurable. Then $\ov{\E}^0 X=\ov{\E}^{mg}X$.  
 
 
+— - -
 
+lady tasting tea experiment. $p$-value 1/70. Want to transform this into games. 
+
+Game 1. $L = 1 + \lambda Z$, where $\E_{H_0}[Z]\leq 0$, $Z\geq -1$. So $L$ is an [[e-value]]. 
+suppose she bets single shot on identifying all four cups at once. Z(right) = 69, Z(wrong)=-1. this gives $\E_{H_0}[L]=0$ if $\lambda=1$. If she wins, she ends with 70. 
+
+Game 2 : sequential prediction. 
+
+
+# Point nulls 
+Following Shafer's paper 
+bet is admissible iff it is a 
 
 
 

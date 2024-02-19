@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "game-theoretic hypothesis testing.md",
+                "file": "game-theoretic expectations.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GTPSL.md",
+                "file": "e-value.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -53,19 +53,6 @@
               "type": "markdown",
               "state": {
                 "file": "Bayes factors.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4a57a2e2a53cb4df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "p-hacking.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -117,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "e-values.md",
+                "file": "e-value.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -176,8 +163,7 @@
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -251,7 +237,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "evidence against the null.md",
+                "file": "game-theoretic expectations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -268,7 +254,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "evidence against the null.md",
+                "file": "game-theoretic expectations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -291,7 +277,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "evidence against the null.md"
+                "file": "game-theoretic expectations.md"
               }
             }
           }
@@ -312,22 +298,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "08717ad144fdb4c5",
+  "active": "83f6558ad7c20469",
   "lastOpenFiles": [
-    "Bayes factors.md",
-    "evidence against the null.md",
-    "p-values.md",
     "GTPSL.md",
+    "game-theoretic expectations.md",
+    "RKHS.md",
+    "game-theoretic hypothesis testing.md",
+    "e-value.md",
+    "evidence against the null.md",
+    "Bayes factors.md",
+    "p-values.md",
     "p-hacking.md",
     "stopping times.md",
-    "e-values.md",
     "game-theoretic probability.md",
     "game-theoretic concentration inequalities.md",
     "Concentration Inequalities.md",
     "hypothesis testing.md",
-    "game-theoretic hypothesis testing.md",
     "Ville's inequality.md",
-    "game-theoretic expectations.md",
     "game-theoretic probabilities.md",
     "game-theoretic statistics.md",
     "misc.md",
@@ -339,7 +326,6 @@
     "test-martingale.md",
     "Online Newton Step.md",
     "two-sample testing.md",
-    "RKHS.md",
     "preamble.sty~"
   ]
 }

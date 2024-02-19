@@ -11,7 +11,7 @@ A p-value is, colloquially, a notion of [[evidence against the null]].
 p-values are not safe under peeking and optional stopping. See also [[p-hacking]]. 
 
 Counterfactual worlds. Even if you fix sample size in advance and then compute p-value, it may not be valid. The same size needs to be the same in _all counterfactual worlds_. i.e, $\forall \omega\in\Omega: N(\omega)=52$. 
-the validity of $P_N$ in ouor world depends on your answer to counterfactuals. this is obviously non-verifiable. So we have to assume this. [[e-values]] don't have this property and depend only on what happens in our world. 
+the validity of $P_N$ in ouor world depends on your answer to counterfactuals. this is obviously non-verifiable. So we have to assume this. [[e-value]] don't have this property and depend only on what happens in our world. 
 
 
 LHC 
