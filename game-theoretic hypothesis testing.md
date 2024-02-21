@@ -16,9 +16,11 @@ As usual in [[game-theoretic statistics]], this implies that $\cK_t = \prod_{i=1
 $$ P(\forall t\geq 1: \cK_t \geq 1/\alpha) \leq \alpha \quad \forall P\in\bs{P}.$$
 Therefore, if we reject the null when the $\cK_t$ exceeds $1/\alpha$, we have only an $\alpha$ probability of making an error, i.e., our type I error uniformly over time is bounded by $\alpha$. In other words, this is a level-$\alpha$ sequential test. 
 
-## Betting strategies 
-
 But how do we actually choose $S_t$? We want to choose it such that, under the alternative $\bs{Q}$, the wealth grows as quickly as possible. 
+
+## P
+
+
 
 The precise choice will be based on the problem at hand. However, there are some general strategies. 
 

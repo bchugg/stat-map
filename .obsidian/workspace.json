@@ -13,7 +13,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "game-theoretic expectations.md",
+                "file": "game-theoretic hypothesis testing.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b66a66873cd05769",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "irregular problems in hypothesis testing.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9e2ac47e5883093f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "universal inference.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -163,7 +189,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -237,7 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "game-theoretic expectations.md",
+                "file": "universal inference.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -254,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "game-theoretic expectations.md",
+                "file": "universal inference.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -277,7 +304,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "game-theoretic expectations.md"
+                "file": "universal inference.md"
               }
             }
           }
@@ -298,12 +325,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "83f6558ad7c20469",
+  "active": "9e2ac47e5883093f",
   "lastOpenFiles": [
-    "GTPSL.md",
-    "game-theoretic expectations.md",
-    "RKHS.md",
+    "irregular problems in hypothesis testing.md",
+    "universal inference.md",
     "game-theoretic hypothesis testing.md",
+    "game-theoretic expectations.md",
+    "GTPSL.md",
+    "RKHS.md",
     "e-value.md",
     "evidence against the null.md",
     "Bayes factors.md",
@@ -324,8 +353,6 @@
     "Nash equilibrium.md",
     "linear regression diagnostics.md",
     "test-martingale.md",
-    "Online Newton Step.md",
-    "two-sample testing.md",
     "preamble.sty~"
   ]
 }
