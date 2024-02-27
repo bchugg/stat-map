@@ -15,5 +15,5 @@ While it may be tempting to use [[MLE]]  to choose $Q_t$, this is advised agains
 # The mixture method
 
 Instead of choosing a particular $Q\in\Theta_1$ to use at each timestep, we mix over all such distributions by placing a distribution over $\Theta_1$. That is, we take 
-$$S_t = \int_{q\in \Theta_1} q(X_t|\cF_{t-1}) \rho_t(dq) \bigg / p(X_t|\cF_{t-1}),$$where $\rho_t$ is the mixing distribution, and it may depend on $\cF_{t-1}$. Since averages of distributions remain distributions, the numerator remains a distribution and $S_t$ remains a [[test-martingale]]. But note there is no guarantee that the numerator remains a distribution in $\Theta_1$ (unless $\Theta_1$ happens to be [[fork-convex]]) . 
+$$S_t(X_t) = \int_{q\in \Theta_1} q(X_t|\cF_{t-1}) \rho_t(dq) \bigg / p(X_t|\cF_{t-1}),$$where $\rho_t$ is the mixing distribution, and it may depend on $\cF_{t-1}$. Since averages of distributions remain distributions, the numerator remains a distribution and $S_t$ remains a [[test-martingale]]. But note there is no guarantee that the numerator remains a distribution in $\Theta_1$ (unless $\Theta_1$ happens to be [[fork-convex]]) . 
 

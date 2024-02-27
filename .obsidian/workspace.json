@@ -52,7 +52,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "testing by betting--simple vs composite.md",
+                "file": "universal inference.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "01d718e3a3d4ebe1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sequential statistics.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -173,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "testing by betting--simple vs composite.md",
+                "file": "sequential statistics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "testing by betting--simple vs composite.md",
+                "file": "sequential statistics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,7 +226,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "testing by betting--simple vs composite.md"
+                "file": "sequential statistics.md"
               }
             }
           }
@@ -234,10 +247,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9d636ecaa9aa3a78",
+  "active": "01d718e3a3d4ebe1",
   "lastOpenFiles": [
-    "fork-convex.md",
+    "universal inference.md",
+    "sequential statistics.md",
     "testing by betting--simple vs composite.md",
+    "fork-convex.md",
     "game-theoretic statistics.md",
     "game-theoretic hypothesis testing.md",
     "testing-by-betting—two-sample testing.md",
@@ -256,12 +271,10 @@
     "e-process.md",
     "evidence against the null.md",
     "e-value.md",
-    "universal inference.md",
     "game-theoretic expectations.md",
     "GTPSL.md",
     "RKHS.md",
     "p-hacking.md",
-    "game-theoretic probability.md",
     "preamble.sty~"
   ]
 }
