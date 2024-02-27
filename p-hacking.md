@@ -1,5 +1,5 @@
 
-Can be done via [[p-values]]. They have the guarantee that $\forall n\geq 1: \Pr_{H_0}(P_n\leq \alpha)\leq \alpha$. but here $n$ needs to be fixed beforehand, i.e., chosen independently of the data. This statement does not hold for [[stopping times]]. 
+Can be done via [[p-values]]. They have the guarantee that $\forall n\geq 1: \Pr_{H_0}(P_n\leq \alpha)\leq \alpha$. but here $n$ needs to be fixed beforehand, i.e., chosen independently of the data. This statement does not hold for [[stopping-time]]. 
 
 If you repeatedly compute your p-value 
 # Examples 

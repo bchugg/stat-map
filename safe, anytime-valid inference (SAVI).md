@@ -4,7 +4,7 @@ Though valid measure-theoretically, SAVI results typically rely on [[game-theore
 
 Common tools in SAVI include: 
 - [[confidence sequences]]
-- [[e-processes]]
+- [[e-process]]
 - non-negative supermartingales and submartingales (indeed, in some sense, SAVI must rely on these: https://arxiv.org/abs/2009.03167), especially [[test-martingale]]s.  
 
 # References 

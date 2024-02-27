@@ -8,19 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "83f6558ad7c20469",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "game-theoretic hypothesis testing.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "b66a66873cd05769",
             "type": "leaf",
             "state": {
@@ -39,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "universal inference.md",
+                "file": "testing by betting--simple vs simple.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,25 +34,12 @@
             }
           },
           {
-            "id": "d5df87f1a00bfeba",
+            "id": "e01f6288a93802cf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "e-value.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "08717ad144fdb4c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "evidence against the null.md",
+                "file": "game-theoretic hypothesis testing.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -92,97 +66,6 @@
               "type": "markdown",
               "state": {
                 "file": "p-values.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ce61fdc91191e7c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "stopping times.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "32ca35f2b3763fc4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "evidence against the null.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "064e9551f0dd3d61",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "e-value.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "17151ae58404dc29",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bayes factors.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5045171cfac5e692",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "game-theoretic concentration inequalities.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "065ff3c1c95ed073",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Concentration Inequalities.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ed2ddb475ab90aeb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ville's inequality.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -264,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "universal inference.md",
+                "file": "game-theoretic hypothesis testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "universal inference.md",
+                "file": "game-theoretic hypothesis testing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -304,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "universal inference.md"
+                "file": "game-theoretic hypothesis testing.md"
               }
             }
           }
@@ -325,34 +208,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9e2ac47e5883093f",
+  "active": "e01f6288a93802cf",
   "lastOpenFiles": [
-    "irregular problems in hypothesis testing.md",
-    "universal inference.md",
+    "testing by betting--simple vs simple.md",
     "game-theoretic hypothesis testing.md",
+    "irregular problems in hypothesis testing.md",
+    "Bayes factors.md",
+    "p-values.md",
+    "stopping-time.md",
+    "M-estimation.md",
+    "Ville's inequality.md",
+    "game-theoretic concentration inequalities.md",
+    "Concentration Inequalities.md",
+    "e-process.md",
+    "evidence against the null.md",
+    "e-value.md",
+    "universal inference.md",
     "game-theoretic expectations.md",
     "GTPSL.md",
     "RKHS.md",
-    "e-value.md",
-    "evidence against the null.md",
-    "Bayes factors.md",
-    "p-values.md",
     "p-hacking.md",
-    "stopping times.md",
     "game-theoretic probability.md",
-    "game-theoretic concentration inequalities.md",
-    "Concentration Inequalities.md",
     "hypothesis testing.md",
-    "Ville's inequality.md",
     "game-theoretic probabilities.md",
     "game-theoretic statistics.md",
     "misc.md",
     "zero sum game.md",
     "Untitled.md",
-    "e-processes.md",
     "Nash equilibrium.md",
-    "linear regression diagnostics.md",
-    "test-martingale.md",
     "preamble.sty~"
   ]
 }
