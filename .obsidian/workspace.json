@@ -47,12 +47,12 @@
             }
           },
           {
-            "id": "b74254857c7b0a1a",
+            "id": "9d636ecaa9aa3a78",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bayes factors.md",
+                "file": "testing by betting--simple vs composite.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,12 +60,38 @@
             }
           },
           {
-            "id": "0361ff43e42b14d7",
+            "id": "16c2550e864d3b3c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "p-values.md",
+                "file": "fork-convex.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "30d02792699b9c25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "game-theoretic hypothesis testing.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "607665fe5b2e7264",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maximizing log-wealth.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -147,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "game-theoretic hypothesis testing.md",
+                "file": "testing by betting--simple vs composite.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "game-theoretic hypothesis testing.md",
+                "file": "testing by betting--simple vs composite.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "game-theoretic hypothesis testing.md"
+                "file": "testing by betting--simple vs composite.md"
               }
             }
           }
@@ -208,16 +234,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e01f6288a93802cf",
+  "active": "9d636ecaa9aa3a78",
   "lastOpenFiles": [
-    "testing by betting--simple vs simple.md",
+    "fork-convex.md",
+    "testing by betting--simple vs composite.md",
+    "game-theoretic statistics.md",
     "game-theoretic hypothesis testing.md",
-    "irregular problems in hypothesis testing.md",
+    "testing-by-betting—two-sample testing.md",
+    "maximizing log-wealth.md",
     "Bayes factors.md",
     "p-values.md",
+    "Ville's inequality.md",
+    "testing by betting--simple vs simple.md",
+    "likelihood-ratio test.md",
+    "information theory.md",
+    "irregular problems in hypothesis testing.md",
     "stopping-time.md",
     "M-estimation.md",
-    "Ville's inequality.md",
     "game-theoretic concentration inequalities.md",
     "Concentration Inequalities.md",
     "e-process.md",
@@ -229,13 +262,6 @@
     "RKHS.md",
     "p-hacking.md",
     "game-theoretic probability.md",
-    "hypothesis testing.md",
-    "game-theoretic probabilities.md",
-    "game-theoretic statistics.md",
-    "misc.md",
-    "zero sum game.md",
-    "Untitled.md",
-    "Nash equilibrium.md",
     "preamble.sty~"
   ]
 }
