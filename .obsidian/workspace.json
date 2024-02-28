@@ -86,6 +86,19 @@
             }
           },
           {
+            "id": "3a4176d34da584ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "calibration.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "34e66dc19456b1a1",
             "type": "leaf",
             "state": {
@@ -99,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -173,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "marginal estimation.md",
+                "file": "calibration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "marginal estimation.md",
+                "file": "calibration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,7 +226,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "marginal estimation.md"
+                "file": "calibration.md"
               }
             }
           }
@@ -234,11 +247,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cf47a9f6b9d1724d",
+  "active": "3a4176d34da584ff",
   "lastOpenFiles": [
+    "marginal estimation.md",
+    "calibration.md",
     "online marginal estimation.md",
     "online gradient descent.md",
-    "marginal estimation.md",
     "uncertainty quantification.md",
     "pinball loss.md",
     "squared error.md",
@@ -261,7 +275,6 @@
     "Ville's inequality.md",
     "likelihood-ratio test.md",
     "information theory.md",
-    "stopping-time.md",
     "preamble.sty~"
   ]
 }
