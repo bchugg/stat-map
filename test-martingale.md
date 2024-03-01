@@ -6,6 +6,12 @@ Test martingales are common tools in [[game-theoretic probability]] and [[game-t
 Note that while test-martingales and e-processes are useful for defining sequential tests, they can also be considered bonafide measures of evidence on their own. Eg the larger a $P$-test-martingale grows over time, the more evidence this is against $P$. 
 
 Often we are interested in statistical problems involving sets of distributions, e.g., testing composite nulls. For such problems, it's useful to have a family of martingales. A test martingale _family_ for a set of distributions $\bs{P}$ is a family of test martingales $(M^P)_{P\in \bs{P}}$. 
+$M_t$ is a $P$-martingale iff 
+$$M_t / M_{t-1} = ( 1 + \phi(X_t)),$$
+where $\phi$ is a bounded odd-function. 
+
+- Sometimes they appear in reduced filtrations, and not in the original filtration. eg independence testing and testing exchangeability. 
+
 
 
 

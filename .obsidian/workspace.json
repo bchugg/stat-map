@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "e9a73b852b959dba",
+            "id": "e01f6288a93802cf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "uncertainty quantification.md",
+                "file": "test-martingale.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,12 +47,12 @@
             }
           },
           {
-            "id": "79a670752cac0790",
+            "id": "8caeca302f382fce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "online marginal estimation.md",
+                "file": "sub-Gaussian.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,12 +60,12 @@
             }
           },
           {
-            "id": "8812299045d4b51f",
+            "id": "07468d041ab30415",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "online gradient descent.md",
+                "file": "test-martingale.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,12 +73,12 @@
             }
           },
           {
-            "id": "cf47a9f6b9d1724d",
+            "id": "b74254857c7b0a1a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "marginal estimation.md",
+                "file": "Bayes factors.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,25 +86,12 @@
             }
           },
           {
-            "id": "3a4176d34da584ff",
+            "id": "0361ff43e42b14d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "calibration.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "34e66dc19456b1a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pinball loss.md",
+                "file": "p-values.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -112,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -186,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "calibration.md",
+                "file": "test-martingale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "calibration.md",
+                "file": "test-martingale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "calibration.md"
+                "file": "test-martingale.md"
               }
             }
           }
@@ -247,34 +234,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3a4176d34da584ff",
+  "active": "07468d041ab30415",
   "lastOpenFiles": [
-    "marginal estimation.md",
-    "calibration.md",
+    "kernel regression.md",
+    "e-process.md",
+    "Chernoff bounds specify e-values.md",
+    "sub-Gaussian.md",
+    "test-martingale.md",
+    "testing by betting--simple vs simple.md",
+    "game-theoretic hypothesis testing.md",
+    "uncertainty quantification.md",
+    "squared error.md",
+    "pinball loss.md",
     "online marginal estimation.md",
     "online gradient descent.md",
-    "uncertainty quantification.md",
-    "pinball loss.md",
-    "squared error.md",
-    "testing by betting--simple vs simple.md",
-    "irregular problems in hypothesis testing.md",
-    "game-theoretic hypothesis testing.md",
-    "maximizing log-wealth.md",
-    "sequential statistics.md",
-    "issues with p-values.md",
-    "p-values.md",
-    "safe, anytime-valid inference (SAVI).md",
-    "Untitled 1.md",
-    "fork-convex.md",
-    "universal inference.md",
     "new note.md",
-    "testing by betting--simple vs composite.md",
-    "game-theoretic statistics.md",
+    "marginal estimation.md",
+    "issues with p-values.md",
+    "calibration.md",
     "testing-by-betting—two-sample testing.md",
-    "Bayes factors.md",
-    "Ville's inequality.md",
+    "testing by betting--simple vs composite.md",
+    "sequential statistics.md",
+    "maximizing log-wealth.md",
     "likelihood-ratio test.md",
     "information theory.md",
+    "fork-convex.md",
+    "irregular problems in hypothesis testing.md",
+    "Bayes factors.md",
+    "p-values.md",
     "preamble.sty~"
   ]
 }
