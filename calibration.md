@@ -1,1 +1,7 @@
-Given a distribution $P$ over feature-label pairs $(X,Y)$, the goal of calibration is to produce a model $f$ such that $f(x) = \E_{Y\sim P(x)}[y]$, where $P(x)$ is the induced distribution over labels given $x$. 
+Given a distribution $P$ over feature-label pairs $(X,Y)$, the goal of calibration is to produce a model $f$ such that 
+$$v \approx \E[Y|f(x)=v].$$
+
+# Calibration via patching
+
+Suppose we are given a model $f$. Can we 
+

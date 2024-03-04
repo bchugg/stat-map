@@ -9,7 +9,7 @@ We assume that the labels are bounded in $[0,1]$.
 # Mean consistency 
 
 Ideally, we want to find a model which captures the conditional label $y|x$ for each $x$. That is, assume we have observations and labels drawn from some distribution $P$, $(X_1,Y_1),\dots,(X_n,Y_n)\sim P^n$, we want a model $f$ such that $$f(x) \approx \E_{Y\sim P(x)} [Y],$$
-where $P(x)$ is the distribution over $y$ if given feature $x$. This is the goal of [[calibration]]. A simpler task is the goal of a model which captures not the conditional mean, but the unconditional mean. 
+where $P(x)$ is the distribution over $y$ if given feature $x$.  A simpler task is the goal of a model which captures not the conditional mean, but the unconditional mean. 
 
 To measure the error of an actual model we introduce the notion of _marginal mean consistency_, where we say $f$ is $\alpha$-marginally mean consistent if 
 $$\left|\E_{X\sim P_X}[f(X)] - \E_P [Y]\right|\leq \alpha.$$
@@ -21,7 +21,7 @@ This ignores the problem that we don't know $\Delta$, but it can be estimated wi
 # Quantile consistency 
 
 Here we ask that the model matches the target quantile of a distribution. We hope that for a target quantile $q$, $\Pr[y\leq f(x)]\approx q$. To measure error, we can introduce a similar notion as above. Say that a model $f$ has $\alpha$-marginal quantile consistency wrt $q$ if 
-$$\left| \Pr_{(X,Y)\sim P}[Y\leq f(X)] -1\right|\leq \alpha.$$ Just as the Brier score is relevant for mean consistency, the [[pinball loss]] is relevant for quantile consistency. 
+$$\left| \Pr_{(X,Y)\sim P}[Y\leq f(X)] -1\right|\leq \alpha.$$Just as the Brier score is relevant for mean consistency, the [[pinball loss]] is relevant for quantile consistency. 
 
 If a model is not marginally quantile consistent (i.e,, $\alpha\neq 0$) we can again shift it so that it is, and this will actually improve the model in terms of the pinball loss. So there is a big parallel between mean consistency and quantile consistency in this way. (To do this we need to make certain smoothness assumptions on the CDF). Similar comments on finite-sample guarantees apply here. 
 

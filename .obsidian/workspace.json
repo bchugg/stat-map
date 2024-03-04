@@ -8,51 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b66a66873cd05769",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "irregular problems in hypothesis testing.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9e2ac47e5883093f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "testing by betting--simple vs simple.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e01f6288a93802cf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "test-martingale.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "8caeca302f382fce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sub-Gaussian.md",
+                "file": "uncertainty quantification.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,12 +21,12 @@
             }
           },
           {
-            "id": "07468d041ab30415",
+            "id": "fba1011438357e19",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test-martingale.md",
+                "file": "multi-group calibration.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,12 +34,12 @@
             }
           },
           {
-            "id": "b74254857c7b0a1a",
+            "id": "e9e125c511d66ece",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bayes factors.md",
+                "file": "multi-group consistency.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,20 +47,32 @@
             }
           },
           {
-            "id": "0361ff43e42b14d7",
+            "id": "1a3082e024450c2c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "p-values.md",
+                "file": "marginal estimation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a72f15895c90f1df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "average calibration error.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -173,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test-martingale.md",
+                "file": "uncertainty quantification.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "test-martingale.md",
+                "file": "uncertainty quantification.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "test-martingale.md"
+                "file": "uncertainty quantification.md"
               }
             }
           }
@@ -234,34 +207,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "07468d041ab30415",
+  "active": "8caeca302f382fce",
   "lastOpenFiles": [
+    "multi-group calibration.md",
+    "uncertainty quantification.md",
+    "multi-group consistency.md",
+    "calibration.md",
+    "average calibration error.md",
+    "marginal estimation.md",
+    "sub-Gaussian.md",
+    "irregular problems in hypothesis testing.md",
+    "testing by betting--simple vs simple.md",
+    "test-martingale.md",
+    "p-values.md",
+    "Bayes factors.md",
     "kernel regression.md",
     "e-process.md",
     "Chernoff bounds specify e-values.md",
-    "sub-Gaussian.md",
-    "test-martingale.md",
-    "testing by betting--simple vs simple.md",
     "game-theoretic hypothesis testing.md",
-    "uncertainty quantification.md",
     "squared error.md",
     "pinball loss.md",
     "online marginal estimation.md",
     "online gradient descent.md",
     "new note.md",
-    "marginal estimation.md",
     "issues with p-values.md",
-    "calibration.md",
     "testing-by-betting—two-sample testing.md",
     "testing by betting--simple vs composite.md",
     "sequential statistics.md",
     "maximizing log-wealth.md",
-    "likelihood-ratio test.md",
-    "information theory.md",
-    "fork-convex.md",
-    "irregular problems in hypothesis testing.md",
-    "Bayes factors.md",
-    "p-values.md",
     "preamble.sty~"
   ]
 }
