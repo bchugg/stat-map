@@ -8,7 +8,33 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8caeca302f382fce",
+            "id": "b66a66873cd05769",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "irregular problems in hypothesis testing.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9e2ac47e5883093f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "testing by betting--simple vs simple.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e9a73b852b959dba",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,12 +47,12 @@
             }
           },
           {
-            "id": "fba1011438357e19",
+            "id": "79a670752cac0790",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "multi-group calibration.md",
+                "file": "online marginal estimation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +60,12 @@
             }
           },
           {
-            "id": "e9e125c511d66ece",
+            "id": "8812299045d4b51f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "multi-group consistency.md",
+                "file": "online gradient descent.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,7 +73,7 @@
             }
           },
           {
-            "id": "1a3082e024450c2c",
+            "id": "cf47a9f6b9d1724d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -60,19 +86,46 @@
             }
           },
           {
-            "id": "a72f15895c90f1df",
+            "id": "3a4176d34da584ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "average calibration error.md",
+                "file": "calibration.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a7230f533b915e34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "online calibration.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "34e66dc19456b1a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pinball loss.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -146,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "uncertainty quantification.md",
+                "file": "online calibration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +216,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "uncertainty quantification.md",
+                "file": "online calibration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +239,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "uncertainty quantification.md"
+                "file": "online calibration.md"
               }
             }
           }
@@ -207,34 +260,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8caeca302f382fce",
+  "active": "a7230f533b915e34",
   "lastOpenFiles": [
-    "multi-group calibration.md",
-    "uncertainty quantification.md",
-    "multi-group consistency.md",
     "calibration.md",
-    "average calibration error.md",
-    "marginal estimation.md",
+    "online calibration.md",
     "sub-Gaussian.md",
-    "irregular problems in hypothesis testing.md",
-    "testing by betting--simple vs simple.md",
-    "test-martingale.md",
-    "p-values.md",
-    "Bayes factors.md",
-    "kernel regression.md",
-    "e-process.md",
+    "multi-group consistency.md",
+    "multi-group calibration.md",
+    "average calibration error.md",
     "Chernoff bounds specify e-values.md",
-    "game-theoretic hypothesis testing.md",
-    "squared error.md",
-    "pinball loss.md",
+    "marginal estimation.md",
     "online marginal estimation.md",
     "online gradient descent.md",
-    "new note.md",
-    "issues with p-values.md",
-    "testing-by-betting—two-sample testing.md",
-    "testing by betting--simple vs composite.md",
-    "sequential statistics.md",
+    "uncertainty quantification.md",
+    "pinball loss.md",
+    "squared error.md",
+    "testing by betting--simple vs simple.md",
+    "irregular problems in hypothesis testing.md",
+    "game-theoretic hypothesis testing.md",
     "maximizing log-wealth.md",
+    "sequential statistics.md",
+    "issues with p-values.md",
+    "p-values.md",
+    "safe, anytime-valid inference (SAVI).md",
+    "Untitled 1.md",
+    "fork-convex.md",
+    "universal inference.md",
+    "new note.md",
+    "testing by betting--simple vs composite.md",
     "preamble.sty~"
   ]
 }
