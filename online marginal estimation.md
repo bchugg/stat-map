@@ -1,5 +1,5 @@
 
-Part of [[uncertainty quantification]] in which we have roughly the same goals as [[marginal estimation]] but we want to achieve our guarantees in a sequential setting (see [[uncertainty quantification#Sequential setting]] for the precise setup). 
+Part of [[uncertainty quantification]] in which we have roughly the same goals as [[marginal consistency]] but we want to achieve our guarantees in a sequential setting (see [[uncertainty quantification#Sequential setting]] for the precise setup). 
 
 In the online setting, we are interested in mean and quantile guarantees that have low regret. We say an algorithm has marginal mean consistency $\alpha$ if 
 $$\left |\frac{1}{T}\sum_{t=1}^T p_t - \frac{1}{T}\sum_{t=1}^T y_t\right|\leq \alpha,$$
