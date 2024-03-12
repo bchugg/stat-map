@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "active statistical inference.md",
+                "file": "e-value.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -199,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "active statistical inference.md",
+                "file": "e-value.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -216,7 +216,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "active statistical inference.md",
+                "file": "e-value.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -239,7 +239,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "active statistical inference.md"
+                "file": "e-value.md"
               }
             }
           }
@@ -262,8 +262,12 @@
   },
   "active": "dae9f9378e99ebfb",
   "lastOpenFiles": [
-    "prediction-powered inference.md",
+    "sequential hypothesis testing.md",
+    "e-value.md",
+    "concentration Inequalities.md",
+    "p-values.md",
     "active statistical inference.md",
+    "prediction-powered inference.md",
     "AIPW estimator.md",
     "quantile estimation.md",
     "mean estimation.md",
@@ -284,10 +288,6 @@
     "online gradient descent.md",
     "uncertainty quantification.md",
     "squared error.md",
-    "testing by betting--simple vs simple.md",
-    "irregular problems in hypothesis testing.md",
-    "game-theoretic hypothesis testing.md",
-    "maximizing log-wealth.md",
     "preamble.sty~"
   ]
 }
