@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b66a66873cd05769",
+            "id": "e9e125c511d66ece",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "irregular problems in hypothesis testing.md",
+                "file": "multi-group consistency.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "9e2ac47e5883093f",
+            "id": "7e78d4c347301903",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "testing by betting--simple vs simple.md",
+                "file": "confidence sequences.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,7 +34,7 @@
             }
           },
           {
-            "id": "e9a73b852b959dba",
+            "id": "6ac3194615eae46f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -47,77 +47,12 @@
             }
           },
           {
-            "id": "79a670752cac0790",
+            "id": "a72f15895c90f1df",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "online marginal estimation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8812299045d4b51f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "online gradient descent.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3a4176d34da584ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "calibration.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a7230f533b915e34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "online calibration.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dae9f9378e99ebfb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "active statistical inference.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4f905172ae485ded",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "prediction-powered inference.md",
+                "file": "average calibration error.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -125,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "active statistical inference.md",
+                "file": "confidence sequences.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -216,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "active statistical inference.md",
+                "file": "confidence sequences.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -239,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "active statistical inference.md"
+                "file": "confidence sequences.md"
               }
             }
           }
@@ -260,34 +195,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dae9f9378e99ebfb",
+  "active": "7e78d4c347301903",
   "lastOpenFiles": [
-    "prediction-powered inference.md",
+    "confidence intervals.md",
+    "confidence sequences.md",
     "active statistical inference.md",
-    "AIPW estimator.md",
-    "quantile estimation.md",
-    "mean estimation.md",
-    "online calibration.md",
-    "linear Regression.md",
-    "statistical inference.md",
-    "pinball loss.md",
-    "supervised learning.md",
-    "marginal consistency.md",
-    "calibration.md",
-    "sub-Gaussian.md",
-    "multi-group consistency.md",
     "multi-group calibration.md",
-    "average calibration error.md",
-    "Chernoff bounds specify e-values.md",
-    "marginal estimation.md",
-    "online marginal estimation.md",
-    "online gradient descent.md",
+    "supervised learning.md",
+    "statistical inference.md",
+    "quantile estimation.md",
+    "prediction-powered inference.md",
+    "mean estimation.md",
+    "AIPW estimator.md",
     "uncertainty quantification.md",
-    "squared error.md",
-    "testing by betting--simple vs simple.md",
+    "average calibration error.md",
+    "marginal consistency.md",
+    "multi-group consistency.md",
+    "calibration.md",
+    "online calibration.md",
+    "sub-Gaussian.md",
     "irregular problems in hypothesis testing.md",
+    "testing by betting--simple vs simple.md",
+    "test-martingale.md",
+    "p-values.md",
+    "Bayes factors.md",
+    "kernel regression.md",
+    "e-process.md",
+    "Chernoff bounds specify e-values.md",
     "game-theoretic hypothesis testing.md",
-    "maximizing log-wealth.md",
     "preamble.sty~"
   ]
 }
