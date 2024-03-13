@@ -197,6 +197,7 @@
   },
   "active": "7e78d4c347301903",
   "lastOpenFiles": [
+    "sequential hypothesis testing.md",
     "confidence intervals.md",
     "confidence sequences.md",
     "active statistical inference.md",
@@ -222,7 +223,6 @@
     "kernel regression.md",
     "e-process.md",
     "Chernoff bounds specify e-values.md",
-    "game-theoretic hypothesis testing.md",
     "preamble.sty~"
   ]
 }
