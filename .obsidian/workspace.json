@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "confidence sequences.md",
+                "file": "active statistical inference.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "confidence sequences.md",
+                "file": "active statistical inference.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "confidence sequences.md",
+                "file": "active statistical inference.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "confidence sequences.md"
+                "file": "active statistical inference.md"
               }
             }
           }
@@ -197,9 +197,9 @@
   },
   "active": "7e78d4c347301903",
   "lastOpenFiles": [
+    "confidence sequences.md",
     "sequential hypothesis testing.md",
     "confidence intervals.md",
-    "confidence sequences.md",
     "active statistical inference.md",
     "multi-group calibration.md",
     "supervised learning.md",

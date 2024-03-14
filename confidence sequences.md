@@ -6,7 +6,7 @@ Equivalent definitions are:
 - $\Pr(\theta^* \in C_\tau)\geq 1-\alpha$ for any stopping time $\tau$ 
 - $\Pr(\theta^*\in C_T)\geq 1-\alpha$ for all random times $T$. A random time could be a function of a stopping time, for instance (eg $\tau/2$). 
 
-These are not obviously equivalent definitions. They have to be proved. For instance, the same properties do not hold with expected values. 
+These are not obviously equivalent definitions. They have to be proved. For instance, the same properties do not hold with expected values. See lemmas 2 and 3 [here](https://arxiv.org/pdf/2009.03167.pdf).  
 
 They are common tools in [[safe, anytime-valid inference (SAVI)]]. 
 

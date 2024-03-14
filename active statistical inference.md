@@ -24,11 +24,12 @@ Zrnic and Candes choose $\pi$ as a function of the model uncertainty.
 **Classification**: Here we assume that $f(x) = \argmax_{i\in[k]}p_i(x)$ where $\sum_i p_i(x)=1$. Then we set 
 $$u(x) = \frac{K}{K-1}(1 - \max_{i}p_i(x)).$$
 If the classifier is ultimately uncertain, then $p_i(x) = 1/K$ for all $i$ so $u(x)=1$. 
-
 In practice, helps to mix $u$ with a uniform so that it doesn't blow up the variance. 
-
 Once $u$ is determined, we might consider sampling strategies of the form: 
-$$\pi_\eta(x) = \wh{\eta}u(x),$$where $$\wh{\eta} = \left\{\eta \in \cH : \eta\sum_{i=1}^n u(X_i)\leq B\right\}.$$
+$$\pi_\eta(x) = \eta u(x),$$ where $\eta$ is some hyperparameter mean to ensure that we respect the budget $B$. They suggest choosing $\eta = \wh{\eta}$ where 
+$$\wh{\eta} = \sup \left\{\eta \in \cH : \eta\sum_{i=1}^n u(X_i)\leq B\right\},$$is a _data-driven_ selected parameter. The actual sampling is done by then sampling $\xi_i \sim \Ber(\pi_\eta(X_i))$ (i.e., whether $X_i$ is sampled independently of other observations). Note that this means we only meet the budget in expectation: 
+$$\E_S\sum_{i=1}^N \xi_i = \sum_{i=1}^N \E[\wh{\eta}\xi_i] = \sum_{i=1}^N \wh{\eta}u(X_i) \leq B,$$
+where the expectation is over the sampling only. 
 
 
 # Batch setting 
@@ -39,10 +40,34 @@ Let $\ell_{\theta,i} = \ell_\theta(X_i,Y_i)$ be the estimate of the loss on exam
 $$L^\pi(\theta) = \frac{1}{n}\left(\sum_{i=1}^n \ell_\theta(X_i,f(X_i)) + (\ell_\theta(X_i,Y_i) - \ell_\theta(X_i,f(X_i)))\frac{\xi_i}{\pi(X_i)}\right).$$
 Note that this is just the [[AIPW estimator]]. If $\pi$ is just the uniform rule and doesn't prioritize some observations over others, this recovers the [[prediction-powered inference]] estimator. 
 
-The resulting confidence interval comes from a [[central limit theorem]], from which a [[Wald interval]] is constructed. The CLT mainly follows from the usual CLT for [[M-estimation]], but 
+The resulting confidence interval comes from a [[central limit theorem]], from which a [[Wald interval]] is constructed. The CLT mainly follows from the usual CLT for [[M-estimation]], but needs to correct for the fact that $\wh{\eta}$ is not independent of the data. 
+
+We need the following assumptions: Let $\theta^{\eta} = \argmin_\theta L^{\pi_\eta}(\theta)$.
+- There exists some $\eta^*\in \cH$ such that $\wh{\eta}\to \eta^*$ in probability,
+- $\theta^{\eta^*} \to  \theta^*$ in probability (i.e., consistency of the M-estimator)
+- the loss is "smooth enough" (differentiable, locally Lipschitz) 
+- Hessian $H_{\theta} = \nabla^2 L(\theta) = \nabla^2 \E[\ell_\theta(X,Y)]$ is positive definite.  
+ Then, 
+$$\sqrt{n}(\wh{\theta}^{\wh{\eta}} - \theta^*) \xrightarrow{d} N(0,\Sigma_*),$$
+where $\Sigma_* = H_{\theta^*}^{-1} \Var(\nabla \ell_\theta^f + (\nabla \ell_\theta + \nabla \ell_\theta^f )\frac{\xi^{\eta^*}}{\pi_{\eta^*}(X)})H_{\theta^*}^{-1}$. From here we can form a Wald CI for any consistent estimator of $\Sigma_*$. 
+
+The last three assumptions are the usual assumptions for CLTs in M-estimation. The first assumption is required to ensure the data-driven choice of $\wh{\eta}$ does not affect the result. Basically one writes 
+
+$$\sqrt{n}(\wh{\theta}^{\wh{\eta}} - \theta^*) = \sqrt{n}(\wh{\theta}^{\wh{\eta}} - \wh{\theta}^{\wh{\eta}^*}) + \sqrt{n}(\wh{\theta}^{\wh{\eta}^*} - \theta^*).$$
+We use the CLT for M-estimators on the second term, and argue that the second term goes to 0.  
+
+
+# Sequential setting 
+
+Can iteratively update the model and the sampling rule. 
+At step $t$: Observe $X_t$, collect its label with probability $\pi_t(X_t)$ where $\pi_t$ is based on the uncertainty of model $f_t$. 
+Need $\pi_t,f_t\in\cF_{t-1}$ where $\cF_t = \sigma(X_1,Y_1\xi_1,\xi_1,\dots,X_2,Y_2\xi_2,\xi_t)$. 
+
+The estimator is now $\wh{\theta} = \argmin_\theta L_\pi(\theta)$ where $L^\pi(\theta) = \sum_{i=1}^n \Delta_t$ and $$\Delta_t = \ell_\theta^{f_t} + (\ell_\theta - \ell_\theta^{f_t})\frac{\xi_t}{\pi_t(X_t)}.$$If the increments satisfy a Lindeberg condition, then a [[martingale CLT]] applies, and we can get another CLT and resulting asymptotic CI.  
 
 
 
 
 # References 
 - [Active statistical inference](https://arxiv.org/pdf/2403.03208.pdf) by Zrnic and Candes. 
+- [Efficient adaptive experimental design for ATE estimation](https://arxiv.org/pdf/2002.05308.pdf) Very similar ideas, but with more focus on estimation as opposed to choosing the sampling strategy. 
