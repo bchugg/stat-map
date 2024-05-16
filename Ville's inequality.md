@@ -1,4 +1,4 @@
-Let $M=(M_t)$ be a $P$-supermartingale. Ville's inequality is a time-uniform version of Markov's inequality ([[concentration Inequalities#Markov's inequality]]), stating that 
+Let $M=(M_t)$ be a $P$-supermartingale. Ville's inequality is a time-uniform version of Markov's inequality ([[concentration inequalities#Markov's inequality]]), stating that 
 $$\Pr(\exists t\geq 1: M_t \geq x)\leq \frac{\E[M_1]}{x},$$
 for all $x>0$. Note this bound is _uniform over all time_. If we take $x = 1/\alpha$, then this says that the probability that $M$ will _ever_ exceed $1/\alpha$ is at most $\E[M_1]/x$. 
 

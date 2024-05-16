@@ -8,45 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e9e125c511d66ece",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "multi-group consistency.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7e78d4c347301903",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "active statistical inference.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ce372f0d8bfd1545",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Wald interval.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6ac3194615eae46f",
             "type": "leaf",
             "state": {
@@ -71,9 +32,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4845645cbb408609",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "matrix inequalities.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -147,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "active statistical inference.md",
+                "file": "matrix inequalities.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "active statistical inference.md",
+                "file": "matrix inequalities.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "active statistical inference.md"
+                "file": "matrix inequalities.md"
               }
             }
           }
@@ -208,13 +182,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7e78d4c347301903",
+  "active": "4845645cbb408609",
   "lastOpenFiles": [
+    "game-theoretic concentration inequalities.md",
+    "Untitled.md",
+    "frequentist statistics.md",
+    "fork-convex.md",
+    "evidence against the null.md",
     "e-value.md",
-    "confidence sequences.md",
-    "asymptotic confidence sequences.md",
+    "conformal prediction.md",
+    "average calibration error.md",
+    "uncertainty quantification.md",
+    "multi-group consistency.md",
     "Wald interval.md",
     "active statistical inference.md",
+    "concentration inequalities.md",
+    "matrix inequalities.md",
+    "confidence sequences.md",
+    "asymptotic confidence sequences.md",
     "sequential hypothesis testing.md",
     "confidence intervals.md",
     "multi-group calibration.md",
@@ -224,18 +209,7 @@
     "prediction-powered inference.md",
     "mean estimation.md",
     "AIPW estimator.md",
-    "uncertainty quantification.md",
-    "average calibration error.md",
     "marginal consistency.md",
-    "multi-group consistency.md",
-    "calibration.md",
-    "online calibration.md",
-    "sub-Gaussian.md",
-    "irregular problems in hypothesis testing.md",
-    "testing by betting--simple vs simple.md",
-    "test-martingale.md",
-    "p-values.md",
-    "Bayes factors.md",
     "preamble.sty~"
   ]
 }
