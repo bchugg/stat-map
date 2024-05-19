@@ -1,7 +1,7 @@
 #hypothesis-testing #sequential-statistics #plug-in-method #mixture-method 
 
 In [[game-theoretic hypothesis testing]], suppose we are testing a simple null vs a composite alternative. We receive samples $(X_t)$ are testing 
-$$H_0: (X_t) \sim P, \quad H_1 : (X_t) \sim Q \in \Theta_1.$$ In the simple vs simple case, [[testing by betting--simple vs simple]], the optimal payoff function turned out to simply be the likelihood-ratio of $Q$ and $P$. But now there is no single $Q$, the likelihood-ratio isn't well-defined. What do we do? There are two common approaches. 
+$$H_0: (X_t) \sim P, \quad H_1 : (X_t) \sim Q \in \Theta_1.$$ In the simple vs simple case, [[testing by betting—simple vs simple]], the optimal payoff function turned out to simply be the likelihood-ratio of $Q$ and $P$. But now there is no single $Q$, the likelihood-ratio isn't well-defined. What do we do? There are two common approaches. 
 
 # Plug-in method 
 
@@ -16,4 +16,3 @@ While it may be tempting to use [[MLE]]  to choose $Q_t$, this is advised agains
 
 Instead of choosing a particular $Q\in\Theta_1$ to use at each timestep, we mix over all such distributions by placing a distribution over $\Theta_1$. That is, we take 
 $$S_t(X_t) = \int_{q\in \Theta_1} q(X_t|\cF_{t-1}) \rho_t(dq) \bigg / p(X_t|\cF_{t-1}),$$where $\rho_t$ is the mixing distribution, and it may depend on $\cF_{t-1}$. Since averages of distributions remain distributions, the numerator remains a distribution and $S_t$ remains a [[test-martingale]]. But note there is no guarantee that the numerator remains a distribution in $\Theta_1$ (unless $\Theta_1$ happens to be [[fork-convex]]) . 
-

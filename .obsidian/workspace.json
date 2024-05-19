@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "176ea750a831f9d6",
+        "id": "d785c731a87056ab",
         "type": "tabs",
         "children": [
           {
-            "id": "6ac3194615eae46f",
+            "id": "4615ccc6b9c31074",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "uncertainty quantification.md",
+                "file": "Orlicz norm.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "a72f15895c90f1df",
+            "id": "177f953e4878c718",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "average calibration error.md",
+                "file": "sub-exponential distributions.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +34,51 @@
             }
           },
           {
-            "id": "4845645cbb408609",
+            "id": "56562f72b87f491d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "matrix inequalities.md",
+                "file": "Untitled 1.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dc91457ce957953c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Welcome to the stats map.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "abe3e1261a65a8ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MGF.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0699478325c87f32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sub-Gaussian distributions.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -121,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "matrix inequalities.md",
+                "file": "Welcome to the stats map.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "matrix inequalities.md",
+                "file": "Welcome to the stats map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "matrix inequalities.md"
+                "file": "Welcome to the stats map.md"
               }
             }
           }
@@ -182,34 +221,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4845645cbb408609",
+  "active": "dc91457ce957953c",
   "lastOpenFiles": [
-    "game-theoretic concentration inequalities.md",
+    "Untitled 1.md",
+    "Welcome to the stats map.md",
+    "sub-exponential distributions.md",
+    "images/me.jpg",
+    "images/me.jpg.sb-78103be7-9zRjgW",
+    "images/me.jpg.jpg",
+    "sub-Gaussian distributions.md",
+    "sequential hypothesis testing.md",
+    "MGF.md",
+    "techniques for multivariate concentration.md",
+    "images",
+    "notes",
     "Untitled.md",
-    "frequentist statistics.md",
-    "fork-convex.md",
-    "evidence against the null.md",
-    "e-value.md",
-    "conformal prediction.md",
-    "average calibration error.md",
-    "uncertainty quantification.md",
-    "multi-group consistency.md",
-    "Wald interval.md",
-    "active statistical inference.md",
+    "Orlicz norm.md",
+    "anisotropic distribution.md",
+    "isotropic distributions.md",
+    "orthogonal matrix.md",
+    "irregular problems in hypothesis testing.md",
+    "GTPSL.md",
+    "Lp norm.md",
+    "optimization perspective on Markov's inequality.md",
+    "game-theoretic concentration inequalities.md",
     "concentration inequalities.md",
     "matrix inequalities.md",
-    "confidence sequences.md",
-    "asymptotic confidence sequences.md",
-    "sequential hypothesis testing.md",
-    "confidence intervals.md",
-    "multi-group calibration.md",
-    "supervised learning.md",
-    "statistical inference.md",
-    "quantile estimation.md",
-    "prediction-powered inference.md",
-    "mean estimation.md",
-    "AIPW estimator.md",
-    "marginal consistency.md",
+    "conjugate transpose.md",
+    "game-theoretic hypothesis testing.md",
+    "concentration of measure.md",
+    "testing by betting—simple vs composite.md",
+    "testing by betting--simple vs composite.md",
+    "testing by betting—simple vs simple.md",
     "preamble.sty~"
   ]
 }

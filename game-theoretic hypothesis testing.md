@@ -28,7 +28,7 @@ Typically when designing betting strategies, we follow the approach of [[maximiz
 
 The payoff is _admissible_ if $S_t' \geq S_t$ a.s. under $P$ implies that $S_t' = S_t$. If $S_t$ is admissible, then $\E_P[S_t(X)|\cF_{t-1}]=1$ (as opposed to an inequality). This means the wealth process is a martingale (as opposed to a supermartingale). (This is easy to check: Set $S_t' = S_t / \E_P[S_t|\cF_{t-1}]$, which satisfies $\E[S_t'|\cF_{t-1}]=1$). 
 
-So how do we actually choose $S_t$? This choice depends on the problem at hand, whether it's simple null vs simple alternative ([[testing by betting--simple vs simple]]), simple null vs composite alternative ([[testing by betting--simple vs composite]]), or composite null vs composite alternative, in which case we use [[universal inference]] or the [[reverse information projection]]. 
+So how do we actually choose $S_t$? This choice depends on the problem at hand, whether it's simple null vs simple alternative ([[testing by betting—simple vs simple]]), simple null vs composite alternative ([[testing by betting—simple vs composite]]), or composite null vs composite alternative, in which case we use [[universal inference]] or the [[reverse information projection]]. 
 
 
 
