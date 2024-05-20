@@ -8,25 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4615ccc6b9c31074",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Orlicz norm.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "177f953e4878c718",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sub-exponential distributions.md",
+                "file": "notes/A Dimension-free Bernstein bound.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +21,12 @@
             }
           },
           {
-            "id": "56562f72b87f491d",
+            "id": "c9de76bcae35ccca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "martingale concentration.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,33 +34,7 @@
             }
           },
           {
-            "id": "dc91457ce957953c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Welcome to the stats map.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "abe3e1261a65a8ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MGF.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0699478325c87f32",
+            "id": "58bd34c2913ff090",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -84,9 +45,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bb922420f944a0ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "supermartingale.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -160,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome to the stats map.md",
+                "file": "martingale concentration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome to the stats map.md",
+                "file": "martingale concentration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome to the stats map.md"
+                "file": "martingale concentration.md"
               }
             }
           }
@@ -221,38 +195,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dc91457ce957953c",
+  "active": "c9de76bcae35ccca",
   "lastOpenFiles": [
-    "Untitled 1.md",
+    "concentration inequalities.md",
+    "sub-Gaussian distributions.md",
+    "supermartingale.md",
+    "notes/A Dimension-free Bernstein bound.md",
+    "MGF.md",
+    "Chernoff method.md",
+    "sub-Gaussian.md",
+    "martingale concentration.md",
+    "Doob decomposition.md",
     "Welcome to the stats map.md",
+    "time-uniform.md",
+    "fixed-time.md",
+    "anytime-valid.md",
+    "Hermitian matrix.md",
+    "randomized inequalities.md",
+    "positive semi-definite.md",
+    "multivariate concentration.md",
+    "heavy-tailed scalar concentration.md",
+    "light-tailed scalar concentration.md",
     "sub-exponential distributions.md",
+    "Orlicz norm.md",
+    "external randomization.md",
+    "game theory.md",
+    "Untitled 1.md",
     "images/me.jpg",
     "images/me.jpg.sb-78103be7-9zRjgW",
     "images/me.jpg.jpg",
-    "sub-Gaussian distributions.md",
     "sequential hypothesis testing.md",
-    "MGF.md",
     "techniques for multivariate concentration.md",
     "images",
     "notes",
-    "Untitled.md",
-    "Orlicz norm.md",
-    "anisotropic distribution.md",
-    "isotropic distributions.md",
-    "orthogonal matrix.md",
-    "irregular problems in hypothesis testing.md",
-    "GTPSL.md",
-    "Lp norm.md",
-    "optimization perspective on Markov's inequality.md",
-    "game-theoretic concentration inequalities.md",
-    "concentration inequalities.md",
-    "matrix inequalities.md",
-    "conjugate transpose.md",
-    "game-theoretic hypothesis testing.md",
-    "concentration of measure.md",
-    "testing by betting—simple vs composite.md",
-    "testing by betting--simple vs composite.md",
-    "testing by betting—simple vs simple.md",
     "preamble.sty~"
   ]
 }

@@ -1,7 +1,11 @@
 
 Sub-Gaussian distributions are a large class of distributions used in a wide variety of applications. Intuitively, they behave "like or better than" Gaussian distributions, meaning their tails decay at the same rate or faster than Gaussian tails. Consequently, sub-Gaussian random variables are nice to work with. 
 
-Sub-Gaussian distributions are a nonparametric class. There is no common dominating measure: it contains both discrete and continuous random variables. 
+Some facts about this class: 
+- Sub-Gaussian distributions are a nonparametric class. There is no common dominating measure: it contains both discrete and continuous random variables. 
+- If told $X$ is $\sigma$-sub-Gaussian (see below), can't estimate $\sigma$ from data. (Similar to how one can't estimate the bounds for a bounded random variable). 
+- There is no [[test-martingale]] for this class 
+- They specify an [[e-value]]. 
 
 # Scalar case
 
@@ -11,6 +15,8 @@ Equivalent definitions are:
 - The [[Orlicz norm]] $\norm{X}_{\psi_2} = \inf\{u>0 \ \E\exp(|X|^2/u^2)\leq 2\}$ is finite. 
 - $X^2$ has as [[sub-exponential distributions|sub-exponential distribution]]. 
 - $\Pr(|X|\geq t)\leq 2\exp(-t^2/K^2)$ for some $K$. (Note the $t^2$ which makes it have Gaussian-like behavior, whereas [[sub-exponential distributions]] are linear in $t$).
+
+An [[e-value]] for $\sigma$-sub-Gaussian distributions is $\exp\{\lambda (X-\mu)- \lambda^2\sigma^2/2\}$ which follows immediately from the definition above. The product of such e-values naturally gives a nonnegative [[supermartingale]] which gives rise to [[confidence sequences]] for sub-Gaussian random variables.  
 
 # Multivariate case 
 

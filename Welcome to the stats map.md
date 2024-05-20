@@ -1,9 +1,5 @@
 
-The best mathematicians and statisticians not only know many topics deeply, but they understand the relationships between these subjects. Traditional notes and textbooks 
-These relationships give rise to new questions, new perspectives, and new tools. Unfortunately, 
-These relationships give rise to 
-give rise to fruitful translations of insights from one subfield to another, and sometimes 
-interesting new questions, trans
+
 
 These are, obviously, my notes. They are not unbiased. They reflect my opinions on what's interesting (and what's not). There will be significant detail on some topics and a total absence of many topics. 
 
@@ -20,7 +16,7 @@ If you're just here poking around, here are some places you might like to start:
 
 # More on the philosophy
 
-This is inspired by the [Zettelkasten method](https://en.wikipedia.org/wiki/Zettelkasten), an approach to note-taking a personal knowledge management. 
+This is inspired by the [Zettelkasten method](https://en.wikipedia.org/wiki/Zettelkasten), an approach to note-taking and personal knowledge management. 
 
 Most note taking methods are based on hierarchies. You keep folders on various topics, subfolders on subtopics, and so on. In statistics, you might have a folders on [[concentration inequalities]], [[information theory]], and [[hypothesis testing]]. But this makes it hard to see the connections between these areas. For instance, there is an explicit connection between concentration and hypothesis testing (see [[duality between hypothesis tests and CIs]]), and information theoretic methods are often used to construct [[concentration inequalities]] (see [[techniques for multivariate concentration]]). Where should you put the notes on these connections? 
 
@@ -32,7 +28,7 @@ Zettelkasten systems solve this problem by abolishing hierarchical note-taking. 
 There has been a renewed interest in Zettelkasten and related note-taking systems. 
 Common keywords in this space are [evergreen notes](https://notes.andymatuschak.org/Evergreen_notes), [second-brain](https://www.buildingasecondbrain.com/), [digital garden](https://maggieappleton.com/garden-history), and [personal knowledge management](https://en.wikipedia.org/wiki/Personal_knowledge_management). Some excellent public examples of these kind of note taking systems come from [Andy Matushack,](https://notes.andymatuschak.org/About_these_notes) and [Nitin Pai](https://notes.nitinpai.in/Sta), and [Joschua](https://notes.joschua.io/). Personally, I maintain two Zettelkastens—one focused specifically on maths and statistics (this one) one for my personal notes (which is not published). I recommend you start one! 
 
-  Zettelkasten systems are typically used to construct and grow an inventory of your own thoughts and knowledge. Seeing as I did not invent most of the statistics discussed here, this note set deviates from this philosophy. Still, I think network-style note taking systems for technical subjects are an under-explored medium (for both research and pedagogy). I consider this an experiment. 
+Zettelkasten systems are typically used to construct and grow an inventory of your own thoughts and knowledge. Seeing as I did not invent most of the statistics discussed here, this note set deviates from this philosophy. Still, I think network-style note taking systems for technical subjects are an under-explored medium (for both research and pedagogy). I consider this an experiment. 
 
 # Who am I? 
 
