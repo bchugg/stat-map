@@ -1,5 +1,5 @@
 
-Let $(X_t)$ be a martingale wrt to the filtration $(\calF_t)$. Assume $(X_t)$ is scalar-valued unless otherwise indicated. 
+Let $(X_t)$ be a martingale wrt to the filtration $(\calF_t)$. Assume $(X_t)$ is scalar-valued unless otherwise indicated. Here we investigate [[concentration inequalities]] for $(X_t)$. 
 
 > [!note]
 The term "martingale concentration" might mean several things. It might mean [[fixed-time]] bounds on $|X_n - X_0|$ (as in the Azuma-Hoeffding inequality below). It might also mean bounds on $\sup_t X_t$ as in [[Ville's inequality]]. Here we focus on the former, though we note that it is the latter which enable [[time-uniform]] results and are related [[safe, anytime-valid inference (SAVI)]]. 

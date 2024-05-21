@@ -38,15 +38,46 @@ To make this replacement, we need to modify the Azuma-Hoeffding inequality.
 # A martingale-variance inequality 
 
 Suppose the increments of a martingale $(Z_t)$ are bounded and, in addition, 
-$$\E [|X_t - X_{t-1}|^2|\calF_{t-1}]\leq \sigma_t^2.$$
+$$\E [|Z_t - Z_{t-1}|^2|\calF_{t-1}]\leq \sigma_t^2.$$
 Let $V_n = \sum_{i\leq n}\sigma_i^2$. Then we can modify Azuma's bound above to read: 
-$$\Pr(|X_n - X_0|\geq \eps) \leq 2 \exp\left(\frac{-\eps^2}{4V}\right),$$
+$$\Pr(Z_n \geq Z_0 + \eps) \leq \exp\left(\frac{-\eps^2}{4V}\right),$$
 as long as $\eps \leq 2V/\max_i c_i$.  
 
-To see this, start with the basic Chernoff method: 
+To see this, start with the basic Chernoff method. For any $\lambda>0$, 
 $$
 \begin{align}
-\Pr(Z_n \geq )
+\Pr(Z_n \geq Z_0 + \eps ) &= \Pr(e^{\lambda Z_n} \geq e^{\lambda (Z_0 + \eps)}) \leq e^{-\lambda (Z_0 + \eps)}\E[e^{\lambda Z_n}].
 \end{align}
 $$
+Then, write 
+$$
+\begin{align}
+\E[e^{\lambda Z_n}] &= \E[\E[e^{\lambda (Z_{n-1} + D_n)}|\calF_{n-1}]] \\ 
+& = \E[e^{\lambda Z_{n-1}} \E[e^{\lambda D_n}|\calF_{n-1}]]. 
+\end{align}
+$$
+Recall that for $|x|\leq 1$ we have the inequality $e^x \leq 1 + x + x^2$. Therefore, if $|\lambda D_n| \leq 1$ we have 
+$$
+\begin{align}
+\E[e^{\lambda D_n}|\calF_{n-1}] &\leq \E[1 + \lambda D_n + \lambda^2D_n^2 |\calF_{n-1}] \\
+&= 1 + \lambda^2\E[D_n^2|\calF_{n-1}] \\
+&\leq \exp(\lambda^2 \E[D_n^2|\calF_{n-1}]) \\ 
+&\leq \exp(\lambda^2 \sigma_n^2),
+\end{align}$$
+where we've used that $1 + x \leq e^x$ and that $\E[D_n|\calF_{n-1}]=0$. Hence, 
+$$\E[e^{\lambda Z_n}] \leq e^{\lambda^2 \sigma_n^2}\E[e^{\lambda Z_{n-1}}] \leq \dots \leq e^{\lambda Z_0}\prod_{i=1}^n e^{\lambda^2\sigma_i^2} = e^{\lambda Z_0 + \lambda^2V_n}.$$
+Note the expectation has disappeared from $e^{\lambda Z_0}$ because $Z_0$ is assumed to be known. 
+Putting this all together gives 
+$$\Pr(Z_n \geq Z_0 + \eps) \leq e^{\lambda^2 V_n - \lambda\eps}.$$
+Optimizing the value of $\lambda$ on the right hand side gives 
+$$\lambda = \frac{\eps}{2V}.$$
+Recall that we require that $\max_n \lambda |D_n|\leq 1$. This holds if $\eps \leq 2V / \max_t c_t$ since $|D_t|\leq c_t$ by assumption. This gives us the result. 
+
+# The resulting Bernstein bound 
+
+
+
+
+
+
 

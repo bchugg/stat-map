@@ -34,6 +34,32 @@
             }
           },
           {
+            "id": "4e12c9ad1ad147ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "concentration inequalities.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4f26ee03851a479a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "light-tailed scalar concentration.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "58bd34c2913ff090",
             "type": "leaf",
             "state": {
@@ -45,22 +71,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "bb922420f944a0ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "supermartingale.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "martingale concentration.md",
+                "file": "notes/A Dimension-free Bernstein bound.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "martingale concentration.md",
+                "file": "notes/A Dimension-free Bernstein bound.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "martingale concentration.md"
+                "file": "notes/A Dimension-free Bernstein bound.md"
               }
             }
           }
@@ -195,16 +207,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c9de76bcae35ccca",
+  "active": "177f953e4878c718",
   "lastOpenFiles": [
+    "light-tailed scalar concentration.md",
     "concentration inequalities.md",
+    "martingale concentration.md",
     "sub-Gaussian distributions.md",
     "supermartingale.md",
     "notes/A Dimension-free Bernstein bound.md",
     "MGF.md",
     "Chernoff method.md",
     "sub-Gaussian.md",
-    "martingale concentration.md",
     "Doob decomposition.md",
     "Welcome to the stats map.md",
     "time-uniform.md",
@@ -215,7 +228,6 @@
     "positive semi-definite.md",
     "multivariate concentration.md",
     "heavy-tailed scalar concentration.md",
-    "light-tailed scalar concentration.md",
     "sub-exponential distributions.md",
     "Orlicz norm.md",
     "external randomization.md",
