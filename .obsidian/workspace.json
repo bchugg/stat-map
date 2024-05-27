@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/A Dimension-free Bernstein bound.md",
+                "file": "multivariate concentration.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,25 @@
             }
           },
           {
-            "id": "c9de76bcae35ccca",
+            "id": "c3e1359766ed5e87",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "martingale concentration.md",
+                "file": "basic inequalities.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9775ed7e9f745637",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Banach space.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,6 +60,19 @@
             }
           },
           {
+            "id": "bd256bb72727c2df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "martingale concentration.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "4f26ee03851a479a",
             "type": "leaf",
             "state": {
@@ -58,21 +84,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "58bd34c2913ff090",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sub-Gaussian distributions.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -146,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/A Dimension-free Bernstein bound.md",
+                "file": "light-tailed scalar concentration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/A Dimension-free Bernstein bound.md",
+                "file": "light-tailed scalar concentration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/A Dimension-free Bernstein bound.md"
+                "file": "light-tailed scalar concentration.md"
               }
             }
           }
@@ -207,14 +221,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "177f953e4878c718",
+  "active": "4f26ee03851a479a",
   "lastOpenFiles": [
-    "light-tailed scalar concentration.md",
-    "concentration inequalities.md",
-    "martingale concentration.md",
-    "sub-Gaussian distributions.md",
-    "supermartingale.md",
     "notes/A Dimension-free Bernstein bound.md",
+    "basic inequalities.md",
+    "martingale concentration.md",
+    "concentration inequalities.md",
+    "multivariate light-tailed concentration.md",
+    "multivariate concentration.md",
+    "safe, anytime-valid inference (SAVI).md",
+    "light-tailed scalar concentration.md",
+    "Banach space.md",
+    "game theory.md",
+    "e-value.md",
+    "Untitled.md",
+    "multivariate heavy-tailed concentration.md",
+    "sub-Gaussian distributions.md",
+    "matrix inequalities.md",
+    "supermartingale.md",
     "MGF.md",
     "Chernoff method.md",
     "sub-Gaussian.md",
@@ -225,19 +249,9 @@
     "anytime-valid.md",
     "Hermitian matrix.md",
     "randomized inequalities.md",
-    "positive semi-definite.md",
-    "multivariate concentration.md",
-    "heavy-tailed scalar concentration.md",
-    "sub-exponential distributions.md",
-    "Orlicz norm.md",
-    "external randomization.md",
-    "game theory.md",
-    "Untitled 1.md",
     "images/me.jpg",
     "images/me.jpg.sb-78103be7-9zRjgW",
     "images/me.jpg.jpg",
-    "sequential hypothesis testing.md",
-    "techniques for multivariate concentration.md",
     "images",
     "notes",
     "preamble.sty~"

@@ -33,7 +33,11 @@ $$
 Here we've used that the exponential of the zero matrix is the identity. Note also that since the trace is a linear operator, so 
 $$\Tr(\E\exp(TYT^* - TBT^*)) = \E\Tr(\exp(TYT^* - TBT^*)).$$
 
+# Bernstein inequality 
 
+If we have a matrix martingale, i.e., $\E[Z_t |\calF_{t-1}] = Z_{t-1}$ for some filtration $(\calF_t)$ then the following [[martingale concentration]] inequality holds: 
+
+![[martingale concentration#Variance bound — matrix version.]]
 
 
 
