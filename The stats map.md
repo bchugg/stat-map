@@ -1,5 +1,9 @@
 
+Welcome to the stats map, a collection of notes on various subtopics in statistics, probability, and theoretical computer science. 
 
+Unlike a traditional textbook, these notes prioritize the connections between subjects instead of giving a full treatment of each subject on its own. I don't provide many proofs or formal definitions. This is an attempt to understand how the world of statistics hangs together; to chart the outlines of what we know and the techniques we use. It is an attempt at a [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten)—or second brain—for statistics. 
+
+![[zettel.jpeg|center|500]]
 
 These are, obviously, my notes. They are not unbiased. They reflect my opinions on what's interesting (and what's not). There will be significant detail on some topics and a total absence of many topics. 
 
@@ -10,9 +14,11 @@ These are, obviously, my notes. They are not unbiased. They reflect my opinions 
 
 If you're just here poking around, here are some places you might like to start: 
 - [[game-theoretic statistics]] and [[game-theoretic probability]]
-- [[e-value|e-values]] and [[e-process|e-processes]]
+- [[e-value|e-values]], [[e-process|e-processes]], or [[issues with p-values]]
 - [[concentration inequalities]] or [[techniques for multivariate concentration]]
-- [[issues with p-values]] 
+- [[uncertainty quantification]]
+
+Otherwise, you can find a long list of all notes on the left hand side. 
 
 # More on the philosophy
 
@@ -25,15 +31,19 @@ Zettelkasten systems solve this problem by abolishing hierarchical note-taking. 
 > Born out of the commonplace tradition with modifications by Conrad Gessner (1516-1565) and descriptions by Johann Jacob Moser (1701–1785), the Zettelkasten, a German word translated as “slip box”, is generally a collection of highly curated atomic notes collected on slips of paper or index cards. Zettelkasten were made simpler to create and maintain with the introduction of the mass manufacture of index cards (and card boxes and furniture) in the early 20th century.
 > - Chris Aldrich [on the history of note-taking tools](https://boffosocko.com/2021/07/03/differentiating-online-variations-of-the-commonplace-book-digital-gardens-wikis-zettlekasten-waste-books-florilegia-and-second-brains/). 
 
-There has been a renewed interest in Zettelkasten and related note-taking systems. 
-Common keywords in this space are [evergreen notes](https://notes.andymatuschak.org/Evergreen_notes), [second-brain](https://www.buildingasecondbrain.com/), [digital garden](https://maggieappleton.com/garden-history), and [personal knowledge management](https://en.wikipedia.org/wiki/Personal_knowledge_management). Some excellent public examples of these kind of note taking systems come from [Andy Matushack,](https://notes.andymatuschak.org/About_these_notes) and [Nitin Pai](https://notes.nitinpai.in/Sta), and [Joschua](https://notes.joschua.io/). Personally, I maintain two Zettelkastens—one focused specifically on maths and statistics (this one) one for my personal notes (which is not published). I recommend you start one! 
+There has been a renewed interest in Zettelkasten and related note-taking systems in recent years.  Common keywords in this space are [evergreen notes](https://notes.andymatuschak.org/Evergreen_notes), [second-brain](https://www.buildingasecondbrain.com/), [digital garden](https://maggieappleton.com/garden-history), and [personal knowledge management](https://en.wikipedia.org/wiki/Personal_knowledge_management). Some excellent public examples of these kind of note taking systems come from [Andy Matushack,](https://notes.andymatuschak.org/About_these_notes) and [Nitin Pai](https://notes.nitinpai.in/Sta), and [Joschua](https://notes.joschua.io/). 
 
-Zettelkasten systems are typically used to construct and grow an inventory of your own thoughts and knowledge. Seeing as I did not invent most of the statistics discussed here, this note set deviates from this philosophy. Still, I think network-style note taking systems for technical subjects are an under-explored medium (for both research and pedagogy). I consider this an experiment. 
+Zettelkasten systems are typically used to construct and grow an inventory of your own thoughts and knowledge. Seeing as I did not invent most of the statistics discussed here, this note set deviates from this philosophy. Still, I think network-style note taking systems for technical subjects are an under-explored medium (for both research and pedagogy). So here we are. 
+
+## Here's why you should start one: 
+
+1. Writing your own notes is helpful. 
+2. You can know a lot of material but not know how it's connected together. 
+3. It helps you spot patterns. 
+4. It helps you spot holes in the literature. 
 
 # Who am I? 
 
 I am [Ben](https://benchugg.com). I'm a PhD student in the machine learning and statistics program at CMU. I study things like [[sequential statistics]], [[e-value|e-values]], and [[concentration of measure]]. Occasionally I also read, write, and dance. 
 
-This is my face. 
-
-![[images/me.jpg|250]] 
+This is my face. ![[images/me.jpg|center|300]] 

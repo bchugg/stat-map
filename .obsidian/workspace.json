@@ -21,45 +21,6 @@
             }
           },
           {
-            "id": "c3e1359766ed5e87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "basic inequalities.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9775ed7e9f745637",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Banach space.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4e12c9ad1ad147ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "concentration inequalities.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "bd256bb72727c2df",
             "type": "leaf",
             "state": {
@@ -79,6 +40,97 @@
               "type": "markdown",
               "state": {
                 "file": "light-tailed scalar concentration.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "62d28ddc4a6022e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "from boundedness to variance adaptivity.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9c0fef6f391c0772",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "matrix inequalities.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "60784228f4297831",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "operator norm inequalities.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "12f8fd8490df599c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "basic matrix inequalities.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e35bd1d189e6f1ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "operator norm.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4e443e74f8a92a57",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "exponential inequalities.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1ce96e0894603837",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sub-psi process.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -160,7 +212,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "light-tailed scalar concentration.md",
+                "file": "operator norm inequalities.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +229,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "light-tailed scalar concentration.md",
+                "file": "operator norm inequalities.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +252,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "light-tailed scalar concentration.md"
+                "file": "operator norm inequalities.md"
               }
             }
           }
@@ -221,34 +273,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4f26ee03851a479a",
+  "active": "60784228f4297831",
   "lastOpenFiles": [
-    "notes/A Dimension-free Bernstein bound.md",
-    "basic inequalities.md",
-    "martingale concentration.md",
-    "concentration inequalities.md",
-    "multivariate light-tailed concentration.md",
-    "multivariate concentration.md",
-    "safe, anytime-valid inference (SAVI).md",
+    "matrix inequalities.md",
+    "operator norm inequalities.md",
+    "from boundedness to variance adaptivity.md",
+    "basic matrix inequalities.md",
+    "operator norm.md",
+    "The stats map.md",
+    "images/zettel.jpeg",
+    "images/math_zettel.jpeg",
+    "Loewner order.md",
     "light-tailed scalar concentration.md",
+    "martingale concentration.md",
+    "multivariate concentration.md",
+    "Ville's inequality.md",
+    "game-theoretic concentration inequalities.md",
+    "concentration inequalities.md",
+    "basic inequalities.md",
+    "sub-psi process.md",
+    "exponential inequalities.md",
+    "method of moments for concentration.md",
     "Banach space.md",
+    "notes/A Dimension-free Bernstein bound.md",
+    "multivariate light-tailed concentration.md",
+    "safe, anytime-valid inference (SAVI).md",
     "game theory.md",
     "e-value.md",
     "Untitled.md",
     "multivariate heavy-tailed concentration.md",
     "sub-Gaussian distributions.md",
-    "matrix inequalities.md",
-    "supermartingale.md",
-    "MGF.md",
-    "Chernoff method.md",
-    "sub-Gaussian.md",
-    "Doob decomposition.md",
-    "Welcome to the stats map.md",
-    "time-uniform.md",
-    "fixed-time.md",
-    "anytime-valid.md",
-    "Hermitian matrix.md",
-    "randomized inequalities.md",
     "images/me.jpg",
     "images/me.jpg.sb-78103be7-9zRjgW",
     "images/me.jpg.jpg",

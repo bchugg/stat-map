@@ -1,13 +1,15 @@
 
-Here we focus on concentration of scalar random variables. See [[multivariate concentration]] for the more general setting. See also [[matrix inequalities]]. 
-
 This page is a high-level pointer to more specific concentration inequalities in various settings. See: 
 - [[light-tailed scalar concentration]]
 - [[heavy-tailed scalar concentration]] 
 - [[martingale concentration]] 
-- [[multivariate concentration]] and [[techniques for multivariate concentration]]
+- [[multivariate concentration]] 
+- [[matrix inequalities]]
 
-See also [[basic inequalities]] which contains the building blocks for many concentration results. 
+For notes related to techniques to achieve concentration, see: 
+- [[techniques for multivariate concentration]]
+- [[exponential inequalities]], which typically underlie the proofs of many concentration inequalities, and 
+- [[basic inequalities]], which contains the building blocks for many concentration results (eg Markov's inequality and the [[Chernoff method]]). 
 
 
 > [!note] 
