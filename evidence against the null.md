@@ -1,5 +1,5 @@
 
-[[p-values]]
+[[p-value]]
 [[Bayes factors]]
 [[e-value]]
 

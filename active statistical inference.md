@@ -5,7 +5,7 @@ But suppose we are in a [[supervised learning]] setting you get to choose which 
 
 Suppose we have data $(X_i,Y_i)_{i=1}^N$, where $Y_i$ is unobserved and $X_i$ is observed. We have a model $f$ which estimates $Y_i$ from $X_i$. The goal is to estimate $\theta^*$, the solution to an [[M-estimation]] problem: 
 $$\theta^* = \argmin_\theta \E[\ell_\theta(X,Y)],$$
-where $\ell_\theta$ is assumed to be convex. This handles [[mean estimation]], [[linear Regression]] coefficients, and [[quantile estimation]].  We have a budget of $B$ observations that we're allowed to sample (in expectation). 
+where $\ell_\theta$ is assumed to be convex. This handles [[mean estimation]], [[linear regression]] coefficients, and [[quantile estimation]].  We have a budget of $B$ observations that we're allowed to sample (in expectation). 
 
 # Intuition 
 

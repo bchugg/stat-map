@@ -1,7 +1,10 @@
 
-Can be done via [[p-values]]. They have the guarantee that $\forall n\geq 1: \Pr_{H_0}(P_n\leq \alpha)\leq \alpha$. but here $n$ needs to be fixed beforehand, i.e., chosen independently of the data. This statement does not hold for [[stopping-time]]. 
+Many studies use [[p-value|p-values]] to analyze the significance of their claims. P-hacking refers to any method which is used by the researchers (wittingly or unwittingly) to fallaciously lower a p-value in order to make their conclusions seem more significant. This can involve removing "problematic" observations, gathering more data until significance is reached, or performing [[multiple testing]] without appropriately adjusting your p-values. 
 
-If you repeatedly compute your p-value 
-# Examples 
+Some of these issues are avoidable with different statistical tools (eg [[e-value|e-values]] enable optional stopping and continual monitoring)—see [[issues with p-values]]. But some can't be combatted regardless of the sophistication of your statistical tools (removing observations or restarting the study, for instance). If a practitioner is determined to achieve significance, then complicated math is not going to stop them. 
 
-eg. power-posing. 2012 paper by Cuddy and Carney. In 2014 Carney removed her name and put a statement on her website explaining that they had tested the subjects in chunks, which is [[p-hacking]]. 
+Some famous examples of p-hacking: 
+- [power posing](https://en.wikipedia.org/wiki/Power_posing) 
+- [psychic powers](https://www.bps.org.uk/psychologist/replication-replication-replication) 
+- [many more](https://www.bps.org.uk/research-digest/ten-famous-psychology-findings-have-been-difficult-replicate)  
+

@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "d5c99ed894e887a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "light-tailed scalar concentration.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "bd256bb72727c2df",
             "type": "leaf",
             "state": {
@@ -47,33 +60,7 @@
             }
           },
           {
-            "id": "62d28ddc4a6022e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "from boundedness to variance adaptivity.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9c0fef6f391c0772",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "matrix inequalities.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "60784228f4297831",
+            "id": "cfdd948845d02152",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -86,12 +73,12 @@
             }
           },
           {
-            "id": "12f8fd8490df599c",
+            "id": "d0ea7c5aa7affbd6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "basic matrix inequalities.md",
+                "file": "The stats map.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,12 +86,12 @@
             }
           },
           {
-            "id": "e35bd1d189e6f1ff",
+            "id": "e2c1aae0c7aae4de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "operator norm.md",
+                "file": "foundations of statistics.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -112,12 +99,12 @@
             }
           },
           {
-            "id": "4e443e74f8a92a57",
+            "id": "525fce81f0914f0d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "exponential inequalities.md",
+                "file": "Neyman-Pearson paradigm.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -125,12 +112,12 @@
             }
           },
           {
-            "id": "1ce96e0894603837",
+            "id": "3a7ed6267a152274",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sub-psi process.md",
+                "file": "Fisher's paradigm.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -138,7 +125,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -212,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "operator norm inequalities.md",
+                "file": "foundations of statistics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -229,7 +216,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "operator norm inequalities.md",
+                "file": "foundations of statistics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -252,7 +239,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "operator norm inequalities.md"
+                "file": "foundations of statistics.md"
               }
             }
           }
@@ -273,36 +260,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "60784228f4297831",
+  "active": "e2c1aae0c7aae4de",
   "lastOpenFiles": [
-    "matrix inequalities.md",
-    "operator norm inequalities.md",
-    "from boundedness to variance adaptivity.md",
-    "basic matrix inequalities.md",
-    "operator norm.md",
     "The stats map.md",
+    "instrumentalist theory of probability.md",
+    "p-hacking.md",
+    "Neyman-Pearson paradigm.md",
+    "issues with p-values.md",
+    "Fisher's paradigm.md",
+    "t-test.md",
+    "foundations of statistics.md",
+    "current statistical practice combines the Fisherian and Neyman-Pearson perspectives.md",
+    "anytime-valid p-values.md",
+    "multiple testing.md",
+    "sub-psi process.md",
+    "operator norm inequalities.md",
+    "p-value.md",
+    "e-value.md",
+    "exponential inequalities.md",
+    "light-tailed scalar concentration.md",
+    "bounded difference inequalities.md",
+    "multivariate concentration.md",
+    "matrix inequalities.md",
+    "from boundedness to variance adaptivity.md",
+    "operator norm.md",
+    "basic matrix inequalities.md",
+    "linear regression.md",
     "images/zettel.jpeg",
     "images/math_zettel.jpeg",
     "Loewner order.md",
-    "light-tailed scalar concentration.md",
     "martingale concentration.md",
-    "multivariate concentration.md",
-    "Ville's inequality.md",
-    "game-theoretic concentration inequalities.md",
-    "concentration inequalities.md",
-    "basic inequalities.md",
-    "sub-psi process.md",
-    "exponential inequalities.md",
-    "method of moments for concentration.md",
-    "Banach space.md",
-    "notes/A Dimension-free Bernstein bound.md",
-    "multivariate light-tailed concentration.md",
-    "safe, anytime-valid inference (SAVI).md",
-    "game theory.md",
-    "e-value.md",
-    "Untitled.md",
-    "multivariate heavy-tailed concentration.md",
-    "sub-Gaussian distributions.md",
     "images/me.jpg",
     "images/me.jpg.sb-78103be7-9zRjgW",
     "images/me.jpg.jpg",

@@ -5,7 +5,7 @@ Unlike a traditional textbook, these notes prioritize the connections between su
 
 ![[zettel.jpeg|center|500]]
 
-These are, obviously, my notes. They are not unbiased. They reflect my opinions on what's interesting (and what's not). There will be significant detail on some topics and a total absence of many topics. 
+These are, obviously, my notes. They are not unbiased. They reflect my opinions on what's interesting (and what's not). There will be significant detail on some topics and a total absence of many topics. There is very little deep learning. 
 
 > [!info] How to navigate 
 > If you click on a link you will follow it. You can see a list of all notes on the left hand side of the page, and backlinks to the current note on the right hand side. 
@@ -18,7 +18,21 @@ If you're just here poking around, here are some places you might like to start:
 - [[concentration inequalities]] or [[techniques for multivariate concentration]]
 - [[uncertainty quantification]]
 
+For those with more of a philosophical bent, you can check out 
+- The [[foundations of statistics]] 
+- [[Fisher's paradigm]] and the [[Neyman-Pearson paradigm]] 
+- [[Bayesian statistics]], [[frequentist statistics]], and the [[instrumentalist theory of probability]]. 
+
 Otherwise, you can find a long list of all notes on the left hand side. 
+
+# Why make this? 
+
+Mostly because I want to know as much as possible, and this helps me digest and aggregate information. Here are four concrete reasons: 
+
+1. Writing your own notes is helpful. You haven't truly understood something until you can teach it, and you can't teach it until you can write it down coherently. 
+2. You can know a lot of material but not know how it's connected. The best researchers don't simply have detailed knowledge of many ideas, they are a mental map of how all these areas fit together. This is my exported mental map. 
+3. Emphasizing the connections between topics helps you spot patterns. Similar techniques are often used in different areas. 
+4. It helps you spot holes in the literature. Writing down what is known helps carve out what is unknown. 
 
 # More on the philosophy
 
@@ -31,16 +45,10 @@ Zettelkasten systems solve this problem by abolishing hierarchical note-taking. 
 > Born out of the commonplace tradition with modifications by Conrad Gessner (1516-1565) and descriptions by Johann Jacob Moser (1701–1785), the Zettelkasten, a German word translated as “slip box”, is generally a collection of highly curated atomic notes collected on slips of paper or index cards. Zettelkasten were made simpler to create and maintain with the introduction of the mass manufacture of index cards (and card boxes and furniture) in the early 20th century.
 > - Chris Aldrich [on the history of note-taking tools](https://boffosocko.com/2021/07/03/differentiating-online-variations-of-the-commonplace-book-digital-gardens-wikis-zettlekasten-waste-books-florilegia-and-second-brains/). 
 
-There has been a renewed interest in Zettelkasten and related note-taking systems in recent years.  Common keywords in this space are [evergreen notes](https://notes.andymatuschak.org/Evergreen_notes), [second-brain](https://www.buildingasecondbrain.com/), [digital garden](https://maggieappleton.com/garden-history), and [personal knowledge management](https://en.wikipedia.org/wiki/Personal_knowledge_management). Some excellent public examples of these kind of note taking systems come from [Andy Matushack,](https://notes.andymatuschak.org/About_these_notes) and [Nitin Pai](https://notes.nitinpai.in/Sta), and [Joschua](https://notes.joschua.io/). 
+There has been a renewed interest in Zettelkasten and related note-taking systems in recent years.  Common keywords in this space are [evergreen notes](https://notes.andymatuschak.org/Evergreen_notes), [second-brain](https://www.buildingasecondbrain.com/), [digital garden](https://maggieappleton.com/garden-history), and [personal knowledge management](https://en.wikipedia.org/wiki/Personal_knowledge_management). Some public examples of these kind of note taking systems come from [Andy Matushack,](https://notes.andymatuschak.org/About_these_notes) [Nitin Pai](https://notes.nitinpai.in/Sta), and [Joschua](https://notes.joschua.io/). 
 
-Zettelkasten systems are typically used to construct and grow an inventory of your own thoughts and knowledge. Seeing as I did not invent most of the statistics discussed here, this note set deviates from this philosophy. Still, I think network-style note taking systems for technical subjects are an under-explored medium (for both research and pedagogy). So here we are. 
+Zettelkasten systems are typically used to construct and grow an inventory of your own thoughts and insights. Seeing as I did not invent most of the statistics discussed here, this note set deviates from this philosophy. Still, I think network-style note taking systems for technical subjects are an under-explored medium (for both research and pedagogy). So here we are. 
 
-## Here's why you should start one: 
-
-1. Writing your own notes is helpful. 
-2. You can know a lot of material but not know how it's connected together. 
-3. It helps you spot patterns. 
-4. It helps you spot holes in the literature. 
 
 # Who am I? 
 
