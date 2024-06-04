@@ -1,11 +1,15 @@
 
-Most [[statistical inference]] assumes the data is somehow supplied to you (even in sequential settings, see [[sequential statistics]]). You are given data, and you are asked to estimate some parameter. 
+Most [[statistical inference]] assumes the data is somehow supplied to you (even in sequential settings; see [[sequential statistics]]). You are given data, and you are asked to estimate some parameter. 
 
-But suppose we are in a [[supervised learning]] setting you get to choose which data points to label — how should you label in them in order to help your inference (eg obtain smaller [[confidence intervals]])? Zrnic and Candes introduce the framework of active statistical inference to answer this question. 
+But suppose we are in a [[supervised learning]] setting and you get to choose which data points to label. How should you label in them in order to help your inference (eg obtain smaller [[confidence intervals]])? Zrnic and Candes introduce the framework of active statistical inference to answer this question. 
 
 Suppose we have data $(X_i,Y_i)_{i=1}^N$, where $Y_i$ is unobserved and $X_i$ is observed. We have a model $f$ which estimates $Y_i$ from $X_i$. The goal is to estimate $\theta^*$, the solution to an [[M-estimation]] problem: 
 $$\theta^* = \argmin_\theta \E[\ell_\theta(X,Y)],$$
 where $\ell_\theta$ is assumed to be convex. This handles [[mean estimation]], [[linear regression]] coefficients, and [[quantile estimation]].  We have a budget of $B$ observations that we're allowed to sample (in expectation). 
+
+> [!Remark]
+> That the budget holds only in expectation seems like a drawback of this model. Would that actually be the case in practice? Probably you would instead have some absolutely upper limit on the budget. 
+
 
 # Intuition 
 
@@ -17,7 +21,7 @@ If $Y\approx f(X)$, or $\pi(X) \approx 1$, then $\Var(\wh{\theta})$ is much smal
 
 # Choosing $\pi$ 
 
-Zrnic and Candes choose $\pi$ as a function of the model uncertainty. 
+Zrnic and Candes choose $\pi$ as a function of the model uncertainty. It's hard to give rigorous guarantees here — the methods are mainly heuristics. 
 
 **Regression**: We train a model $u$ to predict $u(X) = |Y - f(X)|$.  This should be trained on a dataset different from that which $f$ was trained on. 
 
@@ -64,9 +68,6 @@ At step $t$: Observe $X_t$, collect its label with probability $\pi_t(X_t)$ wher
 Need $\pi_t,f_t\in\cF_{t-1}$ where $\cF_t = \sigma(X_1,Y_1\xi_1,\xi_1,\dots,X_2,Y_2\xi_2,\xi_t)$. 
 
 The estimator is now $\wh{\theta} = \argmin_\theta L_\pi(\theta)$ where $L^\pi(\theta) = \sum_{i=1}^n \Delta_t$ and $$\Delta_t = \ell_\theta^{f_t} + (\ell_\theta - \ell_\theta^{f_t})\frac{\xi_t}{\pi_t(X_t)}.$$If the increments satisfy a Lindeberg condition, then a [[martingale CLT]] applies, and we can get another CLT and resulting asymptotic CI.  
-
-
-
 
 # References 
 - [Active statistical inference](https://arxiv.org/pdf/2403.03208.pdf) by Zrnic and Candes. 

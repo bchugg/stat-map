@@ -5,6 +5,7 @@ This page is a high-level pointer to more specific concentration inequalities in
 - [[martingale concentration]] 
 - [[multivariate concentration]] 
 - [[matrix inequalities]]
+- [[concentration of functions]] 
 
 For notes related to techniques to achieve concentration, see: 
 - [[techniques for multivariate concentration]]
