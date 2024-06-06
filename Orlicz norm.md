@@ -2,6 +2,8 @@ For a strictly increasing function $\psi: \Re_+\to\Re_+$, the $\psi$-Orlicz norm
 $$\norm{X}_\psi := \inf \{u>0 \;|\; \E \psi\left(\frac{|X|}{u}\right)\leq 1\}.$$
 The $\psi$-Orlicz norm is a norm on the space of those random variables $X$ such that $\norm{X}_\psi$ is finite. Such a space is called an Orlicz space. It is a linear space. 
 
+Note that the Orlicz norm is a functional of the distribution, not a function of the random variable itself. 
+
 ## Relationship to $L^p$ spaces 
 
 Orlicz norms/spaces generalize [[Lp norm|Lp norms and spaces]]. This can be seen by taking $\psi(a) = a^p$ in which case 

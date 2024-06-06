@@ -34,90 +34,12 @@
             }
           },
           {
-            "id": "bd256bb72727c2df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "martingale concentration.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "4f26ee03851a479a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "p-value.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "54f12f3cdbbf1295",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "variational approach to concentration.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2213053f513c1fdd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "active statistical inference.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d96755332df23f3d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "martingale CLT.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c6560c740454c678",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "central limit theorem.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "176851d69e21296a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Efron-Stein inequality.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -136,9 +58,74 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4c4cf6f2fb59eb8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "variational approach to concentration.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0971facbbb20e21b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sub-Gaussian distributions.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9c19525b3f3dd129",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sub-exponential distributions.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "354bf9446dd7ecea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Orlicz norm.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4a3a4751105e4577",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PAC-Bayes.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -212,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "active statistical inference.md",
+                "file": "Orlicz norm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -229,7 +216,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "active statistical inference.md",
+                "file": "Orlicz norm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -252,7 +239,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "active statistical inference.md"
+                "file": "Orlicz norm.md"
               }
             }
           }
@@ -273,34 +260,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2213053f513c1fdd",
+  "active": "354bf9446dd7ecea",
   "lastOpenFiles": [
-    "martingale CLT.md",
-    "active statistical inference.md",
+    "sub-exponential distributions.md",
+    "sub-Gaussian distributions.md",
+    "variational approach to concentration.md",
+    "time-uniform confidence spheres.md",
+    "positive semi-definite.md",
+    "Orlicz norm.md",
+    "PAC-Bayes.md",
+    "supermartingale.md",
+    "multivariate concentration.md",
+    "light-tailed scalar concentration.md",
+    "p-value.md",
+    "techniques for multivariate concentration.md",
+    "martingale concentration.md",
     "central limit theorem.md",
+    "martingale CLT.md",
+    "causal inference.md",
+    "Simpson's paradox.md",
+    "active statistical inference.md",
     "concentration inequalities.md",
     "concentration of self-bounding functions.md",
     "Efron-Stein inequality.md",
-    "variational approach to concentration.md",
     "bounded difference inequalities.md",
     "concentration of functions.md",
-    "multivariate concentration.md",
-    "techniques for multivariate concentration.md",
     "The stats map.md",
     "lady tasting tea.md",
-    "p-value.md",
-    "martingale concentration.md",
-    "light-tailed scalar concentration.md",
     "issues with p-values.md",
-    "operator norm inequalities.md",
-    "Fisher's paradigm.md",
-    "Neyman-Pearson paradigm.md",
-    "foundations of statistics.md",
-    "instrumentalist theory of probability.md",
-    "p-hacking.md",
-    "t-test.md",
-    "current statistical practice combines the Fisherian and Neyman-Pearson perspectives.md",
-    "anytime-valid p-values.md",
     "images/zettel.jpeg",
     "images/math_zettel.jpeg",
     "images/me.jpg",
