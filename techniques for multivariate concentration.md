@@ -3,6 +3,10 @@ Suppose we have a stochastic process $(S_t)$ evolving in some space. What techni
 
 Here we explore some techniques to deal with this problem. 
 
+# Working directly with the norm 
+
+
+
 # Covering arguments 
 
 

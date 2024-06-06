@@ -28,9 +28,44 @@ Now, for $\rho=\rho_u$, $\E_\rho \la \theta, X_i\ra = \la u,X_i\ra$ and $$\E_\rh
 $$\sup_u \lambda \sum_{i\leq n} \la u,X_i\ra \leq \frac{n\lambda^2}{2}(\norm{\Sigma} + \beta^{-1}\Tr(\Sigma)) + \frac{\beta}{2} + \log(1/\delta).$$
 The left hand side is equal to $\lambda \norm{\sum_{i\leq n}X_i}$, which gives us our concentration result. One can then optimize $\lambda$ using some calculus. 
 
-# Example 2: Sub-exponential random matrices 
+# Example 2: Random matrices with finite Orlicz-norm
 
-
+This example is adapted from [Zhivotovskiy (2024)](https://arxiv.org/pdf/2108.08198). Let $M_1,\dots,M_n$ be iid copies of a zero-mean random matrix $M$ with finite sub-exponential [[Orlicz norm]], in the sense that 
+$$\norm{\la \theta, M\phi\ra}_{\psi_1} \leq \kappa \sqrt{\la\theta, Q\phi\ra},$$
+for all $\theta, \phi\in\Re^d$ and some PSD matrix $Q$.  Recall that 
+$$\norm{Y}_{\psi_1} = \inf\left\{u>0: \E\exp(|Y|/u)\leq 2\right\}.$$
+We take our parameter space in the master theorem above to be $\Theta = \Re^d\times \Re^d$. Let $\nu$ again be Gaussian with mean 0 and covariance $\beta^{-1}\Sigma$ and let $\mu_u$ be a _truncated_ Gaussian mean $u$, covariance $\beta^{-1}I$ and radius $r$. Being slightly loose with notation and writing $\d\mu$ for the density of $\mu$, the density of the truncated normal can be written as 
+$$\d\mu_{u}(x) = \frac{\ind\{\norm{x - u}\leq r\}}{Z}\d \rho_u,$$
+where $Z$ is some normalizing constant and $\rho_u$ is a non-truncated Gaussian. For a unit vector $u$, the KL-divergence between a truncated normal $\mu_u$ and $\nu$ is therefore
+$$
+\begin{align*}
+    \kl(\mu_{u} \| \nu) &= \int\log\left(\frac{1}{Z}\frac{\d \rho_u}{\d\nu}(\theta)\right) {\mu}_{u}(\d\theta) \\ 
+    &= \log(\frac{1}{Z}) + \frac{1}{2}\int (\la \theta-u,\beta(\theta-u)\ra + \la  \theta, \beta\theta\ra )\mu_{u}(\d\theta) \\ 
+    &= \log(\frac{1}{Z}) + \frac{\beta}{2}\int (2\la \theta,u\ra - \la  u, u\ra )\mu_{u}(\d\theta) \\ 
+    &= \log(\frac{1}{Z}) + \frac{\beta\la u, u\ra}{2} \leq  \log(\frac{1}{Z}) + \frac{\beta}{2}. 
+\end{align*}
+$$
+Here $Z = \Pr(\norm{\theta - u}\leq r)$ where $\theta\sim \rho_{u}$. Equivalently, $Z=\Pr(\norm{Y}\leq r)$ where $Y$ is a normal with mean $0$ and covariance $\beta^{-1}I_d$. Hence $1 - Z = \Pr(\norm{Y}>r)\leq \E\norm{Y}^2/r^2 = \beta^{-1}d/r^2$. Thus, taking $r = \sqrt{2 \beta^{-1}d}$ yields $Z\geq 1/2$, and we obtain 
+$$
+\begin{align}
+\kl(\mu_u\|\nu) \leq \log(2) + \frac{\beta}{2}. 
+\end{align}
+$$
+Now it remains to construct a relevant quantity to use in the PAC-Bayes theorem. Consider 
+$$N(\theta,\phi) = \exp\left\{\lambda\sum_{i\leq n}\la\theta, M_i\phi\ra - n\log\E\exp(\lambda\la \theta, M\phi\ra)\right\},$$
+where the expectation is over $M$. It's easy to see this has expectation at most 1 (it can be written as the product of terms each with expectation exactly one). Apply the master theorem with the product distribution $\mu_u\times \mu_v$ for $u,v$ in the unit sphere, and we obtain that with probability $1-\delta$, for all $u,v$ in the unit sphere, 
+$$\lambda \E_{\mu_u\times \mu_v} \la \theta, M_i\phi\ra \leq n \E_{\mu_u\times\mu_v} \log \E\exp(\lambda\la\theta, M\phi\ra) + \frac{\beta}{2} + \log(2/\delta).$$
+The truncated Gaussian is symmetric about its mean, so $\E_{\mu_u\times\mu_v}\la \theta, M_i\phi\ra = \la u,M_iv\ra$. It remains to bound the right hand side. For this we appeal to result which bounds the MGF of a random variable in terms of its $\psi_1$-norm. In particular, we appeal to an [[exponential inequalities|exponential inequality]], which states that for a random variable $Y$, 
+$$\E[\exp(\lambda (Y - \E Y))]\leq \exp(4\lambda^2\norm{Y}_{\psi_1}),\quad \forall |\lambda| \leq \frac{1}{2\norm{Y}_{\psi_1}}.$$
+Using this, we obtain that 
+$$
+\begin{align}
+\E\exp(\lambda \la\theta,M\phi\ra) &\leq \exp(4\lambda^2\norm{\la \theta, M\phi\ra}_{\psi_1}) \\ 
+&\leq \exp(4\lambda^2 \kappa \sqrt{\la \theta, Q\phi\ra}) \\ 
+&\leq \exp(4\lambda^2\kappa r \norm{Q}^{1/2}) \\ 
+&= \exp(4\lambda^2 \kappa )
+\end{align}
+$$
 
 
 

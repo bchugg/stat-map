@@ -8,45 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "177f953e4878c718",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "multivariate concentration.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d5c99ed894e887a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "light-tailed scalar concentration.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4f26ee03851a479a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "p-value.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "1d55904c712fcee7",
             "type": "leaf",
             "state": {
@@ -73,12 +34,90 @@
             }
           },
           {
-            "id": "0971facbbb20e21b",
+            "id": "d81408e3a22e804f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sub-Gaussian distributions.md",
+                "file": "maximal inequalities.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "30cb089ca6fa4d2a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "covering and packing.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e6b7d88d2481221d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "metric entropy.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "978aebaa9e0ebf9e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gaussian complexity.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "edcfad596a0e7161",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Rademacher complexity.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4f382f35fd9d918b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "issues with p-values.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d9c07869c143c360",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Rademacher complexity.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -92,19 +131,6 @@
               "type": "markdown",
               "state": {
                 "file": "sub-exponential distributions.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "354bf9446dd7ecea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Orlicz norm.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -199,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Orlicz norm.md",
+                "file": "issues with p-values.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -216,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Orlicz norm.md",
+                "file": "issues with p-values.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -239,7 +265,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Orlicz norm.md"
+                "file": "issues with p-values.md"
               }
             }
           }
@@ -260,20 +286,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "354bf9446dd7ecea",
+  "active": "4f382f35fd9d918b",
   "lastOpenFiles": [
+    "maximal inequalities.md",
+    "Rademacher complexity.md",
+    "Gaussian complexity.md",
+    "metric entropy.md",
     "sub-exponential distributions.md",
-    "sub-Gaussian distributions.md",
+    "PAC-Bayes.md",
     "variational approach to concentration.md",
+    "covering and packing.md",
+    "sub-Gaussian distributions.md",
+    "Orlicz norm.md",
+    "exponential inequalities.md",
+    "metric space.md",
+    "techniques for multivariate concentration.md",
+    "p-value.md",
+    "light-tailed scalar concentration.md",
+    "multivariate concentration.md",
     "time-uniform confidence spheres.md",
     "positive semi-definite.md",
-    "Orlicz norm.md",
-    "PAC-Bayes.md",
     "supermartingale.md",
-    "multivariate concentration.md",
-    "light-tailed scalar concentration.md",
-    "p-value.md",
-    "techniques for multivariate concentration.md",
     "martingale concentration.md",
     "central limit theorem.md",
     "martingale CLT.md",
@@ -281,13 +314,6 @@
     "Simpson's paradox.md",
     "active statistical inference.md",
     "concentration inequalities.md",
-    "concentration of self-bounding functions.md",
-    "Efron-Stein inequality.md",
-    "bounded difference inequalities.md",
-    "concentration of functions.md",
-    "The stats map.md",
-    "lady tasting tea.md",
-    "issues with p-values.md",
     "images/zettel.jpeg",
     "images/math_zettel.jpeg",
     "images/me.jpg",

@@ -3,12 +3,14 @@ Some mathematical drawbacks of [[p-value|p-values]] that can lead to (possibly i
 
 Let $P_n$ be a p-value which is a calculated based on $n$ observations $X_1, \dots, X_n$. As a reminder, the p-value guarantee reads: 
 $$\forall n, \forall\alpha,\; \Pr_{H_0}(P_n \leq \alpha) \leq \alpha.$$
-The issues with p-values explored here are all consequences of the fact that $n$ (the sample size) and $\alpha$ (the significance level) are outside of the probability statement. Consequently, they should not depend on the data. This basic property has many consequences. 
+The issues with p-values explored here are all consequences of the fact that $n$ (the sample size) and $\alpha$ (the significance level) are outside of the probability statement. Consequently, they should not depend on the data. This basic property has many consequences. We consider four. 
 
 > [!note] 
 > In the case of $n$, the sample size, this issue is fixed with [[anytime-valid p-values]], but these must be specially constructed. Most p-values are not [[anytime-valid]], and these are the focus of this note.)
 
 # Significance adjustments 
+
+Suppose you set out to test the efficacy of a new drug. You gather 10,000 participants, give half of them the drug and give the other half a placebo. You want to see whether there is a significant difference between the recovery rates of the two groups (with a [[t-test]], say).  
 
 
  The significance level $\alpha$ cannot be chosen with respect to the data —  it must be fixed in advance. This often confuses practitioners. If you run an experiment and obtain a p-value of 0.10, why can't you say you reject at level 0.1? Because then what you're saying is, 
@@ -16,7 +18,7 @@ The issues with p-values explored here are all consequences of the fact that $n$
 
 # Peeking and early stopping
 
-Suppose you set out to test the efficacy of a new drug. You gather 10,000 participants, give half of them the drug and give the other half a placebo. You want to see whether there is a significant difference between the recovery rates of the two groups (with a [[t-test]], say). 
+
 
 You don't get all the data at once, of course, the trial is run over several months. Every day you get the results for a few more patients. **You should not monitor this data as it comes in, re-computing your p-value each day, and checking if it's significant**. 
 
