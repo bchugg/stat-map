@@ -10,17 +10,17 @@ The issues with p-values explored here are all consequences of the fact that $n$
 
 # Significance adjustments 
 
-Suppose you set out to test the efficacy of a new drug. You gather 10,000 participants, give half of them the drug and give the other half a placebo. You want to see whether there is a significant difference between the recovery rates of the two groups (with a [[t-test]], say).  
+Suppose you set out to test the efficacy of a new drug. You gather 10,000 participants, give half of them the drug and give the other half a placebo. You want to see whether there is a significant difference between the recovery rates of the two groups (with a [[t-test]], say). 
 
+Since you want to be careful—this is a drug trial, after all—you set your significance level before the trial to be $\alpha=0.001$. You run the study and observe a p-value of 0.004. Now you have to go tell your boss that you can't reject the null and the study was a waste. (Ideally you would still publish the study to avoid the [file-drawer effect](https://en.wikipedia.org/wiki/Publication_bias#:~:text=Publication%20bias%20is%20sometimes%20called,a%20bias%20in%20published%20research.), but we all know that won't happen). 
 
- The significance level $\alpha$ cannot be chosen with respect to the data —  it must be fixed in advance. This often confuses practitioners. If you run an experiment and obtain a p-value of 0.10, why can't you say you reject at level 0.1? Because then what you're saying is, 
+But $p=0.004$ _seems_ like such a low p-value. It's tempting to say you can reject at $\alpha = 0.005$. But then $\alpha$ would be a function of the data, and this is not allowed. You're stuck with your original significance level, sorry. 
+
 
 
 # Peeking and early stopping
 
-
-
-You don't get all the data at once, of course, the trial is run over several months. Every day you get the results for a few more patients. **You should not monitor this data as it comes in, re-computing your p-value each day, and checking if it's significant**. 
+Let's return to the drug study. You don't get all the data at once, of course, the trial is run over several months. Every day you get the results for a few more patients. **You should not monitor this data as it comes in, re-computing your p-value each day, and checking if it's significant**. 
 
 Significance can only be calculated on the final sample of 10,000 people, since 10,000 was the initial number of observations chosen independently of the data. If you continuously monitor the result there's a possibility that you will stop early, in which case the [[stopping-time]] is a function of the data and your p-value is invalid. 
 
@@ -43,14 +43,12 @@ During the covid trials, many labs were running many experiments on potential va
 
 The two issues above can be viewed as facets of a more general problem with p-values, which is the issue of counterfactual worlds. 
 
-We keep emphasizing that the sample size needs to be fixed in advance. But the p-value requirement is stronger than this. It actually says that _the sample size needs to be same in all counterfactual worlds_. If it's not, it means that the sample size was actually data-dependent, which is not allowed. In other words, no matter what happens in the experiment, the sample size cannot change. 
+We keep emphasizing that the sample size needs to be fixed in advance. But the p-value requirement is stronger than this. It actually says that _the sample size needs to be same in all counterfactual worlds_. If it's not, it means that the sample size was actually data-dependent. In other words, no matter what happens in the experiment, the sample size cannot change. 
 
 (Mathematically, it can help to view the sample size as a deterministic random variable. That is, if $N$ is the sample size, then for all outcomes $\omega\in\Omega$, we require that $N(\omega) = c$ for some $c$ if the p-value is valid.)
 
-This is an incredibly frustrating property. For one, it is unverifiable: how do you know the sample size would not have changed in every possible world? Second, it makes it extremely easy to start doubting p-values.  
+This is an incredibly frustrating property. For one, it is unverifiable: how do you know the sample size would not have changed in every possible world? Second, it makes it extremely easy to start doubting p-values. 
 
+Imagine you have a grad student analyzing the drug trial data as it arrives, just to make sure your data collection software is working. Do you think there's any situation in which he would stop the experiment early? What if the results looked _really, really_ good? If so, then the sample size is not truly fixed, and your p-value is invalid. 
 
-
-Counterfactual worlds. Even if you fix sample size in advance and then compute p-value, it may not be valid. The same size needs to be the same in _all counterfactual worlds_. i.e, $\forall \omega\in\Omega: N(\omega)=52$. 
-the validity of $P_N$ in ouor world depends on your answer to counterfactuals. this is obviously non-verifiable. So we have to assume this. [[e-value]] don't have this property and depend only on what happens in our world. 
 

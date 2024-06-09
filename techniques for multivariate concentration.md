@@ -11,10 +11,9 @@ Here we explore some techniques to deal with this problem.
 
 
 
+# Chaining 
 
-
-
-
+[[generic chaining]] can be used to obtain concentration results. 
 
 
 # The variational approach 

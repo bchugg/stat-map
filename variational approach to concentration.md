@@ -30,42 +30,59 @@ The left hand side is equal to $\lambda \norm{\sum_{i\leq n}X_i}$, which gives u
 
 # Example 2: Random matrices with finite Orlicz-norm
 
-This example is adapted from [Zhivotovskiy (2024)](https://arxiv.org/pdf/2108.08198). Let $M_1,\dots,M_n$ be iid copies of a zero-mean random matrix $M$ with finite sub-exponential [[Orlicz norm]], in the sense that 
-$$\norm{\la \theta, M\phi\ra}_{\psi_1} \leq \kappa \sqrt{\la\theta, Q\phi\ra},$$
-for all $\theta, \phi\in\Re^d$ and some PSD matrix $Q$.  Recall that 
+This example is adapted from [Zhivotovskiy (2024)](https://arxiv.org/pdf/2108.08198). Let $M_1,\dots,M_n$ be iid copies of a zero-mean random matrix $M$ with finite sub-exponential [[Orlicz norm]], in the sense that, for some $C>0$, 
+$$\norm{\la \theta, M\phi\ra}_{\psi_1} \leq C \la\theta, \Sigma\phi\ra,$$
+for all $\theta, \phi\in\Re^d$ where $Q = \E M$. Recall that 
 $$\norm{Y}_{\psi_1} = \inf\left\{u>0: \E\exp(|Y|/u)\leq 2\right\}.$$
-We take our parameter space in the master theorem above to be $\Theta = \Re^d\times \Re^d$. Let $\nu$ again be Gaussian with mean 0 and covariance $\beta^{-1}\Sigma$ and let $\mu_u$ be a _truncated_ Gaussian mean $u$, covariance $\beta^{-1}I$ and radius $r$. Being slightly loose with notation and writing $\d\mu$ for the density of $\mu$, the density of the truncated normal can be written as 
+We take our parameter space in the master theorem above to be $\Theta = \Re^d\times \Re^d$. Let $\nu$ again be Gaussian with mean 0 and covariance $\beta^{-1}\Sigma$ and let $\mu_u$ be a _truncated_ Gaussian mean $u$, covariance $\beta^{-1}\Sigma$ and radius $r$. Being slightly loose with notation and writing $\d\mu$ for the density of $\mu$, the density of the truncated normal can be written as 
 $$\d\mu_{u}(x) = \frac{\ind\{\norm{x - u}\leq r\}}{Z}\d \rho_u,$$
-where $Z$ is some normalizing constant and $\rho_u$ is a non-truncated Gaussian. For a unit vector $u$, the KL-divergence between a truncated normal $\mu_u$ and $\nu$ is therefore
+where $Z$ is some normalizing constant and $\rho_u$ is a non-truncated Gaussian. For a vector $u\in \Sigma^{1/2}\mathbb{S}^{d-1}$, the KL-divergence between a truncated normal $\mu_u$ and $\nu$ is therefore
 $$
 \begin{align*}
     \kl(\mu_{u} \| \nu) &= \int\log\left(\frac{1}{Z}\frac{\d \rho_u}{\d\nu}(\theta)\right) {\mu}_{u}(\d\theta) \\ 
-    &= \log(\frac{1}{Z}) + \frac{1}{2}\int (\la \theta-u,\beta(\theta-u)\ra + \la  \theta, \beta\theta\ra )\mu_{u}(\d\theta) \\ 
-    &= \log(\frac{1}{Z}) + \frac{\beta}{2}\int (2\la \theta,u\ra - \la  u, u\ra )\mu_{u}(\d\theta) \\ 
-    &= \log(\frac{1}{Z}) + \frac{\beta\la u, u\ra}{2} \leq  \log(\frac{1}{Z}) + \frac{\beta}{2}. 
+    &= \log(\frac{1}{Z}) + \frac{1}{2}\int (\la \theta-u,\beta\Sigma^{-1}(\theta-u)\ra + \la  \theta, \beta\Sigma^{-1}\theta\ra )\mu_{u}(\d\theta) \\ 
+    &= \log(\frac{1}{Z}) + \frac{\beta}{2}\int (2\la \theta,\Sigma^{-1}u\ra - \la  u, \Sigma^{-1}u\ra )\mu_{u}(\d\theta) \\ 
+    &= \log(\frac{1}{Z}) + \frac{\beta\la u,\Sigma^{-1} u\ra}{2} \leq  \log(\frac{1}{Z}) + \frac{\beta}{2}. 
 \end{align*}
 $$
-Here $Z = \Pr(\norm{\theta - u}\leq r)$ where $\theta\sim \rho_{u}$. Equivalently, $Z=\Pr(\norm{Y}\leq r)$ where $Y$ is a normal with mean $0$ and covariance $\beta^{-1}I_d$. Hence $1 - Z = \Pr(\norm{Y}>r)\leq \E\norm{Y}^2/r^2 = \beta^{-1}d/r^2$. Thus, taking $r = \sqrt{2 \beta^{-1}d}$ yields $Z\geq 1/2$, and we obtain 
+Here $Z = \Pr(\norm{\theta - u}\leq r)$ where $\theta\sim \rho_{u}$. Equivalently, $Z=\Pr(\norm{Y}\leq r)$ where $Y$ is a normal with mean $0$ and covariance $\beta^{-1}\Sigma$. Hence $1 - Z = \Pr(\norm{Y}>r)\leq \E\norm{Y}^2/r^2 = \beta^{-1}\Tr(\Sigma)/r^2$. Thus, taking $r = \sqrt{2 \beta^{-1}\Tr(\Sigma)}$ yields $Z\geq 1/2$, and we obtain 
 $$
 \begin{align}
 \kl(\mu_u\|\nu) \leq \log(2) + \frac{\beta}{2}. 
 \end{align}
 $$
 Now it remains to construct a relevant quantity to use in the PAC-Bayes theorem. Consider 
-$$N(\theta,\phi) = \exp\left\{\lambda\sum_{i\leq n}\la\theta, M_i\phi\ra - n\log\E\exp(\lambda\la \theta, M\phi\ra)\right\},$$
+$$N(\theta,\phi) = \exp\left\{\lambda\sum_{i\leq n}\la\theta, \Sigma^{-1/2}M_i\Sigma^{1/2}\phi\ra - n\log\E\exp(\lambda\la \theta, \Sigma^{-1/2}M\Sigma^{1/2}\phi\ra)\right\},$$
 where the expectation is over $M$. It's easy to see this has expectation at most 1 (it can be written as the product of terms each with expectation exactly one). Apply the master theorem with the product distribution $\mu_u\times \mu_v$ for $u,v$ in the unit sphere, and we obtain that with probability $1-\delta$, for all $u,v$ in the unit sphere, 
-$$\lambda \E_{\mu_u\times \mu_v} \la \theta, M_i\phi\ra \leq n \E_{\mu_u\times\mu_v} \log \E\exp(\lambda\la\theta, M\phi\ra) + \frac{\beta}{2} + \log(2/\delta).$$
-The truncated Gaussian is symmetric about its mean, so $\E_{\mu_u\times\mu_v}\la \theta, M_i\phi\ra = \la u,M_iv\ra$. It remains to bound the right hand side. For this we appeal to result which bounds the MGF of a random variable in terms of its $\psi_1$-norm. In particular, we appeal to an [[exponential inequalities|exponential inequality]], which states that for a random variable $Y$, 
-$$\E[\exp(\lambda (Y - \E Y))]\leq \exp(4\lambda^2\norm{Y}_{\psi_1}),\quad \forall |\lambda| \leq \frac{1}{2\norm{Y}_{\psi_1}}.$$
-Using this, we obtain that 
+$$\lambda \E_{\mu_u\times \mu_v} \la \theta, M_i\phi\ra \leq n \E_{\mu_u\times\mu_v} \log \E\exp(\lambda\la\theta, 
+\Sigma^{-1/2}M\Sigma^{1/2}\phi\ra) + \frac{\beta}{2} + \log(2/\delta).$$
+The truncated Gaussian is symmetric about its mean, so $$\E_{\mu_u\times\mu_v}\la \theta, \Sigma^{-1/2}M_i\Sigma^{-1/2}\phi\ra = \la \Sigma^{-1/2}u,M_i\Sigma^{-1/2}v\ra = \la u', M_i v'\ra,$$
+for some $u',v'\in\mathbb{S}^{d-1}$.  It remains to bound the right hand side. For this we appeal to result which bounds the MGF of a random variable in terms of its $\psi_1$-norm. In particular, we appeal to an [[exponential inequalities|exponential inequality]], which states that for a random variable $Y$, 
+$$\E[\exp(\lambda (Y - \E Y))]\leq \exp(4\lambda^2\norm{Y-\E Y}_{\psi_1}),\quad \forall |\lambda| \leq \frac{1}{2\norm{Y-\E Y}_{\psi_1}}.$$
+Applying this with $Y = \la \theta,\Sigma^{-1/2} M\Sigma^{-1/2}\phi\ra$ and noting that $\E Y = \la \theta, \phi\ra$, we have 
 $$
 \begin{align}
-\E\exp(\lambda \la\theta,M\phi\ra) &\leq \exp(4\lambda^2\norm{\la \theta, M\phi\ra}_{\psi_1}) \\ 
-&\leq \exp(4\lambda^2 \kappa \sqrt{\la \theta, Q\phi\ra}) \\ 
-&\leq \exp(4\lambda^2\kappa r \norm{Q}^{1/2}) \\ 
-&= \exp(4\lambda^2 \kappa )
+& \norm{\la \theta, \Sigma^{-1/2}M \Sigma^{-1/2} \phi\ra - \la \theta, \Sigma^{-1/2}\E M \Sigma^{1/2} \phi\ra}_{\psi_1} \\ 
+&\leq \norm{\la \theta, \Sigma^{-1/2}M \Sigma^{-1/2} \phi\ra}_{\psi_1} + \norm{\la \theta, \Sigma^{-1/2}\E M \Sigma^{-1/2} \phi\ra}_{\psi_1} \\ 
+&\leq \norm{\la \theta, \Sigma^{-1/2}M \Sigma^{-1/2} \phi\ra}_{\psi_1} + \E\norm{\la \theta, \Sigma^{-1/2} \Sigma^{-1/2} \phi\ra}_{\psi_1} \\ 
+&= 2 \norm{\la \Sigma^{-1/2}\theta, M \Sigma^{-1/2} \phi\ra}_{\psi_1} \\ 
+&\leq 2C \la \Sigma^{-1/2}\theta, \Sigma\Sigma^{-1/2}\phi\ra = 2C\la \theta, \phi\ra \leq C(\norm{\theta}^2 + \norm{\phi}^2). 
 \end{align}
 $$
+Therefore, 
+$$
+\begin{align}
+\E\exp(\lambda \la\theta,\Sigma^{-1/2}M\Sigma^{-1/2}\phi\ra) &\leq \exp(\lambda \la \theta, \phi\ra + 4C\lambda^2(\norm{\theta} + \norm{\phi})), 
+\end{align}
+$$
+so 
+$$
+\begin{align}
+\E_{\rho_u\times\rho_v} \log \E \exp(\lambda\la\theta, \Sigma^{-1/2} M\Sigma^{-1/2}\phi\ra ) &\leq \lambda \la u,v\ra + 4C\lambda^2(\norm{\theta}^2 + \norm{\phi}^2) \\ 
+&\leq  \lambda\la u',\Sigma v'\ra + 8C\lambda^2 \beta^{-1}\Tr(\Sigma)). 
+\end{align}
+$$
+
 
 
 
