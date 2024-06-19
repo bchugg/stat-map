@@ -14,14 +14,16 @@ These are, obviously, my notes. They are not unbiased. They reflect my opinions 
 
 If you're just here poking around, here are some places you might like to start: 
 - [[game-theoretic statistics]] and [[game-theoretic probability]]
-- [[e-value|e-values]], [[e-process|e-processes]], or [[issues with p-values]]
+- [[e-value|e-values]] and [[e-process|e-processes]]
 - [[concentration inequalities]] or [[techniques for multivariate concentration]]
+- [[maximal inequalities]]
 - [[uncertainty quantification]]
 
 For those with more of a philosophical bent, you can check out 
 - The [[foundations of statistics]] 
 - [[Fisher's paradigm]] and the [[Neyman-Pearson paradigm]] 
-- [[Bayesian statistics]], [[frequentist statistics]], and the [[instrumentalist theory of probability]]. 
+- [[Bayesian statistics]], [[frequentist statistics]], and the [[instrumentalist theory of probability]]
+- [[issues with p-values]]
 
 Otherwise, you can find a long list of all notes on the left hand side. 
 
@@ -30,7 +32,7 @@ Otherwise, you can find a long list of all notes on the left hand side.
 Mostly because I want to know as much as possible, and this helps me digest and aggregate information. Here are four concrete reasons: 
 
 1. Writing your own notes is helpful. You haven't truly understood something until you can teach it, and you can't teach it until you can write it down coherently. 
-2. You can know a lot of material but not know how it's connected. The best researchers don't simply have detailed knowledge of many ideas, they are a mental map of how all these areas fit together. This is my exported mental map. 
+2. You can know a lot of material but not know how it's connected. The best researchers don't simply have detailed knowledge of many ideas, they have a mental map of how all these areas fit together. This is my exported mental map. 
 3. Emphasizing the connections between topics helps you spot patterns. Similar techniques are often used in different areas. 
 4. It helps you spot holes in the literature. Writing down what is known helps carve out what is unknown. 
 

@@ -1,7 +1,11 @@
 #hypothesis-testing #sequential-statistics #plug-in-method #mixture-method 
 
 In [[game-theoretic hypothesis testing]], suppose we are testing a simple null vs a composite alternative. We receive samples $(X_t)$ are testing 
-$$H_0: (X_t) \sim P, \quad H_1 : (X_t) \sim Q \in \Theta_1.$$ In the simple vs simple case, [[testing by betting—simple vs simple]], the optimal payoff function turned out to simply be the likelihood-ratio of $Q$ and $P$. But now there is no single $Q$, the likelihood-ratio isn't well-defined. What do we do? There are two common approaches. 
+$$H_0: (X_t) \sim P, \quad H_1 : (X_t) \sim Q \in \Theta_1.$$In the simple vs simple case, [[testing by betting—simple vs simple]], the optimal payoff function turned out to simply be the likelihood-ratio of $Q$ and $P$. But now there is no single $Q$, the likelihood-ratio isn't well-defined. What do we do? 
+
+Since the observations are revealed sequentially (we can simulate this in a batch setting), it's natural to try and "learn" some appropriate $Q\in \Theta_1$ that has good power (you could look at this as trying to learn the true distribution $Q^*\in\Theta_1$ using the data thus far). 
+
+There are two general methods. 
 
 # Plug-in method 
 
