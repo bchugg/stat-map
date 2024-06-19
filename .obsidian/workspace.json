@@ -8,137 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1d55904c712fcee7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "concentration inequalities.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f76af9180d57fcc6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "matrix inequalities.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "790586ad91b5308a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "concentration of functions.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4c3e7b336575d4fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "from boundedness to variance adaptivity.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fa7ff77542a395d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "testing by betting—simple vs composite.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4c45620cbf4a1027",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "testing by betting—simple vs composite.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c48a09816305dd5d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "growth rate conditions in sequential testing.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c5d8ab1a64829340",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "from boundedness to variance adaptivity.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "32c9952f72b2101d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "generic chaining.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6880065b7f27984a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chaining.md",
+                "file": "variational approach to concentration.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -212,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "growth rate conditions in sequential testing.md",
+                "file": "variational approach to concentration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -229,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "growth rate conditions in sequential testing.md",
+                "file": "variational approach to concentration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -252,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "growth rate conditions in sequential testing.md"
+                "file": "variational approach to concentration.md"
               }
             }
           }
@@ -273,35 +155,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c48a09816305dd5d",
+  "active": "6880065b7f27984a",
   "lastOpenFiles": [
+    "chaining.md",
+    "generic chaining.md",
+    "numeraire e-variable.md",
+    "e-value.md",
+    "irregular problems in hypothesis testing.md",
+    "universal inference.md",
     "testing by betting—simple vs composite.md",
+    "hidden Markov model.md",
+    "from boundedness to variance adaptivity.md",
+    "matrix inequalities.md",
+    "concentration of functions.md",
+    "game-theoretic hypothesis testing.md",
+    "reverse information projection (RIPr).md",
+    "reverse information projection.md",
+    "testing by betting—composite vs composite.md",
+    "testing by betting.md",
+    "testing by betting—two-sample testing.md",
     "growth rate conditions in sequential testing.md",
     "testing by betting—simple vs simple.md",
     "empirical Bernstein bounds.md",
-    "from boundedness to variance adaptivity.md",
     "variational approach to concentration.md",
-    "concentration of functions.md",
-    "chaining.md",
-    "matrix inequalities.md",
     "The stats map.md",
     "operator norm inequalities.md",
     "concentration inequalities.md",
     "techniques for multivariate concentration.md",
-    "generic chaining.md",
     "light-tailed maximal inequalities.md",
     "preamble.sty~",
-    "log-concave distribution.md",
-    "Orlicz norm.md",
-    "Dudley chaining.md",
-    "Dudley's entropy bound.md",
-    "PAC-Bayes.md",
-    "entropy number.md",
-    "metric entropy.md",
-    "Gaussian complexity.md",
-    "Rademacher complexity.md",
-    "sub-Gaussian process.md",
-    "heavy-tailed scalar concentration.md",
     "images/zettel.jpeg",
     "images/math_zettel.jpeg",
     "images/me.jpg",
