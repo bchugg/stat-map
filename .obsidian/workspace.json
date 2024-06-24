@@ -19,8 +19,61 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bb8a497eb1dfaa49",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Neyman-Pearson paradigm as decision-theory.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a1e5dfa5d2ffa9c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "foundations of statistics.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "18727e1b06ab5081",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jeffreys' paradigm of hypothesis testing.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "030f2448d6eaa0df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Neyman-Pearson paradigm.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -49,7 +102,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "matrix",
+                "query": "foundations",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +127,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -94,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "variational approach to concentration.md",
+                "file": "Neyman-Pearson paradigm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "variational approach to concentration.md",
+                "file": "Neyman-Pearson paradigm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "variational approach to concentration.md"
+                "file": "Neyman-Pearson paradigm.md"
               }
             }
           }
@@ -155,8 +209,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6880065b7f27984a",
+  "active": "030f2448d6eaa0df",
   "lastOpenFiles": [
+    "Jeffreys' paradigm of hypothesis testing.md",
+    "foundations of statistics.md",
+    "Neyman-Pearson paradigm as decision-theory.md",
+    "variational approach to concentration.md",
+    "Bayesian theory of probability.md",
+    "frequentist theory of probability.md",
+    "beyond Neyman-Pearson.md",
     "chaining.md",
     "generic chaining.md",
     "numeraire e-variable.md",
@@ -176,13 +237,6 @@
     "testing by betting—two-sample testing.md",
     "growth rate conditions in sequential testing.md",
     "testing by betting—simple vs simple.md",
-    "empirical Bernstein bounds.md",
-    "variational approach to concentration.md",
-    "The stats map.md",
-    "operator norm inequalities.md",
-    "concentration inequalities.md",
-    "techniques for multivariate concentration.md",
-    "light-tailed maximal inequalities.md",
     "preamble.sty~",
     "images/zettel.jpeg",
     "images/math_zettel.jpeg",
