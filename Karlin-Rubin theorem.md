@@ -1,0 +1,1 @@
+Extension of the [[Neyman-Pearson lemma]] to (certain classes of) composite hypotheses. 
