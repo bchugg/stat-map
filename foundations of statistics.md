@@ -7,4 +7,4 @@ Particular issues in the foundations of statistics involve:
 
 - Perspectives on hypothesis testing. Eg: [[Fisher's paradigm]] vs [[Neyman-Pearson paradigm]] vs [[Jeffreys' paradigm of hypothesis testing]] vs [[Mayo's error statistics]]. See also [[current statistical practice combines the Fisherian and Neyman-Pearson perspectives]]. 
 - Perspectives on the correct role and interpretation of statistics and probability. See [[Bayesian statistics]], [[frequentist statistics]], and [[game-theoretic statistics]]. 
-- Perspectives on the correct interpretation and/or use of probability:  [[Bayesian theory of probability]], [[frequentist theory of probability]], [[instrumentalist theory of probability]]. 
+- Perspectives on the correct interpretation and/or use of probability:  [[Bayesian interpretation of probability]], [[frequentist interpretation of probability]], [[instrumentalist theory of probability]]. 

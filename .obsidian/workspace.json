@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6880065b7f27984a",
+            "id": "f16541189689ed98",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "variational approach to concentration.md",
+                "file": "empirical Bernstein bounds.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "bb8a497eb1dfaa49",
+            "id": "270b2a3d3fb1061a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Neyman-Pearson paradigm as decision-theory.md",
+                "file": "estimating means by betting.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "49c7c8a1550815c5",
+            "id": "8a59e0050cca65c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "uniformly most powerful test.md",
+                "file": "Chernoff method.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,72 +47,19 @@
             }
           },
           {
-            "id": "31052d34cbd20922",
+            "id": "69c868119b45cc5d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Neyman-Pearson lemma.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6978311da214d96c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Karlin-Rubin theorem.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a1e5dfa5d2ffa9c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "foundations of statistics.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "18727e1b06ab5081",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Jeffreys' paradigm of hypothesis testing.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "030f2448d6eaa0df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fisher's paradigm.md",
+                "file": "light-tailed scalar concentration.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -166,8 +113,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -187,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Neyman-Pearson lemma.md",
+                "file": "empirical Bernstein bounds.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Neyman-Pearson lemma.md",
+                "file": "empirical Bernstein bounds.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -227,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Neyman-Pearson lemma.md"
+                "file": "empirical Bernstein bounds.md"
               }
             }
           }
@@ -248,34 +194,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "31052d34cbd20922",
+  "active": "f16541189689ed98",
   "lastOpenFiles": [
-    "Karlin-Rubin theorem.md",
-    "Neyman-Pearson lemma.md",
-    "uniformly most powerful test.md",
-    "Neyman-Pearson paradigm as decision-theory.md",
-    "Fisher's paradigm.md",
-    "Neyman-Pearson paradigm.md",
+    "estimating means by betting.md",
+    "empirical Bernstein bounds.md",
+    "bounded difference inequalities.md",
+    "sub-psi process.md",
+    "light-tailed scalar concentration.md",
+    "Chernoff method.md",
+    "martingale concentration.md",
+    "concentration inequalities.md",
+    "exponential inequalities.md",
+    "variational approach to concentration.md",
     "Jeffreys' paradigm of hypothesis testing.md",
     "foundations of statistics.md",
-    "variational approach to concentration.md",
-    "Bayesian theory of probability.md",
-    "frequentist theory of probability.md",
+    "Bayesian interpretation of probability.md",
+    "frequentist interpretation of probability.md",
+    "Neyman-Pearson paradigm as decision-theory.md",
+    "Karlin-Rubin theorem.md",
+    "uniformly most powerful test.md",
+    "Neyman-Pearson lemma.md",
+    "Fisher's paradigm.md",
+    "Neyman-Pearson paradigm.md",
     "beyond Neyman-Pearson.md",
     "chaining.md",
     "generic chaining.md",
     "numeraire e-variable.md",
     "e-value.md",
     "irregular problems in hypothesis testing.md",
-    "universal inference.md",
-    "testing by betting—simple vs composite.md",
-    "hidden Markov model.md",
-    "from boundedness to variance adaptivity.md",
-    "matrix inequalities.md",
-    "concentration of functions.md",
-    "game-theoretic hypothesis testing.md",
-    "reverse information projection (RIPr).md",
-    "reverse information projection.md",
     "preamble.sty~",
     "images/zettel.jpeg",
     "images/math_zettel.jpeg",
