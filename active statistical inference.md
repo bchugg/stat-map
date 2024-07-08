@@ -1,7 +1,7 @@
 
 Most [[statistical inference]] assumes the data is somehow supplied to you (even in sequential settings; see [[sequential statistics]]). You are given data, and you are asked to estimate some parameter. 
 
-But suppose we are in a [[supervised learning]] setting and you get to choose which data points to label. How should you label in them in order to help your inference (eg obtain smaller [[confidence intervals]])? Zrnic and Candes introduce the framework of active statistical inference to answer this question. 
+But suppose we are in a [[supervised learning]] setting and you get to choose which data points to label. How should you label in them in order to help your inference (eg obtain smaller [[confidence intervals]])? Zrnic and Candes [introduce the framework](https://arxiv.org/abs/2403.03208) of active statistical inference to answer this question. 
 
 Suppose we have data $(X_i,Y_i)_{i=1}^N$, where $Y_i$ is unobserved and $X_i$ is observed. We have a model $f$ which estimates $Y_i$ from $X_i$. The goal is to estimate $\theta^*$, the solution to an [[M-estimation]] problem: 
 $$\theta^* = \argmin_\theta \E[\ell_\theta(X,Y)],$$
@@ -13,7 +13,7 @@ where $\ell_\theta$ is assumed to be convex. This handles [[mean estimation]], [
 
 # Intuition 
 
-Consider mean estimation, $\theta^* = \E[Y]$ (so $\ell_\theta(X,Y) = (\theta - Y)^2$).  Let $\pi(X_i)$ be the probability of sampling $X_i$. Consider the [[AIPW estimator]]: 
+Consider mean estimation, $\theta^* = \E[Y]$ (so $\ell_\theta(X,Y) = (\theta - Y)^2$).  Let $\pi(X_i)$ be the probability of sampling $X_i$. Consider the [[doubly robust estimator]]: 
 $$\wh{\theta} = \frac{1}{N} \sum_{i=1}^N \left( f(X_i) + (Y_i - f(X_i))\frac{\xi_i}{\pi(X_i)}\right),$$
 which is unbiased. The variance is 
 $$ \Var(\wh{\theta}) = \frac{1}{N} \left(\Var(Y) + \E\bigg[(Y - f(X))^2 \bigg(\frac{1}{\pi(X)}-1\bigg)\bigg]\right).$$
@@ -38,11 +38,11 @@ where the expectation is over the sampling only.
 
 # Batch setting 
 
-We design a sampling algorithm $\pi$ which samples $x_i$ with probability $\pi(x_i)$. That is, we draw $\xi_i \sim \Ber(\pi(x_i))$ and if $\xi_i=1$ we sample $x_i$, otherwise we don't. Note this implies that all observations are sampled independently from one another. $\pi$ is scaled such that $\E[\sum_i \xi_i]\leq B$ to ensure that the expected number of labeled observations does not exceed the budget. 
+We design a sampling algorithm $\pi$ which samples $x_i$ with probability $\pi(x_i)$. That is, we draw $\xi_i \sim \Ber(\pi(x_i))$ and if $\xi_i=1$ we sample $x_i$, otherwise we don't. This implies that all observations are sampled independently from one another. $\pi$ is scaled such that $\E[\sum_i \xi_i]\leq B$ to ensure that the expected number of labeled observations does not exceed the budget. 
 
 Let $\ell_{\theta,i} = \ell_\theta(X_i,Y_i)$ be the estimate of the loss on example $i$, and $\ell_{\theta,i}^f = \ell_\theta(X_i,f(X_i))$ be the loss of the model on example $i$. An unbiased estimator of $L(\theta) = \E[\ell_\theta(X,Y)]$  is 
 $$L^\pi(\theta) = \frac{1}{n}\left(\sum_{i=1}^n \ell_\theta(X_i,f(X_i)) + (\ell_\theta(X_i,Y_i) - \ell_\theta(X_i,f(X_i)))\frac{\xi_i}{\pi(X_i)}\right).$$
-Note that this is just the [[AIPW estimator]]. If $\pi$ is just the uniform rule and doesn't prioritize some observations over others, this recovers the [[prediction-powered inference]] estimator. 
+Note that this is just the [[doubly robust estimator]]. If $\pi$ is just the uniform rule and doesn't prioritize some observations over others, this recovers the [[prediction-powered inference]] estimator. 
 
 The resulting confidence interval comes from a [[central limit theorem]], from which a [[Wald interval]] is constructed. The CLT mainly follows from the usual CLT for [[M-estimation]], but needs to correct for the fact that $\wh{\eta}$ is not independent of the data. 
 
@@ -56,7 +56,6 @@ $$\sqrt{n}(\wh{\theta}^{\wh{\eta}} - \theta^*) \xrightarrow{d} N(0,\Sigma_*),$$
 where $\Sigma_* = H_{\theta^*}^{-1} \Var(\nabla \ell_\theta^f + (\nabla \ell_\theta + \nabla \ell_\theta^f )\frac{\xi^{\eta^*}}{\pi_{\eta^*}(X)})H_{\theta^*}^{-1}$. From here we can form a Wald CI for any consistent estimator of $\Sigma_*$. 
 
 The last three assumptions are the usual assumptions for CLTs in M-estimation. The first assumption is required to ensure the data-driven choice of $\wh{\eta}$ does not affect the result. Basically one writes 
-
 $$\sqrt{n}(\wh{\theta}^{\wh{\eta}} - \theta^*) = \sqrt{n}(\wh{\theta}^{\wh{\eta}} - \wh{\theta}^{\wh{\eta}^*}) + \sqrt{n}(\wh{\theta}^{\wh{\eta}^*} - \theta^*).$$
 We use the CLT for M-estimators on the second term, and argue that the second term goes to 0.  
 

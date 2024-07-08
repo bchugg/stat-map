@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "empirical Bernstein bounds.md",
+                "file": "basic inequalities.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "be35e30aa1ed3269",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "method of moments for concentration.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -59,7 +72,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -133,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "empirical Bernstein bounds.md",
+                "file": "method of moments for concentration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "empirical Bernstein bounds.md",
+                "file": "method of moments for concentration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "empirical Bernstein bounds.md"
+                "file": "method of moments for concentration.md"
               }
             }
           }
@@ -194,10 +208,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f16541189689ed98",
+  "active": "be35e30aa1ed3269",
   "lastOpenFiles": [
-    "estimating means by betting.md",
+    "basic inequalities.md",
+    "anytime-valid p-values.md",
+    "anytime-valid.md",
+    "asymptotic confidence sequences.md",
+    "average calibration error.md",
+    "anisotropic distribution.md",
+    "doubly robust estimator.md",
+    "active statistical inference.md",
     "empirical Bernstein bounds.md",
+    "estimating means by betting.md",
     "bounded difference inequalities.md",
     "sub-psi process.md",
     "light-tailed scalar concentration.md",
@@ -214,14 +236,6 @@
     "Karlin-Rubin theorem.md",
     "uniformly most powerful test.md",
     "Neyman-Pearson lemma.md",
-    "Fisher's paradigm.md",
-    "Neyman-Pearson paradigm.md",
-    "beyond Neyman-Pearson.md",
-    "chaining.md",
-    "generic chaining.md",
-    "numeraire e-variable.md",
-    "e-value.md",
-    "irregular problems in hypothesis testing.md",
     "preamble.sty~",
     "images/zettel.jpeg",
     "images/math_zettel.jpeg",
