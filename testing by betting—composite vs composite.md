@@ -2,4 +2,4 @@ We are in the setting of [[game-theoretic hypothesis testing]], and now have a c
 
 There are two general methods for handling composite nulls: 
 - [[universal inference]] and 
-- the [[reverse information projection (RIPr)]]. [[reverse information projection]]
+- the [[reverse information projection (RIPr)]] (or, more generally, the [[numeraire e-variable]]).  
