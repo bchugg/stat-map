@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "160beb66d03da054",
+            "id": "f258fdf4e894b756",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wasserstein Distance.md",
+                "file": "differential privacy.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "78805a25e06ff772",
+            "id": "f691f137fbc038c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "e-BH procedure.md",
+                "file": "local differential privacy.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,77 +34,12 @@
             }
           },
           {
-            "id": "7c6eff3ce9060a28",
+            "id": "01289b3722c15875",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BH procedure.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "730e9c35dfce9b2c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BH procedure.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "50b31c56a30c0096",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PRDS.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1e4efa4f32a544ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FDR control.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "15d62fcb53918127",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "hypothesis testing.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0bb53de4bc69f0d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conditional independence testing.md",
+                "file": "Warner's randomized response.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -125,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -199,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "e-BH procedure.md",
+                "file": "Warner's randomized response.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -216,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "e-BH procedure.md",
+                "file": "Warner's randomized response.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -239,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "e-BH procedure.md"
+                "file": "Warner's randomized response.md"
               }
             }
           }
@@ -261,14 +196,19 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "78805a25e06ff772",
+  "active": "01289b3722c15875",
   "lastOpenFiles": [
+    "local differential privacy.md",
+    "Warner's randomized response.md",
+    "differential privacy.md",
+    "model-X assumption.md",
+    "conditional independence testing.md",
+    "hypothesis testing.md",
+    "FDR control.md",
+    "PRDS.md",
     "BH procedure.md",
     "e-BH procedure.md",
     "Wasserstein Distance.md",
-    "FDR control.md",
-    "PRDS.md",
-    "hypothesis testing.md",
     "Neyman-Pearson paradigm as decision-theory.md",
     "Orlicz norm.md",
     "multiple hypothesis testing.md",
@@ -276,8 +216,6 @@
     "weighted least squares.md",
     "zero sum game.md",
     "irregular problems in hypothesis testing.md",
-    "conditional independence testing.md",
-    "model-X assumption.md",
     "inverse problems.md",
     "instrumentalist theory of probability.md",
     "information theory.md",
@@ -286,9 +224,6 @@
     "hidden Markov model.md",
     "Hermitian matrix.md",
     "heavy-tailed scalar concentration.md",
-    "growth rate conditions in sequential testing.md",
-    "GTPSL.md",
-    "generic chaining.md",
     "preamble.sty~",
     "images/zettel.jpeg",
     "images/math_zettel.jpeg",
