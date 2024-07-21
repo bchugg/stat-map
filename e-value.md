@@ -4,7 +4,8 @@ E-values are intimately tied to [[hypothesis testing]]. If we are testing the nu
 
 E-values also have a sequential analogue, useful in [[sequential statistics]] and [[sequential hypothesis testing]],  called an [[e-process]]. An e-process is simply a stochastic process which is an e-value at each stopping time. 
 
-The [[numeraire e-variable]] is a special (and in some sense, optimal) e-value when testing composite alternatives. 
+The [[numeraire e-variable]] is a special (and in some sense, optimal) e-value when testing composite alternatives. It generalizes the [[reverse information projection (RIPr)]]. 
 
 # References 
+- [Safe testing] by Grunwald, De Heide, and Koolen #todo 
 - [The numeraire e-variable](https://arxiv.org/pdf/2402.18810.pdf)

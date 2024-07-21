@@ -6,5 +6,7 @@ where $\bs{X}_i'=(X_1,\dots,X_{i-1}, X_i', X_{i+1}, \dots, X_n)$ and $X_i'$ is a
 $$ v = \inf_{f_i}\sum_{i=1}\E[(f(X) - f_i(X^{(i)})^2],$$
 where $f_i : \calX^{n-1}\to\Re$ and the infimum is over all such functions. 
 
+#todo figure out some way to remember this/why it's useful/what's the intuition. 
+
 # References 
 - Concentration Inequalities by Boucheron, Lugosi, Massart, Chapter 3.1 

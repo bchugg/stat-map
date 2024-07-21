@@ -2,6 +2,8 @@ The Dirichlet process is a commonly used prior for the task of [[cdf estimation]
 
 It has two parameters, $\alpha$ and $F_0$ and is written $DP(\alpha,F_0)$. $F_0$ is a cdf and $\alpha$ a positive real value. Intuitively, $\alpha$ controls how tightly the prior is around $F_0$, similarly to the variance of the normal distribution. 
 
+#todo clean this up.
+
 ### Sampling from the prior.  
 We use the "stick breaking" procedure. 
 

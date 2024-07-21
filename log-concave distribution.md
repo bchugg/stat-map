@@ -13,7 +13,7 @@ for some $c\geq 0$ and all unit vectors $u$ where $\Sigma = \Var(X)$. This demon
 Many common distributions are log-concave: 
 - The normal distribution 
 - Exponential distribution 
-- [[Dirichlet distribution]], for parameters all at least 1 
+- Dirichlet distribution for parameters all at least 1 
 - Laplace distribution 
 - and others 
 

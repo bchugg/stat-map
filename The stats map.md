@@ -1,4 +1,6 @@
 
+**In progress —  coming soon**
+
 Welcome to the stats map, a collection of notes on various subtopics in statistics, probability, and theoretical computer science. 
 
 Unlike a traditional textbook, these notes prioritize the connections between subjects instead of giving a full treatment of each subject on its own. I don't provide many proofs or formal definitions. This is an attempt to understand how the world of statistics hangs together; to chart the outlines of what we know and the techniques we use. It is an attempt at a [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten)—or second brain—for statistics and probability.  
@@ -54,6 +56,8 @@ Zettelkasten systems are typically used to construct and grow an inventory of yo
 
 # Who am I? 
 
-I am [Ben](https://benchugg.com). I'm a PhD student in the machine learning and statistics program at CMU. I study things like [[sequential statistics]], [[e-value|e-values]], and [[concentration of measure]]. Occasionally I also read, write, and dance. 
+I am [Ben](https://benchugg.com). I'm a PhD student in the machine learning and statistics program at CMU. I study things like [[sequential statistics]], [[e-value|e-values]], and [[concentration of measure]]. Occasionally I also [read](https://doyouevenlit.podbean.com/), [write](https://benchugg.com/writing/), and [yell about philosophy](http://incrementspodcast.com/). 
 
-This is my face. ![[images/me.jpg|center|300]] 
+This is my face. 
+
+![[images/me.jpg|center|250]] 

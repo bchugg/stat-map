@@ -16,11 +16,12 @@ The intuition is the following:
 - Union bound over all $n\leq N$ (again finite). 
 - Use the chaining decomposition above to provide a bound on $X_\theta - X_{\theta_0}$. 
 
-Chapter 2.2 in Talagrand's _Upper and lower bounds for stochastic processes_ provides the details. 
-
-We obtain  a bound of the form: 
+Chapter 2.2 in Talagrand's book below provides the details. We end up with a bound of the form: 
 $$\Pr(\sup_{\theta}|X_\theta - X_{\theta_0}|\geq t S) \leq 2\sum_{n\leq N} 2^{2^{n+1}} \exp(-t^2 2^{n-1}) \lesssim \exp(-t^2/2),$$
 where $$S = \sup_{\theta\in\Theta} \sum_{n\leq N} 2^{n/2} \rho(\pi_n(\theta),\pi_{n-1}(\theta)) \lesssim \sup_{\theta\in\Theta}\sum_{0\leq n\leq N} 2^{n/2} \rho(\theta, \Theta_n) = A,$$where we've used the triangle inequality $\rho(\pi_n(\theta), \pi_{n-1}(\theta)) \leq \rho(\pi_n(\theta), \theta) + \rho(\theta, \pi_{n-1}(\theta))$. 
 This gives $\E \sup_\theta X_\theta \lesssim A$. 
 
 There are two main ways of dealing with $A$. One is [[generic chaining]], and one is [[Dudley chaining]]. The latter is looser than the former, but sometimes easier to compute. 
+
+# References 
+- _Upper and lower bounds for stochastic processes_, Talagrand. 

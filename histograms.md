@@ -1,4 +1,4 @@
-Possibly the simply method for [[nonparametric density estimation]] after the empirical distribution. 
+Possibly the simplest method for [[nonparametric density estimation]] after the empirical distribution. 
 
 We split the space $\cX\subset \Re^d$ into $N$ equal sized bins, $B_1,\dots,B_N$. Note that the true density is 
 $$p(x) = \sum_i \Pr(x|x\in B_i)\Pr(x\in B_i).$$

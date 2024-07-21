@@ -25,4 +25,4 @@ This is a [[time-uniform]] bound. Here $\widehat{\mu}_{i-1}$ is any predictable 
 
 # Random matrices 
 
-Wang and Ramdas develop an empirical Bernstein bound for random matrices. 
+Wang and Ramdas develop an empirical Bernstein bound for random matrices. #todo 

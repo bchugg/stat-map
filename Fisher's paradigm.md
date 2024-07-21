@@ -6,4 +6,3 @@ Fisher was focused on significance testing. He introduced the [[p-value]] as a m
 - Reject $H_0$ if the p-value is small. 
 
 Note that in Fisher's paradigm, there is no notion of a significance level $\alpha$ (unlike the [[Neyman-Pearson paradigm]]), and there is no alternative hypothesis. 
-

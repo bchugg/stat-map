@@ -1,0 +1,1 @@
+Given samples $X_1,\dots,X_n\sim P$ we want to estimate the density of $P$, say $p$. We can consider both [[parametric density estimation]] and [[nonparametric density estimation]]. 

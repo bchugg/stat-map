@@ -1,3 +1,5 @@
+#todo 
+
 A slightly more general setting that the [[multiarmed bandit]]. As in that problem we have a set of actions $\cA$. The reward of each action now depends on an additional context vector, $s$. The formal setup is as follows. 
 
 For $t=1,\dots,T$: 
@@ -7,3 +9,4 @@ For $t=1,\dots,T$:
 
 Our goal is to minimize regret: 
 $$\E[Reg(T)] = \sum_{t=1}^T \bigg(\max_a [\E_S R(a,S)] - r_t\bigg).$$
+# Known results 

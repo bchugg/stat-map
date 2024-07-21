@@ -1,4 +1,4 @@
-# Definitions 
+
 Let $f:\calX^n\to\Re$ and $f_i :\calX^n\to\Re$ for $i=1,\dots,n$. We say $f$ is self-bounding (wrt to $(f_i)$) if 
 $$0\leq f(x) - f_i(x^{(i)})\leq 1,$$
 and $$\sum_{i=1}^n (f(x) - f_i(x^{(i)})) \leq f(x),$$ where $x^{(i)}$ drops the $i$-th coordinate of $x$. Often we take 

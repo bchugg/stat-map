@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4146c0f88ce34e81",
+            "id": "160beb66d03da054",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "representer theorem.md",
+                "file": "Wasserstein Distance.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,19 +21,111 @@
             }
           },
           {
-            "id": "b16baa7c87920431",
+            "id": "78805a25e06ff772",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "testing by betting—composite vs composite.md",
+                "file": "e-BH procedure.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7c6eff3ce9060a28",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BH procedure.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "730e9c35dfce9b2c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BH procedure.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "50b31c56a30c0096",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PRDS.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1e4efa4f32a544ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FDR control.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "15d62fcb53918127",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "hypothesis testing.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0bb53de4bc69f0d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conditional independence testing.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c4f0042c7335b1f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "model-X assumption.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -107,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "representer theorem.md",
+                "file": "e-BH procedure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +216,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "representer theorem.md",
+                "file": "e-BH procedure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +239,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "representer theorem.md"
+                "file": "e-BH procedure.md"
               }
             }
           }
@@ -165,37 +257,38 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "publish:Publish changes...": false
     }
   },
-  "active": "4146c0f88ce34e81",
+  "active": "78805a25e06ff772",
   "lastOpenFiles": [
-    "testing by betting—composite vs composite.md",
-    "representer theorem.md",
-    "reverse information projection (RIPr).md",
-    "reverse information projection.md",
-    "Untitled 1.md",
-    "basic inequalities.md",
-    "method of moments for concentration.md",
-    "u-statistics.md",
-    "v-statistics.md",
-    "minimax lower bounds.md",
-    "estimating means by betting.md",
-    "anytime-valid p-values.md",
-    "anytime-valid.md",
-    "asymptotic confidence sequences.md",
-    "average calibration error.md",
-    "anisotropic distribution.md",
-    "doubly robust estimator.md",
-    "active statistical inference.md",
-    "empirical Bernstein bounds.md",
-    "bounded difference inequalities.md",
-    "sub-psi process.md",
-    "light-tailed scalar concentration.md",
-    "Chernoff method.md",
-    "martingale concentration.md",
-    "concentration inequalities.md",
-    "exponential inequalities.md",
+    "BH procedure.md",
+    "e-BH procedure.md",
+    "Wasserstein Distance.md",
+    "FDR control.md",
+    "PRDS.md",
+    "hypothesis testing.md",
+    "Neyman-Pearson paradigm as decision-theory.md",
+    "Orlicz norm.md",
+    "multiple hypothesis testing.md",
+    "wavelets.md",
+    "weighted least squares.md",
+    "zero sum game.md",
+    "irregular problems in hypothesis testing.md",
+    "conditional independence testing.md",
+    "model-X assumption.md",
+    "inverse problems.md",
+    "instrumentalist theory of probability.md",
+    "information theory.md",
+    "histograms.md",
+    "Hilbert space.md",
+    "hidden Markov model.md",
+    "Hermitian matrix.md",
+    "heavy-tailed scalar concentration.md",
+    "growth rate conditions in sequential testing.md",
+    "GTPSL.md",
+    "generic chaining.md",
     "preamble.sty~",
     "images/zettel.jpeg",
     "images/math_zettel.jpeg",
