@@ -1,8 +1,8 @@
 #hypothesis-testing #sequential-statistics 
 
 One solution to the problem of [[testing by betting—composite vs composite]].  
-In [[sequential hypothesis testing]], suppose we are testing a composite null. 
-Universal inference is one way to construct [[e-value|e-values]] and [[e-process|e-processes]] in this setting. It was introduced by [Wasserman, Ramdas, and Balakrishnan](https://arxiv.org/abs/1912.11436) (2020). 
+
+In [[sequential hypothesis testing]], suppose we are testing a composite null. Universal inference is one way to construct [[e-value|e-values]] and [[e-process|e-processes]] in this setting. It was introduced by [Wasserman, Ramdas, and Balakrishnan](https://arxiv.org/abs/1912.11436) (2020). 
 
 Let $X_1,X_2, \dots$ be a stream of observations. We are testing the composite null $\calP$ vs a composite null $\calQ$ (though of course this could be a simple null). 
 
@@ -26,6 +26,6 @@ The randomness can be minimized by doing this over several splits of the data, n
 
 The above e-value doesn't immediately lend itself to sequentialization. Here's how to construct an [[e-process]] using similar ideas. 
 
-Let $\wh{q}_t$ be any distribution chosen using the first $t$ observations. Consider $$E_t = \frac{\prod_{i\leq t}\wh{q}_{i-1}(X_i)}{\prod_{i\leq t} \wh{p}_t (X_i)},$$where $\wh{p}_t$ is the MLE based on $X_1, \dots, X_t$.  This is an e-process under $\calP$, which can be seen by upper bounding $E_t$ using the MLE in the denominator.  
+Let $\wh{q}_t$ be any distribution chosen using the first $t$ observations. Consider $$E_t = \frac{\prod_{i\leq t}\wh{q}_{i-1}(X_i)}{\prod_{i\leq t} \wh{p}_t (X_i)},$$where $\wh{p}_t$ is the MLE based on $X_1, \dots, X_t$.  This is an e-process under $\calP$, which can be seen by upper bounding $E_t$ using the MLE in the denominator.  This is the plug-in-method. We can also consider a mixture method, where we integrate the alternative densities over some distribution. Similar ideas occur in [[testing by betting—composite vs composite]].  
 
 

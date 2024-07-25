@@ -12,4 +12,6 @@ for all distributions $u$. It turns out that by Gibbs' inequality, the optimal d
 $$S_t(X_t) = \frac{q(X_t|\cF_{t-1})}{p(X_t|\cF_{t-1})}.$$
 The corresponding wealth process $K_t = \prod_{i\leq t}S_i(X_i) = q(X_1^t) / p(X_1^t)$ therefore recovers the classical [[likelihood-ratio test]] (and is a sequentialized version of it). 
 
-Note that this shows that the GRO (growth rate optimal) [[e-value]] for simple vs simple hypothesis testing is the likelihood ratio. 
+Note that this shows that the GRO (growth rate optimal) (see [[growth rate conditions in sequential testing]]) [[e-value]] for simple vs simple hypothesis testing is the likelihood ratio. 
+
+For composite nulls and/or alternatives see [[testing by betting—simple vs composite]] or [[testing by betting—composite vs composite]]. 

@@ -5,4 +5,4 @@ There are many subtopics in hypothesis testing. Eg:
 - [[duality between hypothesis tests and CIs]]
 - [[two-sample testing]]
 - [[conditional independence testing]]
-- [[multiple hypothesis testing]]
+- [[multiple testing]]

@@ -58,6 +58,6 @@ Zettelkasten systems are typically used to construct and grow an inventory of yo
 
 I am [Ben](https://benchugg.com). I'm a PhD student in the machine learning and statistics program at CMU. I study things like [[sequential statistics]], [[e-value|e-values]], and [[concentration of measure]]. Occasionally I also [read](https://doyouevenlit.podbean.com/), [write](https://benchugg.com/writing/), and [yell about philosophy](http://incrementspodcast.com/). 
 
-This is my face. 
+Here is my face, cartoonified. 
 
-![[images/me.jpg|center|250]] 
+![[images/me.png|center|250]] 
