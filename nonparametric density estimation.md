@@ -4,6 +4,12 @@ An obvious solution is to simply take the empirical distribution, in which case 
 $$\widehat{p}(x) = \frac{1}{n}\sum_i \ind(x = X_i).$$
 But this solution obviously overfits the given data and has very few nice properties (continuity, smoothness, etc). 
 
+In terms of evaluation, typically we're interested in $L_2$ loss, i.e., 
+$$L(p,\wh{p}) = \int_x (\wh{p}(x) - p(x))^2 dx.$$
+Here $\wh{p}$ is treated as a fixed function of the training data. The risk is then the expectation of the loss over the training data: 
+$$R(p,\wh{p}) = \E[L(p,\wh{p})].$$
+As usual, the risk can be decomposed into a bias term and variance term. 
+
 Common methods to nonparametric density estimation include: 
 - [[histograms]]
 - [[kernel density estimation]]
@@ -12,10 +18,5 @@ A solution to nonparametric density estimation also provides a solution to [[non
 $$\wh{m}(x) = \int y \wh{p}(y|x)dx = \int y \wh{p}(x,y)/\wh{p}(x) dy.$$
 We can estimate both of $\wh{p}(x,y)$ and $\wh{p}(x)$ with nonparametric density estimation. Then we can plug this into the empirical distribution of the $Y_1,\dots,Y_n$ to estimate the integral. 
 
-## Evaluation 
-Typically we're interested in $L_2$ loss, i.e., 
-$$L(p,\wh{p}) = \int_x (\wh{p}(x) - p(x))^2 dx.$$
-The risk is then the expectation over the training data: 
-$$R(p,\wh{p}) = \E[L(p,\wh{p})].$$
-As usual, the risk can be decomposed into a bias term and variance term. 
+ 
 

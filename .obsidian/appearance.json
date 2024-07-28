@@ -1,7 +1,6 @@
 {
   "accentColor": "",
   "theme": "moonstone",
-  "enabledCssSnippets": [
-    "images"
-  ]
+  "enabledCssSnippets": [],
+  "cssTheme": ""
 }

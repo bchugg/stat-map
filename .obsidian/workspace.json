@@ -180,7 +180,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "uniformly",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -205,7 +205,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -289,6 +290,14 @@
   },
   "active": "786f883a08f9bb5f",
   "lastOpenFiles": [
+    "differential privacy.md",
+    "nonparametric density estimation.md",
+    "publish.css",
+    "Bayesian nonparametrics.md",
+    "Bayesian interpretation of probability.md",
+    "sub-Gaussian process.md",
+    "FDR control.md",
+    "The stats map.md",
     "safe, anytime-valid inference (SAVI).md",
     "sequential statistics.md",
     "score function.md",
@@ -310,13 +319,6 @@
     "testing by betting—simple vs composite.md",
     "testing by betting—simple vs simple.md",
     "testing by betting—two-sample testing.md",
-    "testing forecasters by betting.md",
-    "The stats map.md",
-    "time-uniform.md",
-    "time-uniform confidence spheres.md",
-    "total variation distance.md",
-    "two-sample testing.md",
-    "u-statistics.md",
     "preamble.sty~",
     "images/zettel.jpeg",
     "images/math_zettel.jpeg",
