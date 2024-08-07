@@ -1,13 +1,11 @@
 
-**In progress —  coming soon**
-
 Welcome to the stats map, a collection of notes on various subtopics in statistics, probability, and theoretical computer science. 
 
 Unlike a traditional textbook, these notes prioritize the connections between subjects instead of giving a full treatment of each subject on its own. I don't provide many proofs or formal definitions. This is an attempt to understand how the world of statistics hangs together; to chart the outlines of what we know and the techniques we use. It is an attempt at a [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten)—or second brain—for statistics and probability.  
 
 ![[zettel.jpeg|center|500]]
 
-These are, obviously, my notes. They are not unbiased. They reflect my opinions on what's interesting (and what's not). There will be significant detail on some topics and a total absence of many topics. There is very little deep learning. 
+These are, obviously, my notes. They are not unbiased. They reflect my opinions on what's interesting and what's not. There will be significant detail on some topics and a total absence of many topics. There is very little deep learning, because deep learning is quite boring.  
 
 > [!info] How to navigate 
 > If you click on a link you will follow it. You can see a list of all notes on the left hand side of the page, and backlinks to the current note on the right hand side. 
@@ -20,12 +18,13 @@ If you're just here poking around, here are some places you might like to start:
 - [[concentration inequalities]] or [[techniques for multivariate concentration]]
 - [[maximal inequalities]]
 - [[uncertainty quantification]]
+- [[hypothesis testing]]
 
 For those with more of a philosophical bent, you can check out 
-- The [[foundations of statistics]] 
-- [[Fisher's paradigm]] and the [[Neyman-Pearson paradigm]] 
-- [[Bayesian statistics]], [[frequentist statistics]], and the [[instrumentalist theory of probability]]
-- [[issues with p-values]]
+- The [[foundations of statistics]] or arguments therein, like [[Fisher's paradigm]] versus the [[Neyman-Pearson paradigm|NP paradigm]] 
+- Various statistical schools of thoughts and their methods (non-contradictory): [[Bayesian statistics]], [[frequentist statistics]], and [[game-theoretic statistics]]
+- Various philosophies of probability (very much contradictory): [[Bayesian interpretation of probability]], [[frequentist interpretation of probability]],  [[instrumentalist theory of probability]]
+- More than you wanted to know about [[issues with p-values|some philosophical issues with p-values]]
 
 Otherwise, you can find a long list of all notes on the left hand side. 
 
@@ -51,8 +50,7 @@ Zettelkasten systems solve this problem by abolishing hierarchical note-taking. 
 
 There has been a renewed interest in Zettelkasten and related note-taking systems in recent years.  Common keywords in this space are [evergreen notes](https://notes.andymatuschak.org/Evergreen_notes), [second-brain](https://www.buildingasecondbrain.com/), [digital garden](https://maggieappleton.com/garden-history), and [personal knowledge management](https://en.wikipedia.org/wiki/Personal_knowledge_management). Some public examples of these kind of note taking systems come from [Andy Matushack,](https://notes.andymatuschak.org/About_these_notes) [Nitin Pai](https://notes.nitinpai.in/Sta), and [Joschua](https://notes.joschua.io/). 
 
-Zettelkasten systems are typically used to construct and grow an inventory of your own thoughts and insights. Seeing as I did not invent most of the statistics discussed here, this note set deviates from this philosophy. Still, I think network-style note taking systems for technical subjects are an under-explored medium (for both research and pedagogy). So here we are. 
-
+Zettelkasten systems are typically used to construct and grow an inventory of your own thoughts and insights. Seeing as I did not invent the vast majority of the maths discussed here, this note set deviates from this philosophy. But I think network-style note taking systems for technical subjects are an under-explored medium (for both research and pedagogy), so here we are. 
 
 # Who am I? 
 

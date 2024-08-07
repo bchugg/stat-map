@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f258fdf4e894b756",
+            "id": "855d8273f7a9cb6c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "differential privacy.md",
+                "file": "wavelets.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,116 +21,12 @@
             }
           },
           {
-            "id": "f691f137fbc038c9",
+            "id": "3bd9fcd9470fbecd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "local differential privacy.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "01289b3722c15875",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Warner's randomized response.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "54e6e6777a861ee0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "testing forecasters by betting.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "74472e3fb4e5c368",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "testing by betting—simple vs composite.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "87faae8fdb72971e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "testing by betting—simple vs simple.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f0dbae76a15de9ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "testing by betting—composite vs composite.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dc1807bb2001b287",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "game-theoretic hypothesis testing.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f51a7a0817840279",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FDR control.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "786f883a08f9bb5f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "The stats map.md",
+                "file": "e-BH procedure.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -150,8 +46,7 @@
               }
             }
           }
-        ],
-        "currentTab": 9
+        ]
       }
     ],
     "direction": "vertical"
@@ -180,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "neyman",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -205,8 +100,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -226,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "The stats map.md",
+                "file": "wavelets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -243,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "The stats map.md",
+                "file": "wavelets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -266,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "The stats map.md"
+                "file": "wavelets.md"
               }
             }
           }
@@ -288,37 +182,37 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "786f883a08f9bb5f",
+  "active": "855d8273f7a9cb6c",
   "lastOpenFiles": [
+    "Wasserstein Distance.md",
+    "wavelets.md",
+    "weighted least squares.md",
+    "zero sum game.md",
+    "self-consistency of likelihood ratio.md",
+    "Neyman-Pearson lemma.md",
+    "model-X assumption.md",
+    "game-theoretic hypothesis testing.md",
+    "FDR control.md",
+    "e-BH procedure.md",
+    "The stats map.md",
+    "testing by betting—composite vs composite.md",
+    "testing by betting—simple vs simple.md",
+    "testing by betting—simple vs composite.md",
+    "testing forecasters by betting.md",
+    "Warner's randomized response.md",
+    "local differential privacy.md",
     "differential privacy.md",
     "nonparametric density estimation.md",
     "publish.css",
     "Bayesian nonparametrics.md",
     "Bayesian interpretation of probability.md",
     "sub-Gaussian process.md",
-    "FDR control.md",
-    "The stats map.md",
     "safe, anytime-valid inference (SAVI).md",
     "sequential statistics.md",
     "score function.md",
     "sequential hypothesis testing.md",
     "images/me.png",
     "images/ben_cartoon.png",
-    "Simpson's paradox.md",
-    "small worlds vs large worlds.md",
-    "splines.md",
-    "squared error.md",
-    "statistical inference.md",
-    "sub-psi process.md",
-    "supermartingale.md",
-    "techniques for multivariate concentration.md",
-    "t-test.md",
-    "survey sampling.md",
-    "test-martingale.md",
-    "testing by betting—composite vs composite.md",
-    "testing by betting—simple vs composite.md",
-    "testing by betting—simple vs simple.md",
-    "testing by betting—two-sample testing.md",
     "preamble.sty~",
     "images/zettel.jpeg",
     "images/math_zettel.jpeg",

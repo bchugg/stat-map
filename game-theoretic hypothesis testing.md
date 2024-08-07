@@ -22,7 +22,7 @@ While this is framed as one-sample testing, we can also consider [[testing by be
 # Payoff functions 
 
 Clearly, it is important to find good payoff functions. This constitutes a large area of study. 
-While $S_t$ is designed to be a supermartingale under the null, we want it to grow as large as possible as quickly as possible under the alternative so that the null is rejected as quickly as possible. 
+While $S_t$ is designed to be a supermartingale under the null, we want it to grow as large as possible as quickly as possible under the alternative so that the null is rejected quickly. 
 
 Typically when designing betting strategies, we follow the approach of [[maximizing log-wealth]], i.e., we want $\log(\cK_t)$ to grow fast under the alternative.  Though see [[growth rate conditions in sequential testing]] for a more general overview. 
 
