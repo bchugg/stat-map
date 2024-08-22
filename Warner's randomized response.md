@@ -11,6 +11,9 @@ Note that $\Pr(Z=z|X=x) = r\ind(z=x) + (1-r)/2$. Therefore,
 $\max_z\max_x \frac{\Pr(Z|X=x)}{\Pr(Z|X=x')} = \max_x\max_z \frac{r\ind(z=x) + (1-r)/2}{r\ind(z=x') + (1-r)/2} = 1 + \frac{2r}{1-r}.$
 
 If we set $\eps=\log(1 + 2r/(1-r))$, we see that Warner's randomized response is $\eps$-locally differentiably private. 
+$$\newcommand{\eps}{\epsilon}
+\newcommand{\ind}{\mathbf{1}}$$
+
 
 
 

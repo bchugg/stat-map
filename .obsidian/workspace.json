@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wavelets.md",
+                "file": "basic inequalities.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -27,19 +27,6 @@
               "type": "markdown",
               "state": {
                 "file": "e-BH procedure.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c4f0042c7335b1f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "model-X assumption.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -120,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wavelets.md",
+                "file": "basic inequalities.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wavelets.md",
+                "file": "basic inequalities.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wavelets.md"
+                "file": "basic inequalities.md"
               }
             }
           }
@@ -182,35 +169,38 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "855d8273f7a9cb6c",
+  "active": "934bf3a74ff5dbc6",
   "lastOpenFiles": [
+    "preamble.sty",
+    "index.md",
+    "anytime-valid.md",
     "Wasserstein Distance.md",
     "wavelets.md",
+    "publish.css~",
+    "e-BH procedure.md",
+    "model-X assumption.md",
+    "universal inference.md",
     "weighted least squares.md",
     "zero sum game.md",
+    "v-statistics.md",
+    "variational autoencoders.md",
+    "variational inference.md",
+    "Wald interval.md",
+    "Ville's inequality.md",
+    "Warner's randomized response.md",
+    "extra/preamble.sty",
+    "extra",
     "self-consistency of likelihood ratio.md",
     "Neyman-Pearson lemma.md",
-    "model-X assumption.md",
     "game-theoretic hypothesis testing.md",
     "FDR control.md",
-    "e-BH procedure.md",
-    "The stats map.md",
     "testing by betting—composite vs composite.md",
     "testing by betting—simple vs simple.md",
     "testing by betting—simple vs composite.md",
     "testing forecasters by betting.md",
-    "Warner's randomized response.md",
     "local differential privacy.md",
     "differential privacy.md",
-    "nonparametric density estimation.md",
     "publish.css",
-    "Bayesian nonparametrics.md",
-    "Bayesian interpretation of probability.md",
-    "sub-Gaussian process.md",
-    "safe, anytime-valid inference (SAVI).md",
-    "sequential statistics.md",
-    "score function.md",
-    "sequential hypothesis testing.md",
     "images/me.png",
     "images/ben_cartoon.png",
     "preamble.sty~",

@@ -14,8 +14,8 @@ $$\exp\left(\lambda \sum_{i\leq n} X_i\right).$$
 Some notes and pointers: 
 - There is also a game-theoretic version: [[game-theoretic concentration inequalities#Markov's inequality]]. 
 - [[Ville's inequality]] is a time-uniform extension of Markov's inequality for nonnegative supermartingales (or reverse submartingales, as the case may be). Just as Markov's inequality is used as a foundation for concentration inequalities, Ville's inequality is used as a foundation for [[time-uniform]] concentration inequalities. 
-- There is also a randomized Markov's inequality [[randomized inequalities#Markov]] which uses [[external randomization]].  
-- An intuition explanation of Markov's inequality is the [[optimization perspective on Markov's inequality]]. 
+- There is also a randomized Markov's inequality ([[randomized inequalities#Markov]]) which uses [[external randomization]].  
+- An intuitive explanation of Markov's inequality is the [[optimization perspective on Markov's inequality]]. 
 
 ## Chebyshev's inequality 
 

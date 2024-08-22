@@ -1,0 +1,7 @@
+.cm-s-obsidian mjx-math:empty::after {
+    display: none;
+}
+
+mjx-math:empty {
+    display: none;
+}

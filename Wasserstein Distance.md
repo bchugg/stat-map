@@ -1,3 +1,7 @@
+$$
+\newcommand{\cX}{\mathcal{X}}
+\newcommand{\Re}{\mathbb{R}}
+$$
 Wasserstein distances are a class of distance between distributions $P$ and $Q$ over some common space $\cX$. They come from considering the [[optimal transport]] cost when the cost function is a metric. In particular, if $d:\cX\times\cX\to\Re$ is a metric, set 
 $$ W_p(\mu,\nu) = \bigg(\min_{\pi\in \Gamma(\mu,\nu)} \E_{X,Y\sim \pi} [d(X,Y)^p]\bigg)^{1/p},$$
 where $\Gamma(\mu,\nu)$ is the set of joint distributions on $\cX\times\cX$ who marginals are $\mu$ and $\nu$, that is 
