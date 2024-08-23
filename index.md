@@ -1,5 +1,5 @@
 ---
-title: the stats map
+title: Home
 ---
 Welcome to the stats map, a collection of notes on various subtopics in statistics, probability, and theoretical computer science. 
 
@@ -7,12 +7,12 @@ Unlike a traditional textbook, these notes prioritize the connections between su
 
 ![[zettel.jpeg|center|500]]
 
-These are, obviously, my notes. They are not unbiased. They reflect my opinions on what's interesting and what's not. There will be significant detail on some topics and a total absence of many topics. There is very little deep learning, because deep learning is quite boring.  
+These are, obviously, my notes. They are not unbiased. They reflect my opinions on what's interesting and what's not. There will be significant detail on some topics and a total absence of many topics. 
 
 > [!info] How to navigate 
 > If you click on a link you will follow it. You can see a list of all notes on the left hand side of the page, and backlinks to the current note on the right hand side. 
 
-# Where should I start?
+# What's in here
 
 If you're just here poking around, here are some places you might like to start: 
 - [[game-theoretic statistics]] and [[game-theoretic probability]]

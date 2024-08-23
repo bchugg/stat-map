@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "basic inequalities.md",
+                "file": "index.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "basic inequalities.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "basic inequalities.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "basic inequalities.md"
+                "file": "index.md"
               }
             }
           }
@@ -169,10 +169,12 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "934bf3a74ff5dbc6",
+  "active": "855d8273f7a9cb6c",
   "lastOpenFiles": [
-    "preamble.sty",
+    "bounded difference inequalities.md",
     "index.md",
+    "basic inequalities.md",
+    "preamble.sty",
     "anytime-valid.md",
     "Wasserstein Distance.md",
     "wavelets.md",
@@ -199,7 +201,6 @@
     "testing by betting—simple vs composite.md",
     "testing forecasters by betting.md",
     "local differential privacy.md",
-    "differential privacy.md",
     "publish.css",
     "images/me.png",
     "images/ben_cartoon.png",
