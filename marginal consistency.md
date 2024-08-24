@@ -12,7 +12,9 @@ Ideally, we want to find a model which captures the conditional label $y|x$ for 
 where $P(x)$ is the distribution over $y$ if given feature $x$.  A simpler task is the goal of a model which captures not the conditional mean, but the unconditional mean. 
 
 To measure the error of an actual model we introduce the notion of _marginal mean consistency_, where we say $f$ is $\alpha$-marginally mean consistent if 
-$$\left|\E_{X\sim P_X}[f(X)] - \E_P [Y]\right|\leq \alpha.$$
+$$
+\left|\E_{X\sim P_X}[f(X)] - \E_P [Y]\right|\leq \alpha.
+$$
 
 If you don't have a marginally-mean consistent model, then you can simply shift all model predictions by $\Delta = \E[Y] - \E[f(X)]$ in order to make it mean consistent. Doing so also makes the model more accurate with respect to the [[squared error]] (i.e., the Brier score). 
 

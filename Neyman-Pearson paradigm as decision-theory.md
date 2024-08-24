@@ -1,7 +1,11 @@
 The [[Neyman-Pearson paradigm]] is formulated in terms of Type I and Type II errors. Suppose we are testing the null $H_0$ vs the alternative $H_1$ (see [[hypothesis testing]]). In particular, we focus on constructing hypothesis tests $\phi$ such that 
-$$\Pr_{H_0}(\phi(X^n)=1)\leq \alpha,$$
+$$
+\Pr_{H_0}(\phi(X^n)=1)\leq \alpha,
+$$
 for some pre-specified $\alpha$. Here $X^n = (X_1, \dots, X_n)$ are the observations.(Note the pre-specification is important; see [[issues with p-values]]). Subject to this constraint we want to maximize the _power_ of the test, i.e., 
-$$\beta = \Pr_{H_1}(\phi(X^n)=1).$$
+$$
+\beta = \Pr_{H_1}(\phi(X^n)=1).
+$$
 # As decision-theory 
 
 Wald was the first (I think) to formulate NP in terms of decision-theory. Introduce a loss function $\ell$ with two parameters, $\ell(a,b)$, where $a\in\{0,1\}$ represents the null and alternative hypothesis, and $b\in\{0,1\}$ represents the action (accept or reject). Presumably one has $\ell(0,0) = \ell(1,1)=0$.  

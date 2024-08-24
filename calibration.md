@@ -1,7 +1,11 @@
 Given a distribution $P$ over feature-label pairs $(X,Y)$, the goal of _mean_ calibration is to produce a model $f$ such that 
-$$v \approx \E[Y|f(x)=v],$$
+$$
+v \approx \E[Y|f(x)=v],
+$$
 and the goal of quantile calibration is to produce a model such that 
-$$q \approx \Pr[y\leq v|f(x)=v].$$
+$$
+q \approx \Pr[y\leq v|f(x)=v].
+$$
 
 The most interesting setting for calibration is [[online calibration]]. 
 # Patching

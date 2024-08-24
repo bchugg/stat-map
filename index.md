@@ -1,6 +1,7 @@
 ---
 title: Home
 ---
+
 Welcome to the stats map, a collection of notes on various subtopics in statistics, probability, and theoretical computer science. 
 
 Unlike a traditional textbook, these notes prioritize the connections between subjects instead of giving a full treatment of each subject on its own. I don't provide many proofs or formal definitions. This is an attempt to understand how the world of statistics hangs together; to chart the outlines of what we know and the techniques we use. It is an attempt at a [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten)—or second brain—for statistics and probability.  

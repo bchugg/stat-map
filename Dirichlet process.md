@@ -20,5 +20,7 @@ where $F_{i-1}$ is the empirical distribution on $X_1,\dots,X_{i-1}$. (So there 
 
 ### Sampling from the posterior 
 Turns out that the posterior is also a Dirichlet distribution, namely if $X_1,\dots,X_n\sim F$ and $F$ has prior $Dir(\alpha,F_0)$, then the posterior is $Dir(\alpha + n, \overline{F}_n)$ where 
-$$\overline{F}_n = \frac{n}{n+\alpha}F_n + \frac{\alpha}{n + \alpha}F_0,$$
+$$
+\overline{F}_n = \frac{n}{n+\alpha}F_n + \frac{\alpha}{n + \alpha}F_0,
+$$
 where again $F_n$ is the empirical cdf on the $n$ points. 

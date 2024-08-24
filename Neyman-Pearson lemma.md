@@ -1,7 +1,9 @@
 States that the [[likelihood-ratio test]] is the [[uniformly most powerful test]] among all level-$\alpha$ tests when testing simple nulls against simple alternatives. The NP lemma is generalized by the [[Karlin-Rubin theorem]]. 
 
 Suppose we are testing $H_0:\theta = \theta_0$ vs $H_1: \theta = \theta_1$. Consider the likelihood ratio test, which says to reject if $p_1(\theta_1)/p_0(\theta_0)\geq k$ where $k$ is chosen so that 
-$$\Pr_0(p_1(\theta_1) / p_0(\theta_0) \geq k)=\alpha.$$
+$$
+\Pr_0(p_1(\theta_1) / p_0(\theta_0) \geq k)=\alpha.
+$$
 where $\Pr_0$/$\Pr_1$ are the distributions under the null/alternative and $p_0/p_1$ are their densities. The NP lemma states that this test is UMP.  
 ## Proof 1
 
@@ -14,7 +16,9 @@ This gives that $$
 &\geq k\alpha - k\alpha =0, 
 \end{align}
 $$since $\phi$ is size $\alpha$ and $\psi$ is level $\alpha$, by assumption. Therefore, 
-$$\Pr_{H_1}(\phi(X) = 1) - \Pr_{H_1}(\psi(X)=1)\geq 0,$$
+$$
+\Pr_{H_1}(\phi(X) = 1) - \Pr_{H_1}(\psi(X)=1)\geq 0,
+$$
 which is the desired result. 
 
 ## Proof 2 

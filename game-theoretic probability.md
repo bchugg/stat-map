@@ -29,22 +29,22 @@ A variable is a mapping $X:\Omega\to\overline{\Re}$,  where $\overline{\Re}$ is 
 A gamble is also a mapping $Z:\Omega\to\overline{\Re}$, but it's useful to differentiate gambles from variables. 
 Think of the outcome $Z(\omega)$ is how much money is obtained when the outcome is $\omega$ when using gambling strategy $Z$. 
 
-The set of all gambles under consideration is $\cZ$ and together $(\Omega,\cZ)$ form the _Gamble space_.  
+The set of all gambles under consideration is $\calZ$ and together $(\Omega,\calZ)$ form the _Gamble space_.  
 Using the concept of a gamble space, we can define [[game-theoretic expectations]] which in turns defines [[game-theoretic probabilities]]. 
 
 Just as there are concentration results for random variables in MTP, so too there are concentration results in GTP: [[game-theoretic concentration inequalities]]. 
 
 ## Arbitrage-free and positive-linearity
 
-A gamble space is called _arbitrage-free_ and positive linear if for all $Z\in\cZ$ with $Z\neq 0$, $Z\ngeq 0$. That is, there exists some  $\omega$ such that $Z(\omega)<0$. This simply means that the bettor can make free money regardless of the outcome. 
+A gamble space is called _arbitrage-free_ and positive linear if for all $Z\in\calZ$ with $Z\neq 0$, $Z\ngeq 0$. That is, there exists some  $\omega$ such that $Z(\omega)<0$. This simply means that the bettor can make free money regardless of the outcome. 
 
-A gamble space is positive-linear if for all $Z_1,Z_2\in\cZ$ and positive constants $c_1, c_2$ we have $c_1Z_1 + c_2Z_2\in\cZ$. 
+A gamble space is positive-linear if for all $Z_1,Z_2\in\calZ$ and positive constants $c_1, c_2$ we have $c_1Z_1 + c_2Z_2\in\calZ$. 
 
 # Almost-sure events 
 
 What does it mean to say that something happens with probability 1 in GTP? 
 
-Here's a result. Suppose $(\Omega,\cZ)$ is arbitrage-free and positive-linear. Let $A\subset\Omega$. If there exists some $Z\in\cZ$ bounded from below such that $Z(\omega)=\infty$ for all $\omega\notin A$, then $\un{\Pr}(A) = \ov{\Pr}(A)=1$. 
+Here's a result. Suppose $(\Omega,\calZ)$ is arbitrage-free and positive-linear. Let $A\subset\Omega$. If there exists some $Z\in\calZ$ bounded from below such that $Z(\omega)=\infty$ for all $\omega\notin A$, then $\un{\Pr}(A) = \ov{\Pr}(A)=1$. 
 This gives a notion of a probability 1 event: If we can gamble on it and make infinite wealth if it does not occur. This is arguably the main machinery used in [[game-theoretic statistics]]. 
 
 

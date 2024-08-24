@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "active statistical inference.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,19 +21,20 @@
             }
           },
           {
-            "id": "3bd9fcd9470fbecd",
+            "id": "41af84c68b4d0029",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "e-BH procedure.md",
+                "file": "asymptotic confidence sequences.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -62,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "neyman",
+                "query": "index",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "asymptotic confidence sequences.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "asymptotic confidence sequences.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "asymptotic confidence sequences.md"
               }
             }
           }
@@ -169,38 +170,39 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "855d8273f7a9cb6c",
+  "active": "41af84c68b4d0029",
   "lastOpenFiles": [
-    "bounded difference inequalities.md",
-    "index.md",
-    "basic inequalities.md",
-    "preamble.sty",
-    "anytime-valid.md",
-    "Wasserstein Distance.md",
-    "wavelets.md",
-    "publish.css~",
-    "e-BH procedure.md",
-    "model-X assumption.md",
-    "universal inference.md",
-    "weighted least squares.md",
     "zero sum game.md",
-    "v-statistics.md",
-    "variational autoencoders.md",
-    "variational inference.md",
+    "weighted least squares.md",
+    "wavelets.md",
+    "Wasserstein Distance.md",
+    "Warner's randomized response.md",
     "Wald interval.md",
     "Ville's inequality.md",
-    "Warner's randomized response.md",
+    "variational inference.md",
+    "variational autoencoders.md",
+    "variational approach to concentration.md",
+    "v-statistics.md",
+    "universal inference.md",
+    "uniformly most powerful test.md",
+    "uncertainty quantification.md",
+    "u-statistics.md",
+    "two-sample testing.md",
+    "total variation distance.md",
+    "time-uniform confidence spheres.md",
+    "time-uniform.md",
+    "testing forecasters by betting.md",
+    "testing by betting—two-sample testing.md",
+    "testing by betting—simple vs composite.md",
+    "testing by betting—simple vs simple.md",
+    "testing by betting—composite vs composite.md",
+    "test-martingale.md",
+    "techniques for multivariate concentration.md",
+    "extra/touch_up.py",
+    "preamble.sty",
+    "publish.css~",
     "extra/preamble.sty",
     "extra",
-    "self-consistency of likelihood ratio.md",
-    "Neyman-Pearson lemma.md",
-    "game-theoretic hypothesis testing.md",
-    "FDR control.md",
-    "testing by betting—composite vs composite.md",
-    "testing by betting—simple vs simple.md",
-    "testing by betting—simple vs composite.md",
-    "testing forecasters by betting.md",
-    "local differential privacy.md",
     "publish.css",
     "images/me.png",
     "images/ben_cartoon.png",

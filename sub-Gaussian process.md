@@ -6,4 +6,6 @@
 The Rademacher process and the canonical Gaussian process (see [[Rademacher complexity]] and [[Gaussian complexity]]) are examples of sub-Gaussian processes. 
 
 As in the case of tail bounds for sub-Gaussian random variables ([[light-tailed scalar concentration]]), using the [[Chernoff method]] we see that the above definition is equivalent to 
-$$\Pr(|X_\theta - X_\phi| \geq \eps) \leq 2\exp\left(-\frac{t^2}{2 \rho^2(\theta, \phi)}\right).$$
+$$
+\Pr(|X_\theta - X_\phi| \geq \eps) \leq 2\exp\left(-\frac{t^2}{2 \rho^2(\theta, \phi)}\right).
+$$

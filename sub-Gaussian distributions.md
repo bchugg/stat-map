@@ -10,7 +10,9 @@ Some facts about this class:
 # Scalar case
 
 There are several equivalent ways to define them. The easiest way is to place a specific bound on the MGF. A real-valued random variable $X$ with mean $\mu$ is $\sigma$-sub-Gaussian if, for all $\lambda\in\Re$, 
-$$\E \exp(\lambda (X-\mu)) \leq \exp(\lambda^2\sigma^2/2).$$
+$$
+\E \exp(\lambda (X-\mu)) \leq \exp(\lambda^2\sigma^2/2).
+$$
 Equivalent definitions are: 
 - The [[Orlicz norm]] $\norm{X}_{\psi_2} = \inf\{u>0 \ \E\exp(|X|^2/u^2)\leq 2\}$ is finite. 
 - $X^2$ has as [[sub-exponential distributions|sub-exponential distribution]]. 
@@ -20,8 +22,10 @@ An [[e-value]] for $\sigma$-sub-Gaussian distributions is $\exp\{\lambda (X-\mu)
 
 # Multivariate case 
 
-If $X$ is a random vector, we say it is $\Sigma$-sub-Gaussian for some PSD $\Sigma$ if $$\E\exp(\lambda\la \nu, X-\mu\ra) \leq \exp\left(\frac{\lambda^2}{2}\la \nu, \Sigma\nu\ra\right),$$ for all $\nu\in\sd$. In the isotropic case (see [[isotropic distributions]]), we have $\Sigma = \sigma^2 I$ for some $\sigma$, and the condition above becomes 
-$$\E\exp(\lambda\la \nu, X-\mu\ra) \leq \exp\left(\frac{\lambda^2\sigma^2}{2}\right),$$
+If $X$ is a random vector, we say it is $\Sigma$-sub-Gaussian for some PSD $\Sigma$ if $$\E\exp(\lambda\la \nu, X-\mu\ra) \leq \exp\left(\frac{\lambda^2}{2}\la \nu, \Sigma\nu\ra\right),$$ for all $\nu\in\dsphere$. In the isotropic case (see [[isotropic distributions]]), we have $\Sigma = \sigma^2 I$ for some $\sigma$, and the condition above becomes 
+$$
+\E\exp(\lambda\la \nu, X-\mu\ra) \leq \exp\left(\frac{\lambda^2\sigma^2}{2}\right),
+$$
 which is perhaps the more common definition in the literature. But if we want to allow for anisotropy (see [[anisotropic distribution]]) then the first definition is preferred. 
 
 Note that this definition extends easily to infinite dimensional spaces as long as they are endowed with an inner product. Eg, in an infinite-dimensional [[Hilbert space]], $\Sigma$ is interpreted as an operator $\Sigma:\calH \to \calH$, and we work with the dot product $\la \cdot, \cdot\ra_\calH$. 

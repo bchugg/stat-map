@@ -4,4 +4,4 @@ Fisher wanted to test this hypothesis, so he got eight cups, put milk then water
 
 Fisher reasoned that if she was guessing at random (the null hypothesis), the chances were 1/70 that she would have gotten them all correct ($70 = {4 \choose 8}$, Muriel knew there were four of each). Fisher thought this sufficient evidence in her favor.  
 
-Note that this example might suffer from the counterfactual worlds problem with p-values (see [[issues with p-values#Counterfactual reasoning]]). If Muriel had made 1 mistake, then the p-value is 17/70 — would Fisher have allowed her to run the experiment again? If so, the sample size is not truly fixed and the p-value is invalid. 
+Note that this example might suffer from the counterfactual worlds problem with p-values (see [[issues with p-values#Counterfactual reasoning|issues with p-values:Counterfactual reasoning]]). If Muriel had made 1 mistake, then the p-value is 17/70 — would Fisher have allowed her to run the experiment again? If so, the sample size is not truly fixed and the p-value is invalid. 

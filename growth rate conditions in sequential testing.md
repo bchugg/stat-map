@@ -10,7 +10,9 @@ This was coined by [Grunwald, De Heide, and Koolen](https://arxiv.org/abs/1906.0
 ## REGROW 
 
 "Relative Growth optimality in the worst case." Consider a composite alternative; a class of distributions $\calQ$. REGROW finds the test supermartingale $(M_t)$ to maximize 
-$$\inf_{Q\in \calQ} \E_Q[\log M_\tau - \log M_\tau^O],$$
+$$
+\inf_{Q\in \calQ} \E_Q[\log M_\tau - \log M_\tau^O],
+$$
 where $M_\tau^O$ is the GRO process. Also coined by Grunwald, De Heide, and Koolen. 
 
 ## GROW 

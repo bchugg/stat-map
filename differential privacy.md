@@ -1,6 +1,6 @@
 Differential privacy is the study of how to make mechanisms which act on databases (i.e., make queries) secure from leaking information. 
 
-Intuitively, a differentially private mechanism should be one which is not excessively reactive to small changes in the dataset. Let $\D$ be the set of all databases, and consider a function $g$ which acts on $\D$. (Think of a database as just some big data table where, e.g., each row corresponds to a different user.) For instance, given a database $x\in \D$, $g(x)$ might be the size of $x$, or the total amount user deposits in $x$, or it might ask for the number of users with some property (a "counting query"). We want to add noise to $g$ in such a way that, regardless of how it queries the database, it cannot back out sensitive information. 
+Intuitively, a differentially private mechanism should be one which is not excessively reactive to small changes in the dataset. Let $\calD$ be the set of all databases, and consider a function $g$ which acts on $\calD$. (Think of a database as just some big data table where, e.g., each row corresponds to a different user.) For instance, given a database $x\in \calD$, $g(x)$ might be the size of $x$, or the total amount user deposits in $x$, or it might ask for the number of users with some property (a "counting query"). We want to add noise to $g$ in such a way that, regardless of how it queries the database, it cannot back out sensitive information. 
 
 Formally, we call a (randomized) mechanism $f$ which acts on databases $(\eps,\delta)$-differentially private if, for all outputs $A\subset \text{Range}(f)$ and all databases $x$ and $z$ such that $x$ and $z$ differ by one row, 
 
@@ -12,18 +12,26 @@ The intuition behind the definition is easier to grasp if we negate it. If $f$ i
 
 A popular to write $\eps$-differential privacy is as the likelihood ratio
 
-$$\sup_{A\in \image(f)} \sup_{x_1,x_2:x_1\in \delta_1(x_2)}\frac{\Pr(f(x_1)\in A)}{\Pr(f(x_2)\in A)}\leq e^\eps,$$
+$$
+\sup_{A\in \image(f)} \sup_{x_1,x_2:x_1\in \delta_1(x_2)}\frac{\Pr(f(x_1)\in A)}{\Pr(f(x_2)\in A)}\leq e^\eps,
+$$
 
 where $\delta_1(x)$ is the set of databases which different by at most 1 row from $x$. 
 
 # Example: The Laplace Mechanism
 
-Consider a deterministic function $g:\D\to \R^k$.  Define 
-$$\Delta = \sup_{x,y:x\in \delta_1(x)} ||g(x) - g(y)||_1 = \sup_{x,y:x\in\delta_1(y)} \sum_{i=1}^k |g(x)_i - g(y)_i|.$$
+Consider a deterministic function $g:\calD\to \Re^k$.  Define 
+$$
+\Delta = \sup_{x,y:x\in \delta_1(x)} ||g(x) - g(y)||_1 = \sup_{x,y:x\in\delta_1(y)} \sum_{i=1}^k |g(x)_i - g(y)_i|.
+$$
 $\Delta$ is often called the $\ell_1$-_sensitivity_ of $g$. The Laplace mechanism is defined as 
-$$f(x) = g(x) + (Y_1,\dots,Y_k),$$
+$$
+f(x) = g(x) + (Y_1,\dots,Y_k),
+$$
 where $Y_1,\dots,,Y_k\sim\lap(0,\Delta/\eps)$ independently. Recall that the Laplacian distribution $\lap(a,b)$ has pdf $p(x) = (2b)^{-1}\exp(-|x-a|/b)$. To show that this mechanism is differentially private, we show that 
-$$\int_A \Pr(f(x)=z)dz \leq e^\eps \int_A \Pr(f(y)=z)dz,$$
+$$
+\int_A \Pr(f(x)=z)dz \leq e^\eps \int_A \Pr(f(y)=z)dz,
+$$
 for all $x\in\delta_1(y)$. To see this, it suffices to show that for all $z\in A$, $\Pr(f(z)=z)\leq e^\eps \Pr(f(y)=z$) and then to integrate over $A$. Note that, 
 $$\begin{align}
 \Pr(f(x)=z) &= \prod_{i=1}^k \Pr(M(x)_i = z_i) = \prod_{i=1}^k \Pr(Y_i = z_i - g(x)_i) \\
@@ -59,9 +67,9 @@ $$
 \end{align*}
 $$
 
-Here we've just used basic facts of the min function and recognized that probabilities can be at most 1. Of course, we can extend this result by induction and conclude that given finitely many mechanisms $\{f_i\}$ where $f_i$ is $(\eps_i,\delta_i)$-differentially private, then the mechanism $g:\X\to \bigotimes_i \range(f_i)$ given by  $g:x\mapsto \otimes_i f_i(x)$ is $(\sum_i \eps_i,\sum_i\delta_i)$ differentially private. 
+Here we've just used basic facts of the min function and recognized that probabilities can be at most 1. Of course, we can extend this result by induction and conclude that given finitely many mechanisms $\{f_i\}$ where $f_i$ is $(\eps_i,\delta_i)$-differentially private, then the mechanism $g:\calX\to \bigotimes_i \range(f_i)$ given by  $g:x\mapsto \otimes_i f_i(x)$ is $(\sum_i \eps_i,\sum_i\delta_i)$ differentially private. 
 
-We can also consider deterministic composition, and demonstrate that it does not affect the privacy guarantees. Indeed, suppose $f:\D\to U$ is $(\eps,\delta)$ private and let $g:U\to V$ be deterministic and invertible. Then for any $W\subset V$,
+We can also consider deterministic composition, and demonstrate that it does not affect the privacy guarantees. Indeed, suppose $f:\calD\to U$ is $(\eps,\delta)$ private and let $g:U\to V$ be deterministic and invertible. Then for any $W\subset V$,
 $$
 \begin{align}
 \Pr(f\circ g(x) \in W) &= \Pr(f(x) \in g^{-1}(W)) \\

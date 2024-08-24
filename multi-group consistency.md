@@ -6,8 +6,10 @@ A more challenging notion than multi-group consistency is [[multi-group calibrat
 
 # Mean consistency 
 
-Like in [[marginal consistency#Mean consistency]], we want that $f(x) \approx$ y, but we want this guarantee conditional on belonging to each group. Formally, say that a model $f$ is $\alpha$-approximate group conditional mean consistent if for every group $g$, 
-$$\left(\E[f(x) | g(x)=1] - \E[y|g(x)=1]\right)^2 \leq \frac{\alpha}{\mu(g)}.$$
+Like in [[marginal consistency#Mean consistency|marginal consistency:Mean consistency]], we want that $f(x) \approx$ y, but we want this guarantee conditional on belonging to each group. Formally, say that a model $f$ is $\alpha$-approximate group conditional mean consistent if for every group $g$, 
+$$
+\left(\E[f(x) | g(x)=1] - \E[y|g(x)=1]\right)^2 \leq \frac{\alpha}{\mu(g)}.
+$$
 Note that we re-weight the RHS by $\mu(g)$. Intuitively, if $\mu(g)$ is extremely small, it seems unfair to ask a model to be as consistent on that group. 
 
 Similar to the marginal mean consistency case, there is a simple patching function which renders a function that is not group mean consistent into one that is. (To be perfectly consistent requires distributional access, but one can of course get finite sample guarantees using concentration arguments.)
@@ -16,7 +18,9 @@ While this patching procedure is usually presented as a sequential algorithm, th
 # Quantile consistency 
 
 A model is $\alpha$-approximate group conditional quantile consistency if 
-$$\left(\Pr[y\leq f(x) | g(x) = 1] - q\right)^2 \leq \frac{\alpha}{\mu(g)}.$$
+$$
+\left(\Pr[y\leq f(x) | g(x) = 1] - q\right)^2 \leq \frac{\alpha}{\mu(g)}.
+$$
 A similar patching algorithm applies here. Note that this patching algorithms again rely on showing that a specific loss is decreasing (either [[squared error]] or [[pinball loss]]) every time we modify the function. This is a very common analysis tool for these kinds of algorithms. 
 
 
