@@ -1,9 +1,0 @@
-img[alt*="center"] {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.markdown-rendered mjx-math:empty {
-    display: none;
-}

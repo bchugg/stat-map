@@ -1,0 +1,1 @@
+A CLT is a result concerning the limiting behavior of (usually some appropriate rescaling of) random variables. It usually takes the form  it states that a sequence of random variables 

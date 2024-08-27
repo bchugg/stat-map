@@ -11,7 +11,7 @@ Unlike a traditional textbook, these notes prioritize the connections between su
 These are, obviously, my notes. They are not unbiased. They reflect my opinions on what's interesting and what's not. There will be significant detail on some topics and a total absence of many topics. 
 
 > [!info] How to navigate 
-> If you click on a link you will follow it. You can see a list of all notes on the left hand side of the page, and backlinks to the current note on the right hand side. 
+> If you click on a link you will follow it. You can see a list of all notes on the left hand side of the page, and backlinks to the current note on the right hand side (or on the bottom if you're on a small screen).
 
 # What's in here
 
@@ -60,5 +60,6 @@ Zettelkasten systems are typically used to construct and grow an inventory of yo
 I am [Ben](https://benchugg.com). I'm a PhD student in the machine learning and statistics program at CMU. I study things like [[sequential statistics]], [[e-value|e-values]], and [[concentration of measure]]. Occasionally I also [read](https://doyouevenlit.podbean.com/), [write](https://benchugg.com/writing/), and [yell about philosophy](http://incrementspodcast.com/). 
 
 Here is my face, cartoonified. 
+![[images/me.png|center|250]]
 
-![[images/me.png|center|250]] 
+If you spot any mistakes, you can email me at benchugg $\alpha\tau$ cmu.edu.  

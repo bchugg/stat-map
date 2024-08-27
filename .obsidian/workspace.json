@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "active statistical inference.md",
+                "file": "anytime-valid p-values.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,129 @@
             }
           },
           {
-            "id": "41af84c68b4d0029",
+            "id": "d6b0136a2e649027",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "asymptotic confidence sequences.md",
+                "file": "e-value.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e296f20f5bf9ce01",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "growth rate conditions in sequential testing.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5d8e366b97e5a871",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "REGROW e-variable.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6d65acfdc91abeef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GROW e-variable.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "09380c5038da93f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "testing group invariance.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e95971422c3ad725",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GRO e-variable.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0d7f69dd7bbbc4b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "growth rate conditions in sequential testing.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3f62e197daa8b501",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "betting strategies.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c6b0253abea40e44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "estimating means by betting.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fa00599e8e6bdcc1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maximizing log-wealth.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,7 +151,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -63,7 +180,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "index",
+                "query": "e-value",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +205,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -108,7 +226,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "asymptotic confidence sequences.md",
+                "file": "testing group invariance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +243,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "asymptotic confidence sequences.md",
+                "file": "testing group invariance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +266,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "asymptotic confidence sequences.md"
+                "file": "testing group invariance.md"
               }
             }
           }
@@ -170,34 +288,34 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "41af84c68b4d0029",
+  "active": "09380c5038da93f6",
   "lastOpenFiles": [
+    "GROW e-variable.md",
+    "testing group invariance.md",
+    "betting strategies.md",
+    "estimating means by betting.md",
+    "growth rate conditions in sequential testing.md",
+    "GRO e-variable.md",
+    "REGROW e-variable.md",
+    "Jeffreys prior.md",
+    "maximizing log-wealth.md",
+    "Kelly betting.md",
+    "portfolio optimization.md",
+    "e-value.md",
+    "anytime-valid p-values.md",
+    "basic matrix inequalities.md",
+    "basic inequalities.md",
+    "Bayes factors.md",
+    "central limit theorems.md",
+    "Banach space.md",
+    "asymptotic confidence sequences.md",
+    "index.md",
+    "irregular problems in hypothesis testing.md",
+    "active statistical inference.md",
     "zero sum game.md",
     "weighted least squares.md",
     "wavelets.md",
     "Wasserstein Distance.md",
-    "Warner's randomized response.md",
-    "Wald interval.md",
-    "Ville's inequality.md",
-    "variational inference.md",
-    "variational autoencoders.md",
-    "variational approach to concentration.md",
-    "v-statistics.md",
-    "universal inference.md",
-    "uniformly most powerful test.md",
-    "uncertainty quantification.md",
-    "u-statistics.md",
-    "two-sample testing.md",
-    "total variation distance.md",
-    "time-uniform confidence spheres.md",
-    "time-uniform.md",
-    "testing forecasters by betting.md",
-    "testing by betting—two-sample testing.md",
-    "testing by betting—simple vs composite.md",
-    "testing by betting—simple vs simple.md",
-    "testing by betting—composite vs composite.md",
-    "test-martingale.md",
-    "techniques for multivariate concentration.md",
     "extra/touch_up.py",
     "preamble.sty",
     "publish.css~",

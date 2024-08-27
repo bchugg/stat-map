@@ -1,0 +1,1 @@
+The same as [[maximizing log-wealth]]. 

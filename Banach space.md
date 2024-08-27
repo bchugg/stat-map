@@ -1,6 +1,4 @@
-#todo 
-
-Complete normed vector space. That is, it's a vector space equipped with a norm $\norm{\cdot}$ which induces a distance function in the obvious way. Every Cauchy sequence converges to some point in the space. 
+A Banach space is a complete normed vector space. That is, it's a vector space equipped with a norm $\norm{\cdot}$ which induces a distance function in the obvious way. Every Cauchy sequence converges to some point in the space. 
 
 We often assume the space is _separable_. #todo what is separable?
 
