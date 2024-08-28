@@ -11,7 +11,8 @@ We use the "stick breaking" procedure.
 As usual, can draw $F\sim DP(\alpha,F_0)$ (using stick breaking), and then draw $X_1,\dots,X_n$ from $F$ which is a draw from the marginal. 
 
 An alternative method which doesn't involve two steps is called the "Chinese restaurant process". Here we draw $X_1\sim F_0$, and then 
-$$X_i | X_{1},\dots,X_{i-1} = \begin{cases}
+$$
+X_i | X_{1},\dots,X_{i-1} = \begin{cases}
 X\sim F_{i-1},& \text{w.p. } \frac{i-1}{i+\alpha-1}\\
 X\sim F_{0},& \text{w.p. } \frac{\alpha}{i+\alpha-1},
 \end{cases}

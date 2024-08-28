@@ -78,10 +78,31 @@ def add_space_to_header(file_path):
         file.writelines(updated_lines)
 
 
+def replace_multiline_math(content):
+    # Regex pattern to find occurrences of $$<content>$$, even if it spans multiple lines
+    pattern = r'\$\$(.*?)\$\$'
+    
+    # Replace matched patterns with $$\n<content>\n$$
+    replaced_content = re.sub(pattern, r'$$\n\1\n$$', content, flags=re.DOTALL)
+    
+    return replaced_content
+
+def process_markdown_file(file_path):
+    with open(file_path, 'r') as file:
+        content = file.read()
+    
+    # Replace multiline math occurrences
+    updated_content = replace_multiline_math(content)
+    
+    with open(file_path, 'w') as file:
+        file.write(updated_content)
+
+
 if __name__ == '__main__':
     # reformat markdown on all markdown files in content directory
     for file in os.listdir('../'):
         if file.endswith('.md'):
-            reformat_latex(os.path.join('../', file))
-            reformat_subsection_links(os.path.join('../', file))
+            process_markdown_file(os.path.join('../', file))
+            # reformat_latex(os.path.join('../', file))
+            # reformat_subsection_links(os.path.join('../', file))
             #add_space_to_header(os.path.join('../', file))

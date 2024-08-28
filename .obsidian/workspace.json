@@ -39,7 +39,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "e-value.md",
+                "file": "Dirichlet process.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5ce0acdd4823f8cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "anytime-valid p-values.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -58,9 +71,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "026be17041734b7a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "e-value.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -134,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "e-value.md",
+                "file": "anytime-valid p-values.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "e-value.md",
+                "file": "anytime-valid p-values.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "e-value.md"
+                "file": "anytime-valid p-values.md"
               }
             }
           }
@@ -196,14 +222,16 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "c55f30a0e0a546d6",
+  "active": "5ce0acdd4823f8cf",
   "lastOpenFiles": [
-    "optional continuation.md",
-    "anytime-valid p-values.md",
+    "GRO e-variable.md",
     "e-value.md",
     "numeraire e-variable.md",
-    "basic inequalities.md",
+    "Dirichlet process.md",
     "growth rate conditions in sequential testing.md",
+    "basic inequalities.md",
+    "optional continuation.md",
+    "anytime-valid p-values.md",
     "active statistical inference.md",
     "testing group invariance.md",
     "maximizing log-wealth.md",
@@ -215,7 +243,6 @@
     "Markovian alternatives.md",
     "coarsened filtrations can increase power.md",
     "REGROW e-variable.md",
-    "GRO e-variable.md",
     "estimating means by betting.md",
     "betting strategies.md",
     "GROW e-variable.md",
@@ -223,7 +250,6 @@
     "Jeffreys prior.md",
     "Kelly betting.md",
     "portfolio optimization.md",
-    "basic matrix inequalities.md",
     "extra/touch_up.py",
     "preamble.sty",
     "publish.css~",

@@ -33,8 +33,7 @@ Chebyshev's inequality gives the first flavor of concentration. If $X_1, X_2, \d
 $$
 \Pr(|\ov{X}_n - \mu|\geq a) \leq \frac{\Var(\ov{X_n})}{a^2} = \frac{\Var(X)}{na^2},
 $$
-where $\ov{X}_n = n^{-1}\sum_i X_i$. Making the RHS equal to $\delta$ gives with probability $1-\delta$, $$|\ov{X}_n-\mu| \leq \sqrt{\Var(X) / (\delta n)}.$$
-The _rate_ of concentration here is actually not too bad, it scales with $\sqrt{n}$ which is what we expect in many scenarios. However, the dependence on $1/\sqrt{\delta}$ is not great. We'd rather have $\log(1/\delta)$, which is an exponential improvement over $1/\sqrt{\delta}$. The Chernoff method gives us this sort of dependence, so we turn to that next. 
+where $\ov{X}_n = n^{-1}\sum_i X_i$. Making the RHS equal to $\delta$ gives with probability $1-\delta$, $$|\ov{X}_n-\mu| \leq \sqrt{\Var(X) / (\delta n)}.$$The _rate_ of concentration here is actually not too bad, it scales with $\sqrt{n}$ which is what we expect in many scenarios. However, the dependence on $1/\sqrt{\delta}$ is not great. We'd rather have $\log(1/\delta)$, which is an exponential improvement over $1/\sqrt{\delta}$. The Chernoff method gives us this sort of dependence, so we turn to that next. 
 
 Note that the Chebyshev's inequality is a specific instance of the [[method of moments for concentration]]. 
 ## Chernoff method 
