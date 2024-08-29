@@ -3,9 +3,11 @@ Intuitively, $L^p$ spaces are a generalization of finite dimensional Euclidean s
 Formally, for a measure space $(\Omega, \calF, \mu)$, the $L^p$ norm for $1\leq p<\infty$ is defined as 
 $$
 \norm{f}_p = \int_\Omega |f|^p\d\mu.
-$$The set of all functions $f$ such that $\norm{f}_p$ is finite is an $L^p$ space. For $p=\infty$, we instead define $$
+$$
+The set of all functions $f$ such that $\norm{f}_p$ is finite is an $L^p$ space. For $p=\infty$, we instead define $$
 \norm{f}_\infty = \ess\sup |f|.
-$$ Lp norms and spaces are generalized by [[Orlicz norm|Orlicz norms and spaces]]. 
+$$
+Lp norms and spaces are generalized by [[Orlicz norm|Orlicz norms and spaces]].
 
 
 Notes: 

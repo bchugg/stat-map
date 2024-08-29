@@ -3,7 +3,8 @@ $$
 
 \E_P[E]\leq 1,\quad \forall P\in\calP.
 
-$$It is a measure of [[evidence against the null]], somewhat analogous to [[p-value|p-values]] but defined in terms of expectations instead of probabilities. They are immune to lots of the [[issues with p-values]]. The realized value of $E$ is called an e-variable (akin to p-variables), though we often simply refer to the e-variable as an e-value. 
+$$
+It is a measure of [[evidence against the null]], somewhat analogous to [[p-value|p-values]] but defined in terms of expectations instead of probabilities. They are immune to lots of the [[issues with p-values]]. The realized value of $E$ is called an e-variable (akin to p-variables), though we often simply refer to the e-variable as an e-value.
 
 E-values are intimately tied to [[hypothesis testing]]. If we are testing the null $P\in\calP$, a large e-value can be used to reject the null at level $\alpha$ since, by Markov's inequality ([[basic inequalities#Markov's inequality|basic inequalities:Markov's inequality]]), $\Pr(E\geq 1/\alpha)\leq \alpha$. Thus, designing e-values which will be large under the alternative is a fruitful strategy in hypothesis testing. This is the focus of [[game-theoretic hypothesis testing]]. 
 (See also [[growth rate conditions in sequential testing]], which investigates how to design e-values and e-processes, and [[testing by betting—simple vs simple]], [[testing by betting—simple vs composite]], [[testing by betting—composite vs composite]] to see e-values in practice). 

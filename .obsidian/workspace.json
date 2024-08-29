@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chaining.md",
+                "file": "test-martingale.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chaining.md",
+                "file": "test-martingale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "chaining.md",
+                "file": "test-martingale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "chaining.md"
+                "file": "test-martingale.md"
               }
             }
           }
@@ -211,32 +211,32 @@
   },
   "active": "c55f30a0e0a546d6",
   "lastOpenFiles": [
-    "Chernoff bounds specify e-values.md",
+    "testing by betting—composite vs composite.md",
+    "test-martingale.md",
+    "techniques for multivariate concentration.md",
+    "t-test.md",
+    "survey sampling.md",
+    "supervised learning.md",
+    "supermartingale.md",
+    "sub-psi process.md",
+    "sub-Gaussian process.md",
+    "sub-exponential distributions.md",
+    "Lp norm.md",
+    "log-concave distribution.md",
+    "entropy number.md",
+    "asymptotic confidence sequences.md",
     "chaining.md",
+    "Fisher's paradigm.md",
+    "hilbert space.md",
+    "Linear Regression.md",
+    "Concentration Inequalities.md",
+    "central limit theorems.md",
+    "Chernoff bounds specify e-values.md",
     "calibration.md",
     "bounded difference inequalities.md",
     "BH procedure.md",
     "Bernstein von-Mises theorem.md",
-    "asymptotic confidence sequences.md",
     "anytime-valid p-values.md",
-    "Dirichlet process.md",
-    "safe, anytime-valid inference (SAVI).md",
-    "Chernoff method.md",
-    "GRO e-variable.md",
-    "e-value.md",
-    "numeraire e-variable.md",
-    "growth rate conditions in sequential testing.md",
-    "basic inequalities.md",
-    "optional continuation.md",
-    "active statistical inference.md",
-    "testing group invariance.md",
-    "maximizing log-wealth.md",
-    "anytime-valid.md",
-    "anisotropic distribution.md",
-    "linear regression.md",
-    "testing exchangeability.md",
-    "Markovian alternatives.md",
-    "coarsened filtrations can increase power.md",
     "extra/touch_up.py",
     "preamble.sty",
     "publish.css~",

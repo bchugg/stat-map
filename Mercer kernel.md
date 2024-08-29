@@ -12,7 +12,8 @@ Note that Mercer Kernels are distinct from smoothing kernels, which are used in 
 
 ## $L_2$ basis 
 
-If the Kernel obeys $\sup_{x,y} K(x,y)$ then we can find a series of orthonormal functions $\{\psi_i\}$ such that $$
+If the Kernel obeys $\sup_{x,y} K(x,y)$ then we can find a series of orthonormal functions $\{\psi_i\}$ such that
+$$
 \int K(x,y)\psi_i(x)dx = \lambda_i\psi_i(y),
 $$
 for some $\lambda_i$. This impliest that $K(x,y) = \sum_{i}\lambda_i \psi_i(x)\psi_i(y)$ where we can order $\lambda_1\geq \lambda_2\geq \dots$. 

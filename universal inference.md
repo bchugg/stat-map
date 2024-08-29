@@ -13,12 +13,15 @@ Consider the [[fixed-time]] setting, where we have observations $X_1, \dots, X_n
 - pick some $\wh{q}$ using $D_1$. 
 - Compute $\sup_{p\in \calP} p(D_0)$ using $D_0$. 
 
-The UI e-value is $$
+The UI e-value is
+$$
 E_t = \frac{\wh{q}(D_0)}{\sup_{P\in \calP} p(D_0)}.
-$$If the [[MLE]] is well-defined, then the denominator is the MLE. Since we're taking the supremum, it's easy to see that 
+$$
+If the [[MLE]] is well-defined, then the denominator is the MLE. Since we're taking the supremum, it's easy to see that
 $$
 \E_P E_t \leq \E_P \left[\frac{\hat{q}(D_0)}{p(D_0)}\right] = 1,
-$$where we use that $\wh{q}$ is independent of $D_1$ due to the data-splitting. 
+$$
+where we use that $\wh{q}$ is independent of $D_1$ due to the data-splitting.
 
 Note that no regularity conditions were required. This approach can be applied to [[irregular problems in hypothesis testing]], which many traditional methods struggle with. This is why the method is considered _universal_. 
 
@@ -30,8 +33,10 @@ The randomness can be minimized by doing this over several splits of the data, n
 
 The above e-value doesn't immediately lend itself to sequentialization. Here's how to construct an [[e-process]] using similar ideas. 
 
-Let $\wh{q}_t$ be any distribution chosen using the first $t$ observations. Consider $$
+Let $\wh{q}_t$ be any distribution chosen using the first $t$ observations. Consider
+$$
 E_t = \frac{\prod_{i\leq t}\wh{q}_{i-1}(X_i)}{\prod_{i\leq t} \wh{p}_t (X_i)},
-$$where $\wh{p}_t$ is the MLE based on $X_1, \dots, X_t$.  This is an e-process under $\calP$, which can be seen by upper bounding $E_t$ using the MLE in the denominator.  This is the plug-in-method. We can also consider a mixture method, where we integrate the alternative densities over some distribution. Similar ideas occur in [[testing by betting—composite vs composite]].  
+$$
+where $\wh{p}_t$ is the MLE based on $X_1, \dots, X_t$.  This is an e-process under $\calP$, which can be seen by upper bounding $E_t$ using the MLE in the denominator.  This is the plug-in-method. We can also consider a mixture method, where we integrate the alternative densities over some distribution. Similar ideas occur in [[testing by betting—composite vs composite]].
 
 

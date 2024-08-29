@@ -29,6 +29,7 @@ $$
 
 $$
 
-Meanwhile, if we take $\psi(x) = \psi_1(x) = \exp(x) -1$, then $\norm{\cdot}_{\psi_1}$ is the sub-exponential norm. A random variable is sub-exponential iff it is an element of the $\psi_1$-Orlicz space. Here $$
+Meanwhile, if we take $\psi(x) = \psi_1(x) = \exp(x) -1$, then $\norm{\cdot}_{\psi_1}$ is the sub-exponential norm. A random variable is sub-exponential iff it is an element of the $\psi_1$-Orlicz space. Here
+$$
 \norm{X}_{\psi_1} = \inf\{u>0 \; | \; \E\exp (|X|/u)\leq 2\}.
 $$ 

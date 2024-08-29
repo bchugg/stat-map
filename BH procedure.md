@@ -1,7 +1,8 @@
 Procedure to achieve [[FDR control]]. Each hypothesis $H_i$ has a realized p-value $p_i$. If we reject all hypotheses with the smallest $k^*$ p-values, where 
 $$
 k^* = \max\bigg\{k: \frac{Kp_{(k)}}{k}\leq \alpha\bigg\}.
-$$Then 
+$$
+Then
 $$
 \E[F_D/|D|] \leq \frac{\ell_K K_0}{K}\alpha,
 $$

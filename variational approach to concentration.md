@@ -44,9 +44,11 @@ $$
 \lambda\sum_{i\leq n} \E_\rho \la\theta, X_i\ra \leq \frac{n\lambda^2}{2}\E_\rho \la \theta, \Sigma\theta\ra + \frac{\beta}{2} + \log(1/\delta).
 
 $$
-Now, for $\rho=\rho_u$, $\E_\rho \la \theta, X_i\ra = \la u,X_i\ra$ and $$
+Now, for $\rho=\rho_u$, $\E_\rho \la \theta, X_i\ra = \la u,X_i\ra$ and
+$$
 \E_\rho \la \theta, \Sigma\theta\ra = \la u,\Sigma u\ra + \beta^{-1}\Tr(\Sigma) \leq \norm{\Sigma} + \beta^{-1}\Tr(\Sigma),
-$$using basic properties of the expectation of quadratic forms under Gaussian distributions (see eg [here](https://statproofbook.github.io/P/mean-qf.html)), and definition of the [[operator norm]] as $\norm{A} = \sup_{u,v:\norm{u}=\norm{v}=1}\la u,\Sigma v \ra$. Since this holds simultaneously for all $\rho_u$, we obtain that, with probability $1-\delta$, 
+$$
+using basic properties of the expectation of quadratic forms under Gaussian distributions (see eg [here](https://statproofbook.github.io/P/mean-qf.html)), and definition of the [[operator norm]] as $\norm{A} = \sup_{u,v:\norm{u}=\norm{v}=1}\la u,\Sigma v \ra$. Since this holds simultaneously for all $\rho_u$, we obtain that, with probability $1-\delta$,
 $$
 
 \sup_u \lambda \sum_{i\leq n} \la u,X_i\ra \leq \frac{n\lambda^2}{2}(\norm{\Sigma} + \beta^{-1}\Tr(\Sigma)) + \frac{\beta}{2} + \log(1/\delta).

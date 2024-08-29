@@ -90,7 +90,8 @@ $$
 \Pr(f\circ g(x) \in W) &= \Pr(f(x) \in g^{-1}(W)) \\
 &\leq e^\eps \Pr(f(y) \in g^{-1}(W)) = \Pr(f\circ g(y)\in W),
 \end{align}
-$$ so $f\circ g$ is  $(\eps,\delta)$ private. 
+$$
+so $f\circ g$ is  $(\eps,\delta)$ private.
 
 # DP in practice 
 

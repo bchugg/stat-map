@@ -18,7 +18,8 @@ where $m = (m(x_1),\dots,m(x_n))$.
 
 ### Predictive Distribution
 Suppose we have observed training data $(X_1,Y_1),\dots,(X_n,Y_n)$ and observe a new point $Y_{n+1} = m(X_{n+1}) + \eps_{n+1}$. 
-We have $$
+We have
+$$
 (Y_1,\dots,Y_n) = (m(x_1),\dots,m(x_n)) + (\eps_1,\dots,\eps_n) \sim N(0, K + \sigma^2I),
 $$
 if $\eps_i \sim N(0,\sigma^2)$. Then $\Cov(Y_i,Y_{n+1}) = \Cov(m(x_i),m(x_{n+1})) = K(x_i,x_{n+1})$ and $\Var(Y_{n+1}) = K(x_{n+1}, x_{n+1})) + \sigma^2$, so 

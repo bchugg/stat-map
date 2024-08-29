@@ -5,9 +5,11 @@ $$
 0\leq f(x) - f_i(x^{(i)})\leq 1,
 
 $$
-and $$
+and
+$$
 \sum_{i=1}^n (f(x) - f_i(x^{(i)})) \leq f(x),
-$$ where $x^{(i)}$ drops the $i$-th coordinate of $x$. Often we take 
+$$
+where $x^{(i)}$ drops the $i$-th coordinate of $x$. Often we take
 $$
 
 f_i(x^{(i)}) = \inf_{x_i'} f(x^{(i)}, x_i').

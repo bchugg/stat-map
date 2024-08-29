@@ -1,7 +1,9 @@
 
-A confidence sequence can be thought of as a sequence of sequentially valid [[confidence intervals]]). Formally, $(C_t)_{t\geq 1}$ is a $(1-\alpha)$-CS for a parameter $\theta$ if $$
+A confidence sequence can be thought of as a sequence of sequentially valid [[confidence intervals]]). Formally, $(C_t)_{t\geq 1}$ is a $(1-\alpha)$-CS for a parameter $\theta$ if
+$$
 \Pr(\exists t\geq 1: \theta \notin C_t) \leq \alpha.
-$$That is, a CS is a [[time-uniform]] confidence interval. It avoids the known problem with confidence intervals that, if they are computed at different times, they risk contradicting themselves (eg an interval computed at time $t_1$ might not overlap with one at time $t_2$. ) 
+$$
+That is, a CS is a [[time-uniform]] confidence interval. It avoids the known problem with confidence intervals that, if they are computed at different times, they risk contradicting themselves (eg an interval computed at time $t_1$ might not overlap with one at time $t_2$. )
 
 Like [[confidence intervals]], confidence sequences have frequentist guarantees ([[frequentist statistics]]), not Bayesian ones. Whether there exist anytime-valid [[credible intervals]] (the Bayesian notion of confidence interval) is an interesting question. 
 

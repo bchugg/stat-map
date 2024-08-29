@@ -13,7 +13,8 @@ This is a general framework which encapsulates both point nulls (eg $\theta^* = 
 The game proceeds as follows. 
 Skeptic begins with wealth $\calK_0=1$. 
 For $t=1,\dots,T$: 
-- Skeptic proposes a payoff function $S_t: \calX \to [0,\infty]$ such that $$
+- Skeptic proposes a payoff function $S_t: \calX \to [0,\infty]$ such that
+$$
 
 - \E_{X\sim P}[S_t(X)|\calF_{t-1}]\leq 1 \quad \forall P\in\bs{P}.
 - 

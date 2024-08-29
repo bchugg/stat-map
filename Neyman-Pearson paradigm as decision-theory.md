@@ -14,13 +14,17 @@ $$
 
 Wald was the first (I think) to formulate NP in terms of decision-theory. Introduce a loss function $\ell$ with two parameters, $\ell(a,b)$, where $a\in\{0,1\}$ represents the null and alternative hypothesis, and $b\in\{0,1\}$ represents the action (accept or reject). Presumably one has $\ell(0,0) = \ell(1,1)=0$.  
 
-We restate the type-I error guarantee as a _Type-I risk_ guarantee: $$
+We restate the type-I error guarantee as a _Type-I risk_ guarantee:
+$$
 \E_{H_0} [\ell(0,\phi(X^n))]\leq 1.
-$$Note that $\E_{H_0}[\ell(0,\phi(X^n))] = \Pr_{H_0}(\phi(X^n)=1) \ell(0,1)$ so in order to recapture the type-I error guarantee, we can take $\ell(0,1) = 1/\alpha$, in which case $$
+$$
+Note that $\E_{H_0}[\ell(0,\phi(X^n))] = \Pr_{H_0}(\phi(X^n)=1) \ell(0,1)$ so in order to recapture the type-I error guarantee, we can take $\ell(0,1) = 1/\alpha$, in which case $$
 \E_{H_0}\ell(0,\phi(X^n)) \leq 1 \Leftrightarrow \Pr_{H_0}(\phi(X^n)=1)\leq \alpha.
-$$To recover the notion of power, introduce type-II risk, which is $\E_{H_1}[\ell(1,\phi(X^n))].$ Write $$
+$$
+To recover the notion of power, introduce type-II risk, which is $\E_{H_1}[\ell(1,\phi(X^n))].$ Write $$
 \E_{H_1}[\ell(1,\phi(X^n))] = (1-\beta)\ell(0,1),
-$$which relates type-II risk to power. We want to minimize type-II risk. 
+$$
+which relates type-II risk to power. We want to minimize type-II risk.
 
 Using losses allows us to generalize the NP paradigm beyond binary decisions (accept/reject) and to consider more general decision spaces. Eg we can consider $\ell(a,b)$ for $b\in \mathcal{B}$.  
 

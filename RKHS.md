@@ -29,7 +29,8 @@ f(x) = \sum_i\alpha_i K(x_i,x) = \sum_i a_i \psi_i(x),
 
 $$
 for some $\alpha_i$ and $a_i$ (probably distinct). If $g(x) = \sum_i b_i \psi_i(x)$, then we can show that 
-show that $$
+show that
+$$
  \la f,g\ra \sum_i \frac{\alpha_i\beta_i}{\lambda_i},
 $$
 where $\lambda_i$ are the eigenvalues: $K(x,y) = \sum_i \lambda_i \psi_i(x)\psi_i(y)$. 

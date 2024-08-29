@@ -12,15 +12,20 @@ def reformat_math(file_path):
     # Iterate through each line in the file
     for line in lines:
         # Check if the line includes $$ 
-        if line.strip().includes('$$') and len(line.strip()) > 2:
+        if ('$$' in line.strip()) and len(line.strip()) > 2:
             if line.strip().startswith('$$'): 
                 # Add space after $$
                 content = line.strip()[2:].strip()
                 updated_lines.append(f"$$\n{content}\n")
+            elif line.strip().startswith('>'): 
+                # Special case for definition blockquote
+                updated_lines.append(line)
             else: 
                 # Add space before $$
                 content = line.strip()[:-2].strip()
                 updated_lines.append(f"{content}\n$$\n")
+        else: 
+            updated_lines.append(line)
 
     # Write the updated lines back to the file
     with open(file_path, 'w') as file:

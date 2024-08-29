@@ -24,9 +24,11 @@ An [[e-value]] for $\sigma$-sub-Gaussian distributions is $\exp\{\lambda (X-\mu)
 
 # Multivariate case 
 
-If $X$ is a random vector, we say it is $\Sigma$-sub-Gaussian for some PSD $\Sigma$ if $$
+If $X$ is a random vector, we say it is $\Sigma$-sub-Gaussian for some PSD $\Sigma$ if
+$$
 \E\exp(\lambda\la \nu, X-\mu\ra) \leq \exp\left(\frac{\lambda^2}{2}\la \nu, \Sigma\nu\ra\right),
-$$ for all $\nu\in\dsphere$. In the isotropic case (see [[isotropic distributions]]), we have $\Sigma = \sigma^2 I$ for some $\sigma$, and the condition above becomes 
+$$
+for all $\nu\in\dsphere$. In the isotropic case (see [[isotropic distributions]]), we have $\Sigma = \sigma^2 I$ for some $\sigma$, and the condition above becomes
 $$
 
 \E\exp(\lambda\la \nu, X-\mu\ra) \leq \exp\left(\frac{\lambda^2\sigma^2}{2}\right),

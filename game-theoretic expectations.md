@@ -15,11 +15,13 @@ $$
 $$
 One can think of this as a two-player [[zero sum game]] between you and reality. Reality is trying to maximize, you're trying to minimize, and you move first. The result, $\overline{\E}^g[X]$ is how much you have to pay reality. 
 
-Why is this called upper expectation? Under some conditions on $\calZ$ , $$
+Why is this called upper expectation? Under some conditions on $\calZ$ ,
+$$
 
 \overline{\E}[X] = \sup_{\mu\in\Delta(\calZ)}\E^\mu[X].
 
-$$where $\Delta(\calZ)$ is the set of distributions $\mu$ on $\Omega$ such that $\E^\mu(Z)\leq 0$ for all $Z\in\calZ$, i.e., the set of gambles where you're not expected to make money. 
+$$
+where $\Delta(\calZ)$ is the set of distributions $\mu$ on $\Omega$ such that $\E^\mu(Z)\leq 0$ for all $Z\in\calZ$, i.e., the set of gambles where you're not expected to make money.
 
 The lower expected value is 
 $$

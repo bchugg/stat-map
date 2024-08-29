@@ -1,7 +1,8 @@
 > [!note] Definition
-> A measure $\mu$ is log-concave if for all measurable sets $A, B$ and all $\lambda\in[0,1]$, we have $$
+> A measure $\mu$ is log-concave if for all measurable sets $A, B$ and all $\lambda\in[0,1]$, we have
+> $$
 \mu(\lambda A + (1-\lambda)B) \geq \mu(A)^\lambda \mu(B)^{1-\lambda},
-$$
+> $$
 > if the set $\lambda A + (1-\lambda)B$ is measurable. 
 
 Equivalently, if if a density $f$ can be written as $f(x) = \exp(\varphi(x))$ for some concave $\varphi$, then the distribution is log-concave.  
@@ -13,8 +14,6 @@ $$
 
 $$
 for some $c\geq 0$ and all unit vectors $u$ where $\Sigma = \Var(X)$. This demonstrates that all log-concave distributions are sub-exponential.  
-
-
 
 Many common distributions are log-concave: 
 - The normal distribution 
