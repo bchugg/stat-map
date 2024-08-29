@@ -1,4 +1,4 @@
-States that the [[likelihood-ratio test]] is the [[uniformly most powerful test]] among all level-$\alpha$ tests when testing simple nulls against simple alternatives. The NP lemma is generalized by the [[Karlin-Rubin theorem]]. 
+States that a variant of the [[likelihood-ratio test]] is the [[uniformly most powerful test]] among all level-$\alpha$ tests when testing simple nulls against simple alternatives. The NP lemma is generalized to [[monotone likelihood ratio]] families by the [[Karlin-Rubin theorem]]. 
 
 Suppose we are testing $H_0:\theta = \theta_0$ vs $H_1: \theta = \theta_1$. Consider the likelihood ratio test, which says to reject if $p_1(\theta_1)/p_0(\theta_0)\geq k$ where $k$ is chosen so that 
 $$
@@ -7,6 +7,8 @@ $$
 
 $$
 where $\Pr_0$/$\Pr_1$ are the distributions under the null/alternative and $p_0/p_1$ are their densities. The NP lemma states that this test is UMP.  
+
+Both of the following proofs are simple but require that everything is continuous. This is usually how the NP lemma is stated, but it can also be extended to discrete distributions. See [[Neyman-Pearson lemma for discrete distributions]]. 
 ## Proof 1
 
 Let $\phi$ denote the likelihood ratio test and $\psi$ denote any other level $\alpha$ test. Consider the integral

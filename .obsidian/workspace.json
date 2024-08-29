@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "855d8273f7a9cb6c",
+            "id": "203ffbf82e99493f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "anytime-valid p-values.md",
+                "file": "monotone likelihood ratio.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "d6b0136a2e649027",
+            "id": "81e3beb751cfde0e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "optional continuation.md",
+                "file": "Neyman-Pearson lemma.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +34,77 @@
             }
           },
           {
-            "id": "c55f30a0e0a546d6",
+            "id": "b7b44c5c10099a6e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test-martingale.md",
+                "file": "Neyman-Pearson lemma for discrete distributions.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4d7cb41fcc67834c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "post-hoc hypothesis testing.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "43a65c6cfee96410",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "e-values enable post-hoc hypothesis testing.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "44e695986a773185",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "likelihood-ratio test.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e0235465d1a5f742",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "exponential families.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e864aa4788226861",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sufficient statistic.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -147,7 +212,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test-martingale.md",
+                "file": "exponential families.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +229,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "test-martingale.md",
+                "file": "exponential families.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +252,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "test-martingale.md"
+                "file": "exponential families.md"
               }
             }
           }
@@ -209,10 +274,18 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "c55f30a0e0a546d6",
+  "active": "e0235465d1a5f742",
   "lastOpenFiles": [
-    "testing by betting—composite vs composite.md",
+    "sufficient statistic.md",
+    "exponential families.md",
+    "likelihood-ratio test.md",
+    "e-values enable post-hoc hypothesis testing.md",
+    "post-hoc hypothesis testing.md",
+    "Neyman-Pearson lemma for discrete distributions.md",
+    "Neyman-Pearson lemma.md",
+    "monotone likelihood ratio.md",
     "test-martingale.md",
+    "testing by betting—composite vs composite.md",
     "techniques for multivariate concentration.md",
     "t-test.md",
     "survey sampling.md",
@@ -229,14 +302,6 @@
     "Fisher's paradigm.md",
     "hilbert space.md",
     "Linear Regression.md",
-    "Concentration Inequalities.md",
-    "central limit theorems.md",
-    "Chernoff bounds specify e-values.md",
-    "calibration.md",
-    "bounded difference inequalities.md",
-    "BH procedure.md",
-    "Bernstein von-Mises theorem.md",
-    "anytime-valid p-values.md",
     "extra/touch_up.py",
     "preamble.sty",
     "publish.css~",
