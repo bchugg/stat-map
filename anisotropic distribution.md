@@ -4,6 +4,8 @@ Informally this means that the variance is not the same in all directions—the 
 
 Mathematically, the definition is that $P$ is anisotropic if there exists some [[orthogonal matrix]] $Q$ such that 
 $$
+
 X \neq QX,
+
 $$
 in distribution, where $X\sim P$.  This is simply the negation of the anisotropic condition. Thinking about it intuitively is much easier. 

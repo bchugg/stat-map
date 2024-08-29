@@ -1,5 +1,7 @@
 A test martingale for a distribution $P$ is a nonnegative $P$-martingale with initial value 1. That is, it is a stochastic process $(M_t)_{t\geq 1}$ with $M_t\geq 0$ for all $t$, $M_1 = 1$ and 
-$$\E_P[M_t|\calF_{t-1}] \leq M_{t-1},$$ where $(\calF_t)$ is the filtration to which $(M_t)$ is adapted. 
+$$
+\E_P[M_t|\calF_{t-1}] \leq M_{t-1},
+$$ where $(\calF_t)$ is the filtration to which $(M_t)$ is adapted. 
 
 Test martingales are common tools in [[game-theoretic probability]] and [[game-theoretic statistics]] where they represent fair bets under $P$. Often one generalizes the discussion of test martingales to [[e-process]], as they are bounded above by test martingales and thus also obey [[Ville's inequality]].  Both e-processes and test-martingales thus immediately yield [[sequential hypothesis testing]] for the null $H_0: P = P_0$: we reject when the process exceeds $1/\alpha$. This constitutes a level-$\alpha$ sequential test. 
 
@@ -9,7 +11,9 @@ Often we are interested in statistical problems involving sets of distributions,
 
 $M_t$ is a $P$-martingale iff 
 $$
+
 M_t / M_{t-1} = ( 1 + \phi(X_t)),
+
 $$
 where $\phi$ is a bounded odd-function. 
 

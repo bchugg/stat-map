@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "anytime-valid p-values.md",
+                "file": "Chernoff method.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -160,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "anytime-valid p-values.md",
+                "file": "Chernoff method.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "anytime-valid p-values.md",
+                "file": "Chernoff method.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "anytime-valid p-values.md"
+                "file": "Chernoff method.md"
               }
             }
           }
@@ -224,6 +224,7 @@
   },
   "active": "5ce0acdd4823f8cf",
   "lastOpenFiles": [
+    "anytime-valid p-values.md",
     "GRO e-variable.md",
     "e-value.md",
     "numeraire e-variable.md",
@@ -231,7 +232,6 @@
     "growth rate conditions in sequential testing.md",
     "basic inequalities.md",
     "optional continuation.md",
-    "anytime-valid p-values.md",
     "active statistical inference.md",
     "testing group invariance.md",
     "maximizing log-wealth.md",

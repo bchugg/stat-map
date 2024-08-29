@@ -2,7 +2,9 @@ Suppose $X\in \calX$. The idea behind tree based nonparametric regression is to 
 
 The simplest thing is to simply take the average of the labels of points in each region $R_i$, i.e., for $x\in R_k$, 
 $$
+
 \widehat{m}(x) = \sum_{i=1}^n \frac{\ind(X_i \in R_k) Y_i}{\sum_j \ind(X_j\in R_k)}.
+
 $$
 If the labels are discrete (i.e., we're doing [[nonparametric classification]]), then instead of taking the average label, we might take the majority label in the region $R_k$. In this case, it's similar to [[knn]] (but still possibly distinct, depending on how the regions are chosen). 
 

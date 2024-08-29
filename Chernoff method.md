@@ -10,4 +10,10 @@ $$
 $$
 where $M_X$ is the [[MGF]] of $X$. If we place distributional assumptions on $X$ (eg bounded, [[sub-Gaussian distributions|sub-Gaussianity]]), then we can solve for the optimal value of $\lambda$. 
 
-The Chernoff method is often written in terms of the Cramer transform of $X$ (hence often called in the Cramer-Chernoff method), which is $$\psi_X^*(t) = \sup_{\lambda\geq 0} (\lambda t - \psi_X(\lambda)),\quad \text{where}\quad \psi_X(\lambda) = \log \E e^{\lambda Z}.$$This is also often called the Fenchel-Legendre transform. We can write $$\Pr(X\geq t) \leq \exp(-\psi_X^*(t)).$$
+The Chernoff method is often written in terms of the Cramer transform of $X$ (hence often called in the Cramer-Chernoff method), which is
+$$
+\psi_X^*(t) = \sup_{\lambda\geq 0} (\lambda t - \psi_X(\lambda)),\quad \text{where}\quad \psi_X(\lambda) = \log \E e^{\lambda Z}.
+$$This is also often called the Fenchel-Legendre transform. We can write 
+$$
+\Pr(X\geq t) \leq \exp(-\psi_X^*(t)).
+$$

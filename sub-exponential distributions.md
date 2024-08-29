@@ -4,13 +4,17 @@ Sub-exponential conditions are also natural conditions to study because a variab
 
 The most straightforward definition of a sub-exponential random variable $X$ with mean $\mu$ is: 
 $$
+
 \E[\exp(\lambda (X-\mu))] \leq \exp(\lambda^2\sigma^2/2),
+
 $$
 for all $\lambda\leq 1/c$ where $c\in [0,\infty)$. In this case we say $X$ is $(\sigma,c)$-sub-exponential. Note that $X$ is $\sigma$-sub-Gaussian if it is $(\sigma, 0)$-sub-exponential. 
 
 There is also a natural [[anisotropic distribution|anisotropic]] version for a random vector $X$, namely: 
 $$
+
 \E\exp(\lambda\la \nu, X-\mu\ra) \leq \exp(\lambda^2\la \nu, \Sigma\nu\ra/2),
+
 $$
 for all $\nu\in\dsphere$ and some [[positive semi-definite]] matrix $\Sigma$. As in the case of [[sub-Gaussian distributions]], there is also the accompanying [[isotropic distributions|isotropic]] version, which we don't state. 
 

@@ -1,6 +1,8 @@
 A problem in [[sequential hypothesis testing]] where we want to test whether a sequence of observations is [[exchangeable distribution|exchangeable]]. That is, we observe $X_1,X_2,\dots$ and test 
 $$
+
 H_0: X_1,X_2,\dots\text{ are exchangeable}.
+
 $$
 In some sense, this the same probability as testing the iid assumption. [Ramdas et al. (Corollary 16)](http://www.maths.lse.ac.uk/Personal/jruf/papers/shafer.pdf) show that a sequence is an [[e-process]] under exchangeability iff it is an e-process under the iid assumption. 
 

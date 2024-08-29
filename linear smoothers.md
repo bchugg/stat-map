@@ -1,6 +1,8 @@
 In [[nonparametric regression]], a linear smoother is an estimate $\hat{m}(x)$ of $m(x) = \E[Y|X=x]$ such that 
 $$
+
 \wh{m}(x) = \sum_{i=1}^n \ell_i(x)Y_i = \ell(x)^T Y,
+
 $$
 for some functions $\ell_1(x),\dots,\ell_n(x)$. This is a very broad class of estimators. Indeed, [[partitions and trees]], [[kernel regression]], [[local polynomial regression]], and [[RKHS regression]] are all examples of linear smoothers. 
 

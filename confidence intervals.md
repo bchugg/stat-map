@@ -1,5 +1,7 @@
 
-A $(1-\alpha)$-CI for a parameter $\theta$ based on observations $X_1, X_2,\dots,X_n$ is a set $C_n = C(X_1,\dots,X_n)$ such that $$ \Pr(\theta\notin C_n)\leq \alpha.$$This is a frequentist notion ([[frequentist statistics]]) as opposed to a Bayesian one. The Bayesian equivalent of CIs are [[credible intervals]]. 
+A $(1-\alpha)$-CI for a parameter $\theta$ based on observations $X_1, X_2,\dots,X_n$ is a set $C_n = C(X_1,\dots,X_n)$ such that $$
+ \Pr(\theta\notin C_n)\leq \alpha.
+$$This is a frequentist notion ([[frequentist statistics]]) as opposed to a Bayesian one. The Bayesian equivalent of CIs are [[credible intervals]]. 
 
 The interpretation of CIs is notoriously tricky. The correct interpretation is that if you repeat the experiment many times (where an experiment consists of drawing $n$ datapoints), then the parameter $\theta$ will be inside the interval about an $(1-\alpha)$-fraction of the time. The incorrect (but common) interpretation is that the parameter $\theta$ has a $(1-\alpha)$ chance of being inside a given interval. This isn't true: for each realization of $C_n$, the parameter is either covered by the interval or it's not. 
 

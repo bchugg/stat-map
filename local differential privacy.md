@@ -4,7 +4,9 @@ For all these reasons, we might consider _local_ differentially privacy. Here, t
 
 In the local setting, instead of considering functions which act on the set of databases $\calD$, we consider functions which act on a users private data. If $h$ is such a function, then we say that $h$ is $\eps$-local differentially private if, for all user data $x$ and $y$ and all $A\subset \image(h)$, 
 $$
+
 \Pr(h(x)\in A)\leq e^\eps \Pr(h(y)\in A).
+
 $$
 Mathematically, therefore, this looks precisely the same as the definition of $(\eps,0)$-differential privacy, except that the function $h$ is acting on a different space than the function $f$. 
 

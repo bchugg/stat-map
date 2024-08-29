@@ -10,7 +10,9 @@ Intuitively, covering and packing numbers are precisely what you think they are.
 
 Covering numbers and packing numbers are related as follows: 
 $$
+
 M(2\delta; X,\rho) \leq N(\delta; X,\rho)\leq M(\delta; X,\rho).
+
 $$
 The [[metric entropy]] of $(X,\rho)$ is $\log N(\delta; X,\rho)$. 
 

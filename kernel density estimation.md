@@ -2,12 +2,16 @@ A specific approach to [[nonparametric density estimation]], which can be viewed
 
 Our estimate for $p(x)$ is 
 $$
+
 \wh{p}(x) = \frac{1}{n}\sum_{i=1}^n \frac{1}{h^d}K\bigg(\frac{x-X_i}{h}\bigg).
+
 $$
 Essentially, we're placing small lumps of mass around the data points $X_1,\dots,X_n$. The size of the lumps is controlled by the Kernel and $h$, called the bandwidth. As $h$ increases, $\wh{p}$  becomes more uniform. 
 
 We can generalize the above to allow for positive definite bandwidth matrices $H$ and write 
 $$
+
 \wh{p}(x) = \sum_{i=1}^n K_H(x-X_i),
+
 $$
 where $K_H(z) = |H|^{-1/2}K(H^{-1/2}z)$.  Taking $H=h^2I$ recover the previous formula. 
