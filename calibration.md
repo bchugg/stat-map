@@ -19,7 +19,8 @@ Most research into calibration is not trying to generate a new model $f$ which i
 We have a target [[average calibration error]] $K_2$ of $\alpha$. Let 
 $$
 v' =\argmax_v \Pr(f(x) =v) \left( v - \E_P [y|f(x)=v]\right).
-$$Then we simply set $\wh{f}(x) = v'$ if $f(x)=v$ and $\wh{f}(x) = f(x)$ otherwise. Repeating this procedure leads to a model with $\leq \alpha$ calibration error. Moreover, it also reduces [[squared error]]. You can show that this runs for $T\leq m/\alpha$ iterations where $m = |\range(f)|$. 
+$$
+Then we simply set $\wh{f}(x) = v'$ if $f(x)=v$ and $\wh{f}(x) = f(x)$ otherwise. Repeating this procedure leads to a model with $\leq \alpha$ calibration error. Moreover, it also reduces [[squared error]]. You can show that this runs for $T\leq m/\alpha$ iterations where $m = |\range(f)|$. 
 
 There's also a _one-shot_ algorithm that accomplishes this goal. If $c(v) = \E[y|f(x) = v]$, then simply let $\wh{f}(x) = c(f(x))$. Then $\wh{f}$ has $K_2=0$. 
 

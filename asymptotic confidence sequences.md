@@ -11,8 +11,9 @@ This suggests the question of whether there exists some notion of _asymptotic_ c
 # Definition
 
 > [!Definition]
-> A $(1-\alpha$)-asymptotic CS (asympCS) for a parameter $\mu$ is a sequence of sets $(C_t)$ obeying $$
-\lim_{k\to\infty} \Pr(m\geq k: \mu \in C_m).
+> A $(1-\alpha$)-asymptotic CS (asympCS) for a parameter $\mu$ is a sequence of sets $(C_t)$ obeying 
+> $$
+> \lim_{k\to\infty} \Pr(m\geq k: \mu \in C_m).
 $$
 
 
