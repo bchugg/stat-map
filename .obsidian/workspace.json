@@ -8,12 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "203ffbf82e99493f",
+            "id": "6af43f467af8cd40",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "1691980dae4ca8e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "monotone likelihood ratio.md",
+                "file": "current statistical practice combines the Fisherian and Neyman-Pearson perspectives.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,51 +29,12 @@
             }
           },
           {
-            "id": "81e3beb751cfde0e",
+            "id": "35bc3a03c8e28ed8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Neyman-Pearson lemma.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b7b44c5c10099a6e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Neyman-Pearson lemma for discrete distributions.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4d7cb41fcc67834c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "post-hoc hypothesis testing.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "43a65c6cfee96410",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "e-values enable post-hoc hypothesis testing.md",
+                "file": "optional stopping.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -112,25 +81,12 @@
             }
           },
           {
-            "id": "81b26bad2e961fc6",
+            "id": "c587c3b75139b264",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "numeraire e-variable.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "026be17041734b7a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "e-value.md",
+                "file": "concentration inequalities.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -167,7 +123,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "testing exchan",
+                "query": "game-theoretic probab",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -212,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "exponential families.md",
+                "file": "concentration inequalities.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -229,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "exponential families.md",
+                "file": "concentration inequalities.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -252,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "exponential families.md"
+                "file": "concentration inequalities.md"
               }
             }
           }
@@ -274,34 +230,34 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "e0235465d1a5f742",
+  "active": "c587c3b75139b264",
   "lastOpenFiles": [
     "sufficient statistic.md",
+    "concentration inequalities.md",
     "exponential families.md",
+    "Untitled.md",
+    "concentration of measure.md",
+    "concentration of functions.md",
+    "post-hoc hypothesis testing with losses.md",
+    "Concentration Inequalities.md",
+    "current statistical practice combines the Fisherian and Neyman-Pearson perspectives.md",
     "likelihood-ratio test.md",
-    "e-values enable post-hoc hypothesis testing.md",
-    "post-hoc hypothesis testing.md",
-    "Neyman-Pearson lemma for discrete distributions.md",
-    "Neyman-Pearson lemma.md",
+    "optional stopping.md",
+    "game-theoretic probability.md",
     "monotone likelihood ratio.md",
+    "game-theoretic probabilities.md",
+    "Neyman-Pearson lemma for discrete distributions.md",
+    "e-values enable post-hoc hypothesis testing.md",
+    "e-value.md",
+    "numeraire e-variable.md",
+    "Neyman-Pearson paradigm as decision-theory.md",
+    "post-hoc hypothesis testing.md",
+    "Neyman-Pearson lemma.md",
     "test-martingale.md",
     "testing by betting—composite vs composite.md",
     "techniques for multivariate concentration.md",
     "t-test.md",
     "survey sampling.md",
-    "supervised learning.md",
-    "supermartingale.md",
-    "sub-psi process.md",
-    "sub-Gaussian process.md",
-    "sub-exponential distributions.md",
-    "Lp norm.md",
-    "log-concave distribution.md",
-    "entropy number.md",
-    "asymptotic confidence sequences.md",
-    "chaining.md",
-    "Fisher's paradigm.md",
-    "hilbert space.md",
-    "Linear Regression.md",
     "extra/touch_up.py",
     "preamble.sty",
     "publish.css~",
