@@ -24,7 +24,7 @@ Like measure-theoretic probability, GTP introduces various notation and concepts
 
 Let $\Omega$ be the _outcome_ space, i.e., the set of things that can happen. Elements $\omega\in\Omega$ are called _outcomes_ and subsets $A\subset \Omega$ are called _events_.   
 
-A variable is a mapping $X:\Omega\to\overline{\Re}$,  where $\overline{\Re}$ is the extended reals. A useful way to think about variables is as contracts. Eg, $X$ might be the contract "if this coin lands heads then the bearer obtains $1". Here $\Omega=\{H,T\}$ and $X(H)=1$, $X(T)=0$. Then we can start asking questions such as: "How much are you willing to pay $X$ for?" 
+A variable is a mapping $X:\Omega\to\overline{\Re}$,  where $\overline{\Re}$ is the extended reals. A useful way to think about variables is as contracts. Eg, $X$ might be the contract "if this coin lands heads then the bearer obtains 1 dollar". Here $\Omega=\{H,T\}$ and $X(H)=1$, $X(T)=0$. Then we can start asking questions such as: "How much are you willing to pay $X$ for?" 
 
 A gamble is also a mapping $Z:\Omega\to\overline{\Re}$, but it's useful to differentiate gambles from variables. 
 Think of the outcome $Z(\omega)$ is how much money is obtained when the outcome is $\omega$ when using gambling strategy $Z$. 

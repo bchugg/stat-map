@@ -8,4 +8,4 @@ This might some an obscure property, but many families of distributions have the
 - Uniform distributions 
 - Hypergeometric distributions 
 
-The MLR property is important in [[hypothesis testing]]: The [[Karlin-Rubin theorem]] extends the [[Neyman-Pearson lemma]] to MLR families. This makes the NP lemma significantly more practical, as testing point nulls vs point composites is really done in practice. 
+The MLR property is important in [[hypothesis testing]]: The [[Karlin-Rubin theorem]] extends the [[Neyman-Pearson lemma]] to MLR families. This makes the NP lemma significantly more practical, as testing point nulls vs point composites is rarely done in practice. 
