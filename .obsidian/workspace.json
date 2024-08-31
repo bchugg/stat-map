@@ -81,6 +81,71 @@
             }
           },
           {
+            "id": "974b13219bf2ff74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "minimal sufficiency.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4b4d3d8ff55ed6ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sufficient statistic.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "632271a0705364b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Rao-Blackwell theorem.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6dfd435a6677fa06",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "statistical decision theory.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "098f2d6d8dd02e56",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "minimal sufficiency.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "c587c3b75139b264",
             "type": "leaf",
             "state": {
@@ -94,7 +159,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -168,7 +233,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "concentration inequalities.md",
+                "file": "statistical decision theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +250,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "concentration inequalities.md",
+                "file": "statistical decision theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,7 +273,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "concentration inequalities.md"
+                "file": "statistical decision theory.md"
               }
             }
           }
@@ -230,12 +295,16 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "c587c3b75139b264",
+  "active": "6dfd435a6677fa06",
   "lastOpenFiles": [
+    "Untitled.md",
+    "statistical decision theory.md",
+    "Rao-Blackwell theorem.md",
     "sufficient statistic.md",
+    "minimal sufficiency.md",
+    "sufficiency and the likelihood.md",
     "concentration inequalities.md",
     "exponential families.md",
-    "Untitled.md",
     "concentration of measure.md",
     "concentration of functions.md",
     "post-hoc hypothesis testing with losses.md",
@@ -254,10 +323,6 @@
     "post-hoc hypothesis testing.md",
     "Neyman-Pearson lemma.md",
     "test-martingale.md",
-    "testing by betting—composite vs composite.md",
-    "techniques for multivariate concentration.md",
-    "t-test.md",
-    "survey sampling.md",
     "extra/touch_up.py",
     "preamble.sty",
     "publish.css~",
