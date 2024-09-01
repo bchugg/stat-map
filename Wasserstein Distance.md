@@ -1,4 +1,4 @@
-Wasserstein distances are a class of distance between distributions $P$ and $Q$ over some common space $\calX$. They come from considering the [[optimal transport]] cost when the cost function is a metric. In particular, if $d:\calX\times\calX\to\Re$ is a metric, set 
+Wasserstein distances are a class of [[distributional distance|distributional metrics]] between distributions $P$ and $Q$ over some common space $\calX$. They come from considering the [[optimal transport]] cost when the cost function is a metric. In particular, if $d:\calX\times\calX\to\Re$ is a metric, set 
 $$
 
 W_p(\mu,\nu) = \bigg(\min_{\pi\in \Gamma(\mu,\nu)} \E_{X,Y\sim \pi} [d(X,Y)^p]\bigg)^{1/p},

@@ -1,7 +1,13 @@
-The Wald interval is 
+The Wald interval is a nonasymptotic [[confidence intervals|confidence interval]] for the mean based on the [[central limit theorems|CLT]]:
+$$
+C_n = \left\{\overline{X}_n \pm z_{1-\alpha/2}\wh{\sigma}_n/\sqrt{n} \right\},
+$$
+where $\wh{\sigma}_n$ is the empirical variance. 
+
+An error-bound on the Wald interval can be written in terms of the [[KS distance]]: 
+$$
+\Pr(\mu \notin C_n) \leq \alpha + 2\rho_\ks(n^{1/2}(\wh{\mu}_n - \mu)\|N(0,1)).
 $$
 
-C_n = \left\{\overline{X}_n \pm z_{1-\alpha/2}\wh{\sigma}_n/\sqrt{n} \right\}.
 
-$$
-There exists a non-asymptotic approximation to the Wald interval, in the sense that 
+#todo Non-asymptotic approximation to the Wald interval

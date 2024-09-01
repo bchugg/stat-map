@@ -6,4 +6,4 @@ $$
 $$
 Sufficiency is only used in order to define the estimator $\widetilde{\theta}$ in order to make sure it's actually independent from $\theta$ (otherwise the theorem is useless). 
 
-The estimator $\widetilde{\theta}$ is often called the Rao-Blackwellization of $\wh{\theta}$. 
+The estimator $\widetilde{\theta}$ is often called the Rao-Blackwellization of $\wh{\theta}$. The theorem is usually applied with the [[squared error]]. 
