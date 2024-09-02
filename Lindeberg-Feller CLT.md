@@ -13,3 +13,5 @@ $$
 \sqrt{n}\left(\frac{1}{n}\sum_{i\leq n}X_i - \mu\right) \to N(0,\sigma^2).
 $$
 The quantity $L_n(\eps)$ is called the Lindeberg function, and $L_n(\eps)\to 0$ is called the Lindeberg condition. 
+
+The Lindeberg-Feller CLT strengthens the [[Lyapunov CLT]]. 

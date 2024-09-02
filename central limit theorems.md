@@ -4,6 +4,7 @@ CLTs are asymptotic results. They are less exact than non-asymptotic results but
 
 Examples: 
 - [[Lindeberg-Feller CLT]]
+- [[Lindeberg-Levy CLT]]
 - [[Lyapunov CLT]]
 
 The first CLT ever proved was for binomial distributions by de Moivre. He showed that if $X_n\sim \text{Binomial}(n,p)$, then 
