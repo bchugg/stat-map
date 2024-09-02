@@ -1,3 +1,7 @@
+---
+created: 2024-09-02
+lastmod: 2024-09-02
+---
 Let $\calP$ be some set of distributions, and $\calP_\theta\subset\calP$ be those distributions which share some parameter $\theta$: eg the set of distributions on $[0,1]$ with mean $\theta$. We receive observations from $P\in \calP_{\theta^*}$ for some $\theta^*$ and want to form a post-hoc CS (see [[post-hoc valid confidence sequences]]) for $\theta^*$. 
 
 Let $(E_t^\theta)_{t\geq 1}$ be an [[e-process]] for $\calP_\theta$: 

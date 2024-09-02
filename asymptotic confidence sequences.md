@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 #todo 
 
 Typically, [[confidence sequences]] are non-asymptotic objects. There's no "limit" in the statements as there is with, say, [[confidence intervals]] that are constructed via the [[central limit theorems|CLT]]. 

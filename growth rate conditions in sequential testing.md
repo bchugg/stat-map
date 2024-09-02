@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 
 In [[sequential hypothesis testing]] based on [[e-value|e-values]] (i.e., [[game-theoretic hypothesis testing]]), one wants to find e-values and [[e-process|e-processes]] which grow quickly under the alternative. "Quickly" is a non-technical condition, however. What exactly should be maximized? Various authors have used different conditions based on the particular problem at hand. 
 

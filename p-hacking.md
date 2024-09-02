@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 
 Many studies use [[p-value|p-values]] to analyze the significance of their claims. P-hacking refers to any method which is used by the researchers (wittingly or unwittingly) to fallaciously lower a p-value in order to make their conclusions seem more significant. This can involve removing "problematic" observations, gathering more data until significance is reached, or performing [[multiple testing]] without appropriately adjusting your p-values. 
 

@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 A problem in [[sequential hypothesis testing]] where we want to test whether a sequence of observations is [[exchangeable distribution|exchangeable]]. That is, we observe $X_1,X_2,\dots$ and test 
 $$
 

@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 
 The method of moments is a generalization of Chebyshev's inequality ([[basic inequalities#Chebyshev's inequality|basic inequalities:Chebyshev's inequality]]). Notice that by Markov's inequality, we have 
 $$

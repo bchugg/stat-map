@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 Possibly the simplest method for [[nonparametric density estimation]] after the empirical distribution. 
 
 We split the space $\calX\subset \Re^d$ into $N$ equal sized bins, $B_1,\dots,B_N$. Note that the true density is 

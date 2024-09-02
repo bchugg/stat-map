@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 Harold Jeffreys based his views on the [[foundations of statistics]] on an objective Bayesian account of the theory of probability (see [[Bayesian interpretation of probability]]). He agreed with the [[Neyman-Pearson paradigm]] that one should always test a null hypothesis $H_0$ against an alternative hypothesis $H_1$ (unlike in [[Fisher's paradigm]], for instance). 
 
 Given such hypotheses and data $X$, Jeffreys wanted to 

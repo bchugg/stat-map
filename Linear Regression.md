@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 
 We assume the model $y = \beta^t X + \eps$, where we make various different assumptions on $\eps$. 
 

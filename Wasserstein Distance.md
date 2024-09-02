@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 Wasserstein distances are a class of [[distributional distance|distributional metrics]] between distributions $P$ and $Q$ over some common space $\calX$. They come from considering the [[optimal transport]] cost when the cost function is a metric. In particular, if $d:\calX\times\calX\to\Re$ is a metric, set 
 $$
 

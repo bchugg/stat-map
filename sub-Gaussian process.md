@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 > [!note] Definition 
 > A collection of zero-mean random variables $\{X_\theta:\theta\in\Theta\}$ is a sub-Gaussian process wrt to a metric $\rho$ if 
 > $$

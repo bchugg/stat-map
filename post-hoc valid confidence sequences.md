@@ -1,3 +1,7 @@
+---
+created: 2024-09-02
+lastmod: 2024-09-02
+---
 We might extend the desiderata of [[post-hoc hypothesis testing]] to post-hoc confidence sequences. 
 
 [[confidence sequences|Confidence sequences]] are the [[time-uniform]] equivalent to [[confidence intervals]]. But what if we want time-uniformity in addition to post-hoc validity, i.e., the ability to change $\alpha$ after the fact? 

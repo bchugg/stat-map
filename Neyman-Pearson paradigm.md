@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 
 An approach to the [[foundations of statistics]]. The Neyman-Pearson (NP) paradigm is focused on decision-making above all else, as opposed to simply quantifying [[evidence against the null]] as Fisher wanted (see [[Fisher's paradigm]]). 
 

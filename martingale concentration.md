@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 
 Let $(S_t)$ be a martingale wrt to the filtration $(\calF_t)$. Assume $(S_t)$ is scalar-valued unless otherwise indicated. Here we investigate [[concentration inequalities]] for $(S_t)$. 
 

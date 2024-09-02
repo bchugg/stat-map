@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 We are in the setting that was described in [[chaining]]. We are trying to obtain a maximal inequality for the [[sub-Gaussian process]] $(X_\theta)$, $\theta\in\Theta$. Chaining gave a bound of the form 
 $$
 

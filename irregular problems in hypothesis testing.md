@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 
 The validity of many test statistics depends on various regularity conditions. For instance, Wilk's famous theorem states that -2 times the log-likelihood converges to a $\chi^2$ distribution, which provides a test statistic for simple nulls and simple alternatives. But what if these regularity conditions don't hold? Such problems are called irregular problems. 
 

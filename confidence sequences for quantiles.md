@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 #todo 
 
 We can develop [[confidence sequences]] for all quantiles of a distribution and, perhaps surprisingly, all quantiles of a distribution _simultaneously_. 

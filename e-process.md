@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 An e-process is the sequential analogue of the [[e-value]]. We say a stochastic process $(E_t)$ is an e-process if it is an e-value at every [[stopping-time]]:
 $$
 \text{for all stopping times }\tau,\quad \E[E_\tau]\leq 1, \quad E_\tau \geq 0.

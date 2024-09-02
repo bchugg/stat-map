@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 We can recover many of the classical concentration inequalities of measure-theoretic probabilities in game-theoretic form (see [[game-theoretic probability]]).  
 
 Fix a gamble space $(\Omega, \calZ)$ ([[game-theoretic probability#Gamble spaces, prices, and probabilities|game-theoretic probability:Gamble spaces, prices, and probabilities]]).  

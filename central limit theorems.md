@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 CLTs concern the convergence in distribution of (some statistic of) data. They are foundational in [[statistical inference]] because they show that, for large enough sample sizes, we can treat data from an unknown or complicated distribution as though it comes from a nicer, well-behaved distribution (eg, a Gaussian). 
 
 CLTs are asymptotic results. They are less exact than non-asymptotic results but typically require fewer assumptions. 

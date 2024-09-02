@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 
 A p-value is, colloquially, a notion of [[evidence against the null]] in [[hypothesis testing]]. Mathematically, they are typically defined as a random variable $P$ such that, under the null hypothesis $H_0$, obey 
 $$

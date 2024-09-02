@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 A Bayesian (see [[Bayesian statistics]]) approach to [[nonparametric regression]]. 
 
 We say a stochastic process $\{m(x): x\in \calX\}$ is a Gaussian process if, for any finite collection $x_1,\dots,x_n$, 

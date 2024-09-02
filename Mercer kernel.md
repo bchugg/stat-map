@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 A Mercer Kernel on a space $\calX$ is a symmetric function $K:\calX\times\calX\to\Re$ which is symmetric and positive semi-definite. That is, $K(x,y) = K(y,x)$ for all $x$ and $y$ and 
 $$
 

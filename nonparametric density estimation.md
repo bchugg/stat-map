@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 Let $X_1,\dots,X_n\sim P$. The goal of [[density estimation]] is to determine the density of $P$, call it $p$. Here we want to make as few assumptions about $p$ as possible (i.e., we don't assume that $P$ comes from some parametric family; see [[parametric versus nonparametric statistics]]). 
 
 An obvious solution is to simply take the empirical distribution, in which case our estimator is 

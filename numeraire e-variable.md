@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 A fundamental result when testing composite nulls in the setting of [[game-theoretic hypothesis testing]]. 
 
 Given any composite null $\calP$ against any point null $Q$, there exists a unique [[e-value]] (i.e., e-variable) $X^*$ such that

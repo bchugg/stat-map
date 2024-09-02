@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 Anisotropic distributions are those that are not [[isotropic distributions|isotropic]]. 
 
 Informally this means that the variance is not the same in all directions—the distribution is not rotationally invariant. Perhaps the covariance matrix defines an ellipsoid instead of a sphere, for example. 

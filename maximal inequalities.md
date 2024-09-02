@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 
 To motivate maximal inequalities, I'll quote from the opening of Michel Talagrand's excellent book [_Upper and Lower Bounds for Stochastic Processes_](https://link.springer.com/book/10.1007/978-3-642-54075-2): 
 

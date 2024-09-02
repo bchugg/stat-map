@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 # Master theorem 
 
 Let $M_t(\theta)$ be a nonnegative [[supermartingale]] with initial value 1 for all $\theta\in\Theta$. Let $\nu$ be a data-free prior. Then, 

@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 A technique that pops up in various areas that allows one to obtain more powerful results. 
 
 For instance: 

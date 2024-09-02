@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 For a strictly increasing function $\psi: \Re_+\to\Re_+$, the $\psi$-Orlicz norm is 
 $$
 

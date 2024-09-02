@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 The proof of the [[Neyman-Pearson lemma]] relies heavily on finding some threshold $\kappa$ such that 
 $P(\Lambda(X) \geq \kappa) = \alpha$ where $\Lambda$ is the likelihood ratio. If $P$ is continuous, then this is possible. But what if the distribution is discrete? In that case, we use randomization. 
 

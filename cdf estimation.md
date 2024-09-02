@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 Given a sample $X_1,\dots,X_n\sim F$, we want to estimate the cdf $F_X(a) = \Pr(X\leq a)$. 
 
 The most common approach in [[frequentist statistics]] is to simply use the empirical cdf: 

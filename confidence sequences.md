@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 
 A confidence sequence can be thought of as a sequence of sequentially valid [[confidence intervals]]). Formally, $(C_t)_{t\geq 1}$ is a $(1-\alpha)$-CS for a parameter $\theta$ if
 $$

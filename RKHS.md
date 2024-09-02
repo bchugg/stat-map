@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 A Reproducing Kernel Hilbert Space (RKHS) is a [[Hilbert space]] endowed with more structure that makes it amenable to statistical learning. Specifically, it is defined by a [[Mercer kernel]] $K(\cdot,\cdot)$, and consists of functions $f$ that can be written as linear combinations of the Kernel, i.e., 
 $$
 

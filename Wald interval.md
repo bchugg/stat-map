@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 The Wald interval is a nonasymptotic [[confidence intervals|confidence interval]] for the mean based on the [[central limit theorems|CLT]]:
 $$
 C_n = \left\{\overline{X}_n \pm z_{1-\alpha/2}\wh{\sigma}_n/\sqrt{n} \right\},

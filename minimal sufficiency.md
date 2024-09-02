@@ -1,3 +1,7 @@
+---
+created: 2024-08-31
+lastmod: 2024-09-02
+---
 [[sufficient statistic|Sufficient statistics]] are not unique. This motivates the notion of some sort of minimal sufficient statistic. 
 
 > [!Definition]

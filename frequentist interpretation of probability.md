@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 The frequentists want to define probability in terms of the long-run frequency of events. What do we mean when we say that the probability of tossing a coin and it landing heads is 1/2? On the frequentist view, we mean that if we were to toss it a larger and larger number of times, then fraction of times it lands heads will converge to 1/2. 
 
 The frequentist interpretation is typically contrasted with the [[Bayesian interpretation of probability]]. Frequentists yell at Bayesians for being subjectivists, and Bayesians yell at frequentists for not being able to assign probability to one off events. 

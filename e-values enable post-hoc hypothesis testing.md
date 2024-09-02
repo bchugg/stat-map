@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 In traditional [[hypothesis testing]] we fix a significance level $\alpha\in(0,1)$ and look for tests $\phi$ which have type-I error bounded by $\alpha$: 
 $$
 \sup_{P\in\calP} P(\phi(X) = 1)\leq \alpha,

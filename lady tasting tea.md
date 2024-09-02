@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 Rumor has it that Ronald Fisher invented the [[p-value]] when a woman, call her Muriel, at his lunch table was drinking tea and claimed she could if the milk was put in before the hot water and vice versa. 
 
 Fisher wanted to test this hypothesis, so he got eight cups, put milk then water in half of them and water then milk in the other half. She got them all correct. 

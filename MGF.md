@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 The moment generating function (MGF) of a real-valued random variable $X$ is the function 
 $$
 

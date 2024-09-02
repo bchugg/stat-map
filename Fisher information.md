@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 
 Intuitively, the Fisher information is the expected curvature around a parameter. The more curvature, the "easier" the parameter is to estimate. 
 

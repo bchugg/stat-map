@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 Chaining is a generic method of generating [[maximal inequalities]] on the suprema of random processes. 
 
 Suppose we have a collection of random variables indexed by some set  which we assume is a centered (zero-mean) [[sub-Gaussian process]] in the sense that 

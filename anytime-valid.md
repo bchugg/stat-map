@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 Anytime validity is a property of inferential tasks. In particular, we say that something is anytime-valid if its properties hold at all [[stopping-time|stopping times]], not just at some fixed-time determined a priori. (Note that by "time" we usually mean the number of observations). 
 
 Anytime-validity has a close relationship to [[time-uniform|time uniformity]]. For probability statements, the two concepts are identical. Formally, for a set of events $\{A_t\}$ , 

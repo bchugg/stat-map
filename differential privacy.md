@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 Differential privacy is the study of how to make mechanisms which act on databases (i.e., make queries) secure from leaking information. 
 
 Intuitively, a differentially private mechanism should be one which is not excessively reactive to small changes in the dataset. Let $\calD$ be the set of all databases, and consider a function $g$ which acts on $\calD$. (Think of a database as just some big data table where, e.g., each row corresponds to a different user.) For instance, given a database $x\in \calD$, $g(x)$ might be the size of $x$, or the total amount user deposits in $x$, or it might ask for the number of users with some property (a "counting query"). We want to add noise to $g$ in such a way that, regardless of how it queries the database, it cannot back out sensitive information. 

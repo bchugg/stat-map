@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 #hypothesis-testing #testing-by-betting #sequential-statistics #likelihood-ratio
 
 Here we explore [[game-theoretic hypothesis testing]] for simple nulls vs simple alternatives.  Suppose we observe random variables $X_1, X_2,\dots$ and are testing 

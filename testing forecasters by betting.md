@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 We can use the paradigm of [[game-theoretic hypothesis testing]] to test forecasters. We can either bet against a single forecaster, or we can [[comparing forecasters by betting|compare forecasters]]. 
 
 The setup is identical to hypothesis testing. A skeptic whose betting against the forecaster starts with wealth $K_0=1$. At each round $t=1,\dots$:  

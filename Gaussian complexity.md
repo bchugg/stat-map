@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 Given some parameter space $\Theta\subset\Re^d$, consider $\{G_\theta: \theta\in\Theta\}$, where 
 $$
 

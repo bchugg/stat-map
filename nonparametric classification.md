@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 Let $h: \calX\to \{1,\dots,K\}$ denote a classifier on $\calX$.  Nonparametric classification is concerned with estimating $h$ without making parametric assumptions on it's form. 
 
 The optimal ominiscient classifier is the Bayes classifier, given by 

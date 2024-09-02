@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 Let $X_1,\dots,X_n$ be independent random variables and let $f:\calX^n\to\Re$ obey $\E[f^2(X)]<\infty$ where $X = (X_1,\dots,X_n)$. The Efron-Stein inequality states that,
 $$
 

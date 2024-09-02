@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 Here's an intuitive explanation of Markov's inequality. Suppose we fix the probability $p_\alpha = \Pr(X\geq \alpha)$ and ask the question: How small can we make $\E[X]$ subject to the constraint that $X\geq 0$ a.s.? 
 
 That is, we want to solve

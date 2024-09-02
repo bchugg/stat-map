@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 The typical loss used when attempting to estimate quantiles. For a target quantile $q$, the loss is 
 $$
 L_q(\tau, y) = \begin{cases}

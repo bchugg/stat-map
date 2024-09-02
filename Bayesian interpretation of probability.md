@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 The Bayesian interpretation of probability is the interpretation that is (usually) used to justify [[Bayesian statistics]]. It bases the use of probability on the belief of rational agents, believing that probability is used to rigorously quantify our uncertainty of various propositions. It is typically contrasted with the [[frequentist interpretation of probability]]. 
 
 Bayesians treat propositions as random variables, and treat belief in propositions as a probability measure. One begins with a prior belief in a proposition, and then updates it based on the evidence. 

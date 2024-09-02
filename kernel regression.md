@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 
 Let $K:\Re \to \Re$ be a 1-d _smoothing kernel_ (distinct from a [[Mercer kernel]]) i.e., 
 $$

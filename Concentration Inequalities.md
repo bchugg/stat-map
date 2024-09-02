@@ -1,3 +1,7 @@
+---
+created: 2024-08-30
+lastmod: 2024-09-02
+---
 This page is a high-level pointer to more specific concentration inequalities in various settings. See:
 
 - [[light-tailed scalar concentration]]

@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 We are interested in solving the following regularized [[nonparametric regression]] problem under the squared loss: 
 $$
 

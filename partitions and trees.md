@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 Suppose $X\in \calX$. The idea behind tree based nonparametric regression is to construct a partition $R_1,\dots,R_m$ of  $\calX$ and estimate $m(x) = \E[Y|X=x]$ separately in each partition. 
 
 The simplest thing is to simply take the average of the labels of points in each region $R_i$, i.e., for $x\in R_k$, 

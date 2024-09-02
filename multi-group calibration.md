@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 #uncertainty-quantification #calibration 
 
 Multi-group calibration (aka multicalibration) seeks to combine [[calibration]] with [[multi-group consistency]]. That is, in the mean case we're looking for a model $f$ such that 

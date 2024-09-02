@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 
 Generic chaining is a method for proving [[maximal inequalities]]. It was invented by [Michel Talagrand](https://michel.talagrand.net/), whose beard I hope to be able to mimic some day. 
 

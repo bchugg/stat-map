@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 The e-BH procedure is the equivalent of the [[BH procedure]] for [[FDR control]] but using [[e-value|e-values]]. The main benefit is this procedure allows for arbitrary dependence between the e-values, which is not the case for the BH procedure and p-values. 
 
 We are in a [[multiple testing]] setup with $k$ hypotheses, each of which has an associated e-value. 

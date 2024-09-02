@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 
 A list of exponential inequalities. These can be used to give [[concentration inequalities]] and also immediately yield [[e-value|e-values]]. They can also be used to construct  [[supermartingale|supermartingales]] and [[sub-psi process|sub-psi processes]]. 
 

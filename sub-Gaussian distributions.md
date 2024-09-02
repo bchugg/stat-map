@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 
 Sub-Gaussian distributions are a large class of distributions used in a wide variety of applications. Intuitively, they behave "like or better than" Gaussian distributions, meaning their tails decay at the same rate or faster than Gaussian tails. Consequently, sub-Gaussian random variables are nice to work with. 
 

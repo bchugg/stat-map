@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 Let $X_1,\dots,X_n$ be random variables in $\calX$ and $f:\calX^n \to [0,\infty)$. What can say about the concentration of $f(X^n) \equiv f(X_1,\dots,X_n)$?  
 
 Of course, one has to impose some assumptions on $f$, otherwise we cannot say anything. Common assumptions include: 

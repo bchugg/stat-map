@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 
 In [[game-theoretic probability]], the amount you'd be willing to sell a contract (variable) for is the _replication cost_. Let $(\Omega, \calZ)$ be a gamble space. Formally, we define the replication cost as  
 $$

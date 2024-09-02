@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 
 These are [[concentration inequalities]] that concern functions of random variables that obey a bounded differences condition. Intuitively this means that if you change one argument, the function value doesn't change too much. 
 

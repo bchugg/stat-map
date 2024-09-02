@@ -1,3 +1,7 @@
+---
+created: 2024-09-01
+lastmod: 2024-09-02
+---
 Like the [[Lindeberg-Feller CLT]], the Lyapunov [[central limit theorems|CLT]] is for independent observations without a common mean or variance. 
 
 Let $X_1,X_2,\dots$ be independent with $\E[X_i] = \mu_i$ and $\Var(X_i) = \sigma_i^2$. If 

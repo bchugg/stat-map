@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 We are in the setting of [[nonparametric regression]]. Suppose we have training data $(x_i,y_i)$ and a loss $\ell$. Consider empirical risk minimization where we add a regularization term based on a [[Mercer kernel]] $K$: 
 $$
 

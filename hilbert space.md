@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 A Hilbert space is a vector space $H$ equipped with an inner product $\la \cdot,\cdot\ra$, such that every (Cauchy) sequence is convergent (i.e., the limit exists within $H$), where convergence is measured by the distance given by $||f|| = \sqrt{\la f,f\ra}$. 
 
 For instance, the space

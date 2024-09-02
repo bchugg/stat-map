@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 Intuitively, covering and packing numbers are precisely what you think they are. 
 
 > [!note] (Definition: $\delta$-cover and covering number)

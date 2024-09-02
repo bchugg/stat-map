@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 Let $M=(M_t)$ be a $P$-supermartingale. Ville's inequality is a time-uniform version of Markov's inequality ([[basic inequalities#Markov's inequality|basic inequalities:Markov's inequality]]), stating that 
 $$
 

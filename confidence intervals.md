@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 
 A $(1-\alpha)$-CI for a parameter $\theta$ based on observations $X_1, X_2,\dots,X_n$ is a set $C_n = C(X_1,\dots,X_n)$ such that
 $$

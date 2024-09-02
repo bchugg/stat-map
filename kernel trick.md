@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 Let $K$ be a [[Mercer kernel]] such that $\sup_{x,y}K(x,y)<\infty$. Then there exists an orthonormal basis for $L_2(\calX)$, $\{\psi_i\}$ and eigenvalues $\lambda_1\geq \lambda_2 \geq \dots$ such that  
 $$
 

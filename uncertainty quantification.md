@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 
 Uncertainty quantification is a vague term. It might mean classical parameter estimation techniques in statistics (like generating [[confidence intervals]], for instance). But in modern ML it often means techniques to ensure that black box predictive models and behaving in desired ways. That's what I'll focus on here. 
 

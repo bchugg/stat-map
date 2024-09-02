@@ -21,59 +21,19 @@
             }
           },
           {
-            "id": "36c9413e44236a4c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "e-values enable post-hoc hypothesis testing.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "018a75f777190525",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "post-hoc valid confidence sequences.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d3cbd6640027625b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "post-hoc confidence sequences via e-processes.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "44e695986a773185",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "likelihood-ratio test.md",
+                "file": "basic inequalities.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "post-hoc",
+                "query": "index",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -127,8 +87,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -148,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "post-hoc confidence sequences via e-processes.md",
+                "file": "KL divergence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "post-hoc confidence sequences via e-processes.md",
+                "file": "KL divergence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "post-hoc confidence sequences via e-processes.md"
+                "file": "KL divergence.md"
               }
             }
           }
@@ -201,6 +160,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -210,11 +170,24 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "d3cbd6640027625b",
+  "active": "934bf3a74ff5dbc6",
   "lastOpenFiles": [
-    "post-hoc valid confidence sequences.md",
-    "post-hoc confidence sequences via e-processes.md",
+    "index.md",
     "e-values enable post-hoc hypothesis testing.md",
+    "images/math_zettel.jpeg",
+    "post-hoc valid confidence sequences.md",
+    "basic inequalities.md",
+    "2024-09-02.md",
+    "basic matrix inequalities.md",
+    "Bayes factors.md",
+    "likelihood-ratio test.md",
+    "linear regression.md",
+    "e-process.md",
+    "hello.md",
+    "templates/default.txt",
+    "templates/default",
+    "templates",
+    "post-hoc confidence sequences via e-processes.md",
     "KL divergence.md",
     "distributional distance.md",
     "central limit theorems.md",
@@ -227,18 +200,9 @@
     "preamble.sty~",
     "optional stopping.md",
     "current statistical practice combines the Fisherian and Neyman-Pearson perspectives.md",
-    "likelihood-ratio test.md",
     "exponential families.md",
     "sufficient statistic.md",
     "minimal sufficiency.md",
-    "concentration inequalities.md",
-    "Rao-Blackwell theorem.md",
-    "squared error.md",
-    "statistical decision theory.md",
-    "sufficiency and the likelihood.md",
-    "concentration of measure.md",
-    "concentration of functions.md",
-    "post-hoc hypothesis testing with losses.md",
     "extra/touch_up.py",
     "preamble.sty",
     "publish.css~",
@@ -248,11 +212,7 @@
     "images/me.png",
     "images/ben_cartoon.png",
     "images/zettel.jpeg",
-    "images/math_zettel.jpeg",
     "images/me.jpg",
-    "images/me.jpg.sb-78103be7-9zRjgW",
-    "images/me.jpg.jpg",
-    "images",
-    "notes"
+    "images/me.jpg.jpg"
   ]
 }

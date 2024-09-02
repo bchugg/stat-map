@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 Let $<$ denote the matrix (Loewner order). Most the following inequalities apply to more general linear operators. 
 
 # Basic inequalities 

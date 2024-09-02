@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 
 Fisher was focused on significance testing. He introduced the [[p-value]] as a measure of [[evidence against the null]]. His general procedure was 
 

@@ -1,3 +1,7 @@
+---
+created: 2024-09-01
+lastmod: 2024-09-02
+---
 A [[central limit theorems|CLT]] for independent random variables with finite variances. 
 
 Let $X_1,X_2,\dots$ be independent with $\E[X_i] = \mu_i$ and $\Var(X_i) = \sigma_i^2$. Let $s_n^2 = \sum_{i\leq n}\sigma_i^2$ and 

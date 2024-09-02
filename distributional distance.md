@@ -1,3 +1,7 @@
+---
+created: 2024-09-01
+lastmod: 2024-09-02
+---
 Functions which capture "distances" between probability distributions. They may not be metrics in the formal sense ([[metric space]]) (eg perhaps they're not symmetric as in the [[KL divergence]]). 
 
 Examples: 

@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 
 Let $f:\calX^n\to\Re$ and $f_i :\calX^n\to\Re$ for $i=1,\dots,n$. We say $f$ is self-bounding (wrt to $(f_i)$) if 
 $$

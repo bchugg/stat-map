@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 Given some parameter space $\Theta\subset\Re^d$, consider $\{R_\theta: \theta\in\Theta\}$, where $R_\theta = \la \xi,\theta\ra$ and $\xi_i$ is a Rademacher random variable (i.e., $\pm 1$ with equal probability). This process is called a Rademacher process. The expected value of the supremum of this process (see [[maximal inequalities]]), 
 $$
 

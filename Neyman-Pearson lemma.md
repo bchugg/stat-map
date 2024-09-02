@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 States that a variant of the [[likelihood-ratio test]] is the [[uniformly most powerful test]] among all level-$\alpha$ tests when testing simple nulls against simple alternatives. The NP lemma is generalized to [[monotone likelihood ratio]] families by the [[Karlin-Rubin theorem]]. 
 
 Suppose we are testing $H_0:\theta = \theta_0$ vs $H_1: \theta = \theta_1$. Consider the likelihood ratio test, which says to reject if $p_1(\theta_1)/p_0(\theta_0)\geq k$ where $k$ is chosen so that 

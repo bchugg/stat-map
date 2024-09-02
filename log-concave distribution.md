@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 > [!note] Definition
 > A measure $\mu$ is log-concave if for all measurable sets $A, B$ and all $\lambda\in[0,1]$, we have
 > $$

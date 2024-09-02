@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 The Dirichlet process is a commonly used prior for the task of [[cdf estimation]] in [[Bayesian nonparametrics]]. It was invented by Thomas Ferguson in 1973. 
 
 It has two parameters, $\alpha$ and $F_0$ and is written $DP(\alpha,F_0)$. $F_0$ is a cdf and $\alpha$ a positive real value. Intuitively, $\alpha$ controls how tightly the prior is around $F_0$, similarly to the variance of the normal distribution. 

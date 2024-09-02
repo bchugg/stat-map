@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 
 Most [[statistical inference]] assumes the data is somehow supplied to you (even in sequential settings; see [[sequential statistics]]). You are given data, and you are asked to estimate some parameter. 
 

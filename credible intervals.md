@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 The [[Bayesian statistics|Bayesian]] analogue of [[confidence intervals]]. A $(1-\alpha)$-credible interval is a region $C_\alpha$ to which the posterior assigns mass at least $1-\alpha$: 
 $$
 

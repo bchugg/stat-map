@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 
 Current norms around [[hypothesis testing]] combine [[Fisher's paradigm]] and [[Neyman-Pearson paradigm]]. 
 

@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 
 The mathematical and philosophical foundations of statistical science. As Deborah Mayo notes in [Statistical inference as severe testing](https://www.cambridge.org/core/books/statistical-inference-as-severe-testing/D9DF409EF568090F3F60407FF2B973B2): 
 

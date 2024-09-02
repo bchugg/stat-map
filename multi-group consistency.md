@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 Multi-group consistency is [[marginal consistency]] but it holds simultaneously across possibly intersecting groups. (In fact, the notion of marginal-consistency is only interesting if the groups are intersecting; otherwise you can just port over the techniques from marginal consistency and apply them separately to each group). 
 
 We operationalize a group $g$ as a function $g(x)=\{0,1\}$, indicator whether or not an observations with features $x$ belongs to the group. Let $\mu(g) = \Pr[g(x)=1]$ be the fraction of those in group $g$ in the population.  

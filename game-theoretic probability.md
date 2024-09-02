@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 
 Game-theoretic probability (GTP) is a foundation for probability theory, distinct from the measure-theoretic foundations laid out by Kolmogorov in the 1920s. Whereas Kolmogorov conceptualized probability as a subset of measure theory, game-theoretic probability lays its foundations in game-theory.  
 

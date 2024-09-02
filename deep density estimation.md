@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 Suppose we want to do [[parametric density estimation]] but our parametric class is a set of complicated functions $\{f_\theta:\theta\in\Theta\}$ which may not be proper probability distributions. For instance, think of deep neural networks. 
 
 If $\{p_\theta\}$ is a well-behaved family of probability distributions (i.e., integrate to 1, non-negative) then a natural approach to density estimation is [[MLE]]. Thus, one approach is to normalize $f_\theta$ as 

@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 In [[nonparametric regression]], a linear smoother is an estimate $\hat{m}(x)$ of $m(x) = \E[Y|X=x]$ such that 
 $$
 

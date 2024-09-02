@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 A result about the consistency of [[credible intervals]] in [[Bayesian statistics]]. The theorem states that in a fixed-dimensional problem, if the prior $\pi$ is positive in a neighborhood around the true parameter $\theta^*$, then 
 $$
 \norm{\pi(\theta|X^n) - N(\wh{\theta}_n, I^{-1}(\wh{\theta}_n)/n)}_{\tv} \to 0,

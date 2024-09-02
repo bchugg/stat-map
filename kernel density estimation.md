@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 A specific approach to [[nonparametric density estimation]], which can be viewed as a kind of "smoothed out" histogram. Let $K$ be a smoothing Kernel, i.e., $\int K(x)dx=1$, $\int x K(x)dx=0$ and $\int x^2 K(x)dx>0$. That is, $K$ enduces a distribution on the space $\calX$ which is symmetric about the origin.  
 
 Our estimate for $p(x)$ is 

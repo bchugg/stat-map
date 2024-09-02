@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 A test martingale for a distribution $P$ is a nonnegative $P$-martingale with initial value 1. That is, it is a stochastic process $(M_t)_{t\geq 1}$ with $M_t\geq 0$ for all $t$, $M_1 = 1$ and 
 $$
 \E_P[M_t|\calF_{t-1}] \leq M_{t-1},

@@ -1,3 +1,7 @@
+---
+created: 2024-08-29
+lastmod: 2024-09-02
+---
 Let $(\Omega, \calZ)$ be a gamble space in [[game-theoretic probability]]. Given an event $A\subset\Omega$, we define the upper probability of $A$ as 
 $$
 \ov{P}(A) = \ov{\E}^g[\ind_A],
