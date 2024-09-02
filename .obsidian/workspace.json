@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KL divergence.md",
+                "file": "Wasserstein distance.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,19 +21,72 @@
             }
           },
           {
-            "id": "44e695986a773185",
+            "id": "06d88604d35d0f78",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "basic inequalities.md",
+                "file": "total variation distance.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f1684705b05b7ce9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "f-divergence.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "36977033c2ec6e52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "chi-squared divergence.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c1bd7e5447060cb5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "distributional distance.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "087aae4d93f0bc54",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "KL divergence.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -107,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KL divergence.md",
+                "file": "chi-squared divergence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KL divergence.md",
+                "file": "chi-squared divergence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KL divergence.md"
+                "file": "chi-squared divergence.md"
               }
             }
           }
@@ -170,39 +223,39 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "934bf3a74ff5dbc6",
+  "active": "36977033c2ec6e52",
   "lastOpenFiles": [
+    "Hellinger distance.md",
+    "KL divergence.md",
+    "f-divergence.md",
+    "chi-squared divergence.md",
+    "distributional distance.md",
+    "total variation distance.md",
+    "Wasserstein distance.md",
+    "Royall's three questions.md",
+    "law of likelihood.md",
+    "Warner's randomized response.md",
+    "testing forecasters by betting.md",
+    "time-uniform confidence spheres.md",
+    "two-sample testing.md",
+    "u-statistics.md",
+    "uncertainty quantification.md",
+    "sub-exponential distributions.md",
+    "asymptotic confidence sequences.md",
+    "Bayesian interpretation of probability.md",
+    "Bayesian statistics.md",
+    "coarsened filtrations can increase power.md",
+    "concentration of measure.md",
+    "confidence intervals.md",
+    "conformal prediction.md",
+    "basic inequalities.md",
     "index.md",
     "e-values enable post-hoc hypothesis testing.md",
     "images/math_zettel.jpeg",
-    "post-hoc valid confidence sequences.md",
-    "basic inequalities.md",
-    "2024-09-02.md",
-    "basic matrix inequalities.md",
-    "Bayes factors.md",
-    "likelihood-ratio test.md",
-    "linear regression.md",
-    "e-process.md",
-    "hello.md",
     "templates/default.txt",
     "templates/default",
     "templates",
-    "post-hoc confidence sequences via e-processes.md",
-    "KL divergence.md",
-    "distributional distance.md",
-    "central limit theorems.md",
-    "Lindeberg-Levy CLT.md",
-    "Lindeberg-Feller CLT.md",
-    "Lyapunov CLT.md",
-    "Wasserstein Distance.md",
-    "KS distance.md",
-    "Wald interval.md",
     "preamble.sty~",
-    "optional stopping.md",
-    "current statistical practice combines the Fisherian and Neyman-Pearson perspectives.md",
-    "exponential families.md",
-    "sufficient statistic.md",
-    "minimal sufficiency.md",
     "extra/touch_up.py",
     "preamble.sty",
     "publish.css~",

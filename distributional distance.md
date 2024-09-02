@@ -6,9 +6,12 @@ Functions which capture "distances" between probability distributions. They may 
 
 Examples: 
 - [[KL divergence]]
-- [[Wasserstein Distance]]
+- [[Wasserstein distance]]
 - [[KS distance]]
 - [[total variation distance]]
+- [[Hellinger distance]]
+- [[chi-squared divergence]]
+- [[f-divergence]] (encapsulates several of the above)
 
 # Some definitions
 
