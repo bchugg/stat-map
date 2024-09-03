@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ac1e9640cdfcd0cc",
+        "id": "72bb28992faeb31b",
         "type": "tabs",
         "children": [
           {
-            "id": "35bc3a03c8e28ed8",
+            "id": "bf79b40dbb0df78c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wasserstein distance.md",
+                "file": "Wald interval.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "06d88604d35d0f78",
+            "id": "6ab484c648bd2b92",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "total variation distance.md",
+                "file": "Wald test.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "f1684705b05b7ce9",
+            "id": "4d3f6bf1ecc7731a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "f-divergence.md",
+                "file": "MLE.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,38 +47,12 @@
             }
           },
           {
-            "id": "36977033c2ec6e52",
+            "id": "44f9a3d71b8188ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chi-squared divergence.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c1bd7e5447060cb5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "distributional distance.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "087aae4d93f0bc54",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KL divergence.md",
+                "file": "method of moments for estimation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -115,7 +89,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "index",
+                "query": "neyman-pearson as ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -140,7 +114,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -160,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chi-squared divergence.md",
+                "file": "MLE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "chi-squared divergence.md",
+                "file": "MLE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "chi-squared divergence.md"
+                "file": "MLE.md"
               }
             }
           }
@@ -223,34 +198,34 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "36977033c2ec6e52",
+  "active": "4d3f6bf1ecc7731a",
   "lastOpenFiles": [
-    "Hellinger distance.md",
-    "KL divergence.md",
+    "Neyman-Pearson paradigm as decision-theory.md",
+    "MLE.md",
+    "method of moments for estimation.md",
+    "Wald test.md",
+    "Wald interval.md",
+    "distributional distance.md",
+    "Fisher information.md",
+    "Wasserstein distance.md",
+    "KS distance.md",
+    "Fisher information distance.md",
+    "index.md",
+    "maximal inequalities.md",
+    "game-theoretic probability.md",
+    "chaining.md",
+    "game-theoretic hypothesis testing.md",
+    "total variation distance.md",
     "f-divergence.md",
     "chi-squared divergence.md",
-    "distributional distance.md",
-    "total variation distance.md",
-    "Wasserstein distance.md",
+    "Hellinger distance.md",
+    "KL divergence.md",
     "Royall's three questions.md",
     "law of likelihood.md",
     "Warner's randomized response.md",
     "testing forecasters by betting.md",
     "time-uniform confidence spheres.md",
     "two-sample testing.md",
-    "u-statistics.md",
-    "uncertainty quantification.md",
-    "sub-exponential distributions.md",
-    "asymptotic confidence sequences.md",
-    "Bayesian interpretation of probability.md",
-    "Bayesian statistics.md",
-    "coarsened filtrations can increase power.md",
-    "concentration of measure.md",
-    "confidence intervals.md",
-    "conformal prediction.md",
-    "basic inequalities.md",
-    "index.md",
-    "e-values enable post-hoc hypothesis testing.md",
     "images/math_zettel.jpeg",
     "templates/default.txt",
     "templates/default",

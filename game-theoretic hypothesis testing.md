@@ -19,9 +19,7 @@ Skeptic begins with wealth $\calK_0=1$.
 For $t=1,\dots,T$: 
 - Skeptic proposes a payoff function $S_t: \calX \to [0,\infty]$ such that
 $$
-
-- \E_{X\sim P}[S_t(X)|\calF_{t-1}]\leq 1 \quad \forall P\in\bs{P}.
-- 
+\E_{X\sim P}[S_t(X)|\calF_{t-1}]\leq 1 \quad \forall P\in\bs{P}. 
 $$
  - Reality reveals an observation $X_t$. 
 - Skeptic updates her wealth as $\calK_t = \calK_{t-1} S_t(X_t).$ 
