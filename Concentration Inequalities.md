@@ -1,6 +1,6 @@
 ---
 created: 2024-08-30
-lastmod: 2024-09-02
+lastmod: 2024-09-05
 ---
 This page is a high-level pointer to more specific concentration inequalities in various settings. See:
 
@@ -8,6 +8,7 @@ This page is a high-level pointer to more specific concentration inequalities in
 - [[heavy-tailed scalar concentration]]
 - [[martingale concentration]]
 - [[multivariate concentration]]
+- [[concentration in Banach spaces]]
 - [[matrix inequalities]]
 - [[concentration of functions]]
 

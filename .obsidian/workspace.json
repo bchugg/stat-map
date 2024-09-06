@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wald interval.md",
+                "file": "concentration inequalities.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "4d3f6bf1ecc7731a",
+            "id": "b427ce6aef764c09",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MLE.md",
+                "file": "permutation test.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,12 +47,12 @@
             }
           },
           {
-            "id": "44f9a3d71b8188ea",
+            "id": "4c7cfd3d8c8966f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "method of moments for estimation.md",
+                "file": "permutation testing by betting.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -89,7 +89,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "neyman-pearson as ",
+                "query": "issues with p-values",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -135,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MLE.md",
+                "file": "permutation test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MLE.md",
+                "file": "permutation test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MLE.md"
+                "file": "permutation test.md"
               }
             }
           }
@@ -198,34 +198,34 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "4d3f6bf1ecc7731a",
+  "active": "b427ce6aef764c09",
   "lastOpenFiles": [
-    "Neyman-Pearson paradigm as decision-theory.md",
-    "MLE.md",
-    "method of moments for estimation.md",
+    "permutation testing by betting.md",
+    "permutation test.md",
     "Wald test.md",
+    "concentration inequalities.md",
+    "issues with p-values.md",
+    "optional stopping.md",
+    "optional continuation.md",
+    "concentration in Banach spaces.md",
     "Wald interval.md",
-    "distributional distance.md",
-    "Fisher information.md",
-    "Wasserstein distance.md",
     "KS distance.md",
+    "distributional distance.md",
+    "Wasserstein distance.md",
+    "Hilbert space.md",
+    "histograms.md",
+    "hidden Markov model.md",
+    "Jeffreys prior.md",
+    "method of moments for estimation.md",
+    "MLE.md",
+    "Neyman-Pearson paradigm as decision-theory.md",
+    "Fisher information.md",
     "Fisher information distance.md",
     "index.md",
     "maximal inequalities.md",
     "game-theoretic probability.md",
     "chaining.md",
     "game-theoretic hypothesis testing.md",
-    "total variation distance.md",
-    "f-divergence.md",
-    "chi-squared divergence.md",
-    "Hellinger distance.md",
-    "KL divergence.md",
-    "Royall's three questions.md",
-    "law of likelihood.md",
-    "Warner's randomized response.md",
-    "testing forecasters by betting.md",
-    "time-uniform confidence spheres.md",
-    "two-sample testing.md",
     "images/math_zettel.jpeg",
     "templates/default.txt",
     "templates/default",
