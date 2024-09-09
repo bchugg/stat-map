@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-05
+lastmod: 2024-09-06
 ---
 
 Some mathematical drawbacks of [[p-value|p-values]] that can lead to (possibly inadvertent) [[p-hacking]].  
@@ -29,3 +29,5 @@ We keep emphasizing that the sample size needs to be fixed in advance. But the p
 This is an incredibly frustrating property. For one, it is unverifiable: how do you know the sample size would not have changed in every possible world? Second, it makes it extremely easy to start doubting p-values. 
 
 Imagine you have a grad student analyzing the drug trial data as it arrives, just to make sure your data collection software is working. Do you think there's any situation in which he would stop the experiment early? What if the results looked _really, really_ good? If so, then the sample size is not truly fixed, and your p-value is invalid. 
+
+The issues of optional stopping and optional continuation are resolved with [[e-value|e-values]] and [[e-process|e-processes]]. 

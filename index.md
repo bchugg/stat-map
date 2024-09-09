@@ -1,23 +1,23 @@
 ---
 title: Home
 created: 2024-08-29
-lastmod: 2024-09-02
+lastmod: 2024-09-07
 ---
 
-Welcome to the stats map, a collection of notes on various subtopics in statistics, probability, and theoretical computer science. 
+Welcome to the stats map, a (growing) collection of notes on various subtopics in statistics, probability, and theoretical computer science. 
 
 Unlike a traditional textbook, these notes prioritize the connections between subjects instead of giving a full treatment of each subject on its own. I don't provide many proofs or formal definitions. This is an attempt to understand how the world of statistics hangs together; to chart the outlines of what we know and the techniques we use. It is an attempt at a [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten)—or second brain—for statistics and probability.  
 
 ![[zettel.jpeg|center|500]]
 
-These are, obviously, my notes. They are not unbiased. They reflect my opinions on what's interesting and what's not. There will be significant detail on some topics and a total absence of many topics. 
+These are, obviously, my notes. They are not unbiased. They reflect my opinions on what's interesting and what's not. There will be significant detail on some topics and a total absence of many topics. That said, this is still in it's early stages (it's missing even basic material from a standard first year grad course in theoretical statistics), and it will continue to be expanded in the coming months, years, and (hopefully!) decades. 
 
 > [!info] How to navigate 
 > If you click on a link you will follow it. You can see a list of all notes on the left hand side of the page, and backlinks to the current note on the right hand side (or on the bottom if you're on a small screen).
 
 # What's in here
 
-If you're just here poking around, here are some places you might like to start: 
+Possible places to start: 
 - [[game-theoretic statistics]] and [[game-theoretic probability]]
 - [[e-value|e-values]] and [[e-process|e-processes]]
 - [[concentration inequalities]] or [[techniques for multivariate concentration]]
@@ -25,8 +25,8 @@ If you're just here poking around, here are some places you might like to start:
 - [[uncertainty quantification]]
 - [[hypothesis testing]]
 
-For those with more of a philosophical bent, you can check out 
-- The [[foundations of statistics]] or arguments therein, like [[Fisher's paradigm]] versus the [[Neyman-Pearson paradigm|NP paradigm]] 
+Or if you're interested in the philosophical foundations of statistics: 
+- The [[foundations of statistics]] or arguments therein, like [[Fisher's paradigm]] versus the [[Neyman-Pearson paradigm|NP paradigm]] or why [[current statistical practice combines the Fisherian and Neyman-Pearson perspectives]].  
 - Various statistical schools of thoughts and their methods (non-contradictory): [[Bayesian statistics]], [[frequentist statistics]], and [[game-theoretic statistics]]
 - Various philosophies of probability (very much contradictory): [[Bayesian interpretation of probability]], [[frequentist interpretation of probability]],  [[instrumentalist theory of probability]]
 - More than you wanted to know about [[issues with p-values|some philosophical issues with p-values]]
@@ -35,9 +35,7 @@ Otherwise, you can find a long list of all notes on the left hand side.
 
 # Why make this? 
 
-Mostly because I want to know as much as possible, and this helps me digest and aggregate information. Here are four concrete reasons: 
-
-1. Writing your own notes is helpful. You haven't truly understood something until you can teach it, and you can't teach it until you can write it down coherently. 
+1. Writing helps me digest and aggregate information. You haven't truly understood something until you can teach it, and you can't teach it until you can write it down coherently. 
 2. You can know a lot of material but not know how it's connected. The best researchers don't simply have detailed knowledge of many ideas, they have a mental map of how all these areas fit together. This is my exported mental map. 
 3. Emphasizing the connections between topics helps you spot patterns. Similar techniques are often used in different areas. 
 4. It helps you spot holes in the literature. Writing down what is known helps carve out what is unknown. 

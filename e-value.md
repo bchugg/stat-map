@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-02
+lastmod: 2024-09-06
 ---
 An e-variable with respect to a set of distributions $\calP$ is a nonnegative random variable $E$ such that
 $$
@@ -13,7 +13,7 @@ A note on terminology: The random variable is called an e-variable, and the real
 E-values are intimately tied to [[hypothesis testing]]. If we are testing the null $P\in\calP$, a large e-value can be used to reject the null at level $\alpha$ since, by Markov's inequality ([[basic inequalities#Markov's inequality|basic inequalities:Markov's inequality]]), $\Pr(E\geq 1/\alpha)\leq \alpha$. Thus, designing e-values which will be large under the alternative is a fruitful strategy in hypothesis testing. This is the focus of [[game-theoretic hypothesis testing]]. 
 (See also [[growth rate conditions in sequential testing]], which investigates how to design e-values and e-processes, and [[testing by betting—simple vs simple]], [[testing by betting—simple vs composite]], [[testing by betting—composite vs composite]] to see e-values in practice). 
 
-E-values have a natural interpretation in terms of [[game-theoretic probability]] (which leads to their applicability in hypothesis testing above). If we imagine paying $1\$$ for $E$, then under the null we expect not to gain any money. 
+E-values have a natural interpretation in terms of [[game-theoretic probability]] (which leads to their applicability in hypothesis testing above). If we imagine paying 1 dollar for $E$, then under the null we expect not to gain any money. 
 
 E-values also have a sequential analogue, useful in [[sequential statistics]] and [[sequential hypothesis testing]], called an [[e-process]]. An e-process is simply a stochastic process which is an e-value at each stopping time (which thus provides a level-$\alpha$ test at each stopping time, again by Markov's inequality). 
 
