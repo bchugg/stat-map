@@ -1,0 +1,1 @@
+The characteristic function of a random variable $X$ is $\varphi_X(t) := \E \exp(itX)$. Useful for proving [[central limit theorems]]. 
