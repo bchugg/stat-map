@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Berry-Esseen bounds.md",
+                "file": "characteristic function.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -76,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "linde",
+                "query": "character",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,7 +101,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -121,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Berry-Esseen bounds.md",
+                "file": "characteristic function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Berry-Esseen bounds.md",
+                "file": "characteristic function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Berry-Esseen bounds.md"
+                "file": "characteristic function.md"
               }
             }
           }
@@ -185,9 +186,9 @@
   },
   "active": "5f78f7d3f57b5a59",
   "lastOpenFiles": [
+    "Berry-Esseen bounds.md",
     "Lindeberg-Feller CLT.md",
     "central limit theorems.md",
-    "Berry-Esseen bounds.md",
     "characteristic function.md",
     "techniques for multivariate concentration.md",
     "concentration via covering.md",
