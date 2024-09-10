@@ -4,11 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "72bb28992faeb31b",
+        "id": "96d828f6ccd28bb7",
         "type": "tabs",
         "children": [
           {
-            "id": "c92f3e6f8f92fa88",
+            "id": "84be94f91e80230f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "infinitely divisible distribution.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0e01a3b87c9fa7e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "distributional distance.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7e556b0e69c93026",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,25 +47,12 @@
             }
           },
           {
-            "id": "f255858038a3905a",
+            "id": "5848f4c766089877",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lindeberg-Feller CLT.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5f78f7d3f57b5a59",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "characteristic function.md",
+                "file": "quantitative CLT template with ideal metrics.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -101,8 +114,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "characteristic function.md",
+                "file": "central limit theorems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "characteristic function.md",
+                "file": "central limit theorems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "characteristic function.md"
+                "file": "central limit theorems.md"
               }
             }
           }
@@ -184,12 +196,16 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "5f78f7d3f57b5a59",
+  "active": "7e556b0e69c93026",
   "lastOpenFiles": [
-    "Berry-Esseen bounds.md",
-    "Lindeberg-Feller CLT.md",
+    "quantitative CLT template with ideal metrics.md",
     "central limit theorems.md",
+    "distributional distance.md",
+    "Wasserstein Distance.md",
+    "infinitely divisible distribution.md",
+    "Lindeberg-Feller CLT.md",
     "characteristic function.md",
+    "Berry-Esseen bounds.md",
     "techniques for multivariate concentration.md",
     "concentration via covering.md",
     "index.md",
@@ -207,11 +223,7 @@
     "concentration in Banach spaces.md",
     "Wald interval.md",
     "KS distance.md",
-    "distributional distance.md",
     "Wasserstein distance.md",
-    "Hilbert space.md",
-    "histograms.md",
-    "hidden Markov model.md",
     "images/math_zettel.jpeg",
     "templates/default.txt",
     "templates/default",
