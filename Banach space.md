@@ -1,18 +1,25 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-02
+lastmod: 2024-09-13
 ---
 A Banach space is a complete normed vector space. That is, it's a vector space equipped with a norm $\norm{\cdot}$ which induces a distance function in the obvious way. Every Cauchy sequence converges to some point in the space. 
 
-We often assume the space is _separable_. #todo what is separable?
+A major obstacle to working in Banach spaces is that an inner product does not necessarily exist. 
 
-For lots of statistical analysis in Banach spaces we place a smoothness assumption on the space. Without such a smoothness assumption, roughly speaking, values that are close to each other in the space may behave so differently that [[statistical inference]] becomes impossible. 
+In statistics, we usually assume the space is _separable_, meaning that it admits a countable dense subset. This makes sure that probability measures, Borel $\sigma$-algebras, and empirical means are well-defined. 
 
-Formally, a Banach space $(B,\norm{\cdot})$ is $\beta$-smooth if the squared norm $\norm{\cdot}^2$ is $\beta$-smooth with respect to $\norm{\cdot}$, where we say that a function $f:B\to\Re$ is $\beta$-smooth with respect to $\norm{\cdot}$ if for any $x,y\in B$, 
+We also often place a smoothness assumption on the space. Without such a smoothness assumption, roughly speaking, values that are close to each other in the space may behave so differently that [[statistical inference]] becomes impossible. 
+
+A Banach space $(B,\norm{\cdot})$ is $(2,\beta)$ smooth if 
 $$
-
+\norm{x + y}^2 + \norm{x-y}^2 \leq 2\norm{x}^2 + 2\beta^2\norm{y}^2,\quad \forall x,y\in B.
+$$
+An [equivalent condition](https://arxiv.org/pdf/1808.03204) is that the Banach space $(B,\norm{\cdot})$ is $\beta$-smooth, where we say the space is $\beta$-smooth if the squared norm $\norm{\cdot}^2$ is $\beta$-smooth with respect to $\norm{\cdot}$, where we say that a function $f:B\to\Re$ is $\beta$-smooth with respect to $\norm{\cdot}$ if for any $x,y\in B$, 
+$$
 f(y) \leq f(x) + D_x f(x)(y-x) + \frac{\beta}{2}\norm{y-x}^2,
-
 $$
 where $D_x f(x)(y-x)$ is the Gateaux derivative of $f$ at $x$ in the direction $y-x$.  
 
+Smooth, separable Banach spaces include any separable [[Hilbert space]] $(\beta=1)$ and [[Lp norm|Lp spaces]] ($\beta \leq p\wedge 2$). 
+
+See [[concentration in Banach spaces]]. 

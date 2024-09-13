@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c92f3e6f8f92fa88",
+            "id": "bf79b40dbb0df78c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "central limit theorems.md",
+                "file": "bounded difference inequalities.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,33 +21,19 @@
             }
           },
           {
-            "id": "f255858038a3905a",
+            "id": "295707f2e14670c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lindeberg-Feller CLT.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5f78f7d3f57b5a59",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "characteristic function.md",
+                "file": "Banach space.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -76,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "character",
+                "query": "banach space",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "characteristic function.md",
+                "file": "bounded difference inequalities.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "characteristic function.md",
+                "file": "bounded difference inequalities.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "characteristic function.md"
+                "file": "bounded difference inequalities.md"
               }
             }
           }
@@ -184,18 +170,22 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "5f78f7d3f57b5a59",
+  "active": "bf79b40dbb0df78c",
   "lastOpenFiles": [
-    "Berry-Esseen bounds.md",
-    "Lindeberg-Feller CLT.md",
-    "central limit theorems.md",
-    "characteristic function.md",
-    "techniques for multivariate concentration.md",
-    "concentration via covering.md",
+    "Banach space.md",
+    "bounded difference inequalities.md",
+    "concentration inequalities.md",
     "index.md",
+    "Rademacher complexity.md",
+    "randomized inequalities.md",
+    "reverse information projection (RIPr).md",
+    "reverse information projection.md",
+    "techniques for multivariate concentration.md",
+    "characteristic function.md",
+    "Berry-Esseen bounds.md",
+    "concentration via covering.md",
     "testing by betting—simple vs simple.md",
     "maximizing log-wealth.md",
-    "concentration inequalities.md",
     "Wald test.md",
     "e-process.md",
     "permutation testing by betting.md",
@@ -208,10 +198,6 @@
     "Wald interval.md",
     "KS distance.md",
     "distributional distance.md",
-    "Wasserstein distance.md",
-    "Hilbert space.md",
-    "histograms.md",
-    "hidden Markov model.md",
     "images/math_zettel.jpeg",
     "templates/default.txt",
     "templates/default",
