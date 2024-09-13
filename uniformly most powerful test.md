@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-02
+lastmod: 2024-09-13
 ---
 In [[hypothesis testing]], for a given $\alpha$, a uniformly most powerful (UMP) test is a test whose type-I error is bounded by $\alpha$ and, among all other tests with type-I error bounded by $\alpha$, has the most power. 
 
