@@ -28,4 +28,4 @@ A metric is _homogeneous of order_ $s$ if
 $$
 \rho(cX,cY) = |c|^s \rho(X,Y)\quad \text{for all }c\in\Re.
 $$
-_Ideal metrics of order_ $s$ are simultaneously regular and homogeneous of order $s$. These are useful for proving [[central limit theorems]]. 
+_Ideal metrics of order_ $s$ are simultaneously regular and homogeneous of order $s$. These are useful for proving [[central limit theorems]] (see [[quantitative CLT template with ideal metrics]]). 
