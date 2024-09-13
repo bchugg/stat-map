@@ -12,7 +12,15 @@ $$
 $$
 where $\Pr_0$/$\Pr_1$ are the distributions under the null/alternative and $p_0/p_1$ are their densities. The NP lemma states that this test is UMP.  
 
-Both of the following proofs are simple but require that everything is continuous. This is usually how the NP lemma is stated, but it can also be extended to discrete distributions. See [[Neyman-Pearson lemma for discrete distributions]]. 
+The NP test is often written as 
+$$
+\phi(X) = \begin{cases}
+1,& L(X) > c,\\
+\gamma,& L(X)=c,\\
+0,&L(X)<c,
+\end{cases}
+$$
+where $L$ is the likelihood ratio $p_{1}/p_{0}$ and $\gamma$ and $c$ are chosen that such that $\E_{P_0} [\phi(X)]=\alpha$. In the continuous case, $\gamma$ is unimportant since $L(X)=c$ has probability zero. But it matters in the discrete case ([[Neyman-Pearson lemma for discrete distributions]]) where it's used to ensure that the test has size exactly $\alpha$. 
 ## Proof 1
 
 Let $\phi$ denote the likelihood ratio test and $\psi$ denote any other level $\alpha$ test. Consider the integral

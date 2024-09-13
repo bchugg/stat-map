@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "central limit theorems.md",
+                "file": "minimal sufficiency.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,12 +47,51 @@
             }
           },
           {
-            "id": "5848f4c766089877",
+            "id": "3f439b401be2d1f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quantitative CLT template with ideal metrics.md",
+                "file": "sufficient statistic.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ba49ee630dd7012a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Karlin-Rubin theorem.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a2f2177ae82a95ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "uniformly most powerful test.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f5429e2362255fa7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "information processing inequality.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -89,7 +128,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "character",
+                "query": "karlin ru",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +153,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -134,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "central limit theorems.md",
+                "file": "Karlin-Rubin theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "central limit theorems.md",
+                "file": "Karlin-Rubin theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "central limit theorems.md"
+                "file": "Karlin-Rubin theorem.md"
               }
             }
           }
@@ -196,13 +236,20 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "7e556b0e69c93026",
+  "active": "ba49ee630dd7012a",
   "lastOpenFiles": [
+    "uniformly most powerful test.md",
+    "information processing inequality.md",
+    "distributional distance.md",
+    "infinitely divisible distribution.md",
+    "sufficient statistic.md",
+    "Karlin-Rubin theorem.md",
+    "Neyman-Pearson lemma.md",
+    "Neyman-Pearson lemma for discrete distributions.md",
+    "minimal sufficiency.md",
     "quantitative CLT template with ideal metrics.md",
     "central limit theorems.md",
-    "distributional distance.md",
     "Wasserstein Distance.md",
-    "infinitely divisible distribution.md",
     "Lindeberg-Feller CLT.md",
     "characteristic function.md",
     "Berry-Esseen bounds.md",
@@ -217,13 +264,6 @@
     "permutation testing by betting.md",
     "e-value.md",
     "issues with p-values.md",
-    "permutation test.md",
-    "optional stopping.md",
-    "optional continuation.md",
-    "concentration in Banach spaces.md",
-    "Wald interval.md",
-    "KS distance.md",
-    "Wasserstein distance.md",
     "images/math_zettel.jpeg",
     "templates/default.txt",
     "templates/default",
