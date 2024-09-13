@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "96d828f6ccd28bb7",
+        "id": "72bb28992faeb31b",
         "type": "tabs",
         "children": [
           {
-            "id": "84be94f91e80230f",
+            "id": "bf79b40dbb0df78c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "infinitely divisible distribution.md",
+                "file": "bounded difference inequalities.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,11 +21,12 @@
             }
           },
           {
-            "id": "0e01a3b87c9fa7e1",
+            "id": "295707f2e14670c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "distributional distance.md",
                 "mode": "source",
                 "backlinks": true,
@@ -92,14 +93,21 @@
               "type": "markdown",
               "state": {
                 "file": "information processing inequality.md",
+=======
+                "file": "Banach space.md",
+>>>>>>> 756294d38c74fe1d96a8b67d28c69f736e0efd7c
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
+<<<<<<< HEAD
         ],
         "currentTab": 4
+=======
+        ]
+>>>>>>> 756294d38c74fe1d96a8b67d28c69f736e0efd7c
       }
     ],
     "direction": "vertical"
@@ -128,7 +136,11 @@
             "state": {
               "type": "search",
               "state": {
+<<<<<<< HEAD
                 "query": "karlin ru",
+=======
+                "query": "banach space",
+>>>>>>> 756294d38c74fe1d96a8b67d28c69f736e0efd7c
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -174,7 +186,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "Karlin-Rubin theorem.md",
+=======
+                "file": "bounded difference inequalities.md",
+>>>>>>> 756294d38c74fe1d96a8b67d28c69f736e0efd7c
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +207,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "Karlin-Rubin theorem.md",
+=======
+                "file": "bounded difference inequalities.md",
+>>>>>>> 756294d38c74fe1d96a8b67d28c69f736e0efd7c
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,7 +234,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "Karlin-Rubin theorem.md"
+=======
+                "file": "bounded difference inequalities.md"
+>>>>>>> 756294d38c74fe1d96a8b67d28c69f736e0efd7c
               }
             }
           }
@@ -236,7 +260,11 @@
       "publish:Publish changes...": false
     }
   },
+<<<<<<< HEAD
   "active": "ba49ee630dd7012a",
+=======
+  "active": "bf79b40dbb0df78c",
+>>>>>>> 756294d38c74fe1d96a8b67d28c69f736e0efd7c
   "lastOpenFiles": [
     "uniformly most powerful test.md",
     "information processing inequality.md",
@@ -248,22 +276,40 @@
     "Neyman-Pearson lemma for discrete distributions.md",
     "minimal sufficiency.md",
     "quantitative CLT template with ideal metrics.md",
+<<<<<<< HEAD
     "central limit theorems.md",
     "Wasserstein Distance.md",
     "Lindeberg-Feller CLT.md",
+=======
+    "infinitely divisible distribution.md",
+    "Banach space.md",
+    "bounded difference inequalities.md",
+    "concentration inequalities.md",
+    "index.md",
+    "Rademacher complexity.md",
+    "randomized inequalities.md",
+    "reverse information projection (RIPr).md",
+    "reverse information projection.md",
+    "techniques for multivariate concentration.md",
+>>>>>>> 756294d38c74fe1d96a8b67d28c69f736e0efd7c
     "characteristic function.md",
     "Berry-Esseen bounds.md",
-    "techniques for multivariate concentration.md",
     "concentration via covering.md",
-    "index.md",
     "testing by betting—simple vs simple.md",
     "maximizing log-wealth.md",
-    "concentration inequalities.md",
     "Wald test.md",
     "e-process.md",
     "permutation testing by betting.md",
     "e-value.md",
     "issues with p-values.md",
+<<<<<<< HEAD
+=======
+    "permutation test.md",
+    "optional stopping.md",
+    "optional continuation.md",
+    "concentration in Banach spaces.md",
+    "Wald interval.md",
+>>>>>>> 756294d38c74fe1d96a8b67d28c69f736e0efd7c
     "images/math_zettel.jpeg",
     "templates/default.txt",
     "templates/default",
