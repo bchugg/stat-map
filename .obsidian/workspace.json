@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "72bb28992faeb31b",
+        "id": "96d828f6ccd28bb7",
         "type": "tabs",
         "children": [
           {
-            "id": "295707f2e14670c2",
+            "id": "ba49ee630dd7012a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Banach space.md",
+                "file": "bounded difference inequalities.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "edb7c5cb4f4bd4ba",
+            "id": "520854936dc5e915",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Petrov's CLT template.md",
+                "file": "light-tailed scalar concentration.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "22c3c983f0e471aa",
+            "id": "68de4401aaab095c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "central limit theorems.md",
+                "file": "exponential inequalities.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,12 +47,25 @@
             }
           },
           {
-            "id": "8fc1c86284b02af7",
+            "id": "a2f2177ae82a95ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lindeberg-Feller CLT.md",
+                "file": "uniformly most powerful test.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f5429e2362255fa7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "information processing inequality.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -89,7 +102,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "banach space",
+                "query": "light-tailed",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -135,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Petrov's CLT template.md",
+                "file": "light-tailed scalar concentration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Petrov's CLT template.md",
+                "file": "light-tailed scalar concentration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Petrov's CLT template.md"
+                "file": "light-tailed scalar concentration.md"
               }
             }
           }
@@ -197,34 +210,34 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "edb7c5cb4f4bd4ba",
+  "active": "520854936dc5e915",
   "lastOpenFiles": [
-    "central limit theorems.md",
-    "Lindeberg-Feller CLT.md",
-    "Petrov's CLT template.md",
-    "Banach space.md",
-    "Hilbert space.md",
-    "maximal inequalities.md",
+    "exponential inequalities.md",
+    "light-tailed scalar concentration.md",
     "bounded difference inequalities.md",
-    "information processing inequality.md",
-    "quantitative CLT template with ideal metrics.md",
-    "infinitely divisible distribution.md",
-    "concentration inequalities.md",
-    "index.md",
-    "Rademacher complexity.md",
-    "randomized inequalities.md",
-    "reverse information projection (RIPr).md",
-    "reverse information projection.md",
-    "techniques for multivariate concentration.md",
-    "characteristic function.md",
     "Berry-Esseen bounds.md",
+    "Petrov's CLT template.md",
+    "Karlin-Rubin theorem.md",
+    "uniformly most powerful test.md",
+    "information processing inequality.md",
+    "sufficient statistic.md",
+    "infinitely divisible distribution.md",
+    "distributional distance.md",
+    "minimal sufficiency.md",
+    "Neyman-Pearson lemma.md",
+    "Neyman-Pearson lemma for discrete distributions.md",
+    "quantitative CLT template with ideal metrics.md",
+    "central limit theorems.md",
+    "Wasserstein Distance.md",
+    "Lindeberg-Feller CLT.md",
+    "characteristic function.md",
+    "techniques for multivariate concentration.md",
     "concentration via covering.md",
+    "index.md",
     "testing by betting—simple vs simple.md",
     "maximizing log-wealth.md",
+    "concentration inequalities.md",
     "Wald test.md",
-    "e-process.md",
-    "permutation testing by betting.md",
-    "e-value.md",
     "images/math_zettel.jpeg",
     "templates/default.txt",
     "templates/default",
