@@ -28,7 +28,7 @@ Then we simply set $\wh{f}(x) = v'$ if $f(x)=v$ and $\wh{f}(x) = f(x)$ otherwise
 
 There's also a _one-shot_ algorithm that accomplishes this goal. If $c(v) = \E[y|f(x) = v]$, then simply let $\wh{f}(x) = c(f(x))$. Then $\wh{f}$ has $K_2=0$. 
 
-Obviously, these assume access to the true distribution. One can approximate the means with the empirical distribution and then obtain bounds on the calibration error using standard [[concentration inequalities]]. 
+Obviously, these assume access to the true distribution. One can approximate the means with the empirical distribution and then obtain bounds on the calibration error using standard [[conc inequalities]]. 
 
 Similar arguments apply if we're interested in quantile calibration. There's also a one-shot version. 
 

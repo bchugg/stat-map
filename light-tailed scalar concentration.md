@@ -3,7 +3,7 @@ created: 2024-08-29
 lastmod: 2024-09-15
 ---
 
-Here we list [[concentration inequalities]] for scalar-valued random variables under various light-tailed conditions (which typically means that the [[MGF]] exists in some neighborhood).  This is contrast to [[heavy-tailed scalar concentration]], where we assume only a few moments. 
+Here we list [[conc inequalities]] for scalar-valued random variables under various light-tailed conditions (which typically means that the [[MGF]] exists in some neighborhood).  This is contrast to [[heavy-tailed scalar concentration]], where we assume only a few moments. 
 
 For rvs $X_1,\dots,X_n$ let $\overline{X}_n = \frac{1}{n}\sum_ {i=1}^n X_i$. 
 

@@ -2,7 +2,7 @@
 created: 2024-08-29
 lastmod: 2024-09-02
 ---
-A *Bernstein* bound is a kind of [[concentration inequalities|concentration inequality]] that takes advantage of the variance of the distribution. They are usually part of a progression of bounds for random variables with bounded range. See [[from boundedness to variance adaptivity]]. 
+A *Bernstein* bound is a kind of [[conc inequalities|concentration inequality]] that takes advantage of the variance of the distribution. They are usually part of a progression of bounds for random variables with bounded range. See [[from boundedness to variance adaptivity]]. 
 
 _Empirical-Bernstein bounds_ replace knowledge of the variance with data-driven estimates of the variance. This is useful since we often don't know what the variance is. Ideally, such bounds can be shown to converge in the limit to a bound with width depending on the true variance —  i.e., they scale asymptotically with the true variance. 
 

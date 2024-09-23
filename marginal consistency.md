@@ -27,7 +27,7 @@ $$
 
 If you don't have a marginally-mean consistent model, then you can simply shift all model predictions by $\Delta = \E[Y] - \E[f(X)]$ in order to make it mean consistent. Doing so also makes the model more accurate with respect to the [[squared error]] (i.e., the Brier score). 
 
-This ignores the problem that we don't know $\Delta$, but it can be estimated with a finite sample and Hoeffding style arguments (see [[concentration inequalities]]) can be used to show that if we do this shift on the empirical distribution, $\alpha$ is small over the true distribution with high probability. 
+This ignores the problem that we don't know $\Delta$, but it can be estimated with a finite sample and Hoeffding style arguments (see [[conc inequalities]]) can be used to show that if we do this shift on the empirical distribution, $\alpha$ is small over the true distribution with high probability. 
 
 # Quantile consistency 
 

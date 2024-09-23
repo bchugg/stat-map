@@ -1,7 +1,7 @@
 ---
 title: Home
 created: 2024-08-29
-lastmod: 2024-09-17
+lastmod: 2024-09-23
 ---
 
 Welcome to the stats map, a (growing) collection of notes on various subtopics in statistics, probability, and theoretical computer science. 
@@ -20,7 +20,7 @@ These are, obviously, my notes. They are not unbiased. They reflect my opinions 
 Possible places to start: 
 - [[game-theoretic statistics]] and [[game-theoretic probability]]
 - [[e-value|e-values]] and [[e-process|e-processes]]
-- [[concentration inequalities]] or [[techniques for multivariate concentration]]
+- [[conc inequalities]] or [[techniques for multivariate concentration]]
 - [[maximal inequalities]]
 - [[uncertainty quantification]]
 - [[hypothesis testing]]
@@ -42,7 +42,7 @@ Or if you're interested in the philosophical foundations of statistics:
 
 This is inspired by the [Zettelkasten method](https://en.wikipedia.org/wiki/Zettelkasten), an approach to note-taking and personal knowledge management. 
 
-Most note taking methods are based on hierarchies. You keep folders on various topics, subfolders on subtopics, and so on. In statistics, you might have a folders on [[concentration inequalities]], [[information theory]], and [[hypothesis testing]]. But this makes it hard to see the connections between these areas. For instance, there is an explicit connection between concentration and hypothesis testing (see [[duality between hypothesis tests and CIs]]), and information theoretic methods are often used to construct [[concentration inequalities]] (see [[techniques for multivariate concentration]]). Where should you put the notes on these connections? 
+Most note taking methods are based on hierarchies. You keep folders on various topics, subfolders on subtopics, and so on. In statistics, you might have a folders on [[conc inequalities]], [[information theory]], and [[hypothesis testing]]. But this makes it hard to see the connections between these areas. For instance, there is an explicit connection between concentration and hypothesis testing (see [[duality between hypothesis tests and CIs]]), and information theoretic methods are often used to construct [[conc inequalities]] (see [[techniques for multivariate concentration]]). Where should you put the notes on these connections? 
 
 Zettelkasten systems solve this problem by abolishing hierarchical note-taking. They instead adopt a network-like architecture, prioritizing the connections between ideas just as much as the ideas themselves. Concretely, it consists of small files (_zettels_) that are linked to each other. Here this is done via hyperlinks between markdown files, but historically it was done with index cards. Zettelkasten systems have a long history: 
 
