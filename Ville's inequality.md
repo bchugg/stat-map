@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-02
+lastmod: 2024-09-22
 ---
 Let $M=(M_t)$ be a $P$-supermartingale. Ville's inequality is a time-uniform version of Markov's inequality ([[basic inequalities#Markov's inequality|basic inequalities:Markov's inequality]]), stating that 
 $$
@@ -18,7 +18,11 @@ $$
 $$
 where $\tau$ represents a [[stopping-time]]. This is what enables statistical inference procedures based on Ville's inequality to be valid at arbitrary stopping times (which are data dependent). 
 
-Note that Ville's inequality also holds for an [[e-process]], since they are upper bounded by a [[test-martingale]]. 
+Ville's inequality also holds for an [[e-process]], since they are upper bounded by a [[test-martingale]]. The [composite generalization of Ville's inequality](https://arxiv.org/pdf/2203.04485) actually requires the notion of an e-process, and reads 
+$$
+\sup_{P\in\calP}\Pr(\exists t\geq 1: E_t\geq 1/\alpha)\leq \alpha),
+$$
+if $(E_t)$ is an e-process for $\calP$. Ville's inequality has also been [extended to nonintegrable processes](https://arxiv.org/abs/2304.01163). 
 
 Ville's inequality also implies the classical result that a nonnegative supermartingale will reach infinity with probability 0. Let $(M_t)$ be a nonnegative supermartingale and define the event $A_k = \{\sup_t M_t \geq 2^k\}$. By Ville, $\Pr(A_k) \leq 2^{-k} \E[M_1]$. Since the events $(A_k)$ are monotonically decreasing, i.e., $A_{k+1} \subset A_k$ for all $k$, we have 
 $$

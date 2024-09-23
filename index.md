@@ -1,7 +1,7 @@
 ---
 title: Home
 created: 2024-08-29
-lastmod: 2024-09-07
+lastmod: 2024-09-17
 ---
 
 Welcome to the stats map, a (growing) collection of notes on various subtopics in statistics, probability, and theoretical computer science. 
@@ -30,8 +30,6 @@ Or if you're interested in the philosophical foundations of statistics:
 - Various statistical schools of thoughts and their methods (non-contradictory): [[Bayesian statistics]], [[frequentist statistics]], and [[game-theoretic statistics]]
 - Various philosophies of probability (very much contradictory): [[Bayesian interpretation of probability]], [[frequentist interpretation of probability]],  [[instrumentalist theory of probability]]
 - More than you wanted to know about [[issues with p-values|some philosophical issues with p-values]]
-
-Otherwise, you can find a long list of all notes on the left hand side. 
 
 # Why make this? 
 
