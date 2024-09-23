@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-22
+lastmod: 2024-09-23
 ---
 An e-process is the sequential analogue of the [[e-value]]. They are one of the foundational tools in [[safe, anytime-valid inference (SAVI)]]. 
 

@@ -1,6 +1,6 @@
 ---
 created: 2024-09-09
-lastmod: 2024-09-22
+lastmod: 2024-09-23
 ---
 Berry-Esseen bounds typically refer to any non-asymptotic bound on the deviation between a sum of random variables $\sum_i X_i$ and a target random variable $X_\infty$. They are often instrumental in proving [[central limit theorems]] and usually stated in terms of the [[KS distance]], $\rho_\ks$. 
 
