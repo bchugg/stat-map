@@ -45,9 +45,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "aa88728e10e64275",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "concentration inequalities.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -122,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "concentration inequalities.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "concentration inequalities.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "concentration inequalities.md"
               }
             }
           }
@@ -184,10 +197,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "a9d53dea4c4ff754",
+  "active": "aa88728e10e64275",
   "lastOpenFiles": [
-    "conc inequalities.md",
     "index.md",
+    "concentration inequalities.md",
     "Chernoff method.md",
     "e-process.md",
     "central limit theorems.md",

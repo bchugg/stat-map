@@ -22,7 +22,7 @@ so a bound on the latter provides a bound on the former. $X_\theta$ is usually a
 
 Both [[Gaussian complexity]] and [[Rademacher complexity]] are defined as maximal inequalities. 
 
-Maximal inequalities can be used to obtain [[conc inequalities]]. If $(S_t)$ is some process, then $\norm{S_t} = \sup_{\theta} \la \theta, S_t\ra$, and maximal inequalities help bound the latter quantity. See [[techniques for multivariate concentration]]. 
+Maximal inequalities can be used to obtain [[concentration inequalities]]. If $(S_t)$ is some process, then $\norm{S_t} = \sup_{\theta} \la \theta, S_t\ra$, and maximal inequalities help bound the latter quantity. See [[techniques for multivariate concentration]]. 
 
 
 # References 

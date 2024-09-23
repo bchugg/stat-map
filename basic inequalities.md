@@ -3,7 +3,7 @@ created: 2024-08-29
 lastmod: 2024-09-02
 ---
 
-Some basic probabilistic inequalities. Used mostly under the hood to build more sophisticated [[conc inequalities]], but also useful in other scenarios. 
+Some basic probabilistic inequalities. Used mostly under the hood to build more sophisticated [[concentration inequalities]], but also useful in other scenarios. 
 
 ## Markov's inequality 
 

@@ -3,7 +3,7 @@ created: 2024-08-29
 lastmod: 2024-09-13
 ---
 
-These are [[conc inequalities]] that concern functions of random variables that obey a bounded differences condition. Intuitively this means that if you change one argument, the function value doesn't change too much. 
+These are [[concentration inequalities]] that concern functions of random variables that obey a bounded differences condition. Intuitively this means that if you change one argument, the function value doesn't change too much. 
 
 The most famous example of a bounded difference inequality is McDiarmid's inequality, which is the following. Suppose $f:\Re^n \to \Re$ obeys 
 $$

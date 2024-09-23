@@ -1,6 +1,6 @@
 ---
 created: 2024-08-30
-lastmod: 2024-09-05
+lastmod: 2024-09-23
 ---
 This page is a high-level pointer to more specific concentration inequalities in various settings. See:
 
@@ -20,4 +20,3 @@ For notes related to techniques to achieve concentration, see:
 
 > [!Note]
 > Here we're interested in measure-theoretic concentration, i.e., concentration in measure-theoretic probability spaces. This is what the vast majority of the statistics community means by concentration. But there is also a small literature on [[game-theoretic concentration inequalities]].
-

@@ -3,7 +3,7 @@ created: 2024-08-29
 lastmod: 2024-09-02
 ---
 
-Let $(S_t)$ be a martingale wrt to the filtration $(\calF_t)$. Assume $(S_t)$ is scalar-valued unless otherwise indicated. Here we investigate [[conc inequalities]] for $(S_t)$. 
+Let $(S_t)$ be a martingale wrt to the filtration $(\calF_t)$. Assume $(S_t)$ is scalar-valued unless otherwise indicated. Here we investigate [[concentration inequalities]] for $(S_t)$. 
 
 Note that martingale concentration inequalities generalize concentration inequalities for independent random variables (eg [[light-tailed scalar concentration]]), since we may take $S_t = \sum_{i\leq t} (X_i - \mu)$, in which the following bounds translate into bounds on $\sum_{i\leq t}X_i$. 
 
