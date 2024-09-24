@@ -1,7 +1,8 @@
 ---
 created: 2024-09-09
-lastmod: 2024-09-23
+lastmod: 2024-09-24
 ---
+
 Berry-Esseen bounds typically refer to any non-asymptotic bound on the deviation between a sum of random variables $\sum_i X_i$ and a target random variable $X_\infty$. They are often instrumental in proving [[central limit theorems]] and usually stated in terms of the [[KS distance]], $\rho_\ks$. 
 
 The classic Berry-Esseen bound, proved independently by both of them in 1945 is the following. Suppose $X_1,\dots,X_n$ are independent with mean $\mu_i$, variance $\sigma_i^2 = \E[(X_i-\mu_i)^2]$ and $B_n^2 = \sum_{i\leq n} \sigma_i^2$. Then, 

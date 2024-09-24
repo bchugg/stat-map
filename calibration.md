@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-02
+lastmod: 2024-09-24
 ---
 Given a distribution $P$ over feature-label pairs $(X,Y)$, the goal of _mean_ calibration is to produce a model $f$ such that 
 $$

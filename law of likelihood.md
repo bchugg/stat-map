@@ -1,6 +1,6 @@
 ---
 created: 2024-09-02
-lastmod: 2024-09-23
+lastmod: 2024-09-24
 ---
 The law of likelihood says that any reasonable answer to the question "When is hypothesis A more likely than hypothesis B" (see [[Royall's three questions]]) must be answered in terms of the likelihood ratio. 
 
