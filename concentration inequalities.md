@@ -1,13 +1,15 @@
 ---
 created: 2024-08-30
-lastmod: 2024-09-23
+lastmod: 2024-09-24
 ---
+
 This page is a high-level pointer to more specific concentration inequalities in various settings. See:
 
 - [[light-tailed scalar concentration]]
 - [[heavy-tailed scalar concentration]]
 - [[martingale concentration]]
 - [[multivariate concentration]]
+- [[cdf concentration]]
 - [[concentration in Banach spaces]]
 - [[matrix inequalities]]
 - [[concentration of functions]]

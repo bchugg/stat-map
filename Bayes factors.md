@@ -9,6 +9,8 @@ For parameters $\theta_1, \theta_2$ (perhaps representing different hypotheses o
 $$
 B := \frac{\Pr_{\theta_1}(X)}{\Pr_{\theta_2}(X)} = \frac{\Pr(\theta_1|X)\Pr(\theta_1)}{\Pr(\theta_2 | X)\Pr(\theta_2)},
 $$
-where the second equality follows from Bayes' theorem if we place prior $\Pr(\theta)$ over the parameter space.
+where the second equality follows from Bayes' theorem if we place prior $\Pr(\theta)$ over the parameter space. 
+
+Jeffreys (a Bayesian) gave a table summarizing how much evidence is provided by different values of $B$. So did Kass and Raftery in 1995. This is pretty silly, as it depends on the application and what actions we're considering on the basis of $B$. 
 
 
