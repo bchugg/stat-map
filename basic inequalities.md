@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-02
+lastmod: 2024-09-27
 ---
 
 Some basic probabilistic inequalities. Used mostly under the hood to build more sophisticated [[concentration inequalities]], but also useful in other scenarios. 
@@ -46,5 +46,5 @@ The _rate_ of concentration here is actually not too bad, it scales with $\sqrt{
 Note that the Chebyshev's inequality is a specific instance of the [[method of moments for concentration]]. 
 ## Chernoff method 
 
-The Chernoff method applies Markov's inequality to the nonnegative random variable $e^{\lambda X}$, and then chooses $\lambda$ to optimize the bound. More detail is given in [[Chernoff method]]. 
+The Chernoff method applies Markov's inequality to the nonnegative random variable $e^{\lambda X}$, and then chooses $\lambda$ to optimize the bound. More detail is given in [[Chernoff method]] (also called the Cramer-Chernoff method). 
 
