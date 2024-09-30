@@ -2,6 +2,7 @@
 created: 2024-08-29
 lastmod: 2024-09-13
 ---
+
 A Banach space is a complete normed vector space. That is, it's a vector space equipped with a norm $\norm{\cdot}$ which induces a distance function in the obvious way. Every Cauchy sequence converges to some point in the space. 
 
 A major obstacle to working in Banach spaces is that an inner product does not necessarily exist. 

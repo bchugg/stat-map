@@ -37,5 +37,4 @@ where $\overline{\mu}_t = \sum_{i\leq t} \lambda_i X_i / \sum_{i\leq t}\lambda_i
 We also give an empirical-Bernstein bound for random vectors in $\Re^d$ in [Time-uniform confidence spheres for means of random vectors](https://arxiv.org/abs/2311.08168) using the [[variational approach to concentration]] but it has explicit dependence on the dimension. 
 
 # Random matrices 
-
 Wang and Ramdas develop an empirical Bernstein bound for random matrices. #todo 
