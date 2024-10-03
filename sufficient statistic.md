@@ -2,6 +2,7 @@
 created: 2024-08-29
 lastmod: 2024-09-02
 ---
+
 Sufficient statistics attempt to capture precisely what is important about a distribution. It is statistic of the data which, informally, we should be able to use instead of the data itself to do our analysis. 
 
 For a more concrete example of how knowing a sufficient statistic suffices in downstream analysis see [[sufficiency and the likelihood]]. 

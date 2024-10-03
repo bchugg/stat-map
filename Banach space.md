@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-13
+lastmod: 2024-09-30
 ---
 
 A Banach space is a complete normed vector space. That is, it's a vector space equipped with a norm $\norm{\cdot}$ which induces a distance function in the obvious way. Every Cauchy sequence converges to some point in the space. 
@@ -23,4 +23,11 @@ where $D_x f(x)(y-x)$ is the Gateaux derivative of $f$ at $x$ in the direction $
 
 Smooth, separable Banach spaces include any separable [[Hilbert space]] $(\beta=1)$ and [[Lp norm|Lp spaces]] ($\beta \leq p\wedge 2$). 
 
-See [[concentration in Banach spaces]]. 
+For statistical results in Banach spaces see [[concentration in Banach spaces]] and [[CLTs in Banach spaces]]. 
+
+# Types and co-types 
+A Banach space has Type 2 if there exists some $T>0$ such that 
+$$
+\E_\eps\norm{\sum_{i\leq n}\eps_i x_i} \leq T \sqrt{\sum_{i\leq n}\norm{x_i}^2}.
+$$
+where $\eps_i$ are Rademacher. Hilbert spaces are Banach spaces of type 2 with $T=1$, which is easy to see if you write the norm in terms of the inner product.  

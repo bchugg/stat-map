@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-29
+lastmod: 2024-09-30
 ---
 
 Unlike light-tailed settings, the sample mean is not well-behaved in heavy-tailed settings. Since heavy-tailed distributions may not have finite MGFs, the [[Chernoff method]] is not applicable. [Catoni gives an example](https://arxiv.org/abs/1009.2048) demonstrating the bound achieved via Markov's inequality ([[basic inequalities]]), i.e., 
@@ -40,3 +40,5 @@ A related idea is proposed by [Lee and Valiant](https://arxiv.org/pdf/2011.08384
 Their estimator achieves a bound of $\sigma ( 1 + o(1)) \sqrt{2\log(1/\delta)/n}$. 
 
 ## Catoni-Giulini M-estimator
+One can of course use Catoni's M-estimator in scalar settings as well. 
+![[multivariate heavy-tailed concentration#Catoni's M-estimator]]
