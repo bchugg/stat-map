@@ -1,7 +1,8 @@
 ---
 created: 2024-09-01
-lastmod: 2024-09-03
+lastmod: 2024-10-07
 ---
+
 Functions which capture "distances" between probability distributions. They may not be metrics in the formal sense ([[metric space]]) (eg perhaps they're not symmetric as in the [[KL divergence]]). 
 
 Examples: 
@@ -28,4 +29,4 @@ A metric is _homogeneous of order_ $s$ if
 $$
 \rho(cX,cY) = |c|^s \rho(X,Y)\quad \text{for all }c\in\Re.
 $$
-_Ideal metrics of order_ $s$ are simultaneously regular and homogeneous of order $s$. These are useful for proving [[central limit theorems]] (see [[quantitative CLT template with ideal metrics]]). 
+_[[ideal metrics|Ideal metrics]] of order_ $s$ are simultaneously regular and homogeneous of order $s$. These come up in the study of [[central limit theorems]] (see [[quantitative CLT template with ideal metrics]]). 

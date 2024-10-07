@@ -41,4 +41,3 @@ Their estimator achieves a bound of $\sigma ( 1 + o(1)) \sqrt{2\log(1/\delta)/n}
 
 ## Catoni-Giulini M-estimator
 One can of course use Catoni's M-estimator in scalar settings as well. 
-![[multivariate heavy-tailed concentration#Catoni's M-estimator]]

@@ -1,5 +1,11 @@
-Let $X_1,\dots,X_n$ be independent with mean 0 and variance $\Var(X_i) = \sigma_i^2$. Let $\rho_s$ be an ideal metric of order $s$ (see [[distributional distance]]) and set $\Sigma_n^2 = \sum_{i\leq n} \sigma_i^2$.  Then, 
-$$ 
+---
+lastmod: 2024-10-07
+created: 2024-09-13
+---
+
+Let $X_1,\dots,X_n$ be independent with mean 0 and variance $\Var(X_i) = \sigma_i^2$. Let $\rho_s$ be an [[ideal metrics|ideal metric]] of order $s$ and set $\Sigma_n^2 = \sum_{i\leq n} \sigma_i^2$.  Then, 
+$$
+ 
 \begin{align}
 \rho_s\left(\frac{1}{\Sigma_n}\sum_{i}X_i, N(0,1)\right)  = \rho_s\left(\frac{1}{\Sigma_n}\sum_i X_i, \frac{1}{\Sigma_n}\sum_i N(0,\sigma_i^2)\right),
 \end{align}
