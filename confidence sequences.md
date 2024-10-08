@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-02
+lastmod: 2024-10-07
 ---
 
 A confidence sequence can be thought of as a sequence of sequentially valid [[confidence intervals]]). Formally, $(C_t)_{t\geq 1}$ is a $(1-\alpha)$-CS for a parameter $\theta$ if
@@ -19,8 +19,15 @@ These are not obviously equivalent definitions. They have to be proved. For inst
 
 Confidence sequences are common tools in [[safe, anytime-valid inference (SAVI)]]. 
 
+Many confidence sequences are construct from applying [[Ville's inequality]] to [[supermartingale|supermartingales]] or [[test-martingale|test-martingales]]]. It is known how to construct non-trivial confidence sequences for a variety of problems. A few include: 
+- bounded, non-parametric mean estimation in $\Re$ ([[estimating means by betting]]) and in $\Re^d$ ([CSs via universal gambling strategies](https://arxiv.org/pdf/2207.12382)), and in Banach spaces (via [[empirical Bernstein bounds]]). 
+- Mean estimation under light-tailed [[sub-psi process|sub-psi conditions]]: See [Howard et al.](https://arxiv.org/abs/1810.08240) 2021.  
+- Mean estimation for heavy-tailed scalar observations (see discussion in [[Catoni-Giulini M-estimator]]) with possibly infinite variance. 
+- [Estimating Gaussian means with unknown variance](https://arxiv.org/pdf/2310.03722)
+- [Light and heavy-tailed (finite variance) mean estimation](https://arxiv.org/abs/2311.08168) in $\Re^d$, using the [[variational approach to concentration]].  
+- [[confidence sequences for quantiles]]
 
+There is also an extension of confidence sequences to the asymptotic regime: [[asymptotic confidence sequences]]. 
 
-# References 
-
-- [Time-uniform, nonparametric, nonasymptotic confidence sequences](https://arxiv.org/abs/1810.08240) 
+# Refs 
+- [Time-uniform, nonparametric, nonasymptotic confidence sequences](https://arxiv.org/abs/1810.08240) by Howard et al.
