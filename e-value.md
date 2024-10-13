@@ -2,6 +2,7 @@
 created: 2024-08-29
 lastmod: 2024-09-06
 ---
+
 An e-variable with respect to a set of distributions $\calP$ is a nonnegative random variable $E$ such that
 $$
 \E_P[E]\leq 1,\quad \forall P\in\calP.

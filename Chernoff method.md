@@ -2,6 +2,7 @@
 created: 2024-08-29
 lastmod: 2024-09-23
 ---
+
 The Chernoff method applies Markov's inequality to the nonnegative random variable $e^{\lambda X}$, and then chooses $\lambda$ to optimize the bound. This often results in tighter bounds and [[concentration inequalities]] than working with the random variable directly. 
 
 In particular, for a random variable $X$, Markov's inequality gives that 

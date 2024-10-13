@@ -17,7 +17,7 @@ There is also a natural [[anisotropic distribution|anisotropic]] version for a r
 $$
 \E\exp(\lambda\la \nu, X-\mu\ra) \leq \exp(\lambda^2\la \nu, \Sigma\nu\ra/2),
 $$
-for all $\nu\in\dsphere$ and some [[positive semi-definite]] matrix $\Sigma$. As in the case of [[sub-Gaussian distributions]], there is also the accompanying [[isotropic distributions|isotropic]] version, which we don't state. 
+for all $\nu\in\dsphere$ and some positive semi-definite matrix $\Sigma$. As in the case of [[sub-Gaussian distributions]], there is also the accompanying [[isotropic distributions|isotropic]] version, which we don't state. 
 
 In the scalar setting, equivalent formulations are: 
 - $\Pr(|X|\geq t)\leq 2e^{-Kt}$ for some $K$ 

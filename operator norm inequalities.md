@@ -2,6 +2,7 @@
 created: 2024-08-29
 lastmod: 2024-09-02
 ---
+
 A summary of bounds on the operator norm of random operators. 
 
 # Bernstein inequality 

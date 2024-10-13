@@ -1,7 +1,8 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-02
+lastmod: 2024-10-13
 ---
+
 We can use the paradigm of [[game-theoretic hypothesis testing]] to test forecasters. We can either bet against a single forecaster, or we can [[comparing forecasters by betting|compare forecasters]]. 
 
 The setup is identical to hypothesis testing. A skeptic whose betting against the forecaster starts with wealth $K_0=1$. At each round $t=1,\dots$:  
@@ -16,4 +17,4 @@ Clearly, the question is how to choose $S_t$, which depends on $\calX_t$ and $P_
 
 # Binary outcomes 
 
-An interesting and relevant case (because of all the superforecasting mumbo jumbo) is the case when $\calX_t$ is binary or finite. Eg $\calX_t = \{\text{Ukraine will win the war, Ukraine will not win the war}\}$. If we were testing $P_t$ against a particular alternative $Q_t$, this would reduce to a simple vs simple testing problem ([[testing by betting—simple vs simple]]). In general, we need to use the plug-in method or the mixture method because we don't have a particular alternative in mind (see [[testing by betting—simple vs composite]]). 
+An interesting and relevant case (because of all the superforecasting mumbo jumbo) is the case when $\calX_t$ is binary or finite. Eg $\calX_t = \{\text{Ukraine will win the war, Ukraine will not win the war}\}$. If we were testing $P_t$ against a particular alternative $Q_t$, this would reduce to a simple vs simple testing problem ([[testing by betting—simple vs simple]]). In general, we need to use the plug-in method or the mixture method because we don't have a particular alternative in mind (see [[testing by betting—simple vs composite]]). I wrote a simple blog post about this [here](https://benchugg.com/research_notes/testing-forecasters/). 

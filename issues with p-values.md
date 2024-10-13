@@ -7,9 +7,7 @@ Some mathematical drawbacks of [[p-value|p-values]] that can lead to (possibly i
 
 Let $P_n$ be a p-value which is a calculated based on $n$ observations $X_1, \dots, X_n$. As a reminder, the usual p-value guarantee reads: 
 $$
-
 \forall n, \forall\alpha,\; \Pr_{H_0}(P_n \leq \alpha) \leq \alpha.
-
 $$
 The issues with p-values explored here are all consequences of the fact that $n$ (the sample size) and $\alpha$ (the significance level) are outside of the probability statement. Consequently, they should not depend on the data. This basic property has many consequences. 
 

@@ -2,6 +2,7 @@
 created: 2024-09-01
 lastmod: 2024-09-03
 ---
+
 The Kolmogorov-Smirnoff [[distributional distance]] between two distributions $P_X$ and $P_Y$ over the reals is 
 $$
 \rho_\ks(X,Y) = \sup_{z\in\Re} |P_X(X\leq z) - P_Y(Y\leq z)|.

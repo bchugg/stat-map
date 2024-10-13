@@ -2,6 +2,7 @@
 created: 2024-08-29
 lastmod: 2024-09-02
 ---
+
 The idea behind marginal consistency in [[uncertainty quantification]] is to ensure that a model is consistent on average across the entire population. This comes in two flavors: Mean consistency, and quantile consistency. 
 
 Note that **marginal guarantees are quite weak.**  Ideally one would have guarantees conditional on a specific input $x$, but here we're reasoning about averages over the entire population. 
@@ -20,9 +21,7 @@ where $P(x)$ is the distribution over $y$ if given feature $x$.  A simpler task 
 
 To measure the error of an actual model we introduce the notion of _marginal mean consistency_, where we say $f$ is $\alpha$-marginally mean consistent if 
 $$
-
 \left|\E_{X\sim P_X}[f(X)] - \E_P [Y]\right|\leq \alpha.
-
 $$
 
 If you don't have a marginally-mean consistent model, then you can simply shift all model predictions by $\Delta = \E[Y] - \E[f(X)]$ in order to make it mean consistent. Doing so also makes the model more accurate with respect to the [[squared error]] (i.e., the Brier score). 

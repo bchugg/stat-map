@@ -1,11 +1,11 @@
 ---
-lastmod: 2024-09-24
+lastmod: 2024-10-13
 created: 2024-09-24
 ---
 
 What can we say about the concentration of the empirical CDF about the true CDF? 
-# Scalar DKW inequality 
 
+## Scalar DKW inequality 
 For real valued observations $X_1, \dots, X_n$ with $F_n (x) = \frac{1}{n}\sum_{i\leq n}\ind(X_i\leq x)$, the DKW (Dvoretzky-Kiefer-Wolfowitz) inequality states that 
 $$
 \Pr\left(\sup_{x\in\Re} |F_n(x) - F(x) > t\right) \leq 2\exp(-2nt^2).
@@ -14,8 +14,7 @@ Note this statement is uniform in $x$ which, depending on your expectations, is 
 
 The original DKW inequality was an asymptotic statement: it bounded the probability as $\lesssim \exp(-2nt^2)$. In 1990, [Paul Massart proved that](https://www.jstor.org/stable/2244426) the constant on the right hand side was 2, and he proved that this was tight.  
 
-# Multivariate DKW inequality 
-
+## Multivariate DKW inequality 
 In 2021, [Naaman gave](https://www.sciencedirect.com/science/article/pii/S016771522100050X) a multivariate extension of DKW. Namely, 
 $$
 \Pr\left(\sup_{x\in\Re^d} |F_n(x) - F(x) > t\right) \leq d(n+1)\exp(-2nt^2).
@@ -26,8 +25,7 @@ In 1977, [Devroye gave a similar result](https://core.ac.uk/download/pdf/8120583
 
 Both the univariate and multivariate DKW inequalities hold under slightly weaker assumptions than the usual iid assumption.  
 
-# Glivenko-Cantelli theorem 
-
+## Glivenko-Cantelli theorem 
 Glivenko and Cantelli proved that, in the scalar case,  
 $$
 \sup_{x\in \Re} |F_n(x) - F(x) | = \norm{F_n - F}_\infty \xrightarrow{a.s.} 0.

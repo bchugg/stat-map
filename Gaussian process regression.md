@@ -2,21 +2,18 @@
 created: 2024-08-29
 lastmod: 2024-09-02
 ---
+
 A Bayesian (see [[Bayesian statistics]]) approach to [[nonparametric regression]]. 
 
 We say a stochastic process $\{m(x): x\in \calX\}$ is a Gaussian process if, for any finite collection $x_1,\dots,x_n$, 
 $$
-
 (m(x_1),\dots,m(x_n)) \sim N(\mu,K),
-
 $$
 where $K_{i,j} = K(x_i,x_j)$ is a [[Mercer kernel]] and $\mu = (\mu(x_1),\dots,\mu(x_n))$. Typically we suppose that $\mu=0$ since we can always subtract the mean from the data. 
 
 Gaussian process regression places a prior $\pi$ on the regression function $m(x) = \E[Y|X=x]$ which assumes that $m$ is a Gaussian process. Thus, assuming $\mu=0$, the prior has density 
 $$
-
 \pi(m) = \frac{|K|^{-1/2}}{(2\pi)^{n/2}} \exp\bigg(-\frac{1}{2}m^T K^{-1}m\bigg),
-
 $$
 where $m = (m(x_1),\dots,m(x_n))$. 
 

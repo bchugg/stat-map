@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-07
+lastmod: 2024-10-13
 ---
 
 Suppose we have a stochastic process $(S_t)$ evolving in some space. What techniques are available for bounding $\norm{S_t}$? If $S_t\in\Re$, then we usually argue about $S_t$ and $- S_t$ and take a union bound to get a bound on $|S_t|$ (see [[light-tailed scalar concentration]] and [[heavy-tailed scalar concentration]]). However, in higher-dimensional spaces (in $\Re^d$, $d\geq 2$, say) a union bound doesn't suffice: there are infinitely many directions one has to worry about. 
@@ -17,6 +17,8 @@ So $(Z_t)$ is a martingale with $Z_0=0$. Let $D_t = Z_t - Z_{t-1}$, be the incre
 - If $S_t$ is bounded for each $t$, then we can use the Azuma-Hoeffding inequality ([[martingale concentration#Azuma-Hoeffding inequality|martingale concentration:Azuma-Hoeffding inequality]]) 
 - If a bound on the variance of $D_t$ is known, then we can use the equivalent of a Bernstein inequality ([[martingale concentration#Variance bound|martingale concentration:Variance bound]]). 
 
+The [[Pinelis approach to concentration]] is another method which works directly with the norm. 
+
 # Covering arguments 
 
 See [[concentration via covering]] for an overview. The idea is to bound cover the unit ball with an finite net, and then take a union bound. You suffer the covering number ([[covering and packing]]) of the underlying space in the bound. 
@@ -27,9 +29,7 @@ This means covering arguments lead to dimension-dependent bounds because coverin
 
 See [[chaining]] for an overview of chaining. Chaining provides high probability guarantees of the form 
 $$
-
 \Pr(\sup_{\theta\in\dsphere} \la \theta, S_n\ra \geq tS)\lesssim \exp(-t^2),
-
 $$
 where
 $$

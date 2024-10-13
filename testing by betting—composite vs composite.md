@@ -2,6 +2,7 @@
 created: 2024-08-29
 lastmod: 2024-09-02
 ---
+
 We are in the setting of [[game-theoretic hypothesis testing]], and now have a composite null. The methods outlined in [[testing by betting—simple vs simple]] and [[testing by betting—simple vs composite]] outline methods to construct [[e-value|e-values]] and [[e-process|e-processes]] which rely heavily on having a point null. 
 
 There are two general methods for handling composite nulls: 

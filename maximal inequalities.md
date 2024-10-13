@@ -13,9 +13,7 @@ $$
 $$
 Often $\Theta$ is equipped with a metric $d$ and we consider the [[metric space]] $(\Theta, d)$. $\Theta$ could be time (i.e., $\Re_{\geq0}$ or $\mathbb N$), but is usually not. These objectives are usually pursued simultaneously, since
 $$
-
 \E\sup_\theta |X_\theta| = \int_0^\infty \Pr(\sup_\theta |X_\theta| \geq t)\d t,
-
 $$
 so a bound on the latter provides a bound on the former. $X_\theta$ is usually assumed to be centered (zero-mean) and often symmetric, so that we can instead work with $|X_\theta - X_\phi|$ instead of $|X_\theta|$ (since, under this assumption, $\E\sup_{\theta,\phi}|X_\theta - X_\phi| = 2\E \sup_\theta X_\theta$). See, e.g., [[generic chaining]], which makes this assumption.    
 

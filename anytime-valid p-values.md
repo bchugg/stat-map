@@ -1,13 +1,13 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-02
+lastmod: 2024-10-13
 ---
 
 Most [[p-value|p-values]] hold only at fixed times. That is, a p-value $P_n$ based on $n$ observations has the guarantee 
 $$
 \text{for all data-independent times }n, \quad \Pr_0(P_n \leq\alpha)\leq \alpha.
 $$
-An [[anytime-valid]] p-value holds at all stopping times: 
+An [[anytime-valid]] p-value holds at all [[stopping-time|stopping times]]: 
 $$
 \text{for all stopping times }\tau, \quad \Pr_0(P_\tau \leq \alpha),\alpha.
 $$

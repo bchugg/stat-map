@@ -2,6 +2,7 @@
 created: 2024-09-15
 lastmod: 2024-09-15
 ---
+
 In his 1975 textbook [_Sums of independent random variables_](https://link.springer.com/book/10.1007/978-3-642-65809-9) Petrov proved a number of useful [[central limit theorems|CLT]] templates. Here are two extremely useful ones. 
 
 # Theorem 15 

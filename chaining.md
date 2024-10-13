@@ -2,12 +2,12 @@
 created: 2024-08-29
 lastmod: 2024-09-02
 ---
+
 Chaining is a generic method of generating [[maximal inequalities]] on the suprema of random processes. 
 
 Suppose we have a collection of random variables indexed by some set  which we assume is a centered (zero-mean) [[sub-Gaussian process]] in the sense that 
 $$
 \Pr(|X_\theta - X_\phi| \geq \eps) \leq 2\exp\left(-\frac{\eps^2}{2\rho^2(\theta, \phi)}\right),
-
 $$
 for some metric $\rho$. The ultimate goal is to bound $\E\sup_{\theta }X_\theta$ but this is done via bounding
 $$
@@ -37,9 +37,7 @@ The intuition is the following:
 
 Chapter 2.2 in Talagrand's book below provides the details. We end up with a bound of the form: 
 $$
-
 \Pr(\sup_{\theta}|X_\theta - X_{\theta_0}|\geq t S) \leq 2\sum_{n\leq N} 2^{2^{n+1}} \exp(-t^2 2^{n-1}) \lesssim \exp(-t^2/2),
-
 $$
 where 
 $$

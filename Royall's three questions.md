@@ -2,6 +2,7 @@
 created: 2024-09-02
 lastmod: 2024-09-02
 ---
+
 In _Statistical Evidence: A likelihood paradigm_, Richard Royall distinguishes between three questions that a statistician might ask when he receives a new observation (or set of observations): 
 
 1. What do I believe, now that I have this observation? 

@@ -2,6 +2,7 @@
 created: 2024-08-29
 lastmod: 2024-09-24
 ---
+
 An e-process is the sequential analogue of the [[e-value]]. They are one of the foundational tools in [[safe, anytime-valid inference (SAVI)]]. 
 
 We say a stochastic process $(E_t)$ is an e-process for $\calP$ if it is an e-value at every [[stopping-time]]:

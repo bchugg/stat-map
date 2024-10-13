@@ -2,6 +2,7 @@
 created: 2024-08-29
 lastmod: 2024-09-02
 ---
+
 In traditional [[hypothesis testing]] we fix a significance level $\alpha\in(0,1)$ and look for tests $\phi$ which have type-I error bounded by $\alpha$: 
 $$
 \sup_{P\in\calP} P(\phi(X) = 1)\leq \alpha,
@@ -10,7 +11,7 @@ where $\calP$ is the null. To do [[post-hoc hypothesis testing]], we want to be 
 $$
 \sup_{P\in\calP} \E_P\left[\frac{\phi(X)}{\alpha}\right]\leq 1.
 $$
-(We make a similar move when viewing hypothesis testing through the lens of decision-theory: [[Neyman-Pearson paradigm as decision-theory]]). To allow $\alpha$ to be data-dependent, we add a supremum over $\alpha$ inside the expectation (it is implicitly outside the expectation in the previous display):  
+(We make a similar move when viewing hypothesis testing through the lens of decision-theory: [[Neyman-Pearson paradigm with losses]]). To allow $\alpha$ to be data-dependent, we add a supremum over $\alpha$ inside the expectation (it is implicitly outside the expectation in the previous display):  
 $$
 \sup_{P\in\calP} \E_P\left[\sup_{\alpha\in(0,1)}\frac{\phi(X)}{\alpha}\right]\leq 1.
 $$

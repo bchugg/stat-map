@@ -2,6 +2,7 @@
 created: 2024-09-02
 lastmod: 2024-09-02
 ---
+
 A special case of the [[Lindeberg-Feller CLT]] for iid random variables with finite variance. 
 
 Let $X_1,X_2,\dots$ be iid with mean $\mu$ and variance $\sigma^2<\infty$. Then 

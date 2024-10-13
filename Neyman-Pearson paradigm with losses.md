@@ -1,7 +1,8 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-02
+lastmod: 2024-10-13
 ---
+
 The [[Neyman-Pearson paradigm]] is formulated in terms of Type I and Type II errors. Suppose we are testing the null $H_0$ vs the alternative $H_1$ (see [[hypothesis testing]]). In particular, we focus on constructing hypothesis tests $\phi$ such that 
 $$
 \Pr_{H_0}(\phi(X^n)=1)\leq \alpha,

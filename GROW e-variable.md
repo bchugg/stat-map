@@ -2,6 +2,7 @@
 created: 2024-08-29
 lastmod: 2024-09-02
 ---
+
 Stands for "Growth rate optimality in worst case."
 
 Similar to [[REGROW e-variable]] in that it seeks to extend [[GRO e-variable]] to composite alternatives, but we do not compare to the GRO process. Instead, we simply look for the process $(M_t)$ maximizing

@@ -2,6 +2,7 @@
 created: 2024-08-29
 lastmod: 2024-09-02
 ---
+
 The typical loss used when attempting to estimate quantiles. For a target quantile $q$, the loss is 
 $$
 L_q(\tau, y) = \begin{cases}
@@ -11,9 +12,7 @@ L_q(\tau, y) = \begin{cases}
 $$
 Here $\tau$ should be interpreted as your guess for the $q$-th quantile, and $y$ is the observed value. In the case where $q=1/2$ we have 
 $$
-
 L_{1/2}(\tau, y) = \frac{1}{2}|\tau - y|,
-
 $$
 which is just the $\ell_1$ loss, the minimizer of which the median. 
 

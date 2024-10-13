@@ -11,14 +11,10 @@ $$
 $$
 since this is the best "worst case" scenario (worst case since it assumes that column can make the first move). This is the "minimax" strategy. Similarly, player 2 attempts to find the "maximin" strategy 
 $$
-
 \argmax_y \min_x \ell(x,y).
-
 $$
 In general, the value of these strategies is not equal, since 
 $$
-
 \min_x \max_y \ell(x,y) \geq \max_y \min_x \ell(x,y).
-
 $$
 Note that $x$ and $y$ here can be mixed (randomized) strategies, in which case we interpret $\ell(x,y)$ as the expected loss. 

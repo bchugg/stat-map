@@ -2,6 +2,7 @@
 created: 2024-08-29
 lastmod: 2024-09-15
 ---
+
 CLTs concern the convergence in distribution of (some statistic of) data. They are foundational in [[statistical inference]] because they show that, for large enough sample sizes, we can treat data from an unknown or complicated distribution as though it comes from a nicer, well-behaved distribution (eg, a Gaussian). Under mild conditions (asymptotic negligibility) the set of limiting distributions are precisely the [[infinitely divisible distribution|infinitely divisible distributions]]. 
 
 The first CLT ever proved was for binomial distributions by de Moivre in 1738. He showed that if $X_n\sim \text{Binomial}(n,p)$, then 

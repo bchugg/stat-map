@@ -2,6 +2,7 @@
 created: 2024-08-29
 lastmod: 2024-09-02
 ---
+
 We say the observations $(X_1,\dots,X_n)$ are _exchangeable_ if for any permutation $\sigma:[n]\to[n]$,
 $$
 (X_1,\dots,X_n) = (X_{\sigma(1)},\dots,X_{\sigma(n)})\text{ in distribution.}

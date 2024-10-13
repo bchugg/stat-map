@@ -2,6 +2,7 @@
 created: 2024-08-29
 lastmod: 2024-09-02
 ---
+
 An example of an algorithm which is locally differentially private ([[local differential privacy]]) is Warner's method for survey responses. The idea is to enable respondents to answer potentially sensitive survey questions while maintaining plausible deniability. 
 
 Consider a survey with a sensitive yes/no question and fix some $r\in(0,1]$. The respondent answers truthfully with probability $r$, otherwise flips an unbiased coin. That is, the privatized response is 
@@ -9,7 +10,6 @@ Consider a survey with a sensitive yes/no question and fix some $r\in(0,1]$. The
 $$
 Z\sim \begin{cases} X,& \text{w.p. } r\\ Y\sim \text{Bernoulli(1/2)},&\text{w.p }1-r
 \end{cases}
-
 $$
 
 Note that $\Pr(Z=z|X=x) = r\ind(z=x) + (1-r)/2$. Therefore, 

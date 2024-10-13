@@ -2,6 +2,7 @@
 created: 2024-08-29
 lastmod: 2024-09-02
 ---
+
 A family of distributions $\{P_\theta:\theta\in\Theta\}$ form a $d$-dimensional exponential family if their densities have the form 
 $$
 p_\theta(x) = \exp\left\{\sum_{i\leq d} \eta_i(\theta)T_i(x) - A(\theta)\right\}h(x),

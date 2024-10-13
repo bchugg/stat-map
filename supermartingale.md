@@ -2,6 +2,7 @@
 created: 2024-08-29
 lastmod: 2024-09-02
 ---
+
 A stochastic process $(S_t)$ is a supermartingale with respect to a filtration $(\calF_t)$ if
 $$
 \E[S_t|\calF_{t-1}] \leq S_{t-1},\quad \forall t.

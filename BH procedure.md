@@ -2,6 +2,7 @@
 created: 2024-08-29
 lastmod: 2024-09-02
 ---
+
 Procedure to achieve [[FDR control]]. Each hypothesis $H_i$ has a realized p-value $p_i$. If we reject all hypotheses with the smallest $k^*$ p-values, where 
 $$
 k^* = \max\bigg\{k: \frac{Kp_{(k)}}{k}\leq \alpha\bigg\}.

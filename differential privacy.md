@@ -2,6 +2,7 @@
 created: 2024-08-29
 lastmod: 2024-09-02
 ---
+
 Differential privacy is the study of how to make mechanisms which act on databases (i.e., make queries) secure from leaking information. 
 
 Intuitively, a differentially private mechanism should be one which is not excessively reactive to small changes in the dataset. Let $\calD$ be the set of all databases, and consider a function $g$ which acts on $\calD$. (Think of a database as just some big data table where, e.g., each row corresponds to a different user.) For instance, given a database $x\in \calD$, $g(x)$ might be the size of $x$, or the total amount user deposits in $x$, or it might ask for the number of users with some property (a "counting query"). We want to add noise to $g$ in such a way that, regardless of how it queries the database, it cannot back out sensitive information. 
@@ -17,9 +18,7 @@ The intuition behind the definition is easier to grasp if we negate it. If $f$ i
 A popular to write $\eps$-differential privacy is as the likelihood ratio
 
 $$
-
 \sup_{A\in \image(f)} \sup_{x_1,x_2:x_1\in \delta_1(x_2)}\frac{\Pr(f(x_1)\in A)}{\Pr(f(x_2)\in A)}\leq e^\eps,
-
 $$
 
 where $\delta_1(x)$ is the set of databases which different by at most 1 row from $x$. 
@@ -28,21 +27,15 @@ where $\delta_1(x)$ is the set of databases which different by at most 1 row fro
 
 Consider a deterministic function $g:\calD\to \Re^k$.  Define 
 $$
-
 \Delta = \sup_{x,y:x\in \delta_1(x)} ||g(x) - g(y)||_1 = \sup_{x,y:x\in\delta_1(y)} \sum_{i=1}^k |g(x)_i - g(y)_i|.
-
 $$
 $\Delta$ is often called the $\ell_1$-_sensitivity_ of $g$. The Laplace mechanism is defined as 
 $$
-
 f(x) = g(x) + (Y_1,\dots,Y_k),
-
 $$
 where $Y_1,\dots,,Y_k\sim\lap(0,\Delta/\eps)$ independently. Recall that the Laplacian distribution $\lap(a,b)$ has pdf $p(x) = (2b)^{-1}\exp(-|x-a|/b)$. To show that this mechanism is differentially private, we show that 
 $$
-
 \int_A \Pr(f(x)=z)dz \leq e^\eps \int_A \Pr(f(y)=z)dz,
-
 $$
 for all $x\in\delta_1(y)$. To see this, it suffices to show that for all $z\in A$, $\Pr(f(z)=z)\leq e^\eps \Pr(f(y)=z$) and then to integrate over $A$. Note that, 
 $$
@@ -58,7 +51,6 @@ $$
 &\leq \prod_{i=1}^k \exp\bigg(\frac{\eps}{\Delta}(|g(y)_i- g(x)_i|)\bigg) \\ 
 &= \exp\bigg(\frac{\eps}{\Delta}\sum_{i=1}^k |g(y)_i - g(x)_i|\bigg) \leq \exp(\eps).
 \end{align}
-
 $$
 
 # Composition 
@@ -72,7 +64,6 @@ It turns out that $g$ will be $(\eps_1+\eps_2,\delta_1+\delta_2)$ differentially
 Note the range of $g$ is the product space $\range(f_1)\times\range(f_2)$.  Since we run $f_1$ and $f_2$ independently, we have, for any $A\times B\in range(g)$ and any neighboring databases $x$ and $z$, 
 
 $$
-
 \begin{align*}\Pr(g(x)\in A\times B)&=\Pr((f_1(x),f_2(x))\in A\times B) \\ &= \Pr(f_1(x)\in A)\Pr(f_2(x)\in B)  \\ 
 &\leq \min\{e^{\eps_1}\Pr(f_1(z)\in A+\delta_1,1\}\Pr(f_2(x)\in B) \\ 
 &\leq (\min\{e^{\eps_1}\Pr(f_1(z)\in A),1\} + \delta_1)\Pr(f_2(x)\in B) \\ 
@@ -82,14 +73,12 @@ $$
 &\leq e^{\eps_1+\eps_2} \Pr(f_1(z) \in A)\Pr(f_2(z)\in B) + \delta_1+\delta_2 \\ 
 &= e^{\eps_1+\eps_2} \Pr(g(z) \in A\times B) + \delta_1+\delta_2.
 \end{align*}
-
 $$
 
 Here we've just used basic facts of the min function and recognized that probabilities can be at most 1. Of course, we can extend this result by induction and conclude that given finitely many mechanisms $\{f_i\}$ where $f_i$ is $(\eps_i,\delta_i)$-differentially private, then the mechanism $g:\calX\to \bigotimes_i \range(f_i)$ given by  $g:x\mapsto \otimes_i f_i(x)$ is $(\sum_i \eps_i,\sum_i\delta_i)$ differentially private. 
 
 We can also consider deterministic composition, and demonstrate that it does not affect the privacy guarantees. Indeed, suppose $f:\calD\to U$ is $(\eps,\delta)$ private and let $g:U\to V$ be deterministic and invertible. Then for any $W\subset V$,
 $$
-
 \begin{align}
 \Pr(f\circ g(x) \in W) &= \Pr(f(x) \in g^{-1}(W)) \\
 &\leq e^\eps \Pr(f(y) \in g^{-1}(W)) = \Pr(f\circ g(y)\in W),

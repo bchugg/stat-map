@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-02
+lastmod: 2024-10-13
 ---
 
 A general pointer page to various multivariate concentration bounds. Multivariate refers to bounds on random vectors in $\Re^d$ but also more general spaces such as [[Hilbert space|Hilbert spaces]] and [[Banach space|Banach spaces]]. 
@@ -8,6 +8,7 @@ A general pointer page to various multivariate concentration bounds. Multivariat
 For specific bounds see 
 - [[multivariate light-tailed concentration]]
 - [[multivariate heavy-tailed concentration]]
+- [[concentration in Banach spaces]]
 
 For an overview of challenges and techniques, see [[techniques for multivariate concentration]]. 
 

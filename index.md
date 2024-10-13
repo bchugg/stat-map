@@ -1,7 +1,7 @@
 ---
 title: Home
 created: 2024-08-29
-lastmod: 2024-09-24
+lastmod: 2024-10-13
 ---
 
 Welcome to the stats map, a (growing) collection of notes on various subtopics in statistics, probability, and theoretical computer science. 
@@ -10,7 +10,7 @@ Unlike a traditional textbook, these notes prioritize the connections between su
 
 ![[zettel.jpeg|center|500]]
 
-These are, obviously, my notes. They are not unbiased. They reflect my opinions on what's interesting and what's not. There will be significant detail on some topics and a total absence of many topics. That said, this is still in it's early stages (it's missing even basic material from a standard first year grad course in theoretical statistics), and it will continue to be expanded in the coming months, years, and (hopefully!) decades. 
+These are, obviously, my notes. They are not unbiased. They reflect my opinions on what's interesting and what's not. There will be significant detail on some topics and a total absence of many topics. That said, this is still in it's early stages (it's missing even basic material from a standard first year grad course in theoretical statistics), and it will continue to be expanded in the coming months and years. 
 
 > [!info] How to navigate 
 > If you click on a link you will follow it. You can see a list of all notes on the left hand side of the page, and backlinks to the current note on the right hand side (or on the bottom if you're on a small screen).
@@ -22,7 +22,7 @@ Possible places to start:
 - [[e-value|e-values]] and [[e-process|e-processes]]
 - [[concentration inequalities]] or [[techniques for multivariate concentration]]
 - [[maximal inequalities]]
-- [[uncertainty quantification]]
+- [[central limit theorems]]
 - [[hypothesis testing]]
 
 Or if you're interested in the philosophical foundations of statistics: 

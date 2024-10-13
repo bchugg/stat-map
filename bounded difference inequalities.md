@@ -7,9 +7,7 @@ These are [[concentration inequalities]] that concern functions of random variab
 
 The most famous example of a bounded difference inequality is McDiarmid's inequality, which is the following. Suppose $f:\Re^n \to \Re$ obeys 
 $$
-
 \sup_{z_1,\dots,z_n,z_i'} |f(z_{-i}, z_i) - f(z_{-i},z_i')|\leq c_i,
-
 $$
 for all $i$. (Here $z_{-i}$ is the vector of arguments that omits $z_i$). Then 
 $$

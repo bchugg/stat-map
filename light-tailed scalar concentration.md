@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-29
+lastmod: 2024-10-13
 ---
 
 Here we list [[concentration inequalities]] for scalar-valued random variables under various light-tailed conditions (which typically means that the [[MGF]] exists in some neighborhood).  This is contrast to [[heavy-tailed scalar concentration]], where we assume only a few moments. 
@@ -44,6 +44,8 @@ There are two regimes in Bernstein's bound: A sub-Gaussian regime where the tail
 
 ## Empirical Bernstein bounds 
 Empirical Bernstein bounds replace the oracle variance with an estimated variance. This is useful because the true variance is not always known. These bounds deserve their own page: [[empirical Bernstein bounds]]. 
+
+#todo non-bounded stuff 
 
 # References 
 - Concentration inequalities by Boucheron, Lugosi, and Massart. 

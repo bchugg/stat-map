@@ -2,6 +2,7 @@
 created: 2024-08-29
 lastmod: 2024-09-02
 ---
+
 > [!note] Definition
 > Let $(\Theta,\rho)$ be a [[metric space]].  The entropy number of $\Theta$ with respect to $\rho$ is
 > $$

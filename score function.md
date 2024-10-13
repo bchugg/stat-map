@@ -2,6 +2,7 @@
 created: 2024-08-29
 lastmod: 2024-09-02
 ---
+
 Consider the log-likelihood for a parameter $\theta$:
 $$
 \ell(\theta) = \log \calL(\theta) = \log \Pr(X^n|\theta).

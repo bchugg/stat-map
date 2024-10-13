@@ -2,11 +2,10 @@
 created: 2024-08-29
 lastmod: 2024-09-02
 ---
+
 A Mercer Kernel on a space $\calX$ is a symmetric function $K:\calX\times\calX\to\Re$ which is symmetric and positive semi-definite. That is, $K(x,y) = K(y,x)$ for all $x$ and $y$ and 
 $$
-
 \int\int K(x,y)f(x)f(y)p(x)p(y)dxdy\geq 0,
-
 $$
 for all $f:\calX\to\Re$, where $p$ is a probability measure on $\calX$. This means that $K$ is positive semi-definite. In a discrete space this reduces to the usual definition: $x^t K x\geq 0$ for all $x$. 
 

@@ -2,6 +2,7 @@
 created: 2024-08-29
 lastmod: 2024-09-02
 ---
+
 The total variation distance between two measures $\mu$ and $\nu$ on a measurable space $(\Omega, \calF)$ is 
 $$
 D_\tv(\rho\|\nu) := \sup_{A\in \calF} |\mu(A) - \nu(A)|.

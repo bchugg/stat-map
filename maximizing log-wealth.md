@@ -2,6 +2,7 @@
 created: 2024-08-29
 lastmod: 2024-09-02
 ---
+
 Suppose we have the wealth process of a gambler, $\calK_t = \prod_{i\leq t} S_t$. Such a process is common in, e.g., [[game-theoretic statistics]], [[information theory]], and [[portfolio optimization]]. 
 
 We are usually interested in making the wealth grow over time (eg in [[game-theoretic hypothesis testing]]). A natural question is what sort of criteria should we use to measure the growth? 

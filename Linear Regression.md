@@ -1,8 +1,9 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-02
+lastmod: 2024-10-13
 ---
 
+#todo 
 We assume the model $y = \beta^t X + \eps$, where we make various different assumptions on $\eps$. 
 
 Given $X_1,\dots,X_n$, introduce the _design matrix_ $\bb{X}$ which rows correspond to $X_1,\dots,X_n$. Common practice is to add a 1 to each vector $X_i$ so that the first column of $\bb{X}$ is all 1s, which enables us to model non-zero offsets (i.e., $y = \beta_0 + \beta^t X+\eps$).    

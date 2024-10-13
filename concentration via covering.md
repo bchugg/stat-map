@@ -2,6 +2,7 @@
 created: 2024-09-07
 lastmod: 2024-09-07
 ---
+
 The general approach is as follows. Let $C_\eps$ be an $\epsilon$-cover of $\ball^{d-1}$ (see [[covering and packing]]). Then 
 $$
 \sup_{v\in \dball} \la v, S_n\ra \leq \sup_{v\in C_\eps}\la v,S_n\ra + \sup_{v\in \eps \dball} \la v,S_n\ra = \sup_{v\in C_\eps}\la v,S_n\ra + \eps \sup_{v\in \dball} \la v,S_n\ra,
