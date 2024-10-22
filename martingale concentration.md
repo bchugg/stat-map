@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-27
+lastmod: 2024-10-22
 ---
 
 Let $(S_t)$ be a martingale wrt to the filtration $(\calF_t)$. Assume $(S_t)$ is scalar-valued unless otherwise indicated. Here we investigate [[concentration inequalities]] for $(S_t)$. 
@@ -17,11 +17,15 @@ $$
 The natural one-sided versions of this inequality also exist. Note that $n$ is fixed in advance here (i.e., it is [[fixed-time]] result). 
 
 ## Dubins-Savage inequality 
-This is often considered [[basic inequalities#Chebyshev's inequality]] for martingales. If $(X_t)$ has conditional means $\mu_t$, i.e., $\E[X_t | \calF_{t-1}] = \mu_t$ and conditional variances $V_t = \Var(Z_t | \calF_{t-1})$ then for any $a,b>0$, 
+This is often considered [[basic inequalities#Chebyshev's inequality]] for martingales. If $(X_t)$ has conditional means $\mu_t$, i.e., $\E[X_t | \calF_{t-1}] = \mu_t$ and conditional variances $V_t = \Var(X_t | \calF_{t-1})$ then for any $a,b>0$, 
 $$
 \Pr\left(\exists t\geq 1: \sum_{i\leq t}(X_i - \mu_i) \geq a + b\sum_{i\leq t}V_i\right) \leq \frac{1}{ab+1}.
 $$
-This is a [[time-uniform]] result. 
+This is a [[time-uniform]] result. This result can also be generalized to infinite variance. If $v_t(p) = \E[|X_t - \mu_t|^p|\calF_{t-1}]$ for $1<p\leq 2$, then 
+$$
+\Pr\left(\exists t\geq 1: \sum_{i\leq t}(X_i - \mu_i) \geq a + b\sum_{i\leq t} v_i(p)\right) \leq \frac{1}{(c_p ab^{\frac{1}{p-1}}+1)^{p-1}},
+$$
+where $c_p$ is a constant dependent on $c$. This was proven by [Kahn in 2009](https://link.springer.com/article/10.1007/s10959-008-0206-2). 
 
 ## Variance bound 
 If the martingale has bounded increments and the _variance_ of the increments are also bounded, i.e., 
