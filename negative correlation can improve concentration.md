@@ -2,6 +2,7 @@
 lastmod: 2024-10-21
 created: 2024-10-21
 ---
+
 Stronger [[concentration inequalities]] can sometimes be given for random variables which are negatively correlated. 
 
 The intuition is as follows: consider two random variables $X_1 = X$ and $X_2 = -X$. Then $\Cov(X_1,X_2) = - \sigma^2<0$ where $\sigma^2 = \Var(X_1)$.  Applying, say [[basic inequalities#Chebyshev's inequality]] gives 

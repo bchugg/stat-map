@@ -1,13 +1,13 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-02
+lastmod: 2024-10-24
 ---
 
 #hypothesis-testing #testing-by-betting 
 
 Specific protocols of [[game-theoretic probability]] can be used to test hypotheses. This yields a fundamental tool in [[game-theoretic statistics]]. 
 
-Suppose we receive data $X_1,X_2,\dots\sim P$ and we are testing the hypotheses: 
+Suppose we receive data $X_1,X_2,\dots\sim P$ and we are testing the hypotheses ([[sequential hypothesis testing]]): 
 $$
 H_0: P\in \bs{P} \text{~ vs ~} H_1: P\in \bs{Q}.
 $$

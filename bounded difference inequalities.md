@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-24
+lastmod: 2024-10-24
 ---
 
 These are [[concentration inequalities]] that concern functions of random variables that obey a bounded differences condition. Intuitively this means that if you change one argument, the function value doesn't change too much. 
@@ -15,4 +15,4 @@ $$
 $$
 Note this is a generalization of the [[light-tailed scalar concentration#Hoeffding bound|Hoeffding's bound]]. It is recovered by taking $f(x^n) = \frac{1}{n}\sum_{i=1}^n x_i$. 
 
-In fact, $f$ need not be a function with domain $\Re^n$. We can replace $\Re^n$ with $\calX^n$ for any space $\calX$. (See [Raginsky's lecture notes](https://maxim.ece.illinois.edu/teaching/fall13/notes/concentration.pdf) for the proof). This is useful if, for instance, we are interested in obtaining bounds on the norm of random vectors. If we take $\calX= \Re^n$ for instance, then $f$ could be $f = \norm{\sum_i X_i}$ and we can obtain deviation inequalities between $\norm{\sum_i X_i}$ and $\E \norm{\sum_i X_i}$.  
+In fact, $f$ need not be a function with domain $\Re^n$. We can replace $\Re^n$ with $\calX^n$ for any space $\calX$. (See [Raginsky's lecture notes](https://maxim.ece.illinois.edu/teaching/fall13/notes/concentration.pdf) for the proof). This is useful if, for instance, we are interested in obtaining bounds on the norm of random vectors. If we $\calX$ is a normed space for instance, then $f$ could be $f = \norm{\sum_i X_i}$ and we can obtain deviation inequalities between $\norm{\sum_i X_i}$ and $\E \norm{\sum_i X_i}$.  

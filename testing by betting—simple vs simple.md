@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-02
+lastmod: 2024-10-24
 ---
 
 #hypothesis-testing #testing-by-betting #sequential-statistics #likelihood-ratio
@@ -25,7 +25,7 @@ for all distributions $u$. It turns out that by Gibbs' inequality, the optimal d
 $$
 S_t(X_t) = \frac{q(X_t|\calF_{t-1})}{p(X_t|\calF_{t-1})}.
 $$
-The corresponding wealth process $K_t = \prod_{i\leq t}S_i(X_i) = q(X_1^t) / p(X_1^t)$ therefore recovers the classical [[likelihood-ratio test]] (and is a sequentialized version of it). 
+The corresponding wealth process $K_t = \prod_{i\leq t}S_i(X_i) = q(X_1^t) / p(X_1^t)$ therefore recovers the classical [[likelihood-ratio test]] (and is a sequentialized version of it, the [[sequential probability ratio test]]).  
 
 Note that this shows that the GRO (growth rate optimal) (see [[growth rate conditions in sequential testing]]) [[e-value]] for simple vs simple hypothesis testing is the likelihood ratio. 
 
