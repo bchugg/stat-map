@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-10-07
+lastmod: 2024-10-25
 ---
 
 Unlike light-tailed settings, the sample mean is not well-behaved in heavy-tailed settings. Since heavy-tailed distributions may not have finite MGFs, the [[Chernoff method]] is not applicable. [Catoni gives an example](https://arxiv.org/abs/1009.2048) demonstrating the bound achieved via Markov's inequality ([[basic inequalities]]), i.e., 
@@ -26,6 +26,6 @@ Since the empirical mean is ruined by outliers, a natural idea is to remove some
 Oliveira and Orenstein prove that if you remove $\gamma n$ of the largest and smallest points for $\gamma = \Theta(\log(1/\delta)/n)$, then the trimmed mean is sub-Gaussian. See [here](https://arxiv.org/pdf/1907.11391) for a discussion. 
 
 A related idea is proposed by [Lee and Valiant](https://arxiv.org/pdf/2011.08384) who don't remove entire points but instead weighted fractions of each observations: 
-> At the highest level: in order to return a $\delta$-robust estimate of the mean, our estimator “throws out the $\frac{1}{1}\log(1/\delta)$ most extreme points in the samples”, and returns the mean of what remains. More specifically, outliers are thrown out in a weighted manner, where we throw out a fraction of each data point, with the fraction proportional to the square of its distance from a median-of-means initial guess for the mean, where the fraction is capped at 1, and the proportionality constant is chosen so that the total weight thrown out equals exactly $\frac{1}{3}\log(1/\delta)$. 
+> At the highest level: in order to return a $\delta$-robust estimate of the mean, our estimator “throws out the $\frac{1}{3}\log(1/\delta)$ most extreme points in the samples”, and returns the mean of what remains. More specifically, outliers are thrown out in a weighted manner, where we throw out a fraction of each data point, with the fraction proportional to the square of its distance from a median-of-means initial guess for the mean, where the fraction is capped at 1, and the proportionality constant is chosen so that the total weight thrown out equals exactly $\frac{1}{3}\log(1/\delta)$. 
 
 Their estimator achieves a bound of $\sigma ( 1 + o(1)) \sqrt{2\log(1/\delta)/n}$. 
