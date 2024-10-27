@@ -1,5 +1,5 @@
 ---
-lastmod: 2024-10-07
+lastmod: 2024-10-24
 created: 2024-10-07
 ---
 
@@ -29,7 +29,7 @@ You can [[time-uniform|sequentialize]] the MoM estimator using the [[martingale 
 ## Finite-dimensional vector case
 Defining the median in $\Re^d$ is slightly trickier. 
 
-One option is the geometric median, which is studied by Minsker (see below). This achieves rate $\sqrt{\Tr(\Sigma)\log(1/\delta)/n}$, which is not quite sub-Gaussian. 
+One option is the geometric median, which is studied by Minsker (see below). This achieves rate $\sqrt{\Tr(\Sigma)\log(1/\delta)/n}$, which is not quite sub-Gaussian. However, Minsker's approach has the added benefit that it does not require finite variance. Instead, it's a general recipe for boosting weak learners into strong ones. So even if you only have a finite $p$-th moment for $p\in(1,2)$, you could use [[basic inequalities#Markov's inequality]] to obtain a bound on the empirical mean (say) and apply geometric MoM. 
 
 [Lugosi and Mendelson define a specialized version of the median](https://www.econ.upf.edu/~lugosi/mean.pdf) and get sub-Gaussian rates. [Blog post here](https://benchugg.com/research_notes/median-of-means-multivariate/). [Hopkins made this computationally tractable](https://arxiv.org/pdf/1809.07425) in 2020. 
 
