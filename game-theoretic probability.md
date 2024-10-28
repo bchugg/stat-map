@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-10-27
+lastmod: 2024-10-28
 ---
 
 Game-theoretic probability (GTP) is a foundation for probability theory, distinct from the measure-theoretic foundations laid out by Kolmogorov in the 1920s. Whereas Kolmogorov conceptualized probability as a subset of measure theory, game-theoretic probability lays its foundations in game-theory.  
@@ -16,7 +16,7 @@ You can recover many other results of classical/modern probability theory using 
 
 Some key differences between GTP and measure-theoretic probability (MTP): 
 - The definition of a probability measure comes first in MTP, and then expectations are defined as integrals with respects to measures. In GTP, the definition of expectations comes first, and then probabilities are defined afterwards. 
-- GTP statements are usually made with no reference to distributions, randomness, measures, etc. They are therefore typically much easier to understand than MTP statements. 
+- GTP statements are usually made with no reference to distributions, randomness, measures, etc. They are therefore typically much easier to understand than MTP statements. The lack of randomness was a motivating factor of GTP. Instead of positing randomness from the start, GTP would rather view randomness as an emergent property of interactions between players. 
 - GTP is inherently sequential. 
 
 [[game-theoretic statistics|Game-theoretic statistics]] is the application of game-theoretic probability to statistical procedures, such as [[hypothesis testing]].  
