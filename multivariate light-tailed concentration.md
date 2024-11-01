@@ -13,4 +13,4 @@ $$
 $$
 for $\eps \leq V / \max_t c_t$. A bound of this form was first given by David Gross [here](https://arxiv.org/pdf/0910.1879). 
 
-Note that a weaker form of this bound can be obtained by appealing to the Azuma-Hoeffding inequality ([[martingale concentration#Azuma-Hoeffding inequality|martingale concentration:Azuma-Hoeffding inequality]]). The difference is equivalent to the difference between the Hoeffding bound and the Bernstein/Bennett bound in the scalar case (see [[light-tailed scalar concentration]]).   
+Note that a weaker form of this bound can be obtained by appealing to the Azuma-Hoeffding inequality ([[martingale concentration#Azuma-Hoeffding inequality|martingale concentration:Azuma-Hoeffding inequality]]). The difference is equivalent to the difference between the Hoeffding bound and the Bernstein/Bennett bound in the scalar case (see [[bounded scalar concentration]]).   

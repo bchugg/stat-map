@@ -1,11 +1,12 @@
 ---
 created: 2024-08-30
-lastmod: 2024-09-24
+lastmod: 2024-10-31
 ---
 
 This page is a high-level pointer to more specific concentration inequalities in various settings. See:
 
-- [[light-tailed scalar concentration]]
+- [[bounded scalar concentration]]
+- [[light-tailed, unbounded scalar concentration]]
 - [[heavy-tailed scalar concentration]]
 - [[martingale concentration]]
 - [[multivariate concentration]]

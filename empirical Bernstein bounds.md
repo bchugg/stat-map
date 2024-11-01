@@ -11,7 +11,7 @@ Some examples:
 
 # Scalar-random variables 
 
-The first empirical Bernstein bound was given by [Maurer and Pontil in 2009](https://arxiv.org/pdf/0907.3740). A second, tighter bound, was given by [Waudby-Smith and Ramdas](https://arxiv.org/pdf/2010.09686) using the betting approach to concentration (see [[estimating means by betting]]). These are very reminiscent of Bennett's bound ([[light-tailed scalar concentration#Bennett's bound|estimating means by betting]]). These are very reminiscent of Bennett's bound ([[light-tailed scalar concentration:Bennett's bound]]), but has a data-driven variance term. 
+The first empirical Bernstein bound was given by [Maurer and Pontil in 2009](https://arxiv.org/pdf/0907.3740). A second, tighter bound, was given by [Waudby-Smith and Ramdas](https://arxiv.org/pdf/2010.09686) using the betting approach to concentration (see [[estimating means by betting]]). These are very reminiscent of Bennett's bound ([[bounded scalar concentration#Bennett's bound|estimating means by betting]]). These are very reminiscent of Bennett's bound ([[light-tailed scalar concentration:Bennett's bound]]), but has a data-driven variance term. 
 
 Let $X_1, X_2, ,\dots, X_n$ be iid random variables in $[0,1]$. The Maurer and Pontil bound reads that with probability $1-\delta$,
 $$
@@ -23,7 +23,7 @@ For the same setting, the bound by Waudby-Smith and Ramdas gives that for any $\
 $$
 \bigg|\frac{1}{n}\sum_i X_i - \E X_1\bigg| \leq \frac{\log(1/\alpha) + \psi_E(\lambda_n)\sum_{i\leq n} v_i}{\lambda_nn},
 $$
-for $v_i - \wh{\mu}_{i-1}$ where $\wh{\mu}_{i-1}$ is _any_ function based on $X_1,\dots,X_{i-1}$ (though one should think of it as roughly $\frac{1}{i}\sum_{j\leq i}X_i$). For the appropriate choice of $\lambda_n$ the width scales as $\sqrt{n} W_n \to \sigma\sqrt{2\log(2/\alpha)}$, which is optimal and has the same asymptotic variance as the Hoeffding bound ([[light-tailed scalar concentration#Hoeffding bound|light-tailed scalar concentration:Hoeffding bound]]).
+for $v_i - \wh{\mu}_{i-1}$ where $\wh{\mu}_{i-1}$ is _any_ function based on $X_1,\dots,X_{i-1}$ (though one should think of it as roughly $\frac{1}{i}\sum_{j\leq i}X_i$). For the appropriate choice of $\lambda_n$ the width scales as $\sqrt{n} W_n \to \sigma\sqrt{2\log(2/\alpha)}$, which is optimal and has the same asymptotic variance as the Hoeffding bound ([[bounded scalar concentration#Hoeffding bound|light-tailed scalar concentration:Hoeffding bound]]).
 
 Finally, betting techniques can yield other empirical-Bernstein bounds depending on the choice of predictable plug-in. These do not have closed-form solutions, but are often tighter. See [[estimating means by betting]]. 
 # Random vectors 

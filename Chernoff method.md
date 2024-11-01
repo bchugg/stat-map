@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-10-28
+lastmod: 2024-10-30
 ---
 
 The Chernoff method, also called the Cramer-Chernoff method, applies [[basic inequalities#Markov's inequality]] to the nonnegative random variable $e^{\lambda X}$, and then chooses $\lambda$ to optimize the bound. This often results in tighter bounds and [[concentration inequalities]] than working with the random variable directly. 
@@ -26,6 +26,18 @@ $$
 which leads us to studying and bounding the function $\psi_X^*(t)$. 
 
 ## Optimality 
-The Chernoff method is very convenient hence widely deployed, but it's not optimal. For one, the [[method of moments for concentration]] beats the Chernoff bound (when all moments exist). The optimization approach to concentration ([[concentration via convex optimization]]) will give the tightest results if the convex program can be solved. See also [[interpolating between Markov and Chernoff]], which is tighter than the Chernoff method but also less computationally convenient. 
+The Chernoff method is very convenient hence widely deployed, but it's not optimal. We can see this in the case of [[bounded scalar concentration#Hoeffding's bound]], which is missing a factor of $1/t$ in the exponent from what we expect from the CLT. (See [The missing factor in Hoeffding's inequalities](http://www.numdam.org/item/AIHPB_1995__31_4_689_0.pdf) by Talagrand). 
+
+More generally, the [[method of moments for concentration]] beats the Chernoff bound (when all moments exist), and the optimization approach to concentration ([[concentration via convex optimization]]) will give the tightest results if the convex program can be solved. See also [[interpolating between Markov and Chernoff]], which is tighter than the Chernoff method but also less computationally convenient. 
+
+However, the Chernoff method is optimal is one sense. If $X_1,\dots,X_n$ are iid mean zero, $S_n = \sum_i X_i$, and for all $t\geq 0$,
+$$
+\Pr(S_n \geq nt) \leq Q^n(t),
+$$
+then 
+$$
+Q(t) \geq \inf_{\lambda \geq 0} \E[\exp(\lambda(X-t))].
+$$
+That, we have a bound which _uses the product structure of the observations_ (hence the power of $n$ on $Q(t)$), then the Chernoff method is optimal.  
 
 

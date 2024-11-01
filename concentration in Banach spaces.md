@@ -9,14 +9,14 @@ Consider a $(2,D)$-smooth separable Banach space with norm $\norm{\cdot}$. Let $
 $$
 \Pr\left(\norm{\sum_{i\leq n}X_i}\geq u\right) \leq 2\exp\left(-\frac{u^2}{2nD^2B^2}\right).
 $$
-Note the similarity to the usual Hoeffding bound ([[light-tailed scalar concentration]]) but with the extra factor of $D$. This is because [[Hilbert space|Hilbert spaces]] are $(2,1)$-smooth Banach spaces. 
+Note the similarity to the usual Hoeffding bound ([[bounded scalar concentration]]) but with the extra factor of $D$. This is because [[Hilbert space|Hilbert spaces]] are $(2,1)$-smooth Banach spaces. 
 
 ## Bernstein 
 Consider a $(2,D)$-smooth separable Banach space with norm $\norm{\cdot}$. Let $X_1,X_2,\dots$ have conditional mean $0$ with $\norm{X_t}\leq B$. Then 
 $$
 \Pr\left(\norm{\sum_{i\leq n}X_i}\geq u\right) \leq 2\exp\left(-\frac{u^2/2}{D^2\norm{\sum_{i\leq n} \E_{i-1}\norm{X_i - \mu}^2}_\infty+ uB/3} \right).
 $$
-Like for Bernstein's/Bennett's inequality in the scalar setting ([[light-tailed scalar concentration#Bennett's inequality]]), if the random variables are iid then $\E_{i-1}\norm{X_i - \mu}^2$ is simply the variance. 
+Like for Bernstein's/Bennett's inequality in the scalar setting ([[bounded scalar concentration#Bennett's inequality]]), if the random variables are iid then $\E_{i-1}\norm{X_i - \mu}^2$ is simply the variance. 
 
 ## Empirical-Bernstein 
 See discussion on the work of Martinez-Taboada and Ramdas in [[empirical Bernstein bounds]]: 
