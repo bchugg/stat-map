@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-10-21
+lastmod: 2024-11-01
 ---
 
 An e-variable with respect to a set of distributions $\calP$ is a nonnegative random variable $E$ such that
@@ -20,12 +20,14 @@ E-values also have a sequential analogue, useful in [[sequential statistics]] an
 
 The [[numeraire e-variable]] is a special (and in some sense, optimal) e-value when testing composite alternatives. 
 
-# Properties 
-
+## Properties 
 The inverse of an e-value is a [[p-value]]: $\Pr(1/E \leq \alpha) = \Pr(E\geq 1/\alpha)\leq \alpha$. They tend to be more conservative than classical p-values, however (this is the price to pay for avoiding some of the issues with p-values). 
 
 E-values solve the [[optional continuation]] problem, in the sense that the product of conditionally independent e-values remains an e-value. This is because such a product forms a [[test-martingale]]. They also solve the [[optional stopping]] problem in the sense that e-processes solve optional stopping by construction, so if the e-value is secretly an e-process (eg if it is constructed with [[exponential inequalities]] or in the form of [[estimating means by betting]]) then this property carries over. 
 
+See [[merging e-values]] for a discussion on combining several e-values and [[e-value calibrators]] for a discussion on converting p-values to e-values and vice versa. 
+
 # References 
 - [Safe testing](https://arxiv.org/abs/1906.07801) by Grunwald, De Heide, and Koolen 
 - [The numeraire e-variable](https://arxiv.org/pdf/2402.18810.pdf), by Larsson, Ramdas, and Ruf. 
+- [Hypothesis testing with e-values](https://arxiv.org/pdf/2410.23614)

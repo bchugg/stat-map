@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-10-22
+lastmod: 2024-11-04
 ---
 
 Let $(S_t)$ be a martingale wrt to the filtration $(\calF_t)$. Assume $(S_t)$ is scalar-valued unless otherwise indicated. Here we investigate [[concentration inequalities]] for $(S_t)$. 
@@ -51,7 +51,21 @@ $$
 $$
 where each $Z_t$ is a $(d\times d)$-matrix. This was first proved by David Gross: [Recovering Low-Rank Matrices From Few Coefficients In Any Basis](https://www.math.ucdavis.edu/~strohmer/courses/270/lowrank_Gross.pdf). 
 
+## Bentkus-style inequality 
+Let $(X_i$) be a supermartingale adapted to $(\calF_i)$. If $a_i\leq X_i\leq b_i$, then 
+$$
+\Pr(S_n \geq u) \leq \inf_{\alpha\geq 1}\inf_t \frac{\E(S_n - t)^\alpha_+}{(u-t)^\alpha_+}.
+$$
+Similarly to [[bounded scalar concentration#Bentkus' inequality]] for scalar random variables, this improves over the [[Chernoff method]]. We can further bound this as 
+$$
+\begin{align}
+\inf_{\alpha\geq 1}\inf_t \frac{\E(S_n - t)^\alpha_+}{(u-t)^\alpha_+} \leq \inf_{\alpha\geq 1}\inf_t \frac{\E(\sum_i G_i - t)^\alpha_+}{(u-t)^\alpha_+} \leq \inf_t \frac{\E(\sum_i G_i - t)_+}{(u-t)_+} \leq \inf_{\lambda \geq 0} \E\exp(\lambda \sum_i G_i - \lambda u).
+\end{align}
+$$
+where $G_i \in \{a_i,b_i\}$ and $\E G_i = 0$. 
+## Bentkus-style inequality for variance
 
+$G_i \in \{-\sigma_i^2/b_i, b_i\}$ and $\E G_i = 0$. $\alpha\geq 2$, conditional variance bounded by $\sigma_i^2$. 
 # References
 - [Concentration of Measure for the Analysis of Randomized Algorithms](http://wwwusers.di.uniroma1.it/~ale/Corsi/AlgoPro/monograph.pdf) by Dubhashi and Panconesi. 
 - [Recovering Low-Rank Matrices From Few Coefficients In Any Basis](https://www.math.ucdavis.edu/~strohmer/courses/270/lowrank_Gross.pdf), David Gross 
