@@ -1,9 +1,9 @@
 ---
-created: 2024-08-29
-lastmod: 2024-11-04
+lastmod: 2024-11-10
+created: 2024-11-10
 ---
 
-Unlike light-tailed settings, the sample mean is not well-behaved in heavy-tailed settings. Since heavy-tailed distributions may not have finite MGFs, the [[Chernoff method]] is not applicable. [Catoni gives an example](https://arxiv.org/abs/1009.2048) demonstrating the bound achieved via Markov's inequality ([[basic inequalities]]), i.e., 
+Unlike light-tailed settings ([[light-tailed, unbounded scalar concentration]] and [[bounded scalar concentration]]) the sample mean is not well-behaved in heavy-tailed settings. Since heavy-tailed distributions may not have finite MGFs, the [[Chernoff method]] is not applicable. [Catoni gives an example](https://arxiv.org/abs/1009.2048) demonstrating the bound achieved via Markov's inequality ([[basic inequalities]]), i.e., 
 $$
 \Pr\left(|\overline{X}_n - \mu|) \geq \frac{\sigma}{\sqrt{ n\delta}}\right) \leq \delta,
 $$
@@ -20,10 +20,6 @@ There are several approaches to heavy-tailed mean estimation in scalar settings:
 - trimmed-mean (below)
 - [[Catoni-Giulini M-estimator]]
 
-## Truncation+Chernoff 
-Hanh & Klass (1997, AoP).  #todo 
-
-## Fuk-Nagaev inequality 
 
 ## Trimmed mean estimator 
 Since the empirical mean is ruined by outliers, a natural idea is to remove some fraction of the points and then compute the empirical mean on the remaining points. These are known as trimmed mean estimators. 

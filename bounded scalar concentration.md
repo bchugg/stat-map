@@ -3,7 +3,7 @@ created: 2024-08-29
 lastmod: 2024-10-31
 ---
 
-Here we list [[concentration inequalities]] for scalar-valued random variables that are bounded with probability 1 (sometimes only bounded on one side). This in contrast to [[light-tailed, unbounded scalar concentration]] which does not assume boundedness and [[heavy-tailed scalar concentration]], where we assume only a few moments. 
+Here we list [[concentration inequalities]] for scalar-valued random variables that are bounded with probability 1 (sometimes only bounded on one side). This in contrast to [[light-tailed, unbounded scalar concentration]] which does not assume boundedness and [[heavy-tailed concentration]], where we assume only a few moments. 
 
 Many of these concentration inequalities are proven using corresponding [[exponential inequalities]]. There are also [[time-uniform]] versions of many of these inequalities which stem from the [[sub-psi process]] given by the corresponding exponential inequality. 
 

@@ -3,7 +3,7 @@ lastmod: 2024-10-30
 created: 2024-10-07
 ---
 
-An approach to [[heavy-tailed scalar concentration]] and [[multivariate heavy-tailed concentration]]. 
+An approach to [[heavy-tailed concentration]] and [[multivariate heavy-tailed mean estimation]]. 
 
 The overall idea is straightforward: Split the data into $k$ buckets and compute the sample mean $\widehat{\mu}_i$ of each bucket. Then the overall estimator is 
 $$
