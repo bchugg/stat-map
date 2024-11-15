@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-02
+lastmod: 2024-11-15
 ---
 
 We are in the setting that was described in [[chaining]]. We are trying to obtain a maximal inequality for the [[sub-Gaussian process]] $(X_\theta)$, $\theta\in\Theta$. Chaining gave a bound of the form 
@@ -15,4 +15,4 @@ We can then take the infimum over all sets $\Theta_n$ of size $2^{2^n}$, which l
 $$
 e_n(\Theta) = \inf_{\Theta_n} \sup_{\theta} \rho(\theta, \Theta_n).
 $$
-This method is provably loose for bounds on the [[Gaussian complexity]]. [[generic chaining]] is tighter but can be harder to compute at times. The idea behind generic chaining is to not move the supremum inside the sum.
+This method is provably loose for bounds on the [[Gaussian complexity]]. [[generic chaining|Generic chaining]] is tighter but can be harder to compute at times. The idea behind generic chaining is to not move the supremum inside the sum.
