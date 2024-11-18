@@ -42,6 +42,8 @@ where $M$ and $B$ are as above. We can of course obtain two-sided versions of Be
 
 There are two regimes in Bernstein's bound: A sub-Gaussian regime where the tail decays at a [[sub-Gaussian distributions|sub-Gaussian]] rate, and a sub-exponential regime where it decays at a [[sub-exponential distributions|sub-exponential rate]]. The former occurs when the contribution of $B t/3$ is small relative to $\sigma^2$ so the tail decays as $t^2$. When $B t/3$ is large, the bound decays as $t$. Therefore, if we have good a priori knowledge of small variance, Bernstein's (and Bennett's) inequality can be a big improvement over Hoeffding, scaling as $t^2/\sigma^2$ instead of $t^2/(nB^2)$.  
 
+This result was first presented by Bernstein in 1927. It was not until 1962 that this was [sharpened by Bennett](https://www.tandfonline.com/doi/abs/10.1080/01621459.1962.10482149), which resulted in Bennett's inequality above.  
+
 ## Hoeffding's bound remastered 
 It is somewhat of a shame that Hoeffding's name came to be associated with the first bound above, since this is much weaker than the following more general result that he proved in his [famous 1963 paper](https://www.jstor.org/stable/2282952), which recovers both Bennett's and Bernstein's bounds. 
 
@@ -75,8 +77,6 @@ $$
 $$
 This is not a closed-form bound, but it can be computed. See eg [here](http://www.numdam.org/article/AIHPB_2014__50_1_15_0.pdf) and references therein. 
 
-## Betting-style bounds 
-See [[estimating means by betting]]. Like Bentkus style bounds, these are notable in that they do not use the [[Chernoff method]]. They are also tighter than Hoeffding and Bernstein inequalities. They are not in closed-form however, and require computational methods to estimate. 
 
 ## Empirical Bernstein bounds 
 Empirical Bernstein bounds replace the oracle variance with an estimated variance. This is useful because the true variance is not always known. These bounds deserve their own page: [[empirical Bernstein bounds]]. 

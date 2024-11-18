@@ -1,6 +1,6 @@
 ---
 created: 2024-08-30
-lastmod: 2024-11-10
+lastmod: 2024-11-17
 ---
 
 For a random variable $X$ taking values in some normed space $(\calX, \|\cdot\|)$, concentration is the search for decreasing functions $f(u)$ such that 
@@ -27,4 +27,4 @@ For notes related to techniques to achieve concentration, see:
 A few other things: 
 - [[anti-concentration|Anti-concentration]] inequalities, which are exactly what they sound like. 
 - A 1998 result of Montgomery-Smith and Pruss which allows one to go [[from independence to iid]] in general [[Banach space|Banach spaces]]. 
-- In light-tailed settings, concentration is often synonymous with studying mean estimation, since the sample mean is a good estimator of the mean, and we are usually interested in concentration about the mean. However, the sample mean fails to be a good estimator in heavy-tailed settings, so one uses other estimators. For specific discussions of mean estimation in heavy-tailed settings, see [[scalar heavy-tailed mean estimation]] and [[multivariate heavy-tailed mean estimation]]. 
+- In light-tailed settings, concentration is often synonymous with [[mean estimation]], whereas this is not the case in heavy-tailed settings. See [[mean estimation]] for more. 
