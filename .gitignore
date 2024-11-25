@@ -1,5 +1,6 @@
 .obsidian/.DS_Store
 .obsidian/plugins
+.obsidian/core-plugins.json
 .obsidian/workspace.json
 */workspace.json
 .obsidian/community-plugins.json
