@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-26
+lastmod: 2024-11-25
 ---
 
 A technique for [[multivariate concentration]]. Let $(S_t)$ be some stochastic process, say in $\Re^d$. For instance, $S_n = \sum_{i=1}^n X_i$ for multivariate observations $X_i\in\Re^d$. We are aiming to generate a high probability bound on 
@@ -14,9 +14,10 @@ $$
 That is, a PAC-Bayes bound provides a high probability bound _simultaneously_ over all posteriors. The variational approach to concentration translates this into a high probability bound over all directions. 
 
 This approach was pioneered by Catoni and Giulini ([here](https://arxiv.org/abs/1712.02747) and [here](https://arxiv.org/abs/1802.04308)), and has now been used by a few authors to prove bounds in a variety of settings: 
-- [Zhivotovskiy](https://arxiv.org/pdf/2108.08198) for bounding the singular values of random matrices 
-- [Nakakita et al.](https://ui.adsabs.harvard.edu/abs/2022arXiv221009756N/abstract) for bounding the mean of high-dimensional random matrices under heavy-tails; 
-- [Giulini](https://arxiv.org/pdf/1511.06259) for estimating the Gram operator in [[Hilbert space|Hilbert spaces]]. 
+- [Oliveira](https://link.springer.com/article/10.1007/s00440-016-0738-9) (2016) for providing self-normalized bounds on random vectors; 
+- [Zhivotovskiy](https://arxiv.org/pdf/2108.08198) (2024) for bounding the singular values of random matrices; 
+- [Nakakita et al.](https://ui.adsabs.harvard.edu/abs/2022arXiv221009756N/abstract) (2023) for bounding the mean of high-dimensional random matrices under heavy-tails; 
+- [Giulini](https://arxiv.org/pdf/1511.06259) (2018) for estimating the Gram operator in [[Hilbert space|Hilbert spaces]]; 
 - [Myself and others](https://arxiv.org/abs/2311.08168) for estimating the mean of random vectors. 
 
 Recall a very general [[PAC-Bayes]] inequality: 
