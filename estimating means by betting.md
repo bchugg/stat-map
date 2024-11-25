@@ -10,7 +10,7 @@ The idea is to leverage the [[duality between hypothesis tests and CIs]]. In par
 - For values $m$ that aren't the mean, we will make money (using the core ideas in [[game-theoretic hypothesis testing]]). 
 - Our confidence set at any time is the set of $m$ such that we haven't made sufficient money while betting against them. 
 
-We can generate Hoeffding-like ([[light-tailed scalar concentration#Hoeffding bound|light-tailed scalar concentration:Hoeffding bound]]) CSs and [[empirical Bernstein bounds]] in this way, but the most powerful results come from consider payoff functions of the form
+We can generate Hoeffding-like ([[bounded scalar concentration#Hoeffding bound|light-tailed scalar concentration:Hoeffding bound]]) CSs and [[empirical Bernstein bounds]] in this way, but the most powerful results come from consider payoff functions of the form
 $$
 M_t(m) = \prod_{i=1}^t (1 + \lambda_i(X_i-m)),
 $$

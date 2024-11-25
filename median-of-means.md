@@ -1,9 +1,9 @@
 ---
-lastmod: 2024-10-24
+lastmod: 2024-10-30
 created: 2024-10-07
 ---
 
-An approach to [[heavy-tailed scalar concentration]] and [[multivariate heavy-tailed concentration]]. 
+An approach to [[heavy-tailed concentration]] and [[multivariate heavy-tailed mean estimation]]. 
 
 The overall idea is straightforward: Split the data into $k$ buckets and compute the sample mean $\widehat{\mu}_i$ of each bucket. Then the overall estimator is 
 $$
@@ -31,9 +31,7 @@ Defining the median in $\Re^d$ is slightly trickier.
 
 One option is the geometric median, which is studied by Minsker (see below). This achieves rate $\sqrt{\Tr(\Sigma)\log(1/\delta)/n}$, which is not quite sub-Gaussian. However, Minsker's approach has the added benefit that it does not require finite variance. Instead, it's a general recipe for boosting weak learners into strong ones. So even if you only have a finite $p$-th moment for $p\in(1,2)$, you could use [[basic inequalities#Markov's inequality]] to obtain a bound on the empirical mean (say) and apply geometric MoM. 
 
-[Lugosi and Mendelson define a specialized version of the median](https://www.econ.upf.edu/~lugosi/mean.pdf) and get sub-Gaussian rates. [Blog post here](https://benchugg.com/research_notes/median-of-means-multivariate/). [Hopkins made this computationally tractable](https://arxiv.org/pdf/1809.07425) in 2020. 
-
-Unlike the scalar setting, MoM in $\Re^d$ has not been extended to settings where the variance doesn't exist. 
+[Lugosi and Mendelson define a specialized version of the median](https://www.econ.upf.edu/~lugosi/mean.pdf) and get sub-Gaussian rates when the norm is the Euclidean norm and the variance exists. This is sometimes called median-of-means tournament. I have a blog post about this [here](https://benchugg.com/research_notes/median-of-means-multivariate/). [Hopkins made this computationally tractable](https://arxiv.org/pdf/1809.07425) in 2020. In 2019, Lugosi and Mendelson [also studied median-of-means under general norms](https://link.springer.com/article/10.1007/s00440-019-00906-4) in $\Re^d$ and obtain sub-Gaussian rates. However, the estimator is computationally inefficient and I don't think anyone has figured out how to improve it. 
 
 ## Infinite-dimensional case 
 MoM with the geometric median was studied in [[Banach space|Banach spaces]] by Minsker and in Polish spaces by Yun and Park:  

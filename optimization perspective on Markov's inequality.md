@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-10-21
+lastmod: 2024-10-27
 ---
 
 Here's an intuitive explanation of [[basic inequalities#Markov's inequality]]. Suppose we fix the probability $p_\alpha = \Pr(X\geq \alpha)$ and ask the question: How small can we make $\E[X]$ subject to the constraint that $X\geq 0$ a.s.? 
@@ -17,5 +17,6 @@ This is easy. If we could, we'd put all of $X$'s mass at 0, which would minimize
 
 This also proves that (i) the distribution that attains Markov's inequality takes only two values, and (ii) distributions that attain Markov's inequality will only be tight at a particular $\alpha$. 
 
+Note that even though we can construct distributions which attain Markov's inequality, this does not contradict that we can improve Markov's inequality via [[external randomization]] (see [[randomized inequalities]]). The important piece is that the randomization happens independently of the random variable; we're effectively working in an enlarged probability space. To achieve Markov, the random variable must depend on the threshold, which becomes a randomized quantity in this larger space.  
 
 

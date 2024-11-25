@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-10-21
+lastmod: 2024-10-27
 ---
 
 Some basic probabilistic inequalities. Used mostly under the hood to build more sophisticated [[concentration inequalities]], but also useful in other scenarios. 
@@ -8,7 +8,7 @@ Some basic probabilistic inequalities. Used mostly under the hood to build more 
 ## Markov's inequality 
 For a nonnegative random variable $X$ and parameter $a>0$, Markov's inequality states that 
 $$
-\Pr(X\geq a)\leq \E[X]/a.
+\Pr(X\geq a)\leq \frac{\E[X]}{a}.
 $$
 Clearly the condition that $X\geq 0$ is necessary: consider any random variable which has negative mean but some positive mass. 
 
@@ -22,9 +22,15 @@ $$
 $$
 (See the Chernoff method below, which is precisely this strategy.) 
 
+You can strengthen Markov by writing 
+$$
+\Pr(X\geq a)\leq \frac{\E[X\ind\{X\geq t\}]}{a},
+$$
+for any (not necessarily nonnegative) random variable $X$. To prove this just apply expectations to the inequality $\ind\{x\geq t\} \leq \frac{x}{t}\ind\{x\geq t\}$ which holds for all $x$ and all $t\geq 0$. 
+
 Some notes and pointers: 
 - For achievability and optimality see [[optimality of Markov and Chebyshev]]. 
-- There is also a game-theoretic version: [[game-theoretic concentration inequalities#Markov's inequality|game-theoretic concentration inequalities:Markov's inequality]]. 
+- Markov's inequality can also be derived using convex optimization arguments ([[concentration via convex optimization]]). 
 - [[Ville's inequality]] is a time-uniform extension of Markov's inequality for nonnegative supermartingales (or reverse submartingales, as the case may be). Just as Markov's inequality is used as a foundation for concentration inequalities, Ville's inequality is used as a foundation for [[time-uniform]] concentration inequalities. 
 - There is also a randomized Markov's inequality ([[randomized inequalities#Markov|randomized inequalities:Markov]]) which uses [[external randomization]].  
 - An intuitive explanation of Markov's inequality is the [[optimization perspective on Markov's inequality]]. 
@@ -32,7 +38,7 @@ Some notes and pointers:
 ## Chebyshev's inequality 
 Chebyshev's inequality is simply Markov's inequality applied to $(X-\mu)^2$. For $a>0$, 
 $$
-\Pr(|X-\mu| \geq a) = \Pr(|X-\mu|^2 \geq a^2) \leq \frac{\Var(X)}{a^2}.
+\Pr(X-\mu\geq a)\leq \Pr(|X-\mu| \geq a) = \Pr(|X-\mu|^2 \geq a^2) \leq \frac{\Var(X)}{a^2}.
 $$
 Chebyshev's inequality gives the first flavor of concentration. If $X_1, X_2, \dots, X_n$ are iid with mean $\mu$, then Chebyshev gives 
 $$
@@ -50,6 +56,17 @@ Notes:
 - Chebyshev's inequality is a specific instance of the [[method of moments for concentration]].
 - The [[time-uniform]] extension of Chebyshev's inequality is the [[martingale concentration#Dubins-Savage inequality]]. 
 - For achievability and optimality see [[optimality of Markov and Chebyshev]]. 
+
+## Cantelli's inequality 
+Cantelli's inequality is a one-sided improvement to Chebyshev's inequality. For any random variable $X$ with mean $\mu$ and variance $\sigma^2$, for any $t\geq 0$, write 
+$$
+\Pr(X -\mu\geq a) \leq \Pr( (X - \mu + t)^2 \geq (t + a)^2), 
+$$
+so by Chebyshev, 
+$$
+\Pr( X - \mu\geq a) \leq \inf_{t\geq 0} \frac{\sigma^2+t^2}{(t + a)^2}  = \frac{\sigma^2}{\sigma^2 + a^2}.
+$$
+which is Cantelli's inequality. This was proved using [[concentration via convex optimization]]. 
 
 ## Chernoff method 
 The Chernoff method applies Markov's inequality to the nonnegative random variable $e^{\lambda X}$, and then chooses $\lambda$ to optimize the bound. More detail is given in [[Chernoff method]] (also called the Cramer-Chernoff method). 

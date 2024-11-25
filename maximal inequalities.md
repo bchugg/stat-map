@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-02
+lastmod: 2024-11-18
 ---
 
 To motivate maximal inequalities, I'll quote from the opening of Michel Talagrand's excellent book [_Upper and Lower Bounds for Stochastic Processes_](https://link.springer.com/book/10.1007/978-3-642-54075-2): 
@@ -17,10 +17,11 @@ $$
 $$
 so a bound on the latter provides a bound on the former. $X_\theta$ is usually assumed to be centered (zero-mean) and often symmetric, so that we can instead work with $|X_\theta - X_\phi|$ instead of $|X_\theta|$ (since, under this assumption, $\E\sup_{\theta,\phi}|X_\theta - X_\phi| = 2\E \sup_\theta X_\theta$). See, e.g., [[generic chaining]], which makes this assumption.    
 
-
 Both [[Gaussian complexity]] and [[Rademacher complexity]] are defined as maximal inequalities. 
 
 Maximal inequalities can be used to obtain [[concentration inequalities]]. If $(S_t)$ is some process, then $\norm{S_t} = \sup_{\theta} \la \theta, S_t\ra$, and maximal inequalities help bound the latter quantity. See [[techniques for multivariate concentration]]. 
+
+See a [[list of maximal inequalities]]. 
 
 
 # References 
