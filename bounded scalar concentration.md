@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-11-17
+lastmod: 2024-11-21
 ---
 
 Here we list [[concentration inequalities]] for scalar-valued random variables that are bounded with probability 1 (sometimes only bounded on one side). This in contrast to [[light-tailed, unbounded scalar concentration]] which does not assume boundedness and [[heavy-tailed concentration]], where we assume only a few moments. 
@@ -40,6 +40,10 @@ $$
 $$
 where $M$ and $B$ are as above. We can of course obtain two-sided versions of Bennett's and Bernstein's bound if we assume two-sided boundedness ($|X_i|\leq B$), apply the bound twice and use a union bound. 
 
+A useful form of Bernstein's bound that I'm writing down because re-deriving it is annoying is the following: With probability at least $1-\delta$, 
+$$
+\Pr(|S_n / n| \geq t) \leq \sqrt{\frac{2\sigma^2 \log(2/\delta)}{n}} + \frac{2B\log(2/\delta)}{3n}.
+$$
 There are two regimes in Bernstein's bound: A sub-Gaussian regime where the tail decays at a [[sub-Gaussian distributions|sub-Gaussian]] rate, and a sub-exponential regime where it decays at a [[sub-exponential distributions|sub-exponential rate]]. The former occurs when the contribution of $B t/3$ is small relative to $\sigma^2$ so the tail decays as $t^2$. When $B t/3$ is large, the bound decays as $t$. Therefore, if we have good a priori knowledge of small variance, Bernstein's (and Bennett's) inequality can be a big improvement over Hoeffding, scaling as $t^2/\sigma^2$ instead of $t^2/(nB^2)$.  
 
 This result was first presented by Bernstein in 1927. It was not until 1962 that this was [sharpened by Bennett](https://www.tandfonline.com/doi/abs/10.1080/01621459.1962.10482149), which resulted in Bennett's inequality above.  
@@ -56,7 +60,7 @@ where $\kl$ denotes the binary entropy function: $\kl(p\| q) = p\log\frac{p}{q} 
 This is the sharpest bound using the [[Chernoff method]]. We can recover the first Hoeffding bound by assuming worst-case variance. 
 
 ## Talagrand's inequality 
-Talagrand's inequality improves Hoeffding's inequality above by recovering the missing factor of $t$. If $X_1,\dots,X_n$ are iid with variance $\sigma^2$ and lying in $(\infty, c]$, then 
+Talagrand's inequality improves Hoeffding's inequality above by recovering the [[the missing factor in Hoeffding's bounds]]. If $X_1,\dots,X_n$ are iid with variance $\sigma^2$ and lying in $(\infty, c]$, then 
 $$
 \Pr(S_n \geq t) \leq \left(\theta\left(\frac{t}{\sigma}\right) + \frac{Bc}{\sigma}\right)\exp\left(-n \kl\left(\frac{\sigma^2 + \frac{t}{n}c}{\sigma^2 + c^2} \bigg \| \frac{\sigma^2}{\sigma^2 + c^2}\right)\right), \quad t\leq \frac{\sigma^2}{Bc},
 $$
@@ -65,6 +69,8 @@ $$
 \theta(x) = \frac{1}{\sqrt{2\pi}} e^{x^2/2}\int_x^\infty e^{-u^2/2}\d u,
 $$
 which is of the order $\sigma/t$. Therefore, for $t\leq \sigma^2/(Bc)$, we have $Bc/\sigma<\sigma/t$. Hence the multiplier on the left hand side of the exponential is of the order $1/t$, which is clearly an improvement over Hoeffding's bound above. 
+
+Talagrand [proved this bound in 1995](http://www.numdam.org/item/AIHPB_1995__31_4_689_0.pdf), and it was the first improvement since Hoeffding's original article in 1963. 
 
 ## Bentkus' inequality 
 Bentkus' inequality is another way to recover the missing factor of $t$. The approach is significantly different from Talagrand's, and is based on [[interpolating between Markov and Chernoff]]. Instead of applying Markov's inequality to the exponential, we apply it to the function $h_\alpha(x) = ( 1 + x/\alpha)_+^\alpha$ for any $\alpha \geq 0$ and obtain, for $X_1,\dots,X_n$ independent with finite variance, 
@@ -76,7 +82,6 @@ $$
 \Pr(S_n \geq t) \leq \inf_{x\leq t} \frac{\E (\sum_i G_i - x)_+^\alpha}{(t - x)_+^\alpha}.
 $$
 This is not a closed-form bound, but it can be computed. See eg [here](http://www.numdam.org/article/AIHPB_2014__50_1_15_0.pdf) and references therein. 
-
 
 ## Empirical Bernstein bounds 
 Empirical Bernstein bounds replace the oracle variance with an estimated variance. This is useful because the true variance is not always known. These bounds deserve their own page: [[empirical Bernstein bounds]]. 
