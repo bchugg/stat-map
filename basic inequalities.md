@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-10-27
+lastmod: 2024-12-02
 ---
 
 Some basic probabilistic inequalities. Used mostly under the hood to build more sophisticated [[concentration inequalities]], but also useful in other scenarios. 
@@ -34,6 +34,13 @@ Some notes and pointers:
 - [[Ville's inequality]] is a time-uniform extension of Markov's inequality for nonnegative supermartingales (or reverse submartingales, as the case may be). Just as Markov's inequality is used as a foundation for concentration inequalities, Ville's inequality is used as a foundation for [[time-uniform]] concentration inequalities. 
 - There is also a randomized Markov's inequality ([[randomized inequalities#Markov|randomized inequalities:Markov]]) which uses [[external randomization]].  
 - An intuitive explanation of Markov's inequality is the [[optimization perspective on Markov's inequality]]. 
+
+## Paley-Zygmund inequality 
+A lower bound, with a similar flavor to Markov's inequality. If $X$ is non-negative, then for all $\theta\in(0,1)$, 
+$$
+\Pr(X\geq \theta \E X)\geq (1-\theta)^2 \frac{(\E X)^2}{\E X^2}.
+$$
+This is useful for proving lower bounds. Similarly to Markov's inequality, it is rarely applied to $X$ directly, but typically some transformation of $X$. 
 
 ## Chebyshev's inequality 
 Chebyshev's inequality is simply Markov's inequality applied to $(X-\mu)^2$. For $a>0$, 
