@@ -1,9 +1,9 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-22
+lastmod: 2024-12-21
 ---
 
-Let $M=(M_t)$ be a $P$-supermartingale. Ville's inequality is a time-uniform version of Markov's inequality ([[basic inequalities#Markov's inequality|basic inequalities:Markov's inequality]]), stating that 
+Let $M=(M_t)$ be a $P$-[[supermartingale]]. Ville's inequality is a time-uniform version of Markov's inequality ([[basic inequalities#Markov's inequality|basic inequalities:Markov's inequality]]), stating that 
 $$
 \Pr(\exists t\geq 1: M_t \geq x)\leq \frac{\E[M_1]}{x},
 $$
@@ -26,3 +26,10 @@ $$
 \Pr(\sup_t M_t = \infty) = \Pr(\cap_{k\geq 1}A_k) = \lim_k \Pr(A_k) = \lim_k 2^{-k} \E[M_1]=0.
 $$
 Much of [[game-theoretic statistics]], and [[sequential hypothesis testing]] in particular, relies on Ville's inequality, where we often construct some [[test-martingale]] or [[e-process]] under the null. Ville's implies that this process is unlikely to ever become large. Thus, if it does became large, this is [[evidence against the null]]. 
+
+## Reverse Ville
+There is also a reverse-time Ville's inequality which holds for nonnegative reverse [[submartingale|submartingales]]. If $(R_t)$ is a reverse submartingale with respect to a reverse filtration, then for all $t_0$, 
+$$
+\Pr( \exists t\geq t_0: R_t >1/\alpha)\leq \alpha \E[R_{t_0}].
+$$
+

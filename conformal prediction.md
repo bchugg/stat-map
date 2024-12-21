@@ -3,7 +3,6 @@ created: 2024-08-29
 lastmod: 2024-10-13
 ---
 
-#todo clean this up/add extensions. 
 
 Conformal prediction is a popular and practical tool in [[uncertainty quantification]]. We're in a [[supervised learning]] setting and have a black-box model $f$. Given a new observation $X$, we want to develop a [[confidence intervals|confidence set]] for its label $Y$. 
 

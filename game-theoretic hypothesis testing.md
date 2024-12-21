@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-10-24
+lastmod: 2024-12-21
 ---
 
 #hypothesis-testing #testing-by-betting 
@@ -27,7 +27,7 @@ As usual in [[game-theoretic statistics]], this implies that $\calK_t = \prod_{i
 $$
 P(\forall t\geq 1: \calK_t \geq 1/\alpha) \leq \alpha \quad \forall P\in\bs{P}.
 $$
-Therefore, if we reject the null when the $\calK_t$ exceeds $1/\alpha$, we have only an $\alpha$ probability of making an error, i.e., our type I error uniformly over time is bounded by $\alpha$. In other words, this is a level-$\alpha$ sequential test. 
+Therefore, if we reject the null when the $\calK_t$ exceeds $1/\alpha$, we have only an $\alpha$ probability of making an error, i.e., our type I error uniformly over time is bounded by $\alpha$. In other words, this is a level-$\alpha$ sequential test. (One can also use the [[randomized inequalities|randomized Ville's inequality]] to test at a stopping time). 
 
 While this is framed as one-sample testing, we can also consider [[testing by betting—two-sample testing]]. 
 

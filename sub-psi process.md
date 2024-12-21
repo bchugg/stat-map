@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-10-13
+lastmod: 2024-12-21
 ---
 
 Sub-$\psi$ processes were introduced by Howard et al. (2020) in [Time-uniform Chernoff bounds via nonnegative supermartingales](https://arxiv.org/pdf/1808.03204). The core insight was that many seemingly distinct concentration inequalities can be unified by noticing that they all stem, at their core, from nonnegative supermartingales. Sub-$\psi$ processes are a way to generalize the discussion and provide [[concentration inequalities]] for large classes of distributions, while also making the bounds [[time-uniform]] at no loss (and sometimes a gain). 
@@ -17,9 +17,6 @@ $$
 $$
 where $L_t^{\lambda, \nu}$ is a nonnegative supermartingale.  The extension of sub-$\psi$ processes to $\Re^d$ was initially provided by [Whitehouse, Wu, and Ramdas](https://jwhitehouse11.github.io/arxiv_2023_selfnorm.pdf).
 
-# Examples 
-
-#todo 
-
+Many common distributions are sub-$\psi$ for some $\psi$, including [[sub-Gaussian distributions]], [[sub-exponential distributions]], sub-Gamma, etc. 
 
 
