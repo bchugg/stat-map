@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-02
+lastmod: 2024-12-20
 ---
 
 Suppose we want to do [[parametric density estimation]] but our parametric class is a set of complicated functions $\{f_\theta:\theta\in\Theta\}$ which may not be proper probability distributions. For instance, think of deep neural networks. 
@@ -13,7 +13,4 @@ The log-likelihood is then
 $$
 \log \calL(\theta) = \sum_i f_{\theta}(X_i) - n \log \int_\calX \exp f_\theta(x)dx.
 $$
-In order to maximize this, we must solve (or approximate) the integral $\log \int_\calX \exp f_\theta$,which is highly non-trivial for complex function families.  
-
-There are several ways around this problem. [[variational autoencoders]] are one practical and useful method. 
-#todo sort out how [[variational inference]] relates to this. 
+In order to maximize this, we must solve (or approximate) the integral $\log \int_\calX \exp f_\theta$,which is highly non-trivial for complex function families.  This is [[the problem of approximate inference in deep learning]], which can be solved by, eg [[variational inference]]. 
