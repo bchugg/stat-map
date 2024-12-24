@@ -1,6 +1,6 @@
 ---
 created: 2024-07-09
-lastmod: 2024-12-23
+lastmod: 2024-12-24
 ---
 
 We are estimating the symmetric statistic $S = S(X_1,\dots,X_k$) with mean $\theta = \E S$. Given data $X_1,\dots,X_n$, $n\geq k$, the u-statistic for $S$ is 
@@ -13,3 +13,5 @@ Unlike [[v-statistics]], u-statistics are unbiased (hence the "u"). They were in
 The sample mean and sample variance are both examples of u-statistics. 
 
 U-statistics admit various decompositions which help reason about their asymptotic behavior. Eg the Hayek projection and the Hoeffding decomposition. 
+
+U-statistics are reverse [[submartingale|submartingales]], so we can form [[confidence sequences]] for them ([[confidence sequences via reverse submartingales]]). Using similar machinery we can develop [[PAC-Bayes]] bounds for them. 
