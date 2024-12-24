@@ -9,6 +9,6 @@ $$
 $$
 where $\xi_i$ indicates whether $X_i$ has been sampled. Here $N$ is the size of the entire population, and we've sampled some number $n<N$ of labels $Y_i$. For the rest, we estimate the true value $Y_i$ with $f(X_i)$. 
 
-Since $\E[\xi_i] = \pi(X_i)$, this estimator is unbiased. It also tends to have lower variance. It's used in [[survey sampling]], [[reinforcement learning]], and [[causal inference]]. 
+Since $\E[\xi_i] = \pi(X_i)$, this estimator is unbiased. It also tends to have lower variance. It's used in [[survey sampling]], reinforcement learning, and [[causal inference]]. 
 
 
