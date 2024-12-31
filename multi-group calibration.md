@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-02
+lastmod: 2024-12-31
 ---
 
 #uncertainty-quantification #calibration 
@@ -17,7 +17,7 @@ Here we're assuming that $f$ has a finite range.
 
 # Mean calibration 
 
-A common metric here is based on the [[average calibration error]], but modified for the group-consistency setting. Define 
+A common metric here is based on the average calibration error (see [[calibration#Calibration error]]), but modified for the group-consistency setting. Define 
 $$
 K_2 = K_2(f, g, P) = \sum_{v\in \range(f)} \Pr(f(x) = v|g(x)=1)(v - \E[y|f(x) = v, g(x)=1])^2.
 $$
