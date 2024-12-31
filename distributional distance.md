@@ -1,6 +1,6 @@
 ---
 created: 2024-09-01
-lastmod: 2024-10-07
+lastmod: 2024-12-31
 ---
 
 Functions which capture "distances" between probability distributions. They may not be metrics in the formal sense ([[metric space]]) (eg perhaps they're not symmetric as in the [[KL divergence]]). 
@@ -12,8 +12,9 @@ Examples:
 - [[total variation distance]]
 - [[Hellinger distance]]
 - [[chi-squared divergence]]
-- [[f-divergence]] (encapsulates several of the above)
 - [[Fisher information distance]]
+
+General families of divergences include [[f-divergence]], [[alpha-divergence]], and [[integral probability metric]]. 
 
 # Some definitions
 

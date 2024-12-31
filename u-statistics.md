@@ -14,4 +14,4 @@ The sample mean and sample variance are both examples of u-statistics.
 
 U-statistics admit various decompositions which help reason about their asymptotic behavior. Eg the Hayek projection and the Hoeffding decomposition. 
 
-U-statistics are reverse [[submartingale|submartingales]], so we can form [[confidence sequences]] for them ([[confidence sequences via reverse submartingales]]). Using similar machinery we can develop [[PAC-Bayes]] bounds for them. 
+U-statistics are reverse [[submartingale|submartingales]], so we can form [[confidence sequences]] for them ([[confidence sequences for convex functionals]]). Using similar machinery we can develop [[PAC-Bayes]] bounds for them. 

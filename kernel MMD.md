@@ -1,5 +1,5 @@
 ---
-lastmod: 2024-12-24
+lastmod: 2024-12-26
 created: 2024-12-24
 ---
 
@@ -9,4 +9,4 @@ If the data come in pairs $(X_t,Y_t)$, the MMD has the following plug-in estimat
 $$
 \text{MMD}(P_t,Q_t) = \sqrt{\frac{1}{t^2}\sum_{i,j}(K(X_i,X_j) + K(Y_i,Y_j) - 2K(X_i,Y_j))},
 $$
-which is a second-order [[v-statistics|v-statistic]]. Because the MMD is a convex [[distributional distance]], we can develop [[confidence sequences via reverse submartingales]] for it. The Kernel MMD also plays a big role in [[two-sample testing]]. 
+which is a second-order [[v-statistics|v-statistic]]. Because the MMD is a convex [[distributional distance]], we can develop [[confidence sequences for convex functionals]] for it. The Kernel MMD also plays a big role in [[two-sample testing]]. 

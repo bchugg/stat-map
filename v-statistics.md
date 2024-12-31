@@ -13,4 +13,4 @@ V_n(S) = \frac{1}{n^2}\sum_{i\neq j} S(X_i,X_j) + \frac{1}{n^2}\sum_i S(X_i,X_i)
 $$
 so $\E V_n(S) = \frac{n-1}{n} \theta + \frac{1}{n} \E S(X,X)$. As $n\to\infty$ this approaches $\theta$ but is biased for any finite $n$, unlike [[u-statistics]]. 
 
-Under some conditions (eg if the $X_i$ take values in a compact set), v-statistics are reverse [[submartingale|submartingales]]. Under these conditions, like u-statistics, we can form CSs for them ([[confidence sequences via reverse submartingales]]). 
+Under some conditions (eg if the $X_i$ take values in a compact set), v-statistics are reverse [[submartingale|submartingales]]. Under these conditions, like u-statistics, we can form CSs for them ([[confidence sequences for convex functionals]]). 
