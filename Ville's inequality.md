@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-12-21
+lastmod: 2024-12-31
 ---
 
 Let $M=(M_t)$ be a $P$-[[supermartingale]]. Ville's inequality is a [[time-uniform]] version of Markov's inequality ([[basic inequalities#Markov's inequality|basic inequalities:Markov's inequality]]), stating that, for any $t_0$, 
@@ -17,7 +17,7 @@ where $\tau$ represents a [[stopping-time]]. This is what enables statistical in
 
 Ville's inequality also holds for an [[e-process]], since they are upper bounded by a [[test-martingale]]. The [composite generalization of Ville's inequality](https://arxiv.org/pdf/2203.04485) actually requires the notion of an e-process, and reads 
 $$
-\sup_{P\in\calP}\Pr(\exists t\geq 1: E_t\geq 1/\alpha)\leq \alpha),
+\sup_{P\in\calP}\Pr(\exists t\geq 1: E_t\geq 1/\alpha)\leq \alpha,
 $$
 if $(E_t)$ is an e-process for $\calP$. Ville's inequality has also been [extended to nonintegrable processes](https://arxiv.org/abs/2304.01163). 
 
@@ -32,4 +32,9 @@ There is also a reverse-time Ville's inequality which holds for nonnegative reve
 $$
 \Pr( \exists t\geq t_0: R_t >1/\alpha)\leq \alpha \E[R_{t_0}].
 $$
-
+## Proof of Ville 
+Define the [[stopping-time]] $\tau = \inf\{ t\in \mathbb{N} \cup \{\infty\}: M_t \geq 1/\alpha\}$. The optional stopping theorem (which says that $\E M_\tau \leq \E M_0$) gives 
+$$
+1 \geq \E M_0 \geq \E M_\tau \geq \E [M_\tau \ind\{\tau <\infty\}] \geq \frac{1}{\alpha} \E \ind\{\tau < \infty\},
+$$
+since $M_\tau \geq 1/\alpha$ by construction. Noting that $\E \ind{\tau<\infty} = \Pr(\sup_t M_t \geq 1/\alpha)$ concludes the proof. 
