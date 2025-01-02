@@ -1,9 +1,9 @@
 ---
 created: 2024-09-05
-lastmod: 2024-11-10
+lastmod: 2024-12-31
 ---
 
-Pinelis (see his [1992](https://link.springer.com/content/pdf/10.1007/978-1-4612-0367-4_9?pdf=chapter+toc) and [1994](https://www.jstor.org/stable/2244912) papers) is responsible for both a Hoeffding and Bernstein bound in smooth and separable [[Banach space|Banach spaces]]. At the core of his proof is the construction of a [[supermartingale]]; his results can therefore be made [[time-uniform]] by applying [[Ville's inequality]] instead of Markov's inequality (though they're usually stated as [[fixed-time]] bounds). 
+Pinelis (see his [1992](https://link.springer.com/content/pdf/10.1007/978-1-4612-0367-4_9?pdf=chapter+toc) and [1994](https://www.jstor.org/stable/2244912) papers) is responsible for both a Hoeffding and Bernstein bound in smooth and separable [[Banach space|Banach spaces]]. At the core of his proof is the construction of a [[supermartingale]] (see [[Pinelis approach to concentration]]) his results can therefore be made [[time-uniform]] by applying [[Ville's inequality]] instead of Markov's inequality (though they're usually stated as [[fixed-time]] bounds). 
 ## Hoeffding 
 Consider a $(2,D)$-smooth separable Banach space with norm $\norm{\cdot}$. Let $X_1,X_2,\dots$ have conditional mean $0$ with $\norm{X_t}\leq B$. Then: 
 $$
