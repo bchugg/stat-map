@@ -1,5 +1,5 @@
 ---
-lastmod: 2024-11-15
+lastmod: 2025-01-01
 created: 2024-11-15
 ---
 
@@ -20,7 +20,7 @@ $$
 then $\sigma^2<\infty$. 
 
 ## Relationship to LLNs and CLTs 
-LILs are often viewed as sitting between laws of large numbers and [[central limit theorems]]. The strong LLN states that $S_n /n \to 0$ a.s. The [[Lindeberg-Levy CLT]] says that $S_n / \sqrt{n}$ converges to a normal in distribution. A LIL is trying to find the boundary, asking what kind of sequence $(a_n)$ exists such that $S_n / a_n$ does not converge to 0, but does not diverge. 
+LILs are often viewed as sitting between [[laws of large numbers]] and [[central limit theorems]]. The strong LLN states that $S_n /n \to 0$ a.s. The [[Lindeberg-Levy CLT]] says that $S_n / \sqrt{n}$ converges to a normal in distribution. A LIL is trying to find the boundary, asking what kind of sequence $(a_n)$ exists such that $S_n / a_n$ does not converge to 0, but does not diverge. 
 
 ## Infinite variance
 It's natural to ask what we can say if we don't assume the variance is finite. In this case it can be shown that $\lim\sup S_n / \sqrt{2n\log\log n} = \infty$. Does there exist some sequence such that $\lim\sup S_n / a_n = 1?$ It turns out that yes, under specific circumstances. Namely, the distribution must sit in the basin of attraction of a Gaussian. See [this paper](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/BCCBF35E0BDAE1FE02BEEB6EBFE52447/S1446788700021868a.pdf/on_the_law_of_the_iterated_logarithm_in_the_infinite_variance_case.pdf) by Maller. 
