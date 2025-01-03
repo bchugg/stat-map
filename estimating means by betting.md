@@ -1,9 +1,9 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-02
+lastmod: 2025-01-03
 ---
 
-A powerful approach for estimating the mean of bounded random variables pioneered by Waudby-Smith and Ramdas and inspired by [[game-theoretic statistics]]. Their results are currently tightest known [[confidence intervals]] and [[confidence sequences]] for bounded observations with constant conditional means. In fact, betting-style CIs and CSs are [nearly-optimal](https://arxiv.org/pdf/2310.01547).
+A powerful approach for estimating the mean of bounded random variables pioneered by Waudby-Smith and Ramdas and inspired by [[game-theoretic statistics]]. Their results give some of the empirically tightest [[confidence intervals]] and [[confidence sequences]] for bounded observations with constant conditional means. In fact, betting-style CIs and CSs are [nearly-optimal](https://arxiv.org/pdf/2310.01547). However, they don't recover the [[the missing factor in Hoeffding's bounds]]. 
 
 The idea is to leverage the [[duality between hypothesis tests and CIs]]. In particular, imagine: 
 - Betting on whether each value $m\in[0,1]$ is the mean.
