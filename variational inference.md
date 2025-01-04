@@ -22,7 +22,8 @@ $$
 $$
 So, minimizing the KL divergence is equivalent to maximizing $\ell$ up to a constant which doesn't depend on $z$. The objective $\ell$ is called the "evidence lower bound", or ELBO. This name comes from the fact that 
 $$
-\log p(x) = \kl(q(z)\| p(z|x)) + \ell(q) \geq \ell(q),$$
+\log p(x) = \kl(q(z)\| p(z|x)) + \ell(q) \geq \ell(q),
+$$
 so $\ell(q)$ is a lower bound for the log-evidence. 
 
 

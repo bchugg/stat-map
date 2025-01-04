@@ -1,8 +1,9 @@
 ---
 created: 2024-08-29
-lastmod: 2024-11-18
+lastmod: 2025-01-04
 ---
 
+#todo 
 # Bounded distributions
 
 ## Bernstein bounds 
