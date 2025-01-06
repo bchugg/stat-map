@@ -1,9 +1,9 @@
 ---
-lastmod: 2024-10-07
+lastmod: 2025-01-05
 created: 2024-10-07
 ---
 
-In 2017, [Catoni and Giulini proposed](https://arxiv.org/pdf/1712.02747) to [[multivariate concentration]] based on [[M-estimation]]. Let $\psi$ be any symmetric "influence function" such that
+In 2017, [Catoni and Giulini proposed](https://arxiv.org/pdf/1712.02747) an approach to [[multivariate concentration]] based on [[M-estimation]]. Let $\psi$ be any symmetric "influence function" such that
 $$
 -\log(1 - x + x^2/2)\leq \psi(x) \leq \log(1 + x + x^2/2),\quad \forall x \in\Re.
 $$
