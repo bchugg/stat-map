@@ -1,6 +1,6 @@
 ---
 created: 2024-08-30
-lastmod: 2024-11-17
+lastmod: 2025-01-07
 ---
 
 For a random variable $X$ taking values in some normed space $(\calX, \|\cdot\|)$, concentration is the search for decreasing functions $f(u)$ such that 
@@ -18,6 +18,7 @@ where $Z\in\calX$ is some point of interest (often $Z = \E X$).  This page is a 
 - [[concentration in Banach spaces]]
 - [[matrix inequalities]]
 - [[concentration of functions]]
+- [[self-normalized concentration]]
 
 For notes related to techniques to achieve concentration, see:
 - [[techniques for multivariate concentration]]

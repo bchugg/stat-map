@@ -1,7 +1,7 @@
 ---
 title: Home
 created: 2024-08-29
-lastmod: 2024-11-27
+lastmod: 2025-01-07
 ---
 
 Welcome to the stats map, a (growing) collection of notes on various topics in statistics, probability, and theoretical computer science. 
@@ -36,7 +36,7 @@ Or if you're interested in the philosophical foundations of statistics:
 # Why make this? 
 
 1. Writing helps me digest and aggregate information. You haven't truly understood something until you can teach it, and you can't teach it until you can write it down coherently. 
-2. You can know a lot of material but not know how it's connected. The best researchers don't simply have detailed knowledge of many ideas, they have a mental map of how all these areas fit together. This is my exported (very much incomplete) mental map. 
+2. You can know a lot of material but not know how it's connected. The best researchers don't simply have detailed knowledge of many areas, they have a mental map of how all these areas fit together. I am not one of the best researchers but, so help me God, I still have a mental map. This is my exported (very much incomplete) mental map. 
 3. Emphasizing the connections between topics helps you spot patterns. Similar techniques are often used in different areas. 
 4. It helps you spot holes in the literature. Writing down what is known helps carve out what is unknown. 
 
@@ -62,4 +62,4 @@ I am [Ben](https://benchugg.com). I'm a PhD student in the machine learning and 
 Here is my face, cartoonified. 
 ![[images/me.png|center|250]]
 
-If you spot any mistakes, you can email me at benchugg $\alpha\tau$ cmu.edu.  
+If you spot any mistakes, you can email me at benchugg $\alpha\tau$ cmu.edu or submit a PR request [here]. 
