@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-02
+lastmod: 2025-01-07
 ---
 
 > [!note] Definition 
@@ -16,3 +16,4 @@ As in the case of tail bounds for sub-Gaussian random variables ([[bounded scala
 $$
 \Pr(|X_\theta - X_\phi| \geq \eps) \leq 2\exp\left(-\frac{t^2}{2 \rho^2(\theta, \phi)}\right).
 $$
+Note that a sub-Gaussian process is distinct from a [[Gaussian process]], which requires Gaussian behavior of any finite collection of random variables. Here we demand only pairwise [[sub-Gaussian distributions|(sub)-Gaussian behavior]]. 

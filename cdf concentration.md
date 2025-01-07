@@ -1,5 +1,5 @@
 ---
-lastmod: 2024-10-13
+lastmod: 2025-01-06
 created: 2024-09-24
 ---
 
@@ -30,5 +30,5 @@ Glivenko and Cantelli proved that, in the scalar case,
 $$
 \sup_{x\in \Re} |F_n(x) - F(x) | = \norm{F_n - F}_\infty \xrightarrow{a.s.} 0.
 $$
-The DKW inequality implies almost sure convergence (via the Borel-Cantelli) lemma, so the Glivenko-Cantelli theorem is strictly weaker than the DKW inequality, which provides explicit rates of convergence. But the Glivenko-Cantelli theorem is part of a broader conversation about [[Glivenko-Cantelli class]] in [[empirical process theory]]. 
+The DKW inequality implies almost sure convergence (via the Borel-Cantelli) lemma, so the Glivenko-Cantelli theorem is strictly weaker than the DKW inequality, which provides explicit rates of convergence. But the Glivenko-Cantelli theorem is part of a broader conversation about [[Glivenko-Cantelli class|Glivenko-Cantelli classes]] in [[empirical process theory]]. 
 
