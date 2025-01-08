@@ -3,7 +3,6 @@ created: 2024-08-29
 lastmod: 2024-12-21
 ---
 
-#hypothesis-testing #testing-by-betting 
 
 Specific protocols of [[game-theoretic probability]] can be used to test hypotheses. This yields a fundamental tool in [[game-theoretic statistics]]. 
 

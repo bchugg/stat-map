@@ -62,4 +62,4 @@ I am [Ben](https://benchugg.com). I'm a PhD student in the machine learning and 
 Here is my face, cartoonified. 
 ![[images/me.png|center|250]]
 
-If you spot any mistakes, you can email me at benchugg $\alpha\tau$ cmu.edu or submit a PR request [here]. 
+If you spot any mistakes, you can email me at benchugg $\alpha\tau$ cmu.edu or submit a PR request [here](https://github.com/bchugg/stat-map). 

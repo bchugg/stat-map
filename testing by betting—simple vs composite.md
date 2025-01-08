@@ -3,7 +3,6 @@ created: 2024-08-29
 lastmod: 2024-09-02
 ---
 
-#hypothesis-testing #sequential-statistics #plug-in-method #mixture-method 
 
 In [[game-theoretic hypothesis testing]], suppose we are testing a simple null vs a composite alternative. We receive samples $(X_t)$ are testing 
 $$

@@ -3,7 +3,6 @@ created: 2024-08-29
 lastmod: 2024-10-13
 ---
 
-#hypothesis-testing #sequential-statistics 
 
 One solution to the problem of [[testing by betting—composite vs composite]].  
 
