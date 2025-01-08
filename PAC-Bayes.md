@@ -19,9 +19,9 @@ What good is a bound on $\E_\rho R_n(f)$ you may ask? Aren't we after a bound on
 
 So are they useful? As always, depends what you're trying to do. 
 
+## Master theorem 
 You can give a very general PAC-Bayes bound that is removed from learning theory altogether, but recovers known learning theory bounds. We gave this bound in a [2023 paper](https://arxiv.org/pdf/2302.03421). I'll call it the "master theorem" because I'm trying to add more gravitas to my life. 
 
-## Master theorem 
 Let $M_t(\theta)$ be a nonnegative [[supermartingale]] with initial value 1 for all $\theta\in\Theta$. Let $\nu$ be a data-free prior. Then, 
 $$
 \Pr(\forall t, \forall\rho\in\Mspace{\Theta}: \E_\rho \log M_t(\theta) \leq \kl(\rho\|\nu) + \log(1/\delta))\geq 1-\delta.
@@ -33,3 +33,4 @@ $$
 ## Refs 
 - [User friendly introduction to PAC-Bayes bounds](https://arxiv.org/pdf/2110.11216), by Alquier. Extremely nice and simple overview. 
 - [Primer on PAC-Bayesian learning](https://arxiv.org/abs/1901.05353) slightly more technical and general intro, by Guedj. 
+- [A unified recipe for deriving PAC-Bayes bounds](https://arxiv.org/pdf/2302.03421), by yours truly. 

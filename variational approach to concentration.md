@@ -20,10 +20,11 @@ This approach was pioneered by Catoni and Giulini ([here](https://arxiv.org/abs/
 - [Giulini](https://arxiv.org/pdf/1511.06259) (2018) for estimating the Gram operator in [[Hilbert space|Hilbert spaces]]; 
 - [Myself and others](https://arxiv.org/abs/2311.08168) for estimating the mean of random vectors. 
 
-Recall a very general [[PAC-Bayes]] inequality: 
-![[PAC-Bayes#Master theorem|PAC-Bayes:Master theorem]]
-
-To see how this works, let's consider two use cases. 
+Recall a very general [[PAC-Bayes]] inequality: Let $N(\theta)$ be nonnegative have expected value at most 1 (it is an [[e-value]]) for all $\theta\in\Theta$. Then 
+$$
+\Pr(\forall\rho\in\Mspace{\Theta}: \E_\rho \log N(\theta) \leq \kl(\rho\|\nu) + \log(1/\delta))\geq 1-\delta.
+$$
+We can use this to prove various concentration bounds. To see how this works, let's consider two use cases. 
 
 # Example 1: Sub-Gaussian random vectors 
 

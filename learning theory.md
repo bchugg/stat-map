@@ -1,12 +1,18 @@
 ---
-lastmod: 2025-01-05
+lastmod: 2025-01-07
 created: 2025-01-05
 ---
 
 The study of proving performance guarantees for learning algorithms, usually in a [[supervised learning]] setting (also in [[self-supervised learning]], but this is a stupid category). 
 
-We have a class $\calF$, a set of functions $f:\calX\to \calY$ which map the feature space $\calX$ to a label space $\calY$, which we'll assume is some subset of $\Re$. Our algorithm sees training data and chooses a function $\wh{f}\in\calF$. There is some target function $f^*$ which is the "best" or "true" map between $\calX$ and $\calY$. If $f^*\in\calF$ we say it is _realizable_. Ideally we learn $\wh{f}$ which is not far from, or equal to, $f^*$. 
+We have a class $\calF$, a set of functions $f:\calX\to \calY$ which map the feature space $\calX$ to a label space $\calY$, which we'll assume is some subset of $\Re$. Our algorithm sees training data (usually drawn iid from some distribution, but occasionally the distribution is more complicated) and chooses a function $\wh{f}\in\calF$ (via [[empirical risk minimization]], say). 
 
-Since $\wh{f}$ is data-dependent, typical analysis techniques which might lead to [[laws of large numbers]] or [[central limit theorems]] fail, because independence does not hold (even if the training data are independent). Two strategies to deal this, and thus two brands of learning theory, are: 
-- [[PAC learning]], the application [[empirical process theory]] to $\calF$, where we often use [[Vapnik-Chervonenkis theory]] to bound the error. This is a worst case analysis, because we take the supremum over all $f\in\calF$. 
-- [[PAC-Bayes]] analysis, which is a [[Bayesian statistics|Bayesian]] approach to PAC learning. We put a prior over $\calF$ and then bound the performance in terms of a "posterior". If the prior was well-chosen, these bounds can be significantly tighter than PAC bounds. 
+From here, there are several questions we might want to answer. 
+
+The first is, naturally, how good is $\wh{f}$? That is, how well does $\hat{f}$ generalize to unseen data? <ore formally, how close is the empirical risk of $\wh{f}$ to the true risk (see [[statistical decision theory]])?  [[PAC learning|PAC bounds]] are the most common way to answer this question. This usually leads to bounds which depend on some notion of the complexity of the class $\calF$, such as [[Vapnik-Chervonenkis theory|VC dimension]] or [[Rademacher complexity]]. Another way to answer this question is via [[PAC-Bayes]] bounds, which is a [[Bayesian statistics|Bayesian]] take (sort of) on traditional PAC bounds. Here, the generalization gap is bounded in terms of some [[distributional distance|divergence]]. 
+
+The second is, how close is $\wh{f}$ to the best function $f^* \in \calF$, the one that has the lowest risk. This question is usually answered by [[uniform convergence bounds]] in the following way. We want to bound $\alpha = R(\wh{f}) - R(f^*)$ where $R$ is the risk. Write 
+$$
+\alpha = \underbrace{R(\wh{f}) - R_n(\wh{f})}_{(i)} + \underbrace{R_n(\wh{f}) - R_n(f^*)}_{(ii)} + \underbrace{R_n(f^*) - R(f^*)}_{(iii)}.
+$$
+Term (ii) is $\leq 0$, since $\wh{f}$ is chosen to minimize empirical risk. Since $f^*$ is independent of the data, term (iii) can be handled via normal [[concentration inequalities]] (it's simply the deviation between the sum of random variables and their mean). Then for term (i) we turn to a uniform convergence bound, since $\wh{f}$ is highly data-dependent. 
