@@ -1,5 +1,5 @@
 ---
-lastmod: 2025-01-01
+lastmod: 2025-01-08
 created: 2025-01-01
 ---
 
@@ -10,3 +10,5 @@ The most famous LLNs concern the sample mean of iid scalar samples with finite v
 But one can also study LLNs in other settings, eg for medians, or for martingale difference sequences, or in [[Banach space|Banach spaces]]. 
 
 There is also a [[game-theoretic LLN]]. This is, in some sense, stronger than the measure-theoretic strong LLN. 
+
+You might consider [[ergodic theorems]] as generalizing LLNs. 

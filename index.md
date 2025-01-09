@@ -1,7 +1,7 @@
 ---
 title: Home
 created: 2024-08-29
-lastmod: 2025-01-07
+lastmod: 2025-01-08
 ---
 
 Welcome to the stats map, a (growing) collection of notes on various topics in statistics, probability, and theoretical computer science. 
