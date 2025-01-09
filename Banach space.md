@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-10-20
+lastmod: 2025-01-09
 ---
 
 A Banach space $(B,\|\cdot\|)$ is a complete normed vector space. That is, it's a vector space equipped with a norm $\|\cdot\|$ which induces a distance function in the obvious way. Completeness means every Cauchy sequence converges to some point in the space. 
@@ -9,7 +9,7 @@ A major obstacle to working in Banach spaces is that an inner product does not n
 
 In statistics, we usually assume the space is _separable_, meaning that it admits a countable dense subset. This makes sure that probability measures, Borel $\sigma$-algebras, and empirical means are well-defined. If a Banach space is not separable, then distributions on the space can behave in pathological ways. One can often circumvent the non-separability of a particular space with various tricks, but theorists often prefer to just assume separability to keep gross details at bay. 
 
-We also often place a smoothness assumption on the space. Without such a smoothness assumption, roughly speaking, values that are close to each other in the space may behave so differently that [[statistical inference]] becomes impossible. 
+We also often place a smoothness assumption on the space. Without such a smoothness assumption, roughly speaking, values that are close to each other in the space may behave so differently that [[statistical inference]] becomes impossible. In fact, in non-smooth spaces, the sample mean might not concentrate (at any rate). Consider the space of infinite sequences, and let $X_i$ be Rademacher in the i-th coordinate. For the $\ell_1$ norm (which is not smooth), $\|\frac{1}{n}\sum_i X_i\| =1$ for all $n$. Also $\E X_i = 0$ for all $i$, so $\| \frac{1}{n}\sum_i X_i -\mu \| = 1$. 
 
 A Banach space $(B,\|\cdot\|)$ is $(2,\beta)$ smooth if 
 $$
