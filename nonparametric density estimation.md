@@ -11,9 +11,12 @@ $$
 $$
 But this solution obviously overfits the given data and has very few nice properties (continuity, smoothness, etc). It doesn't generalize from the data at all; it sucks. 
 
+Common methods to nonparametric density estimation include: 
+- [[histograms]]
+- [[kernel density estimation]]
+- Series estimators, in which one chooses a basis for a function class, and then estimates the basis coefficients of the density. 
 
-
-In terms of evaluation, typically we're interested in $L_2$ loss, i.e., 
+In terms of evaluating a particular estimator $\wh{\theta}$ (see [[statistical decision theory]]), typically we're interested in $L_2$ loss, i.e., 
 $$
 L(p,\wh{p}) = \int_x (\wh{p}(x) - p(x))^2 dx.
 $$
@@ -21,11 +24,7 @@ Here $\wh{p}$ is treated as a fixed function of the training data. The risk is t
 $$
 R(p,\wh{p}) = \E[L(p,\wh{p})].
 $$
-As usual, the risk can be decomposed into a bias term and variance term. 
-
-Common methods to nonparametric density estimation include: 
-- [[histograms]]
-- [[kernel density estimation]]
+As usual, the risk can be decomposed into a bias term and variance term (cf [[squared error]]). 
 
 A solution to nonparametric density estimation also provides a solution to [[nonparametric regression]] as follows. Suppose $\wh{p}$ is an estimate of the distribution $(X_1,Y_1), \dots, (X_n,Y_n)\sim P$. Then, for $m(x) = \E[Y|X=x]$, we can generate an estimate of $m$ with 
 $$

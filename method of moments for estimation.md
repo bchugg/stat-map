@@ -7,6 +7,6 @@ Method for [[parametric density estimation]]. We are trying estimate an unknown 
 $$
 \frac{1}{n}\sum_{i\leq n} X_i^j = \E_{\wh{\theta}}[X^j], \quad \text{for }\quad j=1,\dots,k,
 $$
-(where $\wh{\theta}$ is unknown).  Note this is a purely [[frequentist statistics|frequentist approach]]. Because we're only trying to solve the moment equations, the resulting parameter estimates can be outside of the parameter space. This doesn't happen with the [[MLE]]. 
+(where $\wh{\theta}$ is unknown).  Note this is a purely [[frequentist statistics|frequentist approach]]. Because we're only trying to solve the moment equations, the resulting parameter estimates can be outside of the parameter space $\Theta$. This doesn't happen with the [[MLE]] or with [[Bayesian statistics|Bayesian approaches]], which both naturally respect $\Theta$. 
 
 The MoM is consistent under fairly weak assumptions, and it obeys a [[central limit theorems|CLT]]. It's not guaranteed to be unbiased. For [[exponential families]], the MoM estimator coincides with the [[MLE]]. 
