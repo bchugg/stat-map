@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-02
+lastmod: 2025-01-11
 ---
 
 Let $X_1,\dots,X_n\sim P$. The goal of [[density estimation]] is to determine the density of $P$, call it $p$. Here we want to make as few assumptions about $p$ as possible (i.e., we don't assume that $P$ comes from some parametric family; see [[parametric versus nonparametric statistics]]). 
@@ -9,7 +9,9 @@ An obvious solution is to simply take the empirical distribution, in which case 
 $$
 \widehat{p}(x) = \frac{1}{n}\sum_i \ind(x = X_i).
 $$
-But this solution obviously overfits the given data and has very few nice properties (continuity, smoothness, etc). 
+But this solution obviously overfits the given data and has very few nice properties (continuity, smoothness, etc). It doesn't generalize from the data at all; it sucks. 
+
+
 
 In terms of evaluation, typically we're interested in $L_2$ loss, i.e., 
 $$
