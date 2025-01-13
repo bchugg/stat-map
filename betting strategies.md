@@ -14,4 +14,4 @@ Idea behind GRAPA is to [[maximizing log-wealth|maximize log-wealth]]. If we don
 Here we aim to maximize a specific lower bound on the wealth, similar to the ELBO in [[variational inference]]. A lower bound on the wealth is usually derived using some [[exponential inequalities]]. 
 
 ## ONS 
-We may also borrow techniques from the online learning literature, such as [[Online Newton step]].
+We may also borrow techniques from the online learning literature, such as [[online Newton step]].
