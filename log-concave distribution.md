@@ -1,12 +1,12 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-02
+lastmod: 2025-01-14
 ---
 
 > [!note] Definition
 > A measure $\mu$ is log-concave if for all measurable sets $A, B$ and all $\lambda\in[0,1]$, we have
 > $$
-\mu(\lambda A + (1-\lambda)B) \geq \mu(A)^\lambda \mu(B)^{1-\lambda},
+> \mu(\lambda A + (1-\lambda)B) \geq \mu(A)^\lambda \mu(B)^{1-\lambda},
 > $$
 > if the set $\lambda A + (1-\lambda)B$ is measurable. 
 
@@ -24,6 +24,8 @@ Many common distributions are log-concave:
 - Dirichlet distribution for parameters all at least 1 
 - Laplace distribution 
 - and others 
+
+[[time-uniform|Time-uniform]] [[concentration inequalities]] for log-concave vectors are given in [[multivariate light-tailed concentration]]. 
 
 # Refs 
 - https://sites.stat.washington.edu/jaw/RESEARCH/TALKS/Toulouse1-Mar-p1-small.pdf
