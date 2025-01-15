@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2025-01-14
+lastmod: 2025-01-15
 ---
 
 # Bounded distributions
@@ -49,6 +49,18 @@ which we can see is worse than Hsu et al's bound above, since $\|\Sigma\|\Tr(\Si
 
 # Sub-$\psi$ distributions 
 
+Using [[confidence sequences for convex functionals]], [Manole and Ramdas](https://arxiv.org/pdf/2103.09267), give a bound for iid data $(X_t)$ with mean $\mu$ that obeys 
+$$
+\E \exp(\lambda\la \theta, X-\mu\ra) \leq \exp(\psi(\lambda)),\quad \text{ for all } \theta\in\dsphere.
+$$
+Note this is a multivariate [[sub-psi process]] with $V_t = I$. They show that with probability $1-\delta$, for all $t$, 
+$$
+\|\ov{X}_t - \mu\| \leq 2(\psi^*)^{-1}\left(\frac{\log\ell(\log_2 t) + \log(1/\delta) + \log N_2}{\lceil t/2\rceil}\right),
+$$
+where $N_\gamma$ is the [[covering and packing|covering number]] of the dual norm, and $\psi^*$ is the convex conjugate of $\psi$. For [[isotropic distributions|isotropic]] [[sub-exponential distributions]], this gives a bound that scales as 
+$$
+O\left(\sqrt{\frac{\log\log(t) + \log(1/\alpha) + d}{t}}\right).
+$$
 # Other conditions 
 
 **Log-concave distributions.** This comes from [this paper](https://arxiv.org/abs/2311.08168) and is proved with the [[variational approach to concentration]]. Let $(X_t)_{t\geq 1}$ be conditionally [[log-concave distribution|log-concave]], meaning that for all $t\geq 1$,
@@ -56,7 +68,8 @@ $$
     \norm{\la\theta, X_t - \E[X_t|\calF_{t-1}]\ra}_{\psi_1} \leq C\sqrt{\la \theta, \Sigma\theta\ra},
 $$
 for all $\theta\in\Re^d$, some $C>0$ and PSD $\Sigma$. Let $f_\alpha(u) = \sqrt{\Tr(\Sigma)u} + u\sqrt{\norm{\Sigma}}$. Then with probability $1-\alpha$, for all $t\geq 1$, 
-$$ 
+$$
+ 
 \norm{\frac{\sum_{i\leq t}\lambda_i X_i}{\sum_{i\leq t}\lambda_i} - \mu} \leq \frac{2C f_\alpha(1) \sum_{i\leq t}\lambda_i^2 + 4Cf_\alpha(\log(2/\alpha))}{\sum_{i\leq t}
     \lambda_i},
 $$

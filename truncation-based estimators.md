@@ -1,5 +1,5 @@
 ---
-lastmod: 2025-01-09
+lastmod: 2025-01-15
 created: 2025-01-09
 ---
 
@@ -17,4 +17,4 @@ This has a rate of $O(\sqrt{v^2\log(1/\delta)/n})$ where $\E\norm{X-\mu}^2\leq v
 
 As presented, the Catoni-Giulini truncation estimator requires a bound on the raw second moment $\E\norm{X}^2$. This is less desirable than a _central_ moment assumption, i.e., a bound on $\E\norm{X - \mu}^2$, since the latter is immune to translations of the data.  As noted by Lugosi and Mendelson, this translation invariance can be overcome by sample splitting: use some logarithmic number of points to construct a naive estimate $m$ of the mean, and then center the Catoni-Giulini estimator around $m$. 
 
-This estimator was extended to [[Banach space|Banach spaces]] (see also [[concentration in Banach spaces]]) by [Whitehouse et al](https://arxiv.org/abs/2411.11271). They (we) also show that the estimator handles martingale dependence and is [[time-uniform]], and also can handle a central moment assumption (instead of the raw moment), and also handles infinite variance (requires only a central $p$-th moment for $p>1$). Interestingly, they don't use a [[PAC-Bayes]] analysis, but instead employ the [[Pinelis approach to concentration]]. 
+This estimator was extended to [[Banach space|Banach spaces]] (see also [[concentration in Banach spaces]]) by [Whitehouse et al](https://arxiv.org/abs/2411.11271). They (we) also show that the estimator handles [[martingale dependence]] and is [[time-uniform]], and also can handle a central moment assumption (instead of the raw moment), and also handles infinite variance (requires only a central $p$-th moment for $p>1$). Interestingly, they don't use a [[PAC-Bayes]] analysis, but instead employ the [[Pinelis approach to concentration]]. 
