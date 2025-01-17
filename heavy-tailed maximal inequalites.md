@@ -1,10 +1,7 @@
 ---
-lastmod: 2024-11-18
+lastmod: 2025-01-16
 created: 2024-11-18
 ---
-
-# Finite MGF 
-#todo 
 
 # Finite Variance
 If $X_1,\dots,X_n$ are iid with $\E X^2\leq K$, then 

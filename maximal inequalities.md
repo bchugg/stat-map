@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-11-18
+lastmod: 2025-01-16
 ---
 
 To motivate maximal inequalities, I'll quote from the opening of Michel Talagrand's excellent book [_Upper and Lower Bounds for Stochastic Processes_](https://link.springer.com/book/10.1007/978-3-642-54075-2): 
@@ -21,8 +21,7 @@ Both [[Gaussian complexity]] and [[Rademacher complexity]] are defined as maxima
 
 Maximal inequalities can be used to obtain [[concentration inequalities]]. If $(S_t)$ is some process, then $\norm{S_t} = \sup_{\theta} \la \theta, S_t\ra$, and maximal inequalities help bound the latter quantity. See [[techniques for multivariate concentration]]. 
 
-See a [[list of maximal inequalities]]. 
-
+There are some famous martingale maximal inequalities: [[Doob's maximal inequality]] and [[Ville's inequality]]. See also a list of [[light-tailed maximal inequalities]] and [[heavy-tailed maximal inequalites]]. 
 
 # References 
 - Wainwright's _High dimensional statistics: A nonasymptotic viewpoint_, Chapter 5. 

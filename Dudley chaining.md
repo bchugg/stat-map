@@ -1,9 +1,9 @@
 ---
 created: 2024-08-29
-lastmod: 2024-11-15
+lastmod: 2025-01-16
 ---
 
-We are in the setting that was described in [[chaining]]. We are trying to obtain a maximal inequality for the [[sub-Gaussian process]] $(X_\theta)$, $\theta\in\Theta$. Chaining gave a bound of the form 
+We are in the setting that was described in [[chaining]]. We are trying to obtain a [[maximal inequalities|maximal inequality]] for the [[sub-Gaussian process]] $(X_\theta)$, $\theta\in\Theta$. Chaining gave a bound of the form 
 $$
 \E\sup_\theta X_\theta \leq \sup_{\theta\in\Theta}\sum_{0\leq n\leq N} 2^{n/2}\rho(\theta, \Theta_n),
 $$
