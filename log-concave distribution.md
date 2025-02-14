@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2025-01-14
+lastmod: 2025-02-12
 ---
 
 > [!note] Definition
@@ -12,7 +12,7 @@ lastmod: 2025-01-14
 
 Equivalently, if if a density $f$ can be written as $f(x) = \exp(\varphi(x))$ for some concave $\varphi$, then the distribution is log-concave.  
 
-If $X$ is a log-concave distributed random vector, then we can state a bound on its $\psi_1$ [[Orlicz norm]], thus demonstrating that it is [[sub-exponential distributions|sub-exponential]]. In particular, Lemma 2.3 [here] (see also Equation (21) [here](https://arxiv.org/pdf/2108.08198)) demonstrate that 
+If $X$ is a log-concave distributed random vector, then we can state a bound on its $\psi_1$ [[Orlicz norm]], thus demonstrating that it is [[sub-exponential distributions|sub-exponential]]. In particular, Lemma 2.3 [here] (see also Equation (21) [here](https://arxiv.org/pdf/2108.08198)) demonstrates that 
 $$
 \norm{\la u,X-\E X\ra}_{\psi_1} \leq c\sqrt{\E\la u,X-\mu\ra^2} = c \sqrt{\la u,\Sigma u\ra},
 $$
