@@ -1,5 +1,5 @@
 ---
-lastmod: 2025-01-05
+lastmod: 2025-03-13
 created: 2024-09-24
 ---
 
@@ -13,7 +13,10 @@ $$
 $$
 (Though sometimes $\alpha_n(f)$ itself is referred to as the empirical process.)
 
-Empirical process theory is concerned with statements about the limiting behavior of $\sup_f \alpha_n(f)$ and $\Delta_n(\calF)$, whether in probability, almost surely, or in distribution. That is, we are searching uniform [[laws of large numbers]] or uniform [[central limit theorems]]. _Uniform_ refers to uniformity over $\calF$, which is what makes empirical process theory more challenging than simply analyzing sums of iid random variables. 
+Empirical process theory is concerned with statements about the behavior of $\sup_f \alpha_n(f)$ and $\Delta_n(\calF)$, whether in probability, almost surely, or in distribution. That is, we are searching for uniform [[laws of large numbers]] or uniform [[central limit theorems]] or uniform [[concentration inequalities]] (i.e., [[uniform convergence bounds]]). _Uniform_ refers to uniformity over $\calF$, which is what makes empirical process theory more challenging than simply analyzing sums of iid random variables. 
+
+To quote [Bartl and Mendelson](https://arxiv.org/pdf/2502.15116): 
+> Empirical processes theory was developed as an attempt of obtaining uniform versions of the fundamental limit laws of probability theory — leading to the uniform law of large numbers; the uniform central limit theorem; and the uniform law of the iterated logarithm. However, over the last 25 years the focus of the theory has shifted [to non-asymptotics]— because it has become apparent that quantitative estimates and not the limit behaviour of empirical processes are of central importance in Data Science.
 
 If $\Delta_n(\calF)\to 0$ in probability (or almost surely), we call $\calF$ a [[Glivenko-Cantelli class]]. If $\sqrt{n}\alpha_n$ obeys a CLT (in the space of processes indexed by $\calF$), we say it is a [[Donsker class]]. 
 
