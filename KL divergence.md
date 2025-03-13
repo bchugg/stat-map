@@ -1,6 +1,6 @@
 ---
 created: 2023-03-02
-lastmod: 2024-12-31
+lastmod: 2025-03-12
 ---
 
 For probability measures $\rho,\nu$ on a measurable space $(\Omega,\calF)$, the KL-divergence is 
@@ -14,4 +14,4 @@ Let $h:\Theta\to\Re$ be measurable and $\nu$ be a distribution over $\Theta$, th
 $$
 \log \E_\nu \exp h(\theta) = \sup_{\rho} \left\{ \E_\rho h(\theta) - \kl(\rho\|\nu)\right\}.
 $$
-This strengthens the general variational inequality for f-divergences. This is a crucial ingredient in [[PAC-Bayes]] bounds, which are typically stated in terms of the KL-divergence. 
+This strengthens the general variational inequality for f-divergences. This is a crucial ingredient in [[PAC-Bayes]] bounds, which are typically stated in terms of the KL-divergence. This formula also underlies the [[variational approach to concentration]]. The supremum is achieved by $\d\rho \propto \exp (h(\theta)) \d\mu$, which is the Gibbs measure. 

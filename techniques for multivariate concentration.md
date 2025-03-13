@@ -1,6 +1,8 @@
 ---
 created: 2024-08-29
+
 lastmod: 2025-03-13
+
 ---
 
 Suppose we have a stochastic process $(S_t)$ evolving in some space. What techniques are available for bounding $\norm{S_t}$? If $S_t\in\Re$, then we usually argue about $S_t$ and $- S_t$ and take a union bound to get a bound on $|S_t|$ (see eg [[bounded scalar concentration]] and [[light-tailed, unbounded scalar concentration]]). However, in higher-dimensional spaces (in $\Re^d$, $d\geq 2$, say) a union bound doesn't suffice: there are infinitely many directions one has to worry about. 
@@ -17,11 +19,12 @@ So $(Z_t)$ is a martingale with $Z_0=0$. Let $D_t = Z_t - Z_{t-1}$, be the incre
 - If a bound on the variance of $D_t$ is known, then we can use the equivalent of a Bernstein inequality ([[martingale concentration#Variance bound|martingale concentration:Variance bound]]). 
 
 The [[Pinelis approach to concentration]] is another method which works directly with the norm. 
+For [[multivariate light-tailed concentration]] of [[sub-Gaussian distributions]], the technique of Hsu et al is another example of working directly with the norm. Their technique seems specific to sub-Gaussian distributions however; it doesn't seem to constitute a general approach. 
 
 ## Covering arguments 
 See [[concentration via covering]] for an overview. The idea is to bound cover the unit ball with an finite net, and then take a union bound. You suffer the covering number ([[covering and packing]]) of the underlying space in the bound. 
 
-This means covering arguments lead to dimension-dependent bounds because covering numbers will depend geometrically on the underlying space.  You also have to be able to calculate the covering number. 
+This means covering arguments lead to dimension-dependent bounds because covering numbers will depend geometrically on the underlying space.  Obviously, you also have to be able to calculate the covering number. 
 
 ## Chaining 
 See [[chaining]] for an overview of chaining. Chaining provides high probability guarantees of the form 
