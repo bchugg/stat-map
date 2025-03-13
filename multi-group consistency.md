@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-02
+lastmod: 2025-03-13
 ---
 
 Multi-group consistency is [[marginal consistency]] but it holds simultaneously across possibly intersecting groups. (In fact, the notion of marginal-consistency is only interesting if the groups are intersecting; otherwise you can just port over the techniques from marginal consistency and apply them separately to each group). 
@@ -28,6 +28,5 @@ $$
 $$
 A similar patching algorithm applies here. Note that this patching algorithms again rely on showing that a specific loss is decreasing (either [[squared error]] or [[pinball loss]]) every time we modify the function. This is a very common analysis tool for these kinds of algorithms. 
 
-
-# References 
+# Reading
 - Chapter 4, Aaron Roth's [book](https://www.cis.upenn.edu/~aaroth/uncertainty-notes.pdf). 

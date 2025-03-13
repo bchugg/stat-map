@@ -1,5 +1,5 @@
 ---
-lastmod: 2024-10-27
+lastmod: 2025-03-13
 created: 2024-10-27
 ---
 
@@ -21,6 +21,6 @@ The above program is a linear program, so the solution will lie on a vertex of t
 
 This approach to concentration is optimal by construction, so if the program can be solved then it will yield the best results. If you are interested in concentration inequalities for practical purposes, it's therefore worth investigating if you can solve the relevant convex optimization problem. By contrast, the [[Chernoff method]] is easier to work with (hence significantly more popular) but gives suboptimal results. 
 
-## Refs 
+# Reading
 - [Optimal Tail Comparison Based on Comparison of Moments](https://link.springer.com/chapter/10.1007/978-3-0348-8829-5_19), Pinelis 1998. 
 - [Optimal Inequalities in Probability Theory: A Convex Optimization Approach](https://epubs.siam.org/doi/abs/10.1137/S1052623401399903?casa_token=Bt-2iIWlbngAAAAA:X0wIqinGV-90275RFukRxzSo8MDnVuzDQLG6wgkyyinW_dJyRhcNBmgYB3pdHeePNeelivFFnolN), Bertsimas and Popescu, 2005. 

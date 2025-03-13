@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2025-01-08
+lastmod: 2025-03-13
 ---
 
 The [[Bayesian statistics|Bayesian]] analogue of [[confidence intervals]]. A $(1-\alpha)$-credible interval is a region $C_\alpha$ to which the posterior assigns mass at least $1-\alpha$: 
@@ -23,5 +23,5 @@ as the mass of $B_\eps$ under the posterior. We can then analyze $T(X^n)$ as a f
 
 As a rule of thumb, in finite-dimensional parametric models, if the prior has positive mass on $\theta$, then the posterior is consistent and typically converges at rate $O(n^{-1/2})$. The [[Bernstein von-Mises theorem]] says that the under certain conditions on the prior, the posterior converges to a normal distribution centered at the [[MLE]] estimate of $\theta^*$. Outside the realm of applicability of the BvM theorem, however, there is no guarantee about the posterior. The posterior can converge to zero coverage in the [[Gaussian sequence model]] for instance.  
 
-# References 
+# Readings 
 - Larry Wasserman's excellent [705 lecture notes](https://www.stat.cmu.edu/~larry/=stat705/).

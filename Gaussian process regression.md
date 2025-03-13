@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2025-01-07
+lastmod: 2025-03-13
 ---
 
 A Bayesian (see [[Bayesian statistics]]) approach to [[nonparametric regression]]; see also [[Bayesian nonparametrics]]. 
@@ -23,7 +23,7 @@ $$
 $$
 where $\bs{k}_* = (K(X_1,X_*), \dots, K(X_n, X_*))$, $\bs{K}_n$ is the covariance defined by the kernel K on the training data, and $\sigma^2$ is the noise inherent to the model, i.e., we assume that $Y_i = f(X_i) + \eps$ where $\eps$ has variance $\sigma^2$. Our prediction $f(X_*)$ is taken to be $\mu_*$, but writing down the predictive distribution lets us quantify [[uncertainty quantification|uncertainty]]. 
 
-# Refs 
+# Reading 
 A lot has been written about GP regression, as you can imagine. Some useful references are 
 - [An intuitive tutorial to GP regression](https://arxiv.org/pdf/2009.10862v5) 
 - [Gaussian processes for Machine Learning](https://gaussianprocess.org/gpml/), the e-book. 

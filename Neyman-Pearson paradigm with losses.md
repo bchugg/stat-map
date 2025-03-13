@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-10-13
+lastmod: 2025-03-13
 ---
 
 The [[Neyman-Pearson paradigm]] is formulated in terms of Type I and Type II errors. Suppose we are testing the null $H_0$ vs the alternative $H_1$ (see [[hypothesis testing]]). In particular, we focus on constructing hypothesis tests $\phi$ such that 
@@ -29,6 +29,6 @@ which relates type-II risk to power. We want to minimize type-II risk.
 
 Using losses allows us to generalize the NP paradigm beyond binary decisions (accept/reject) and to consider more general decision spaces. Eg we can consider $\ell(a,b)$ for $b\in \mathcal{B}$.  This enables [[post-hoc hypothesis testing]], as Grunwald studies. 
 
-# References 
+# Reading 
 - [Contributions to the theory of statistical estimation and testing hypotheses](http://www.stat.yale.edu/~hz68/619/Wald-1939.pdf), Wald 1936. 
 - [Beyond Neyman-Pearson](https://arxiv.org/pdf/2205.00901), Grunwald 2024. 

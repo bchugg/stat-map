@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-02
+lastmod: 2025-03-13
 ---
 
 The idea behind marginal consistency in [[uncertainty quantification]] is to ensure that a model is consistent on average across the entire population. This comes in two flavors: Mean consistency, and quantile consistency. 
@@ -38,7 +38,5 @@ Just as the Brier score is relevant for mean consistency, the [[pinball loss]] i
 
 If a model is not marginally quantile consistent (i.e,, $\alpha\neq 0$) we can again shift it so that it is, and this will actually improve the model in terms of the pinball loss. So there is a big parallel between mean consistency and quantile consistency in this way. (To do this we need to make certain smoothness assumptions on the CDF). Similar comments on finite-sample guarantees apply here. 
 
-
-
-# References 
+# Reading 
 - Chapter 2 in Aaron Roth's [textbook](https://www.cis.upenn.edu/~aaroth/uncertainty-notes.pdf)

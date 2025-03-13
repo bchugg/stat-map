@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-11-01
+lastmod: 2025-03-13
 ---
 
 An e-variable with respect to a set of distributions $\calP$ is a nonnegative random variable $E$ such that
@@ -27,7 +27,7 @@ E-values solve the [[optional continuation]] problem, in the sense that the prod
 
 See [[merging e-values]] for a discussion on combining several e-values and [[e-value calibrators]] for a discussion on converting p-values to e-values and vice versa. 
 
-# References 
+# Reading 
 - [Safe testing](https://arxiv.org/abs/1906.07801) by Grunwald, De Heide, and Koolen 
 - [The numeraire e-variable](https://arxiv.org/pdf/2402.18810.pdf), by Larsson, Ramdas, and Ruf. 
 - [Hypothesis testing with e-values](https://arxiv.org/pdf/2410.23614)

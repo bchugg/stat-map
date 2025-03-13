@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-02
+lastmod: 2025-03-13
 ---
 
 Sub-Gaussian distributions are a large class of distributions used in a wide variety of applications. Intuitively, they behave "like or better than" Gaussian distributions, meaning their tails decay at the same rate or faster than Gaussian tails. Consequently, sub-Gaussian random variables are nice to work with. 
@@ -38,7 +38,5 @@ which is perhaps the more common definition in the literature. But if we want to
 
 Note that this definition extends easily to infinite dimensional spaces as long as they are endowed with an inner product. Eg, in an infinite-dimensional [[Hilbert space]], $\Sigma$ is interpreted as an operator $\Sigma:\calH \to \calH$, and we work with the dot product $\la \cdot, \cdot\ra_\calH$. 
 
-
-
-# References 
+# Reading
 - Nice expository note: https://www.stat.cmu.edu/~arinaldo/36788/subgaussians.pdf

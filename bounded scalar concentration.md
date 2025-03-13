@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-11-21
+lastmod: 2025-03-13
 ---
 
 Here we list [[concentration inequalities]] for scalar-valued random variables that are bounded with probability 1 (sometimes only bounded on one side). This in contrast to [[light-tailed, unbounded scalar concentration]] which does not assume boundedness and [[heavy-tailed concentration]], where we assume only a few moments. 
@@ -86,7 +86,7 @@ This is not a closed-form bound, but it can be computed. See eg [here](http://ww
 ## Empirical Bernstein bounds 
 Empirical Bernstein bounds replace the oracle variance with an estimated variance. This is useful because the true variance is not always known. These bounds deserve their own page: [[empirical Bernstein bounds]]. 
 
-# References 
+# Reading
 - Concentration inequalities by Boucheron, Lugosi, and Massart. 
 - [On the Bennett-Hoeffding inequality](http://www.numdam.org/article/AIHPB_2014__50_1_15_0.pdf) by Pinelis. 
 - [On Hoeffding's inequalities](https://arxiv.org/pdf/math/0410159) by Bentkus. 

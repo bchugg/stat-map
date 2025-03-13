@@ -1,5 +1,5 @@
 ---
-lastmod: 2025-01-01
+lastmod: 2025-03-13
 created: 2024-10-13
 ---
 
@@ -15,5 +15,5 @@ $$
 $$
 where $(\calF_t)$ is the filtration capturing what's happened so far. Depending on the behavior of $S$ (eg if it's bounded, light-tailed etc) we can develop [[confidence sequences]] for the difference $|\wh{\Delta}_t - \Delta_t|$ or perform [[sequential hypothesis testing]] to determine if $\Delta_t \equiv 0$ (say). Depending on the behavior of $S$, we can form [[sub-psi process]] for $t(\Delta_t - \wh{\Delta}_t)$, which lets apply much of the machinery of [[safe, anytime-valid inference (SAVI)]] to this problem. 
 
-## Refs 
+## Reading 
 - [Comparing sequential forecasters](https://arxiv.org/pdf/2110.00115), Choe and Ramdas. 

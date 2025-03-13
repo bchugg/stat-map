@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-02
+lastmod: 2025-02-24
 ---
 
 States that a variant of the [[likelihood-ratio test]] is the [[uniformly most powerful test]] among all level-$\alpha$ tests when testing simple nulls against simple alternatives. The NP lemma is generalized to [[monotone likelihood ratio]] families by the [[Karlin-Rubin theorem]]. 
@@ -26,7 +26,7 @@ Let $\phi$ denote the likelihood ratio test and $\psi$ denote any other level $\
 $$
 \int(\phi(x) - \psi(x))(p_1(x) - k p_0(x)) \d x.
 $$
-We claim this integral is lower bounded by zero. If $\phi(x) = \psi(x)$ then this is immediate. If $\psi(x) =1$ then $p_1(x) \geq kp_0(x)$ by definition, so the product of both terms in the integral is nonnegative. Likewise, if $\psi(x)=0$ then both terms are non-positive. The claim follows.
+We claim this integral is lower bounded by zero. If $\phi(x) = \psi(x)$ then this is immediate. If $\phi(x) =1$ then $p_1(x) \geq kp_0(x)$ by definition, so the product of both terms in the integral is nonnegative. Likewise, if $\phi(x)=0$ then both terms are non-positive. The claim follows.
 
 This gives that
 $$

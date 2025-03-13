@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-02
+lastmod: 2025-03-13
 ---
 
 The e-BH procedure is the equivalent of the [[BH procedure]] for [[FDR control]] but using [[e-value|e-values]]. The main benefit is this procedure allows for arbitrary dependence between the e-values, which is not the case for the BH procedure and p-values. 
@@ -27,7 +27,6 @@ Since $\E[E_{[k]}]\leq 1$, we have $\E[F_D/|D|]\leq \alpha |N|/|D| = \alpha K_0/
 **Boosting e-values**
 If other information is available, we can also _boost_ the e-values. This might be info on the joint distribution, some structure of the problem, etc. But without such additional information, it is better to just use the non-boosted approach above. 
 
-# References 
-
+# Reading 
 - [False discovery rate control with e-values](https://arxiv.org/pdf/2009.02824.pdf) by Ruodo Wang and Aaditya Ramdas 
  

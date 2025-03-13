@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-12-31
+lastmod: 2025-03-13
 ---
 
 Uncertainty quantification is a vague term. It might mean classical parameter estimation techniques in statistics (like generating [[confidence intervals]], for instance). But in modern ML it often means techniques to ensure that black box predictive models and behaving in desired ways. That's what I'll focus on here. 
@@ -30,5 +30,5 @@ Ideally we want to develop algorithms for the sequential setting which constrain
 
 Of course, the sequential setting is strictly harder than the batch setting, in the sense that if we have a good sequential algorithm then we can just run it in the batch setting and obtain the same guarantee. 
 
-## References 
+# Reading
 - [Textbook](https://www.cis.upenn.edu/~aaroth/uncertainty-notes.pdf) by Aaron Roth 

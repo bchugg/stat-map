@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2025-01-16
+lastmod: 2025-03-13
 ---
 
 To motivate maximal inequalities, I'll quote from the opening of Michel Talagrand's excellent book [_Upper and Lower Bounds for Stochastic Processes_](https://link.springer.com/book/10.1007/978-3-642-54075-2): 
@@ -23,7 +23,7 @@ Maximal inequalities can be used to obtain [[concentration inequalities]]. If $(
 
 There are some famous martingale maximal inequalities: [[Doob's maximal inequality]] and [[Ville's inequality]]. See also a list of [[light-tailed maximal inequalities]] and [[heavy-tailed maximal inequalites]]. 
 
-# References 
+# Reading 
 - Wainwright's _High dimensional statistics: A nonasymptotic viewpoint_, Chapter 5. 
 - Talagrand's [_Upper and Lower Bounds for Stochastic Processes_](https://link.springer.com/book/10.1007/978-3-642-54075-2), Chapter 2. 
 

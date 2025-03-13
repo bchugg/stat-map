@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-02
+lastmod: 2025-03-13
 ---
 
 Anytime validity is a property of inferential tasks. In particular, we say that something is anytime-valid if its properties hold at all [[stopping-time|stopping times]], not just at some fixed-time determined a priori. (Note that by "time" we usually mean the number of observations). 
@@ -13,5 +13,5 @@ where $\tau$ is a stopping time. But they are not equivalent for statements conc
 
 The equivalence when discussing probability statements means that [[confidence sequences]] are objects that are both time-uniform and anytime-valid. But [[e-process|e-processes]], which are defined in terms of stopping times, are not necessarily time-uniform.  
 
-# Refs 
+# Reading 
 - [Admissible anytime-valid sequential inference must rely on nonnegative martingales](https://arxiv.org/pdf/2009.03167) by Ramdas et al. 

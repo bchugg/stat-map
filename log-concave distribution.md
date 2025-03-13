@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2025-01-14
+lastmod: 2025-03-13
 ---
 
 > [!note] Definition
@@ -27,6 +27,6 @@ Many common distributions are log-concave:
 
 [[time-uniform|Time-uniform]] [[concentration inequalities]] for log-concave vectors are given in [[multivariate light-tailed concentration]]. 
 
-# Refs 
+# Reading 
 - https://sites.stat.washington.edu/jaw/RESEARCH/TALKS/Toulouse1-Mar-p1-small.pdf
 

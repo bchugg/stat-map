@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2025-01-07
+lastmod: 2025-03-13
 ---
 
 PAC-Bayes bounds were originally crafted as a method to prove guarantees in [[learning theory]] that didn't suffer from the same difficulties as [[PAC learning]]. However, they've become useful for proving more general [[concentration inequalities]], especially in multivariate settings. They are the cornerstone of the [[variational approach to concentration]]. 
@@ -30,7 +30,7 @@ This is the [[time-uniform]] version of the master theorem, but we can also stat
 $$
 \Pr(\forall\rho\in\Mspace{\Theta}: \E_\rho \log N(\theta) \leq \kl(\rho\|\nu) + \log(1/\delta))\geq 1-\delta.
 $$
-## Refs 
+# Reading 
 - [User friendly introduction to PAC-Bayes bounds](https://arxiv.org/pdf/2110.11216), by Alquier. Extremely nice and simple overview. 
 - [Primer on PAC-Bayesian learning](https://arxiv.org/abs/1901.05353) slightly more technical and general intro, by Guedj. 
 - [A unified recipe for deriving PAC-Bayes bounds](https://arxiv.org/pdf/2302.03421), by yours truly. 

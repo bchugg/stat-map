@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-11-17
+lastmod: 2025-03-13
 ---
 
 Let $(S_t)$ be a martingale wrt to the filtration $(\calF_t)$. Assume $(S_t)$ is scalar-valued unless otherwise indicated. Here we investigate [[concentration inequalities]] for $(S_t)$. 
@@ -61,5 +61,5 @@ $$
 $$
 As above, we can bound the right hand side with a worst case distribution. In particular, this time we have $G_i \in \{-\sigma_i^2/b_i, b_i\}$ and $\E G_i = 0$.
 
-# References
+# Reading
 - [Concentration of Measure for the Analysis of Randomized Algorithms](http://wwwusers.di.uniroma1.it/~ale/Corsi/AlgoPro/monograph.pdf) by Dubhashi and Panconesi. 

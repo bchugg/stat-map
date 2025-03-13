@@ -1,5 +1,5 @@
 ---
-lastmod: 2024-10-08
+lastmod: 2025-03-13
 created: 2024-10-07
 ---
 
@@ -22,5 +22,5 @@ $$
 $$
 Robbins noted this CS (in a slightly less general sense) in the 1970s. [This has been generalized to vector-valued random variables](https://arxiv.org/pdf/2311.08168). 
 
-# Refs 
+# Reading
 - [Conjugate mixtures](https://www.stat.cmu.edu/~aramdas/martingales18/L18-conjugate.pdf), Lecture notes by Aaditya Ramdas. 

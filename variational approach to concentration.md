@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2025-01-15
+lastmod: 2025-03-13
 ---
 
 A technique for [[multivariate concentration]]. Let $(S_t)$ be some stochastic process, say in $\Re^d$. For instance, $S_n = \sum_{i=1}^n X_i$ for multivariate observations $X_i\in\Re^d$. We are aiming to generate a high probability bound on 

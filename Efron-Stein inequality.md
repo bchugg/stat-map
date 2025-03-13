@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-10-07
+lastmod: 2025-03-13
 ---
 
 Let $X_1,\dots,X_n$ be independent random variables and let $f:\calX^n\to\Re$ obey $\E[f^2(X)]<\infty$ where $X = (X_1,\dots,X_n)$. The Efron-Stein inequality states that
@@ -21,6 +21,6 @@ where $Z_i$ is $(X_1,\dots,X_{i-1}, X_{i+1}, \dots, X_n)$-measurable (i.e., the 
 
 Efron-Stein inequalities also exist for random matrices, see [here](https://www.tropp.caltech.edu/papers/PMT16-Efron-Stein-Inequalities.pdf). 
 
-# References 
+# Reading
 - [An Efron-Stein inequality for nonsymmetric statistics](http://www-stat.wharton.upenn.edu/~steele/Publications/PDF/AEifns.pdf) by Steele. 
 - Concentration Inequalities by Boucheron, Lugosi, Massart, Chapter 3.1 

@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-10-07
+lastmod: 2025-03-13
 ---
 
 A confidence sequence can be thought of as a sequence of sequentially valid [[confidence intervals]]). Formally, $(C_t)_{t\geq 1}$ is a $(1-\alpha)$-CS for a parameter $\theta$ if
@@ -29,5 +29,5 @@ Many confidence sequences are construct from applying [[Ville's inequality]] to 
 
 There is also an extension of confidence sequences to the asymptotic regime: [[asymptotic confidence sequences]]. 
 
-# Refs 
+# Reading
 - [Time-uniform, nonparametric, nonasymptotic confidence sequences](https://arxiv.org/abs/1810.08240) by Howard et al.

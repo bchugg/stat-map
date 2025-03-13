@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-10-13
+lastmod: 2025-03-13
 ---
 
 Most [[statistical inference]] assumes the data is somehow supplied to you (even in sequential settings; see [[sequential statistics]]). You are given data, and you are asked to estimate some parameter. 
@@ -56,6 +56,6 @@ The resulting confidence interval for our estimate $\wh{\theta}^{\wh{\eta}}$ com
 
 They also study a sequential setting, where the model and sampling rule can be iteratively updated. Then they apply a [[martingale CLT]] to get a CI for the estimate. 
 
-# References 
+# Reading
 - [Active statistical inference](https://arxiv.org/pdf/2403.03208.pdf) by Zrnic and Candes. 
 - [Efficient adaptive experimental design for ATE estimation](https://arxiv.org/pdf/2002.05308.pdf) Very similar ideas, but with more focus on estimation as opposed to choosing the sampling strategy. 

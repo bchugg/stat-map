@@ -1,5 +1,5 @@
 ---
-lastmod: 2025-01-07
+lastmod: 2025-03-13
 created: 2025-01-07
 ---
 
@@ -14,3 +14,6 @@ Uniform convergence bounds are applied in [[empirical process theory]] to show t
 Depending on the problem, we might find $\eps$ or $\delta$ first. Eg, that bound might have the form "for all $\eps>0$, there exists some $\delta = \delta(\eps,n)$ that goes to 0 as $n\to\infty$" which implies that we obtain convergence in probability of $\sup_f |P_n f - Pf|$. This would be the case when showing that $\calF$ is a [[Glivenko-Cantelli class]]. But in [[PAC learning]], we usually want to fix $\delta$ first, and then find $\eps = \eps(\delta,n)$ such that $\sup_f |P_n f - Pf|\leq \eps$. 
 
 As is common in [[empirical process theory]], $\eps$ will typically depend on some notion of complexity of $\calF$, such as [[covering and packing|covering numbers]], [[Vapnik-Chervonenkis theory|VC dimension]], or [[Rademacher complexity]]. 
+
+# Readings 
+- [Uniform mean estimation via Generic Chaining](https://arxiv.org/pdf/2502.15116), by Bartl and Mendelson. They provide a generic way of obtaining uniform convergence bounds by starting with optimal [[mean estimation|mean estimators]] and then using [[generic chaining]] to combine them. 

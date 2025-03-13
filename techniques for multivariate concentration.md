@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-12-31
+lastmod: 2025-03-13
 ---
 
 Suppose we have a stochastic process $(S_t)$ evolving in some space. What techniques are available for bounding $\norm{S_t}$? If $S_t\in\Re$, then we usually argue about $S_t$ and $- S_t$ and take a union bound to get a bound on $|S_t|$ (see eg [[bounded scalar concentration]] and [[light-tailed, unbounded scalar concentration]]). However, in higher-dimensional spaces (in $\Re^d$, $d\geq 2$, say) a union bound doesn't suffice: there are infinitely many directions one has to worry about. 
@@ -38,3 +38,6 @@ and $\Theta_0\subset\Theta_1\subset\dots\subset\Theta_N$ are a selected sequence
 See [[variational approach to concentration]]. The idea is to use [[PAC-Bayes]] inequalities which are high probability guarantees over all probabilities measures into a simultaneous guarantee over all directions. 
 
 In some scenarios they allow you to escape-dimension dependence (eg for sub-Gaussian random vectors) which neither chaining nor covering arguments allow you to do. 
+
+# Reading 
+- [Confidence estimation via sequential likelihood mixing](https://arxiv.org/pdf/2502.14689) by Kirschner et al. Gives several strategies including the [[variational approach to concentration]] and also relates it to [[variational inference]]. 

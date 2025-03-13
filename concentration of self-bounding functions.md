@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-02
+lastmod: 2025-03-13
 ---
 
 Let $f:\calX^n\to\Re$ and $f_i :\calX^n\to\Re$ for $i=1,\dots,n$. We say $f$ is self-bounding (wrt to $(f_i)$) if 
@@ -36,7 +36,7 @@ where the final inequality follows from the second self-bounding property condit
 
 This simply fact, that the variance is bounded by the expected value, has many applications. See Section 3.1 in first ref below. 
 
-# References 
+# Reading
 - Concentration inequalities by Boucheron, Lugosi, Massart, Chapter 3.1 and 3.3. 
 - [Concentration of self-bounding functions](https://econ.upf.edu/~lugosi/boluma4.pdf) by Boucheron, Lugosi, Massart
  

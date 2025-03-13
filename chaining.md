@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-02
+lastmod: 2025-03-13
 ---
 
 Chaining is a generic method of generating [[maximal inequalities]] on the suprema of random processes. 
@@ -48,5 +48,5 @@ This gives $\E \sup_\theta X_\theta \lesssim A$.
 
 There are two main ways of dealing with $A$. One is [[generic chaining]], and one is [[Dudley chaining]]. The latter is looser than the former, but sometimes easier to compute. 
 
-# References 
+# Reading 
 - _Upper and lower bounds for stochastic processes_, Talagrand. 

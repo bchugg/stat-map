@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-02
+lastmod: 2025-03-13
 ---
 
 Sufficient statistics attempt to capture precisely what is important about a distribution. It is statistic of the data which, informally, we should be able to use instead of the data itself to do our analysis. 
@@ -24,5 +24,5 @@ In general, though, we can appeal to the Neyman-Fisher characterization:
 
 **Thm:** $T$ is sufficient for $\theta$ iff the joint pdf of $X^n$ can be factored as $p_\theta(x^n) = h(x^n) g(T(x^n);\theta).$ That is, it can be factored into a product of a function of the data only (no parameter) and a function of $T$ and the parameter. 
 
-# References 
+# Reading 
 - Larry Wasserman's notes on sufficient statistics in [_All of Statistics_](https://link.springer.com/book/10.1007/978-0-387-21736-9)
