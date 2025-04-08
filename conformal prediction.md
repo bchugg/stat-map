@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2025-03-14
+lastmod: 2025-04-08
 ---
 
 
@@ -46,3 +46,8 @@ Conformal inference is a huge research now, and I don't stand the slightest chan
 - The conditional coverage methods of Gibbs et al. and Kandinsky conformal prediction allow guarantees to be given under distribution shift. 
 - [Conformal Prediction Under Covariate Shift](https://proceedings.neurips.cc/paper/2019/file/8fb21ee7a2207526da55a679f0332de2-Paper.pdf) Tibsharani et al. 
 - [Conformal prediction beyond exchangeability](Conformal prediction beyond exchangeability), Barber et al. 
+
+# Reading
+- [Unifying Different Theories of Conformal Prediction](https://arxiv.org/abs/2504.02292), Barber and Tibshirani. 
+- [Gentle intro to Conformal Prediction](https://arxiv.org/pdf/2107.07511), Angelopoulos and Bates 
+- One of the early [tutorials on conformal prediction](https://www.jmlr.org/papers/volume9/shafer08a/shafer08a.pdf?trk=public_post_comment-text) by Shafer and Vovk. 
