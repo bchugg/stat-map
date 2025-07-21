@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2025-03-13
+lastmod: 2025-06-05
 ---
 
 Sufficient statistics attempt to capture precisely what is important about a distribution. It is statistic of the data which, informally, we should be able to use instead of the data itself to do our analysis. 
@@ -18,8 +18,7 @@ The [[Rao-Blackwell theorem]] says that an estimator can be improved by conditio
 
 In the discrete case, we can view the sufficient statistic as partitioning the values of $p_\theta(x)$ into the values $p_\theta(x|t)$ for the possible values of the statistic $t$. If the elements of the resulting partition do not depend on $\theta$, then $T$ is a sufficient statistic. Eg: Draw $X_1,X_2,X_3\sim \Ber(\theta)$ and let $T = \sum X_i$. 
 
-# Fisher-Neyman characterization
-
+## Fisher-Neyman characterization
 In general, though, we can appeal to the Neyman-Fisher characterization: 
 
 **Thm:** $T$ is sufficient for $\theta$ iff the joint pdf of $X^n$ can be factored as $p_\theta(x^n) = h(x^n) g(T(x^n);\theta).$ That is, it can be factored into a product of a function of the data only (no parameter) and a function of $T$ and the parameter. 

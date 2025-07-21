@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-02
+lastmod: 2025-07-17
 ---
 
 A perspective on statistics which views the parameters of the statistical model as random. This is in distinction to [[frequentist statistics]] which views them as fixed but unknown. 
@@ -10,6 +10,11 @@ As an example, consider testing the bias of a coin. The frequentist assumes the 
  Bayesian methods, both parametric ([[Bayesian parametrics]]) and nonparametric ([[Bayesian nonparametrics]]) put a prior $\pi$ over the model, and then compute a posterior based on given data and the prior. The posterior can then be used in downstream statistical tasks. 
 
 The [[Bayesian interpretation of probability]] is the view of probability which is usually used to justify Bayesian statistical methods. This need not be the case, however. One can equally well make the case for Bayesian statistics via the [[instrumentalist theory of probability]]. 
+
+## Readings 
+- [Why Isn't Everyone a Bayesian?](http://wpressutexas.net/course2011/EfronWhyEveryone1986.pdf) by Efron 
+- [Bayesian theory](https://onlinelibrary.wiley.com/doi/book/10.1002/9780470316870) by Bernardo and Smith (classic)
+- [Bayesian data analysis](https://bendixcarstensen.com/Bayes/Cph-2008/adm/slides-handout.pdf) by Gelman et al. (classic)
  
 
 
