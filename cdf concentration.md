@@ -1,5 +1,5 @@
 ---
-lastmod: 2025-01-06
+lastmod: 2025-07-21
 created: 2024-09-24
 ---
 
@@ -8,7 +8,7 @@ What can we say about the concentration of the empirical CDF about the true CDF?
 ## Scalar DKW inequality 
 For real valued observations $X_1, \dots, X_n$ with $F_n (x) = \frac{1}{n}\sum_{i\leq n}\ind(X_i\leq x)$, the DKW (Dvoretzky-Kiefer-Wolfowitz) inequality states that 
 $$
-\Pr\left(\sup_{x\in\Re} |F_n(x) - F(x) > t\right) \leq 2\exp(-2nt^2).
+\Pr\left(\sup_{x\in\Re} |F_n(x) - F(x)| > t\right) \leq 2\exp(-2nt^2).
 $$
 Note this statement is uniform in $x$ which, depending on your expectations, is kind of remarkable. The intuition is that if $F(x)$ sharply increases (it can't decrease, of course) at some $x$, then these are precisely the places where we expect to see many observations, so $F_n(x)$ won't be too far from $F(x)$. 
 
