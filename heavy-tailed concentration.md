@@ -1,11 +1,13 @@
 ---
 created: 2024-08-29
-lastmod: 2025-01-01
+lastmod: 2025-08-13
 ---
 
 In [[light-tailed, unbounded scalar concentration|light-tailed settings]], mean estimation is usually treated as synonymous with [[concentration inequalities|concentration]], since the sample-mean is the natural estimate of the mean and we're usually interested in concentration of the sum or mean of random variables. In heavy-tailed settings this is not the case, as the sample mean is a suboptimal estimate of the mean. 
 
 So when it comes to heavy-tailed distributions, we use estimates of the mean that are not the sample mean. These are summarized in [[scalar heavy-tailed mean estimation]] and [[multivariate heavy-tailed mean estimation]]. 
+
+In terms of actual concentration of the sample mean around the true mean in heavy-tailed settings, there's not much hope to get beyond polynomial rates. When the distribution has finite variance, then you can apply [[basic inequalities#Chebyshev's inequality]]. I don't think you can go beyond this in general. 
 
 There's an interesting class of results for the sample mean under general distributional assumptions which rely on approximating arbitrary observations with truncated observations. Given $X_1,\dots,X_n$, write 
 $$
