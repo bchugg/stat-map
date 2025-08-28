@@ -1,5 +1,5 @@
 ---
-lastmod: 2025-01-05
+lastmod: 2025-08-13
 created: 2024-10-07
 ---
 
@@ -17,6 +17,6 @@ If we have a bound on the raw second moment, $\E\norm{X}^2 \leq v^2$, then choos
 $$
 \sup_{\theta\in\dsphere} |\xi(\theta) - \la \theta, \E X\ra | = O\left(\sqrt{\frac{v^2\log(1/\delta)}{n}}\right).
 $$
-Again, this is not quite a sub-Gaussian rate. This method can also be extended to matrices (also done by Catoni and Giulini). It is also proved using [[PAC-Bayes]] arguments. 
+Again, this is not quite a sub-Gaussian rate. This method can also be extended to matrices (also done by Catoni and Giulini). It is also proved using [[PAC-Bayes]] arguments, i.e., the [[variational approach to concentration]]. 
 
 The same approach can of course be taken in the scalar case. There we can get explicit [[confidence intervals]] using numerical methods. See [Wang and Ramdas](https://arxiv.org/abs/2202.01250) (2023) who obtain [[confidence sequences]] in this way. 

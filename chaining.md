@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2025-03-13
+lastmod: 2025-08-13
 ---
 
 Chaining is a generic method of generating [[maximal inequalities]] on the suprema of random processes. 
@@ -30,7 +30,7 @@ $$
 \rho(\theta, \pi_n(\theta)) = \inf_{\phi\in\Theta_n} \rho(\theta, \phi).
 $$
 The intuition is the following:
-- Bound $\Pr(|X_{\pi_n(\theta)} - X_{\pi_{n-1}(\theta)}\geq \eps)$ using that $X_\theta$ is a sub-Gaussian process. 
+- Bound $\Pr(|X_{\pi_n(\theta)} - X_{\pi_{n-1}(\theta)}|\geq \eps)$ using that $X_\theta$ is a sub-Gaussian process. 
 - Union bound over all elements of $\Theta_n \times \Theta_{n-1}$ (both are finite). 
 - Union bound over all $n\leq N$ (again finite). 
 - Use the chaining decomposition above to provide a bound on $X_\theta - X_{\theta_0}$. 
