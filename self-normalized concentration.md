@@ -1,5 +1,5 @@
 ---
-lastmod: 2025-01-07
+lastmod: 2025-09-29
 created: 2025-01-07
 ---
 
@@ -11,3 +11,7 @@ created: 2025-01-07
 - Whitehouse et al give a general framework for deriving self-normalized bounds for [[sub-psi process|sub-psi processes]] in $\Re^d$. Instead of the bounds relying on the determinant of the variance process, their bounds depend on its eigenvalues. Neither is uniformly better or worse. 
 
 All of the above bounds are valid at [[stopping-time|stopping times]]; they are [[time-uniform]]. 
+
+# Reading 
+- [A Scalable Formula for the Moments of a Family of Self-Normalized Statistics](https://arxiv.org/abs/2509.14428)
+- 

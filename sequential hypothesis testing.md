@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2025-04-29
+lastmod: 2025-09-29
 ---
 
 We observe data $X_1,X_2,\dots$ drawn from some distribution $R$, and want to test the hypotheses 
@@ -25,3 +25,5 @@ A general approach to sequential hypothesis testing is [[game-theoretic hypothes
 
 ## Reading 
 - [Stopping times of power-one sequential tests: Tight lower and upper bounds](https://arxiv.org/pdf/2504.19952) by Agrawal and Ramdas. 
+- Waudby-Smith and others study log-optimality ([[maximizing log-wealth]]) in a general class of [[e-process]]. In particular they show that a process with sublinear regret is almost surely log-optimal. See https://arxiv.org/pdf/2504.02818 
+- This [1994 paper](https://projecteuclid.org/journals/annals-of-statistics/volume-22/issue-1/A-Topological-Criterion-for-Hypothesis-Testing/10.1214/aos/1176325360.full) by Dembo and Peres considers a slightly different error metric than usual: they want a sequential test which makes only finitely many errors almost surely. What's the relationship between this and power? Doesn't seem entirely clear. 

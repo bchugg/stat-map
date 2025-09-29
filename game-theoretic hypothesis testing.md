@@ -1,12 +1,12 @@
 ---
 created: 2024-08-29
-lastmod: 2024-12-21
+lastmod: 2025-09-29
 ---
 
 
-Specific protocols of [[game-theoretic probability]] can be used to test hypotheses. This yields a fundamental tool in [[game-theoretic statistics]]. 
+Specific protocols of [[game-theoretic probability]] can be used for [[sequential hypothesis testing]]. This is a fundamental tool in [[game-theoretic statistics]]. It's also called "testing by betting."
 
-Suppose we receive data $X_1,X_2,\dots\sim P$ and we are testing the hypotheses ([[sequential hypothesis testing]]): 
+Suppose we receive data $X_1,X_2,\dots\sim P$ and we are testing the hypotheses:  
 $$
 H_0: P\in \bs{P} \text{~ vs ~} H_1: P\in \bs{Q}.
 $$
@@ -42,6 +42,9 @@ The payoff is _admissible_ if $S_t' \geq S_t$ a.s. under $P$ implies that $S_t' 
 So how do we actually choose $S_t$? This choice depends on the problem at hand, whether it's simple null vs simple alternative ([[testing by betting—simple vs simple]]), simple null vs composite alternative ([[testing by betting—simple vs composite]]), or composite null vs composite alternative ([[testing by betting—composite vs composite]], in which case we use [[universal inference]] or the [[reverse information projection (RIPr)]]. 
 
 
-
+# Reading 
+- [Optimistic Interior Point Methods for Sequential Testing by Betting](https://arxiv.org/pdf/2502.07774) Gives an alternative betting strategy to [[online Newton step]]. 
+- [Universal Log-Optimality for General Classes of e-processes and Sequential Hypothesis Tests](https://arxiv.org/pdf/2504.02818) shows that any testing by betting strategy (in a fairly general class of [[e-process|e-processes]]) which achieves sublinear regret is log-optimal. 
+- General [[safe, anytime-valid inference (SAVI)|SAVI]] reference: https://arxiv.org/pdf/2210.01948
 
 

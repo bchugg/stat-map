@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-09-02
+lastmod: 2025-09-29
 ---
 
 Differential privacy is the study of how to make mechanisms which act on databases (i.e., make queries) secure from leaking information. 
@@ -89,3 +89,6 @@ so $f\circ g$ is  $(\eps,\delta)$ private.
 # DP in practice 
 
 Differential privacy is now used in a lot of applications. Apple [started using it in macOS Sierra](https://www.apple.com/privacy/docs/Differential_Privacy_Overview.pdf) and has since expanded its application to Safari. Google [used differential privacy](https://arxiv.org/pdf/2107.01179.pdf) when gathering insights from searches related to Covid-19, and for their [Covid-19 mobility reports](https://arxiv.org/pdf/2004.04145.pdf). Other examples include [LinkedIn](https://arxiv.org/pdf/2010.13981.pdf), [Microsoft](https://proceedings.neurips.cc/paper/2017/file/253614bbac999b38b5b60cae531c4969-Paper.pdf) and [Uber](https://www.usenix.org/conference/enigma2018/presentation/ensign). 
+
+# Reading 
+- Auditing differential privacy: https://arxiv.org/pdf/2509.20283 and https://arxiv.org/pdf/2509.07055. The latter uses standard techniques from [[safe, anytime-valid inference (SAVI)]], and [[sequential hypothesis testing]]. 
