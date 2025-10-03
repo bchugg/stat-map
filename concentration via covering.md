@@ -1,6 +1,6 @@
 ---
 created: 2024-09-07
-lastmod: 2024-09-07
+lastmod: 2025-10-01
 ---
 
 The general approach is as follows. Let $C_\eps$ be an $\epsilon$-cover of $\ball^{d-1}$ (see [[covering and packing]]). Then 
@@ -21,6 +21,6 @@ $$
 $$
 We can then optimize over $\eps$ to get a final bound. The sub-Gaussian case usually takes $\eps = 1/2$ (e.g., Theorem 1.19 in [high-dimensional statistics](https://arxiv.org/abs/2310.19244) by Rigollet and Hutter). We can also get a high-probability bound by noticing that 
 $$
-\Pr(\sup_{v\in \dball}\la v,S_n\ra\geq t) \leq \Pr\left(\frac{1}{1-\eps}\sup_{v\in C_\eps}\la v,S_n\ra\geq t\right),
+\Pr\left(\sup_{v\in \dball}\la v,S_n\ra\geq t\right) \leq \Pr\left(\frac{1}{1-\eps}\sup_{v\in C_\eps}\la v,S_n\ra\geq t\right),
 $$
 which can be bounded with a union bound and a tail bound and then maybe a Chernoff bound ([[Chernoff method]]) based on the properties of $S_n$.

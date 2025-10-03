@@ -1,8 +1,6 @@
 ---
 created: 2024-08-29
-
-lastmod: 2025-03-13
-
+lastmod: 2025-10-01
 ---
 
 Suppose we have a stochastic process $(S_t)$ evolving in some space. What techniques are available for bounding $\norm{S_t}$? If $S_t\in\Re$, then we usually argue about $S_t$ and $- S_t$ and take a union bound to get a bound on $|S_t|$ (see eg [[bounded scalar concentration]] and [[light-tailed, unbounded scalar concentration]]). However, in higher-dimensional spaces (in $\Re^d$, $d\geq 2$, say) a union bound doesn't suffice: there are infinitely many directions one has to worry about. 
@@ -10,26 +8,28 @@ Suppose we have a stochastic process $(S_t)$ evolving in some space. What techni
 There are several techniques for dealing with this problem. 
 
 ## Working directly with the norm 
-The idea is to form a Doob martingale from the increments of the process and then apply well-known martingale bounds.  Set
+There are roughly two approaches that I'm aware of: The Doob decomposition approach and the Pinelis approach. 
+
+The idea for the first is to form a Doob martingale from the increments of the process and then apply well-known martingale bounds.  Set
 $$
-Z_t = \E[\norm{S_n} | \calF_t] - \E[\norm{S_n}].
+Z_t = \E[\norm{S_n} | \calF_t] - \|S_n\|.
 $$
 So $(Z_t)$ is a martingale with $Z_0=0$. Let $D_t = Z_t - Z_{t-1}$, be the increments of the process. Various [[martingale concentration]] bounds are stated as conditions on the increments of the process. For instance:
 - If $S_t$ is bounded for each $t$, then we can use the Azuma-Hoeffding inequality ([[martingale concentration#Azuma-Hoeffding inequality|martingale concentration:Azuma-Hoeffding inequality]]) 
-- If a bound on the variance of $D_t$ is known, then we can use the equivalent of a Bernstein inequality ([[martingale concentration#Variance bound|martingale concentration:Variance bound]]). 
+- If a bound on the variance of $D_t$ is known, then we can use the equivalent of a Bernstein inequality ([[martingale concentration#Variance bound|martingale concentration:Variance bound]], often called a Freedman inequality. 
 
 The [[Pinelis approach to concentration]] is another method which works directly with the norm. 
 For [[multivariate light-tailed concentration]] of [[sub-Gaussian distributions]], the technique of Hsu et al is another example of working directly with the norm. Their technique seems specific to sub-Gaussian distributions however; it doesn't seem to constitute a general approach. 
 
 ## Covering arguments 
-See [[concentration via covering]] for an overview. The idea is to bound cover the unit ball with an finite net, and then take a union bound. You suffer the covering number ([[covering and packing]]) of the underlying space in the bound. 
+See [[concentration via covering]] for an overview. The idea is decompose $\|S_t\|$ into $\sup_\theta \la \theta, S_t\ra$ where the supremum is over the unit ball, cover the the unit ball with an finite net, bound $\la \theta, S_t\ra$ for each $\theta$ in this finite set, and then take a union bound. You suffer the covering number ([[covering and packing]]) of the underlying space in the bound. 
 
 This means covering arguments lead to dimension-dependent bounds because covering numbers will depend geometrically on the underlying space.  Obviously, you also have to be able to calculate the covering number. 
 
 ## Chaining 
-See [[chaining]] for an overview of chaining. Chaining provides high probability guarantees of the form 
+This also works by decomposing $\|S_t\| = \sup_\theta \la \theta, S_t\ra$. See [[chaining]] for a more detailed overview. Chaining provides high probability guarantees of the form 
 $$
-\Pr(\sup_{\theta\in\dsphere} \la \theta, S_n\ra \geq tS)\lesssim \exp(-t^2),
+\Pr\left(\sup_{\theta\in\dsphere} \la \theta, S_n\ra \geq tS\right)\lesssim \exp(-t^2),
 $$
 where
 $$
@@ -43,4 +43,5 @@ See [[variational approach to concentration]]. The idea is to use [[PAC-Bayes]] 
 In some scenarios they allow you to escape-dimension dependence (eg for sub-Gaussian random vectors) which neither chaining nor covering arguments allow you to do. 
 
 # Reading 
+- [Variational approach to concentration](https://benchugg.com/research_notes/variational_approach_to_concentration/) 
 - [Confidence estimation via sequential likelihood mixing](https://arxiv.org/pdf/2502.14689) by Kirschner et al. Gives several strategies including the [[variational approach to concentration]] and also relates it to [[variational inference]]. 
