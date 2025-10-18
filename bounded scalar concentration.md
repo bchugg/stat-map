@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2025-03-13
+lastmod: 2025-10-18
 ---
 
 Here we list [[concentration inequalities]] for scalar-valued random variables that are bounded with probability 1 (sometimes only bounded on one side). This in contrast to [[light-tailed, unbounded scalar concentration]] which does not assume boundedness and [[heavy-tailed concentration]], where we assume only a few moments. 
@@ -14,18 +14,20 @@ $$
 $$
 The natural two sided version also exists. This is proved with the [[Chernoff method]]. Hoeffding's bound is generalized by McDiarmid's inequality ([[bounded difference inequalities]]). 
 
-Hoeffding's bound suboptimal in a somewhat cheap and straightforward way: If we take $t = cS_n$ for $c>1$, then $\Pr(S_n > t) = 0$ but the bound does not capture this behavior. However, it's also suboptimal in a more fundamental way, namely that there's a missing factor of $1/t$, which can be seen by appealing to [[central limit theorems]]. See [[the missing factor in Hoeffding's bounds]]. This factor is recovered by Talagrand's inequality and Bentkus' inequality below.
+Hoeffding's bound is suboptimal in a somewhat cheap and straightforward way: If we take $t = cS_n$ for $c>1$, then $\Pr(S_n > t) = 0$ but the bound does not capture this behavior. However, it's also suboptimal in a more fundamental way, namely that there's a missing factor of $1/t$, which can be seen by appealing to [[central limit theorems]]. See [[the missing factor in Hoeffding's bounds]]. This factor is recovered by Talagrand's inequality and Bentkus' inequality below.
 
 ## Bennett's inequality 
 Hoeffding's bound doesn't use any information beside boundedness of the observations. It therefore must (implicitly) assume a worse case bound on the variance. If we know a bound on the variance, we can do better. Both Bennett's inequality and Bernstein's inequality use such information to tighten the bound. 
 
-Let $X_1,\dots,X_n$ be independent with finite variance and one-sided boundedness, i.e., $X_i\leq B$ for some $B$. If $\sigma^2 = \sum_{i\leq n} \E[(X_i - \E X_i)^2]$ and $S_n = \sum_{k\leq n} (X_i- \E X_i)$ then 
+Let $X_1,\dots,X_n$ be independent with finite variance and one-sided boundedness, i.e., $X_i\leq B$ for some $B$. If $V_n^2 = \sum_{i\leq n} \E[(X_i - \E X_i)^2]$ and $S_n = \sum_{k\leq n} (X_i- \E X_i)$ then 
 $$
-\Pr(S_n \geq t) \leq \exp\left(-\frac{\sigma^2}{B^2}h(Bt /\sigma^2)\right),
+\Pr(S_n \geq t) \leq \exp\left(-\frac{V_n^2}{B^2}h(Bt /\sigma^2)\right),
 $$
 where $h(u) = ( 1 + u )\log(1 + u) - u$. If we assume that $|X_i|\leq B$ then we can get a bound on $|S|$. This trend of first presenting a result using only the boundedness of observations and then giving a variance-adaptive result is a common one, see [[from boundedness to variance adaptivity]]. 
 
-If the $X_i$ have conditional mean $\mu$, then we can replace $\sigma^2$ with $\sum_{i\leq n} \E_{i-1}\|X_i - \E X_i\|^2$ where $\E_{i-1}$ is the expectation conditional on the first $i-1$ observations. 
+Both Bennett's inequality and its relaxation into Bernstein's inequality are proven using an [[exponential inequalities|exponential inequality]] based on the fact the $X_i$ can be shown to be sub-Poisson ([[sub-psi process]]). 
+
+If the $X_i$ have conditional mean $\mu$, then we can replace $V_n^2$ with $\sum_{i\leq n} \E_{i-1}\|X_i - \E X_i\|^2$ where $\E_{i-1}$ is the expectation conditional on the first $i-1$ observations. 
 
 Like Hoeffding's bound, Bennett's inequality also does not recover the missing factor of $1/t$ that we expect from the central limit theorem. This is because it is also based on the [[Chernoff method]], but bounding the exponential function a little differently than does Hoeffding's bound to take advantage of the variance information. 
 
@@ -42,7 +44,7 @@ where $M$ and $B$ are as above. We can of course obtain two-sided versions of Be
 
 A useful form of Bernstein's bound that I'm writing down because re-deriving it is annoying is the following: With probability at least $1-\delta$, 
 $$
-\Pr(|S_n / n| \geq t) \leq \sqrt{\frac{2\sigma^2 \log(2/\delta)}{n}} + \frac{2B\log(2/\delta)}{3n}.
+\left|\frac{S_n}{n} - \mu\right|\leq \sqrt{\frac{2\sigma^2 \log(2/\delta)}{n}} + \frac{2B\log(2/\delta)}{3n}.
 $$
 There are two regimes in Bernstein's bound: A sub-Gaussian regime where the tail decays at a [[sub-Gaussian distributions|sub-Gaussian]] rate, and a sub-exponential regime where it decays at a [[sub-exponential distributions|sub-exponential rate]]. The former occurs when the contribution of $B t/3$ is small relative to $\sigma^2$ so the tail decays as $t^2$. When $B t/3$ is large, the bound decays as $t$. Therefore, if we have good a priori knowledge of small variance, Bernstein's (and Bennett's) inequality can be a big improvement over Hoeffding, scaling as $t^2/\sigma^2$ instead of $t^2/(nB^2)$.  
 
