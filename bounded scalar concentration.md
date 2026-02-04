@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2025-10-18
+lastmod: 2026-01-19
 ---
 
 Here we list [[concentration inequalities]] for scalar-valued random variables that are bounded with probability 1 (sometimes only bounded on one side). This in contrast to [[light-tailed, unbounded scalar concentration]] which does not assume boundedness and [[heavy-tailed concentration]], where we assume only a few moments. 
@@ -44,7 +44,7 @@ where $M$ and $B$ are as above. We can of course obtain two-sided versions of Be
 
 A useful form of Bernstein's bound that I'm writing down because re-deriving it is annoying is the following: With probability at least $1-\delta$, 
 $$
-\left|\frac{S_n}{n} - \mu\right|\leq \sqrt{\frac{2\sigma^2 \log(2/\delta)}{n}} + \frac{2B\log(2/\delta)}{3n}.
+\left|\frac{S_n}{n} - \mu\right|\leq \sqrt{\frac{2\sigma^2 \log(2/\delta)}{n}} + \frac{4B\log(2/\delta)}{3n}.
 $$
 There are two regimes in Bernstein's bound: A sub-Gaussian regime where the tail decays at a [[sub-Gaussian distributions|sub-Gaussian]] rate, and a sub-exponential regime where it decays at a [[sub-exponential distributions|sub-exponential rate]]. The former occurs when the contribution of $B t/3$ is small relative to $\sigma^2$ so the tail decays as $t^2$. When $B t/3$ is large, the bound decays as $t$. Therefore, if we have good a priori knowledge of small variance, Bernstein's (and Bennett's) inequality can be a big improvement over Hoeffding, scaling as $t^2/\sigma^2$ instead of $t^2/(nB^2)$.  
 

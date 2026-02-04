@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2025-01-08
+lastmod: 2026-01-26
 ---
 
 The total variation distance between two measures $\mu$ and $\nu$ on a measurable space $(\Omega, \calF)$ is 
@@ -17,4 +17,4 @@ If $\mu$ and $\nu$ admit densities $\d \mu$ and $\d\nu$ then we can also write t
 $$
 D_\tv(\mu\|\nu) = \frac{1}{2}\int |\d\mu(x) - \d\nu(x)|\d x.
 $$
-The TV distance is an [[f-divergence]].  
+The TV distance is an [[f-divergence]]. It upper bounds the [[KS distance]]. 

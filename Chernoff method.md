@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2024-10-30
+lastmod: 2026-01-26
 ---
 
 The Chernoff method, also called the Cramer-Chernoff method, applies [[basic inequalities#Markov's inequality]] to the nonnegative random variable $e^{\lambda X}$, and then chooses $\lambda$ to optimize the bound. This often results in tighter bounds and [[concentration inequalities]] than working with the random variable directly. 
@@ -38,6 +38,6 @@ then
 $$
 Q(t) \geq \inf_{\lambda \geq 0} \E[\exp(\lambda(X-t))].
 $$
-That, we have a bound which _uses the product structure of the observations_ (hence the power of $n$ on $Q(t)$), then the Chernoff method is optimal.  
+That is, if we have a bound which _uses the product structure of the observations_ (hence the power of $n$ on $Q(t)$), then the Chernoff method is optimal.  
 
 
