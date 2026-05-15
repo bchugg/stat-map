@@ -14,3 +14,6 @@ $$
 Such p-values enable [[safe, anytime-valid inference (SAVI)]]. Anytime-valid p-values are to p-values what [[e-process|e-processes]] are to [[e-value|e-values]]. 
 
 Here $\Pr_0$ is understood to be the probability under the null. Of course, it can also be replaced with the supremum over a class of null distributions, the case in composite hypothesis testing. 
+
+# Reading 
+- [Multiple testing with anytime-valid Monte Carlo p-values](https://arxiv.org/abs/2404.15586)
