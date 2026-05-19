@@ -3,7 +3,7 @@ created: 2024-08-29
 lastmod: 2024-09-02
 ---
 
-Consider a two-player, zero sum game. Player 1 (row player, say) plays a stategy $x$, and player 2 (column) players strategy $y$. A nash equilibrium is a pair of strategies $(x^*,y^*)$ such that, when player 2 plays $y^*$, player 1 has no incentive to deviate from $x^*$, and vice versa. Thus, conditional on the other player not changing strategies, each player will not change strategies. 
+Consider a two-player, zero sum game. Player 1 (row player, say) plays a stategy $x$, and player 2 (column) plays strategy $y$. A nash equilibrium is a pair of strategies $(x^*,y^*)$ such that, when player 2 plays $y^*$, player 1 has no incentive to deviate from $x^*$, and vice versa. Thus, conditional on the other player not changing strategies, each player will not change strategies. 
 
 Suppose player 1 is trying to minimize the value of a loss $\ell$, and player 2 is trying to maximize the loss. Player 1 attempts to find the strategy:
 $$

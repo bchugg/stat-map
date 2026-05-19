@@ -27,7 +27,7 @@ where $\delta_1(x)$ is the set of databases which differ by at most 1 row from $
 
 Consider a deterministic function $g:\calD\to \Re^k$.  Define 
 $$
-\Delta = \sup_{x,y:x\in \delta_1(x)} ||g(x) - g(y)||_1 = \sup_{x,y:x\in\delta_1(y)} \sum_{i=1}^k |g(x)_i - g(y)_i|.
+\Delta = \sup_{x,y:x\in \delta_1(y)} ||g(x) - g(y)||_1 = \sup_{x,y:x\in\delta_1(y)} \sum_{i=1}^k |g(x)_i - g(y)_i|.
 $$
 $\Delta$ is often called the $\ell_1$-_sensitivity_ of $g$. The Laplace mechanism is defined as 
 $$

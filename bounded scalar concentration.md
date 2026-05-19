@@ -21,7 +21,7 @@ Hoeffding's bound doesn't use any information beside boundedness of the observat
 
 Let $X_1,\dots,X_n$ be independent with finite variance and one-sided boundedness, i.e., $X_i\leq B$ for some $B$. If $V_n^2 = \sum_{i\leq n} \E[(X_i - \E X_i)^2]$ and $S_n = \sum_{k\leq n} (X_i- \E X_i)$ then 
 $$
-\Pr(S_n \geq t) \leq \exp\left(-\frac{V_n^2}{B^2}h(Bt /\sigma^2)\right),
+\Pr(S_n \geq t) \leq \exp\left(-\frac{V_n^2}{B^2}h(Bt /V_n^2)\right),
 $$
 where $h(u) = ( 1 + u )\log(1 + u) - u$. If we assume that $|X_i|\leq B$ then we can get a bound on $|S|$. This trend of first presenting a result using only the boundedness of observations and then giving a variance-adaptive result is a common one, see [[from boundedness to variance adaptivity]]. 
 

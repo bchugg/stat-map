@@ -7,7 +7,7 @@ A [[central limit theorems|CLT]] for independent random variables with finite va
 
 Let $X_1,X_2,\dots$ be independent with $\E[X_i] = \mu_i$ and $\Var(X_i) = \sigma_i^2$. Let $s_n^2 = \sum_{i\leq n}\sigma_i^2$ and 
 $$
-L_n(\eps) = \frac{1}{s_n^2}\sum_{i\leq n} \E[|X_i - \mu_i^2|\ind(|X_i-\mu_i|>\eps s_n)].
+L_n(\eps) = \frac{1}{s_n^2}\sum_{i\leq n} \E[|X_i - \mu_i|^2\ind(|X_i-\mu_i|>\eps s_n)].
 $$
 If $L_n(\eps)\to 0$ as $n\to\infty$ for all fixed $\eps>0$, then we have the following CLT: 
 $$

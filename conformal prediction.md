@@ -17,7 +17,7 @@ Q_n(X,y) = \frac{1 + \sum_{i\leq n} \ind\{ s(X_i,Y_i) \geq s(X_{n+1},y)\}}{n+1}.
 $$
 Let $Y_{n+1}$ be the true label for $X_{n+1}$. If $(X_i,Y_i)$, $1\leq i\leq n+1$ are [[exchangeable distribution|exchangeable]], then $Q_n(X_{n+1}, Y_{n+1})$ is a [[p-value]]. Therefore, given $\alpha\in(0,1)$, our confidence set is 
 $$
-C_n(X_{n+1}) = \{ y\in \calY: Q_n(X_n,y) > \alpha\},
+C_n(X_{n+1}) = \{ y\in \calY: Q_n(X_{n+1},y) > \alpha\},
 $$
 which by definition of a p-value, satisfies $\Pr(Y_{n+1} \notin C_n(X_{n+1})) = \Pr(Q_ n(X_{n+1},Y_{n+1}) \leq \alpha) \leq \alpha$. 
 Intuitively, if $y\neq Y_{n+1}$ then $s(X_{n+1}, y)$ should be large, making $Q_n(X_{n+1},y)$ small and ensuring that $y\notin C_n(X_{n+1})$. 

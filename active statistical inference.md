@@ -35,7 +35,7 @@ They choose $\pi$ as a function of the model uncertainty. It's hard to give rigo
 $$
 u(x) = \frac{K}{K-1}(1 - \max_{i}p_i(x)).
 $$
-If the classifier is maximally uncertain, then $p_i(x) = 1/K$ for all $i$ so $u(x)=1$.  In practice, helps to mix $u$ with a uniform so that it doesn't blow up the variance. 
+If the classifier is maximally uncertain, then $p_i(x) = 1/K$ for all $i$ so $u(x)=1$.  In practice, it helps to mix $u$ with a uniform so that it doesn't blow up the variance. 
 
 Once $u$ is determined, we might consider sampling strategies of the form: $\pi_\eta(x) = \eta u(x),$ where $\eta$ is some hyperparameter mean to ensure that we respect the budget $B$. They suggest choosing $\eta = \wh{\eta}$ where $\wh{\eta} = \sup \left\{\eta \in \calH : \eta\sum_{i=1}^n u(X_i)\leq B\right\},$ is a data-driven selected parameter. The actual sampling is done by then sampling $\xi_i \sim \Ber(\pi_\eta(X_i))$ (i.e., whether $X_i$ is sampled independently of other observations). Note that this means we only meet the budget in expectation: 
 $$

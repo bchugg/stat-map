@@ -7,7 +7,7 @@ Suppose you are trying to generate a [[confidence sequences|confidence sequence]
 
 One option is to use a predictable sequence $(\lambda_t)_{t\geq 1}$, employing a different $\lambda_t$ at each time step. See [[confidence sequences via predictable plug-ins]]. 
 
-Another approach, that of conjugate mixtures, is to integrate over $\lambda$. Suppose $M_t(\lambda$) is a supermartingale for all $\lambda\in\Lambda$. Then 
+Another approach, that of conjugate mixtures, is to integrate over $\lambda$. Suppose $M_t(\lambda)$ is a supermartingale for all $\lambda\in\Lambda$. Then 
 $$
 N_t := \int_\lambda M_t(\lambda) \rho(\d \lambda),
 $$
