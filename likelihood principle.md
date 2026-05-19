@@ -1,6 +1,6 @@
 ---
 created: 2024-09-23
-lastmod: 2025-10-29
+lastmod: 2026-02-20
 ---
 
 A philosophical principle that the likelihood function contains all the relevant information of the data for hypothesis testing. 
