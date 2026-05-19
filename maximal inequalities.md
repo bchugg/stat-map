@@ -21,7 +21,7 @@ Both [[Gaussian complexity]] and [[Rademacher complexity]] are defined as maxima
 
 Maximal inequalities can be used to obtain [[concentration inequalities]]. If $(S_t)$ is some process, then $\norm{S_t} = \sup_{\theta} \la \theta, S_t\ra$, and maximal inequalities help bound the latter quantity. See [[techniques for multivariate concentration]]. 
 
-There are some famous martingale maximal inequalities: [[Doob's maximal inequality]] and [[Ville's inequality]]. See also a list of [[light-tailed maximal inequalities]] and [[heavy-tailed maximal inequalites]]. 
+There are some famous martingale maximal inequalities: [[Doob's maximal inequality]] and [[Ville's inequality]]. See also a list of [[light-tailed maximal inequalities]] and [[heavy-tailed maximal inequalities]]. 
 
 # Reading 
 - Wainwright's _High dimensional statistics: A nonasymptotic viewpoint_, Chapter 5. 

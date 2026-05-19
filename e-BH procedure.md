@@ -12,7 +12,7 @@ k^* = \max\bigg\{k: \frac{k e_{[k]}}{K}\geq \frac{1}{\alpha}\bigg\}
 $$
 and $e_{[1]}\geq e_{[2]} \geq \dots \geq e_{[K]}$. 
 
-This has $\E[F_D/|D|]] \leq \alpha K_0/K$, i.e., it has no dependence on $\ell_K$, even without the [[PRDS]] assumption (this is an improvement over the BH procedure). 
+This has $\E[F_D/|D|] \leq \alpha K_0/K$, i.e., it has no dependence on $\ell_K$, even without the [[PRDS]] assumption (this is an improvement over the BH procedure). 
 
 The proof is actually quite straightforward:  We have $k^* e_{[k^*]}/K  \geq \frac{1}{\alpha}$ by definition. Therefore,
 $$

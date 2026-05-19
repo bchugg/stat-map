@@ -8,7 +8,7 @@ The Dirichlet process is a commonly used prior for the task of [[cdf estimation]
 The Dirichlet process is a distribution over distributions. Specifically, for a base distribution $F_0$ and a concentration parameter $\alpha$, a DP prior generates random distributions $F\sim DP(\alpha,F_0)$. Intuitively, $\alpha$ controls how tightly the prior is around $F_0$, similarly to the variance of the normal distribution. 
 
 ### Sampling from the prior.  
-We use the "stick breaking" procedure: First draw $\beta_k\sim \text{Beta}(1,\alpha), then set 
+We use the "stick breaking" procedure: First draw $\beta_k\sim \text{Beta}(1,\alpha)$, then set 
 $$
 \pi_k = \beta_k \prod_{i\leq k-1} (1-\beta_i),
 $$

@@ -9,7 +9,7 @@ $$
 $$
 An [[anytime-valid]] p-value holds at all [[stopping-time|stopping times]]: 
 $$
-\text{for all stopping times }\tau, \quad \Pr_0(P_\tau \leq \alpha),\alpha.
+\text{for all stopping times }\tau, \quad \Pr_0(P_\tau \leq \alpha)\leq\alpha.
 $$
 Such p-values enable [[safe, anytime-valid inference (SAVI)]]. Anytime-valid p-values are to p-values what [[e-process|e-processes]] are to [[e-value|e-values]]. 
 

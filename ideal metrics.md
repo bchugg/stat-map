@@ -13,7 +13,7 @@ To see how they can be useful for proving [[central limit theorems]], see [[quan
 
 Do ideal metrics of an arbitrary order $s\geq 0$ always exist? This question was answered affirmatively by VM Zolotarev in 1975. It is nicely described by Senatov in his book [Normal approximation: New Results, Methods, and Problems](https://books.google.com/books/about/Normal_Approximation.html?id=xmKi21fpX0sC). 
 
-For any $s$, write $s = m + \alpha$ where $m\in\mathbb{Z}$ and $\alpha\in[0,1]$. Consider the set of functions $\calF_s$ which have Holder exponent $\alpha$, i.e.., 
+For any $s$, write $s = m + \alpha$ where $m\in\mathbb{Z}$ and $\alpha\in[0,1]$. Consider the set of functions $\calF_s$ which have Holder exponent $\alpha$, i.e., 
 $$
 |f^{(m)}(x) - f^{(m)}(y)| \leq \norm{x - y}^\alpha.
 $$

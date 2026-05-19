@@ -11,7 +11,7 @@ Some examples:
 
 # Scalar-random variables 
 
-The first empirical Bernstein bound was given by [Maurer and Pontil in 2009](https://arxiv.org/pdf/0907.3740). A second, tighter bound, was given by [Waudby-Smith and Ramdas](https://arxiv.org/pdf/2010.09686) using the betting approach to concentration (see [[estimating means by betting]]). These are very reminiscent of Bennett's bound ([[bounded scalar concentration#Bennett's bound|estimating means by betting]]). These are very reminiscent of Bennett's bound ([[bounded scalar concentration#Bennett's inequality]]), but has a data-driven variance term. 
+The first empirical Bernstein bound was given by [Maurer and Pontil in 2009](https://arxiv.org/pdf/0907.3740). A second, tighter bound, was given by [Waudby-Smith and Ramdas](https://arxiv.org/pdf/2010.09686) using the betting approach to concentration (see [[estimating means by betting]]). These are very reminiscent of Bennett's bound ([[bounded scalar concentration#Bennett's inequality]]), but has a data-driven variance term. 
 
 Let $X_1, X_2, ,\dots, X_n$ be iid random variables in $[0,1]$. The Maurer and Pontil bound reads that with probability $1-\delta$,
 $$

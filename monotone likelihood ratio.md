@@ -6,7 +6,7 @@ lastmod: 2024-09-02
 > [!Definition]
 > A family of densities parameterized by real values $\theta$, $\calP = \{P_\theta: \theta\in\Theta\subset\Re$} has monotone likelihood ratio in $T(X)$ (some statistic of the data) if for any $\theta_1<\theta_2$, the likelihood ratio $\d P_{\theta_2}(x) / \d P_{\theta_1}(x)$ is well-defined and is a monotonically increasing function of $T(x)$. 
 
-This might some an obscure property, but many families of distributions have the monotone likelihood ratio property. For eg: 
+This might seem an obscure property, but many families of distributions have the monotone likelihood ratio property. For eg: 
 - One parameter [[exponential families]]
 - Exponential and double exponential distributions 
 - Logistic distributions 

@@ -11,7 +11,7 @@ If $\geq$ is swapped with $\leq$ then we have a [[supermartingale]]. Like superm
 
 Nonnegative _reverse_ submartingales also obey the time-reverse [[Ville's inequality]]. A reverse submartingale is a submartingale adapted to a reverse filtration. A reverse filtration $(\calF_t)$ is a sequence of σ-algebras such that $\calF_t\supset \calF_{t+1}$. That is, a reverse filtration represents decreasing information with time. 
 
-An example of a reverse martingale is the empirical mean $\sum_i X_i/t$ adapted to the canonical reverse filtration $\calR_t = \sigma(Zt , Z_{t+1},\dots)$. When thinking about reverse martingales, it's easiest to think about time flowing backwards, i.e., information being revealed first at time $t$, then at time $t-1, t-2$, and so on. hus, reverse submartingales are increasing in expectation in reversetime and, if one were to plot the expected values such a process would resemble a supermartingale in forward time. 
+An example of a reverse martingale is the empirical mean $\sum_i X_i/t$ adapted to the canonical reverse filtration $\calR_t = \sigma(Zt , Z_{t+1},\dots)$. When thinking about reverse martingales, it's easiest to think about time flowing backwards, i.e., information being revealed first at time $t$, then at time $t-1, t-2$, and so on. Thus, reverse submartingales are increasing in expectation in reversetime and, if one were to plot the expected values such a process would resemble a supermartingale in forward time. 
 
 Like supermartingales, submartingales obey versions of the optional stopping theorem and the martingale convergence theorem. 
 

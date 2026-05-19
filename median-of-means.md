@@ -22,7 +22,7 @@ The MoM estimator can also be extended to situations where the distribution has 
 $$
 \Pr\left(|\wh{\mu} - \mu| \geq (12v)^{\frac{1}{1+\eps}} \left(\frac{8\log(1/\delta)}{n}\right)^{\frac{\eps}{1+\eps}}\right)\leq \delta.
 $$
-This was originally [proved by Bubeck, Cesa-Bianchi, and Lugosi](https://arxiv.org/abs/1209.1727) in the content of heavy-tailed bandits. I have a post with the proofs [here](https://benchugg.com/research_notes/median-of-means-univariate/). 
+This was originally [proved by Bubeck, Cesa-Bianchi, and Lugosi](https://arxiv.org/abs/1209.1727) in the context of heavy-tailed bandits. I have a post with the proofs [here](https://benchugg.com/research_notes/median-of-means-univariate/). 
 
 You can [[time-uniform|sequentialize]] the MoM estimator using the [[martingale concentration#Dubins-Savage inequality]]. I have a post about that [here](https://benchugg.com/research_notes/sequential-median-of-means/). 
 

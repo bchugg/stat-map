@@ -15,13 +15,13 @@ If $\delta=0$, we call $f$ $\eps$-differentially private.
 
 The intuition behind the definition is easier to grasp if we negate it. If $f$ is _not_ differentially private, this means there exists some $A$ such that $\Pr(f(x)\in A)\gg \Pr(f(z) \in A)$. That is, swapping just a single row of $x$ to $z$ changed the output distribution considerably, meaning that $f$ is sensitive to the data. If $f$ is differentiably private then, roughly speaking, small changes in the input result in small changes in the output. 
 
-A popular to write $\eps$-differential privacy is as the likelihood ratio
+A popular way to write $\eps$-differential privacy is as the likelihood ratio
 
 $$
 \sup_{A\in \image(f)} \sup_{x_1,x_2:x_1\in \delta_1(x_2)}\frac{\Pr(f(x_1)\in A)}{\Pr(f(x_2)\in A)}\leq e^\eps,
 $$
 
-where $\delta_1(x)$ is the set of databases which different by at most 1 row from $x$. 
+where $\delta_1(x)$ is the set of databases which differ by at most 1 row from $x$. 
 
 # Example: The Laplace Mechanism
 
@@ -33,7 +33,7 @@ $\Delta$ is often called the $\ell_1$-_sensitivity_ of $g$. The Laplace mechanis
 $$
 f(x) = g(x) + (Y_1,\dots,Y_k),
 $$
-where $Y_1,\dots,,Y_k\sim\lap(0,\Delta/\eps)$ independently. Recall that the Laplacian distribution $\lap(a,b)$ has pdf $p(x) = (2b)^{-1}\exp(-|x-a|/b)$. To show that this mechanism is differentially private, we show that 
+where $Y_1,\dots,Y_k\sim\lap(0,\Delta/\eps)$ independently. Recall that the Laplacian distribution $\lap(a,b)$ has pdf $p(x) = (2b)^{-1}\exp(-|x-a|/b)$. To show that this mechanism is differentially private, we show that 
 $$
 \int_A \Pr(f(x)=z)dz \leq e^\eps \int_A \Pr(f(y)=z)dz,
 $$

@@ -9,7 +9,7 @@ Linear regression assumes the mean response is a linear function of the covariat
 $$
 \E[Y | x_1,\dots,x_k] = \bs{\beta}^t \bs{x},
 $$
-and we assume that $\Var(Y | x -= x_i)=\sigma^2$. (For non-constant variance use [[weighted least squares]])). We thus assume the model 
+and we assume that $\Var(Y | x = x_i)=\sigma^2$. (For non-constant variance use [[weighted least squares]])). We thus assume the model 
 $$
  
 \bs{Y} = \bs{\beta}^t \bs{X} + \bs{\eps},

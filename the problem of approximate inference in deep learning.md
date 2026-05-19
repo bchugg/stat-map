@@ -13,6 +13,6 @@ Writing,
 $$
 p(z|x) = \frac{p(x,z)}{p(x)} = p(x,z)\left(\int p(x,z)\d z\right)^{-1},
 $$
-we start to see the trouble. The integral on the rhs is usually intractable, since it involves integrating across all latent variables. So we typically approximate $p(z|x)$ in some way. This is the problem of approximate inference. Noet that $p(x)$ is usually called the "evidence". 
+we start to see the trouble. The integral on the rhs is usually intractable, since it involves integrating across all latent variables. So we typically approximate $p(z|x)$ in some way. This is the problem of approximate inference. Note that $p(x)$ is usually called the "evidence". 
 
 Common solutions to the problem include [[MCMC]] and [[variational inference]]. 

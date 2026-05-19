@@ -3,7 +3,7 @@ created: 2024-08-29
 lastmod: 2024-09-02
 ---
 
-Part of [[uncertainty quantification]] in which we have roughly the same goals as [[marginal consistency]] but we want to achieve our guarantees in a sequential setting (see [[uncertainty quantification#Sequential setting|uncertainty quantification]] in which we have roughly the same goals as [[marginal consistency]] but we want to achieve our guarantees in a sequential setting (see [[uncertainty quantification#Sequential vs batch setting:uncertainty quantification:sequential vs batch]] for the precise setup). 
+Part of [[uncertainty quantification]] in which we have roughly the same goals as [[marginal consistency]] but we want to achieve our guarantees in a sequential setting (see [[uncertainty quantification#Sequential vs batch setting:uncertainty quantification:sequential vs batch]] for the precise setup). 
 
 In the online setting, we are interested in mean and quantile guarantees that have low regret. We say an algorithm has marginal mean consistency $\alpha$ if 
 $$

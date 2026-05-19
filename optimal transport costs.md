@@ -5,7 +5,7 @@ created: 2025-01-04
 
 Let $\Gamma(\rho,\nu)$ be the set of joint probability distributions over a space $\calX\times\calX$ whose martingales are $\rho$ and $\nu$. Given a (nonnegative) cost function $c:\calX \times\calX \to \Re_{\geq 0}$, the optimal transport cost between $\rho$ and $\nu$ is 
 $$
-L_c(\rho,\nu) = \inf_{\pi \in \Gamma(\rho,\nu)} \E_{(X,Y)\sim \pi) c(X,Y)} = \inf_{\pi \in \Gamma(\rho,\nu)} \int c(x,y) \d\pi (x,y).
+L_c(\rho,\nu) = \inf_{\pi \in \Gamma(\rho,\nu)} \E_{(X,Y)\sim \pi}[ c(X,Y)] = \inf_{\pi \in \Gamma(\rho,\nu)} \int c(x,y) \d\pi (x,y).
 $$
 If we take $c = d^p$ where $d$ is a metric, we recover the [[Wasserstein distance]]. We call this an optimal transport cost because it's a formulation of the [[optimal transport]] problem. The optimization problem can be seen as a relaxation of [[Monge formulation]], often called the Kantorovich formulation (see below). 
 

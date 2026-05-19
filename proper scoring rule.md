@@ -21,4 +21,4 @@ Examples of proper scoring rules for binary forecasts are (note that $P=p\in [0,
 - Brier score: $S(p,x) = 1 - (p - x)^2$ 
 - Spherical score: $S(p,x) = \frac{py + (1-p)(1-x)}{\sqrt{p^2 + (1-p)^2}}$
 - Logarithmic score: $S(p,x) = x\log(p) + (1-x) \log(1-p)$
-- 0-1 score: $S(p,x) = x\ind\{p\geq 0.5\} + (1-x)ind\{p\leq 0.5\}$. 
+- 0-1 score: $S(p,x) = x\ind\{p\geq 0.5\} + (1-x)\ind\{p\leq 0.5\}$. 

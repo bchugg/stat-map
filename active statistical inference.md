@@ -5,7 +5,7 @@ lastmod: 2025-03-13
 
 Most [[statistical inference]] assumes the data is somehow supplied to you (even in sequential settings; see [[sequential statistics]]). You are given data, and you are asked to estimate some parameter. 
 
-But suppose we are in a [[supervised learning]] setting and you get to choose which data points to label. How should you label in them in order to help your inference (eg obtain smaller [[confidence intervals]])? Zrnic and Candes [introduce the framework](https://arxiv.org/abs/2403.03208) of active statistical inference to answer this question. 
+But suppose we are in a [[supervised learning]] setting and you get to choose which data points to label. How should you label them in order to help your inference (eg obtain smaller [[confidence intervals]])? Zrnic and Candes [introduce the framework](https://arxiv.org/abs/2403.03208) of active statistical inference to answer this question. 
 
 Suppose we have data $(X_i,Y_i)_{i=1}^N$, where $Y_i$ is unobserved and $X_i$ is observed. We have a model $f$ which estimates $Y_i$ from $X_i$. The goal is to estimate $\theta^*$, the solution to an [[M-estimation]] problem: 
 $$

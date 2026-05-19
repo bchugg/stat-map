@@ -1,5 +1,5 @@
 ---
-lastmod: 2025-11-13
+lastmod: 2026-05-19
 created: 2024-10-21
 ---
 
@@ -25,4 +25,4 @@ This has consequences for [[concentration inequalities]]. In particular, if $X_1
 ## Achieving Chebyshev
 Since $\Pr( | X - \mu|^t \geq t^2) = \Pr(|X - \mu|\geq t)$ for $t>0$, Chebyshev's inequality is obtained if Markov is attained by $|X - \mu|$. This implies that random variables $X$ attaining equality in Chebyshev's inequality can take 3 values:  $| X - \mu| = 0$, and $| X - \mu| =a$ for some $a$. That is, $X =\mu$, $X = a + \mu$, and $X = -a + \mu$. 
 
-As above, if $X_1, X_2$ are iid and each take two values, then $X_1 + X_2$ can take three values. This implies that Chebyshev _might_ be tight for sums of two variables. But if $X_3$ is a third iid rv, then $X_1 + X_2 + X_3$ can take four values, meaning that _Chebyshev's inequality cannot be tight for more than two random variables_. This was first proved by Ghosh and Meedenin 1977: [On the non-attainability of Chebyshev bounds](https://www.tandfonline.com/doi/pdf/10.1080/00031305.1977.10479191). 
+As above, if $X_1, X_2$ are iid and each take two values, then $X_1 + X_2$ can take three values. This implies that Chebyshev _might_ be tight for sums of two variables. But if $X_3$ is a third iid rv, then $X_1 + X_2 + X_3$ can take four values, meaning that _Chebyshev's inequality cannot be tight for more than two random variables_. This was first proved by Ghosh and Meeden in 1977: [On the non-attainability of Chebyshev bounds](https://www.tandfonline.com/doi/pdf/10.1080/00031305.1977.10479191). 
