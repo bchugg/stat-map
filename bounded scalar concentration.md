@@ -10,7 +10,7 @@ Many of these concentration inequalities are proven using corresponding [[expone
 ## Hoeffding's bound 
 Let $X_1,\dots,X_n$ be independent and set $S_n = \sum_{i\leq n} (X_i - \E X_i)$. Suppose $a_i\leq X_i\leq b_i$. Hoeffding showed that, for any $t$,  
 $$
-\Pr\left( S_n\geq t\right)\leq \exp\left(\frac{-2t^2}{\sum_{i=1}^n (b_i - a_i)}\right).
+\Pr\left( S_n\geq t\right)\leq \exp\left(\frac{-2t^2}{\sum_{i=1}^n (b_i - a_i)^2}\right).
 $$
 The natural two sided version also exists. This is proved with the [[Chernoff method]]. Hoeffding's bound is generalized by McDiarmid's inequality ([[bounded difference inequalities]]). 
 
@@ -53,7 +53,7 @@ This result was first presented by Bernstein in 1927. It was not until 1962 that
 ## Hoeffding's bound remastered 
 It is somewhat of a shame that Hoeffding's name came to be associated with the first bound above, since this is much weaker than the following more general result that he proved in his [famous 1963 paper](https://www.jstor.org/stable/2282952), which recovers both Bennett's and Bernstein's bounds. 
 
-If $X_1,\dots,X_n$ are iid with variance $\sigma^2$ and lying in $(\infty, c]$, then 
+If $X_1,\dots,X_n$ are iid with variance $\sigma^2$ and lying in $(-\infty, c]$, then 
 $$
 \Pr(S_n \geq t) \leq \exp\left(-n \kl\left(\frac{\sigma^2 + \frac{t}{n}c}{\sigma^2 + c^2} \bigg \| \frac{\sigma^2}{\sigma^2 + c^2}\right)\right), 
 $$
@@ -62,7 +62,7 @@ where $\kl$ denotes the binary entropy function: $\kl(p\| q) = p\log\frac{p}{q} 
 This is the sharpest bound using the [[Chernoff method]]. We can recover the first Hoeffding bound by assuming worst-case variance. 
 
 ## Talagrand's inequality 
-Talagrand's inequality improves Hoeffding's inequality above by recovering the [[the missing factor in Hoeffding's bounds]]. If $X_1,\dots,X_n$ are iid with variance $\sigma^2$ and lying in $(\infty, c]$, then 
+Talagrand's inequality improves Hoeffding's inequality above by recovering the [[the missing factor in Hoeffding's bounds]]. If $X_1,\dots,X_n$ are iid with variance $\sigma^2$ and lying in $(-\infty, c]$, then 
 $$
 \Pr(S_n \geq t) \leq \left(\theta\left(\frac{t}{\sigma}\right) + \frac{Bc}{\sigma}\right)\exp\left(-n \kl\left(\frac{\sigma^2 + \frac{t}{n}c}{\sigma^2 + c^2} \bigg \| \frac{\sigma^2}{\sigma^2 + c^2}\right)\right), \quad t\leq \frac{\sigma^2}{Bc},
 $$
@@ -79,7 +79,7 @@ Bentkus' inequality is another way to recover the missing factor of $t$. The app
 $$
 \Pr(S_n \geq t) \leq \inf_{x\leq t} \frac{\E (S_n - x)_+^\alpha}{(t - x)_+^\alpha}.
 $$
-The right hand side can be bounded by considering the worst case random variables. If $\Var(X_i) \leq \sigma_i^2$ and $X_i \leq c$, then defining $G_i$ with $\Pr(G_i = - \sigma_i^2/c) = c^2 / (\sigma_i^2 + c^2)$ and $\Pr ( G_i = c) = 1 - \Pr(G_i = \sigma_i^2/c)$, we obtain that 
+The right hand side can be bounded by considering the worst case random variables. If $\Var(X_i) \leq \sigma_i^2$ and $X_i \leq c$, then defining $G_i$ with $\Pr(G_i = - \sigma_i^2/c) = c^2 / (\sigma_i^2 + c^2)$ and $\Pr ( G_i = c) = 1 - \Pr(G_i = -\sigma_i^2/c)$, we obtain that 
 $$
 \Pr(S_n \geq t) \leq \inf_{x\leq t} \frac{\E (\sum_i G_i - x)_+^\alpha}{(t - x)_+^\alpha}.
 $$

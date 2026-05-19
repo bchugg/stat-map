@@ -5,11 +5,11 @@ lastmod: 2026-01-26
 
 The total variation distance between two measures $\mu$ and $\nu$ on a measurable space $(\Omega, \calF)$ is 
 $$
-D_\tv(\rho\|\nu) := \sup_{A\in \calF} |\mu(A) - \nu(A)|.
+D_\tv(\mu\|\nu) := \sup_{A\in \calF} |\mu(A) - \nu(A)|.
 $$
 This can also be written as 
 $$
-D_\tv(\rho\|\nu) = \sup_{\norm{f}_\infty \leq 1} |\E_\mu[f(X)] - \E_\nu[f(X)]|,
+D_\tv(\mu\|\nu) = \sup_{\norm{f}_\infty \leq 1} |\E_\mu[f(X)] - \E_\nu[f(X)]|,
 $$
 which turns out to be a useful representation for [[robust statistics]]. Eg, this representation was used to construct Huber robust (see [[Huber contamination model]]) [[confidence sequences]] [here](https://proceedings.mlr.press/v206/wang23p/wang23p.pdf).  
 

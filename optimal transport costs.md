@@ -3,7 +3,7 @@ lastmod: 2025-01-04
 created: 2025-01-04
 ---
 
-Let $\Gamma(\rho,\nu)$ be the set of joint probability distributions over a space $\calX\times\calX$ whose martingales are $\rho$ and $\nu$. Given a (nonnegative) cost function $c:\calX \times\calX \to \Re_{\geq 0}$, the optimal transport cost between $\rho$ and $\nu$ is 
+Let $\Gamma(\rho,\nu)$ be the set of joint probability distributions over a space $\calX\times\calX$ whose marginals are $\rho$ and $\nu$. Given a (nonnegative) cost function $c:\calX \times\calX \to \Re_{\geq 0}$, the optimal transport cost between $\rho$ and $\nu$ is 
 $$
 L_c(\rho,\nu) = \inf_{\pi \in \Gamma(\rho,\nu)} \E_{(X,Y)\sim \pi}[ c(X,Y)] = \inf_{\pi \in \Gamma(\rho,\nu)} \int c(x,y) \d\pi (x,y).
 $$

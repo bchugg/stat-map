@@ -28,7 +28,7 @@ and $\max_{k\leq n}\Pr(|X_{k}|\geq \eps a_n)\to 0$ if and only if there exists s
 - $\frac{1}{c_n^2} \sum_{k\leq n} \Var(X_k \ind(|X_k| < c_n))\to \infty$. 
 In this case we can take 
 $$
-a_n ^2 = \sum_{k\leq n} \Var(X_k \ind(|X_k|<c_n)), \quad b_n = \frac{1}{a_n}\sum_{k\leq n} \E[X_k \ind {|X|<c_n}].
+a_n ^2 = \sum_{k\leq n} \Var(X_k \ind(|X_k|<c_n)), \quad b_n = \frac{1}{a_n}\sum_{k\leq n} \E[X_k \ind {|X_k|<c_n}].
 $$
 Petrov also show that the condition $\sum_k \Pr(|X_{k,n}|\geq \eps)\to 0$ used in Theorem 15 is equivalent to $\Pr(\max_k |X_{k,n}|\geq \eps)\to 0$, which is stronger than what is used in Theorem 21. But intuitively, this is where these kind of "maximal" conditions come from. If such a condition doesn't hold, then the random variables are becoming too large over time to converge nicely. 
 

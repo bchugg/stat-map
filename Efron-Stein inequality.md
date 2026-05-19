@@ -15,7 +15,7 @@ v = \frac{1}{2} \sum_{i=1}^n \E[(f(X) - f(\bs{X}_i'))^2],
 $$
 where $\bs{X}_i'=(X_1,\dots,X_{i-1}, X_i', X_{i+1}, \dots, X_n)$ and $X_i'$ is an iid copy of $X_i$.  Next we can write it as 
 $$
-v= \inf_{Z_1,\dots,Z_n}\sum_{i=1}\E[(f(X) - Z_i)^2],
+v= \inf_{Z_1,\dots,Z_n}\sum_{i=1}^n\E[(f(X) - Z_i)^2],
 $$
 where $Z_i$ is $(X_1,\dots,X_{i-1}, X_{i+1}, \dots, X_n)$-measurable (i.e., the only randomness comes from $X_i$). 
 

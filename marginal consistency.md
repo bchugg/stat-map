@@ -32,7 +32,7 @@ This ignores the problem that we don't know $\Delta$, but it can be estimated wi
 
 Here we ask that the model matches the target quantile of a distribution. We hope that for a target quantile $q$, $\Pr[y\leq f(x)]\approx q$. To measure error, we can introduce a similar notion as above. Say that a model $f$ has $\alpha$-marginal quantile consistency wrt $q$ if 
 $$
-\left| \Pr_{(X,Y)\sim P}[Y\leq f(X)] -1\right|\leq \alpha.
+\left| \Pr_{(X,Y)\sim P}[Y\leq f(X)] -q\right|\leq \alpha.
 $$
 Just as the Brier score is relevant for mean consistency, the [[pinball loss]] is relevant for quantile consistency.
 

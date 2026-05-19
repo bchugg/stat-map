@@ -15,7 +15,7 @@ Wasserstein distances are an optimal class of distances because they take advant
 
 For distributions over $\Re$, the 1-Wasserstein distance is 
 $$
-W_1(\mu, \nu) = \int|F_\mu(x) - F_\mu(x)|\d x,
+W_1(\mu, \nu) = \int|F_\mu(x) - F_\nu(x)|\d x,
 $$
 where $F_\mu$ and $F_\nu$ are the cdfs of $\mu$ and $\nu$. 
 

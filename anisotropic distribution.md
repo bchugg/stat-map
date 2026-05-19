@@ -11,4 +11,4 @@ Mathematically, the definition is that $P$ is anisotropic if there exists some o
 $$
 X \neq QX,
 $$
-in distribution, where $X\sim P$.  This is simply the negation of the anisotropic condition. Thinking about it intuitively is much easier. 
+in distribution, where $X\sim P$.  This is simply the negation of the isotropic condition. Thinking about it intuitively is much easier. 
