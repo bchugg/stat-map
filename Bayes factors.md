@@ -1,6 +1,6 @@
 ---
 created: 2024-08-29
-lastmod: 2026-02-13
+lastmod: 2026-05-26
 ---
 
 Bayes factors can be considered as a Bayesian ([[Bayesian statistics]]) analogue of the [[likelihood-ratio test]]. They are often used in [[hypothesis testing]] and [[model selection]]. Along with [[p-value|p-values]] and [[e-value|e-values]], they are considered by some as measures of [[evidence against the null]]. 
