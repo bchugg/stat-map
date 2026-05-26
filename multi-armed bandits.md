@@ -13,8 +13,14 @@ There is a massive literature on this topic. For a detailed overview see [this s
 - In 2002, Peter Auer and others introduced the famous UCB1 algorithm, which builds on Agrawal's ideas and gives new upper confidence bounds based on [[bounded scalar concentration#Hoeffding's bound]].  
 
 # Known results 
-- Lai and Robbins gave the first lower bound for the MAB problem. If $N_T(a)$ is the number of times arm $a$ is pulled, they show that for any suboptimal arm $a$ (i.e., an arm without the highest mean reward), $$\E[N_T(a)] \gtrsim \frac{\log T}{\kl(P_a,P_{a^*})},$$ where $P_a$ is arm $a$'s arm distribution, $a^*$ is the optimal arm, and $\kl$ is the [[KL divergence]]. They also gave an upper confidence bound style algorithm which achieves this lower bound asymptotically in one-parameter [[exponential families]]. 
-- This lower bound was later refined by Burnetas and Katehakis in 1996. They replaced $\kl(P_a,P_{a^*})$ with $$KL_{\inf}(a,a^*) = \inf_{P\in\calP: \E_P[X]< \E_{P_{a^*}}[X]} \kl(P,P_{a^*}).$$This looks a bit gross but is intuitive: You don't need to compare the precise divergence between the arm distributions, just the worst case among the distributions under consideration. For man distribution classes $\calP$ these will be the same thing, but there are classes for which KL-inf is strictly smaller.  
+- Lai and Robbins gave the first lower bound for the MAB problem. If $N_T(a)$ is the number of times arm $a$ is pulled, they show that for any suboptimal arm $a$ (i.e., an arm without the highest mean reward),
+$$
+\E[N_T(a)] \gtrsim \frac{\log T}{\kl(P_a,P_{a^*})},
+$$ where $P_a$ is arm $a$'s arm distribution, $a^*$ is the optimal arm, and $\kl$ is the [[KL divergence]]. They also gave an upper confidence bound style algorithm which achieves this lower bound asymptotically in one-parameter [[exponential families]]. 
+- This lower bound was later refined by Burnetas and Katehakis in 1996. They replaced $\kl(P_a,P_{a^*})$ with
+$$
+KL_{\inf}(a,a^*) = \inf_{P\in\calP: \E_P[X]< \E_{P_{a^*}}[X]} \kl(P,P_{a^*}).
+$$This looks a bit gross but is intuitive: You don't need to compare the precise divergence between the arm distributions, just the worst case among the distributions under consideration. For man distribution classes $\calP$ these will be the same thing, but there are classes for which KL-inf is strictly smaller.  
 - The famous [UCB1 algorithm of Auer et al 2002](https://aima.eecs.berkeley.edu/~russell/classes/cs294/s11/readings/Auer+al:2002.pdf) matches these lower bounds at all times (up to constants) at all times, instead of asymptotically. It holds for any bounded reward distributions, though they also give a specialised UCB1-Normal algorithm for Gaussian rewards. 
 -  For Bayesian bandits with discounted rewards, the Gittins Index algorithm is optimal. 
 - [Agrawal et al.](https://proceedings.mlr.press/v134/agrawal21a/agrawal21a.pdf) give asymptotically optimal (up to first order terms) algorithms for regret minimization in the heavy-tailed setting: The reward distributions are assumed to only have a $(1+\eps)$ moment for some $\eps>0$.  
